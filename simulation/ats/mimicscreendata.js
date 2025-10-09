@@ -2,7 +2,7 @@
 
 var mimicscreendata = [
     {
-        "name": "INDEPENDENCIA",
+        "name": "ADJUNTAS",
         "svg": `
 <svg width="1266px" height="815px" viewBox="0 0 1266 815" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>

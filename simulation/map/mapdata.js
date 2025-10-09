@@ -2,63 +2,95 @@
 
 let mapData = {
     trackCircuits: [
-        // INDEPENDENCIA
-        //VÍA 2
+        //LAS ADJUNTAS
+        //VÍA 1
         {
-            name: "IDP_02",
+            name: "AJU_01",
             southbound: "endOfTrack",
-            northbound: "IDP_04",
+            northbound: "AJU_03",
             signals: {
-                northbound: "IDP02",//F
-                southbound: "SP2"
+                northbound: "AJU01", //H
+                southbound: "SP1"
             },
-            length: 8
+            length: 7
         },
         {
-            name: "IDP_04",
-            southbound: "IDP_02",
+            name: "AJU_03",
+            southbound: "AJU_01",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "IDP_A2",
-                normal: "IDP_06",
-                reverse: "IDP_CV"
+                point: "AJU_A1",
+                normal: "AJU_05",
+                reverse: "AJU_51"
             },
-            length: 3
+            length: 1
         },
         {
-            name: "IDP_06",
-            southbound: "dependsOnPoint",
-            northbound: "IDP_08",
+            name: "AJU_05",
+            southbound: "AJU_03",
+            northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "IDP_A4",
-                normal: "IDP_04",
-                reverse: "IDP_CV"
+                point: "AJU_A3",
+                normal: "AJU_07",
+                reverse: "AJU_CV"
             },
-            length: 3
+            length: 2
         },
         {
-            name: "IDP_08",
-            southbound: "IDP_06",
-            northbound: "IDP_10",
+            name: "AJU_07",
+            northbound: "AJU_09",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "AJU_A5",
+                normal: "AJU_05",
+                reverse: "AJU_CV"
+            },
+            length: 2
+        },
+        {
+            name: "AJU_09",
+            southbound: "AJU_07",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "AJU_A7",
+                normal: "AJU_11",
+                reverse: "AJU_52"
+            },
+            length: 1
+        },
+        {
+            name: "AJU_11",
+            northbound: "AJU_13",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "AJU_A9",
+                normal: "AJU_09",
+                reverse: "AJU_53"
+            },
+            length: 1
+        },
+        {
+            name: "AJU_13",
+            southbound: "AJU_11",
+            northbound: "AJU_15",
             signals: {
-                southbound: "IDP04",//E
-                northbound: "IDP06"//D
+                northbound: "AJU03", //G
             },
-            length: 8
+            length: 7
         },
         {
-            name: "IDP_10",
-            southbound: "IDP_08",
-            northbound: "IDP_12",
-            length: 8
-        },
-        {
-            name: "IDP_12",
-            southbound: "IDP_10",
-            northbound: "GCP_02",
+            name: "AJU_15",
+            southbound: "AJU_13",
+            northbound: "AJU_17",
             length: 10
         },
-        //VÍA 1
+        {
+            name: "AJU_17",
+            southbound: "AJU_15",
+            northbound: "RUI_01",
+            length: 10
+        },
+        //VÍA 2
         {
             name: "IDP_01",
             southbound: "endOfTrack",
