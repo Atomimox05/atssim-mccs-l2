@@ -92,127 +92,227 @@ let mapData = {
         },
         //VÍA 2
         {
-            name: "IDP_01",
+            name: "AJU_02",
             southbound: "endOfTrack",
-            northbound: "IDP_03",
+            northbound: "AJU_04",
             signals: {
-                northbound: "IDP01",//G
+                northbound: "AJU02",//E
                 southbound: "SP1"
             },
-            length: 8
+            length: 7
         },
         {
-            name: "IDP_03",
-            southbound: "IDP_01",
+            name: "AJU_04",
+            southbound: "AJU_02",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "IDP_A1",
-                normal: "IDP_05",
-                reverse: "IDP_CV"
+                point: "AJU_A2",
+                normal: "AJU_06",
+                reverse: "AJU_CV"
             },
             length: 3
         },
         {
-            name: "IDP_05",
+            name: "AJU_06",
             southbound: "dependsOnPoint",
-            northbound: "IDP_07",
+            northbound: "AJU_08",
             dependsOnPoint: {
-                point: "IDP_A3",
-                normal: "IDP_03",
-                reverse: "IDP_CV"
+                point: "AJU_A4",
+                normal: "AJU_04",
+                reverse: "AJU_CV"
             },
             length: 3
         },
         {
-            name: "IDP_07",
-            southbound: "IDP_05",
-            northbound: "IDP_09",
+            name: "AJU_08",
+            southbound: "AJU_06",
+            northbound: "AJU_10",
+            length: 2
+        },
+        {
+            name: "AJU_10",
+            southbound: "AJU_08",
+            northbound: "AJU_12",
             signals: {
-                southbound: "IDP03",//H
-                northbound: "IDP05"//J
+                southbound: "AJU04",//F
             },
             length: 8
         },
         {
-            name: "IDP_09",
-            southbound: "IDP_07",
-            northbound: "IDP_11",
-            length: 6
-        },
-        {
-            name: "IDP_11",
-            southbound: "IDP_09",
-            northbound: "GCP_01",
+            name: "AJU_12",
+            southbound: "AJU_10",
+            northbound: "AJU_14",
             length: 10
         },
         {
-            name: "IDP_CV",
+            name: "AJU_14",
+            southbound: "AJU_12",
+            northbound: "RUI_02",
+            length: 10
+        },
+        {
+            name: "AJU_CV",
             crossTrackCircuit: true,
-            southboundLineSouthboundDirection: "IDP_04",
-            southboundLineNorthboundDirection: "IDP_06",
-            northboundLineSouthboundDirection: "IDP_03",
-            northboundLineNorthboundDirection: "IDP_05",
+            southboundLineSouthboundDirection: "AJU_05",
+            southboundLineNorthboundDirection: "AJU_07",
+            northboundLineSouthboundDirection: "AJU_04",
+            northboundLineNorthboundDirection: "AJU_06",
+            length: 1
+        },
+        {
+            name: "AJU_51",
+            southbound: "AJU_03",
+            northbound: "endOfTrack",
+            length: 1
+        },
+        {
+            name: "AJU_52",
+            southbound: "AJU_09",
+            northbound: "endOfTrack",
+            length: 1
+        },
+        {
+            name: "AJU_53",
+            southbound: "endOfTrack",
+            northbound: "AJU_11",
+            length: 1
+        },
+        //RUIZ PINEDA
+        //VÍA 1
+        {
+            name: "RUI_01",
+            southbound: "AJU_17",
+            northbound: "RUI_03",
+            signals: {
+                northbound: "RUI01",//K
+            },
+            length: 5
+        },
+        {
+            name: "RUI_03",
+            southbound: "dependsOnPoint",
+            northbound: "RUI_05",
+            dependsOnPoint: {
+                point: "RUI_A1",
+                normal: "RUI_01",
+                reverse: "RUI_51"
+            },
+            length: 4
+        },
+        {
+            name: "RUI_05",
+            southbound: "RUI_03",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "RUI_A3",
+                normal: "RUI_07",
+                reverse: "RUI_04"
+            },
             length: 2
         },
-        //GUAICAIPURO
-        //VÍA 2
         {
-            name: "GCP_02",
-            southbound: "IDP_12",
-            northbound: "GCP_04",
-            signals: {
-                southbound: "IDP08",//C
-            },
-            length: 6
+            name: "RUI_07",
+            southbound: "RUI_05",
+            northbound: "RUI_09",
+            length: 3
         },
         {
-            name: "GCP_04",
-            southbound: "GCP_02",
-            northbound: "GCP_06",
-            signals: {
-                southbound: "GCP-S2",
+            name: "RUI_09",
+            southbound: "RUI_07",
+            northbound: "RUI_11",
+            signals:{
+                southbound: "RUI03",//J
+                northbound: "RUI05"//H
             },
-            length: 8
+            length: 7
         },
         {
-            name: "GCP_06",
-            southbound: "GCP_04",
-            northbound: "ALP_02",
-            signals: {
-                northbound: "ALP02",//B
-            },
-            length: 4
-        },
-        //VIA 1
-        {
-            name: "GCP_01",
-            southbound: "IDP_11",
-            northbound: "GCP_03",
-            signals: {
-                southbound: "IDP07",//K
-            },
-            length: 4
+            name: "RUI_11",
+            southbound: "RUI_09",
+            northbound: "RUI_13",
+            length: 1
         },
         {
-            name: "GCP_03",
-            southbound: "GCP_01",
-            northbound: "GCP_05",
-            signals: {
-                northbound: "GCP-S1",
-            },
-            length: 8
+            name: "RUI_13",
+            southbound: "RUI_11",
+            northbound: "RUI_15",
+            length: 1
         },
         {
-            name: "GCP_05",
-            southbound: "GCP_03",
-            northbound: "ALP_01",
+            name: "RUI_15",
+            southbound: "RUI_13",
+            northbound: "Y_01",
             signals: {
-                northbound: "ALP01",//L
+                southbound: "RUI07",//G
             },
-            length: 4
+            length: 12
         },
-        //ALI PRIMERA
         //VIA 2
+        {
+            name: "RUI_02",
+            southbound: "AJU_14",
+            northbound: "RUI_04",
+            signals: {
+                northbound: "RUI02",//C
+            },
+            length: 7
+        },
+        {
+            name: "RUI_04",
+            southbound: "dependsOnPoint",
+            northbound: "RUI_06",
+            dependsOnPoint: {
+                point: "RUI_A2",
+                normal: "RUI_02",
+                reverse: "RUI_05"
+            },
+            length: 7
+        },
+        {
+            name: "RUI_06",
+            southbound: "RUI_04",
+            northbound: "ALP_04",
+            length: 2
+        },
+        {
+            name: "RUI_08",
+            southbound: "RUI_06",
+            northbound: "RUI_08",
+            signals:{
+                southbound: "RUI04",//D
+                northbound: "RUI06"//E
+            },
+            length: 7
+        },
+        {
+            name: "RUI_10",
+            southbound: "RUI_08",
+            northbound: "RUI_12",
+            length: 1
+        },
+        {
+            name: "RUI_12",
+            southbound: "RUI_10",
+            northbound: "RUI_14",
+            length: 3
+        },
+        {
+            name: "RUI_14",
+            southbound: "RUI_12",
+            northbound: "Y_02",
+            signals: {
+                southbound: "RUI08",//F
+            },
+            length: 7
+        },
+        {
+            name: "RUI_51",
+            southbound: "endOfTrack",
+            northbound: "RUI_03",
+            length: 1
+        },
+        //ZOOLOGICO
+        //VIA 1
         {
             name: "ALP_02",
             southbound: "GCP_06",
