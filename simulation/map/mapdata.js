@@ -97,7 +97,7 @@ let mapData = {
             northbound: "AJU_04",
             signals: {
                 northbound: "AJU02",//E
-                southbound: "SP1"
+                southbound: "SP2"
             },
             length: 7
         },
@@ -314,403 +314,331 @@ let mapData = {
         //ZOOLOGICO
         //VIA 1
         {
-            name: "ALP_02",
-            southbound: "GCP_06",
-            northbound: "ALP_04",
-            length: 4
-        },
-        {
-            name: "ALP_04",
-            southbound: "ALP_02",
-            northbound: "ALP_06",
-            length: 10
-        },
-        {
-            name: "ALP_06",
-            southbound: "ALP_04",
-            northbound: "ALP_08",
-            signals:{
-                southbound: "ALP04",//A
-                northbound: "ALP06"//F
+            name: "ZOO_01",
+            southbound: "endOfTrack",
+            northbound: "ZOO_03",
+            signals: {
+                northbound: "ZOO01", //K
+                southbound: "SP3"
             },
             length: 8
         },
         {
-            name: "ALP_08",
-            southbound: "ALP_06",
+            name: "ZOO_03",
+            southbound: "ZOO_01",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "ALP_A2",
-                normal: "ALP_10",
-                reverse: "ALP_CV"
+                point: "ZOO_A1",
+                normal: "ZOO_05",
+                reverse: "ZOO_04"
             },
-            length: 4
+            length: 5
         },
         {
-            name: "ALP_10",
+            name: "ZOO_05",
+            southbound: "ZOO_03",
+            northbound: "ZOO_07",
+            signals: {
+                northbound: "ZOO05", //H
+                southbound: "ZOO03" //J
+            },
+            length: 7
+        },
+        {
+            name: "ZOO_07",
             southbound: "dependsOnPoint",
-            northbound: "ALP_12",
+            northbound: "ZOO_09",
             dependsOnPoint: {
-                point: "ALP_A4",
-                normal: "ALP_08",
-                reverse: "ALP_CV"
+                point: "ZOO_A3",
+                normal: "ZOO_05",
+                reverse: "ZOO_08"
             },
             length: 4
         },
         {
-            name: "ALP_12",
-            southbound: "ALP_10",
-            northbound: "ALP_14",
+            name: "ZOO_09",
+            southbound: "ZOO_07",
+            northbound: "CRC_01",
             signals:{
-                southbound: "ALP08",//E
-            },
-            shuntingPanels:{
-                northbound: "ZR2"
-            },
-            length: 6
-        },
-        {
-            name: "ALP_14",
-            southbound: "ALP_12",
-            northbound: "AYA_02",
-            length: 4
-        },
-        //VIA 1
-        {
-            name: "ALP_01",
-            southbound: "GCP_05",
-            northbound: "ALP_03",
-            length: 4
-        },
-        {
-            name: "ALP_03",
-            southbound: "ALP_01",
-            northbound: "ALP_05",
-            length: 10
-        },
-        {
-            name: "ALP_05",
-            southbound: "ALP_03",
-            northbound: "ALP_07",
-            signals: {
-                southbound: "ALP03",//M
-                northbound: "ALP05"//G
-            },
-            length: 8
-        },
-        {
-            name: "ALP_07",
-            southbound: "ALP_05",
-            northbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "ALP_A1",
-                normal: "ALP_09",
-                reverse: "ALP_CV"
-            },
-            length: 4
-        },
-        {
-            name: "ALP_09",
-            southbound: "dependsOnPoint",
-            northbound: "ALP_11",
-            dependsOnPoint: {
-                point: "ALP_A3",
-                normal: "ALP_07",
-                reverse: "ALP_CV"
-            },
-            length: 4
-        },
-        {
-            name: "ALP_11",
-            southbound: "ALP_09",
-            northbound: "ALP_13",
-            signals: {
-                southbound: "ALP07",//H
+                southbound: "ZOO07",    //G
             },
             shuntingPanels:{
                 northbound: "ZR1"
             },
-            length: 6
+            length: 7
         },
-        {
-            name: "ALP_13",
-            southbound: "ALP_11",
-            northbound: "AYA_01",
-            length: 4
-        },
-        {
-            name: "ALP_CV",
-            crossTrackCircuit: true,
-            southboundLineSouthboundDirection: "ALP_08",
-            southboundLineNorthboundDirection: "ALP_10",
-            northboundLineSouthboundDirection: "ALP_07",
-            northboundLineNorthboundDirection: "ALP_09",
-            length: 4
-        },
-        //AYACUCHO
         //VIA 2
         {
-            name: "AYA_02",
-            southbound: "ALP_14",
-            northbound: "AYA_04",
-            signals:{
-                northbound: "AYA02" //D
-            },
-            length: 8,
-        },
-        {
-            name: "AYA_04",
-            southbound: "AYA_02",
-            northbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "AYA_A2",
-                normal: "AYA_06",
-                reverse: "AYA_03"
-            },
-            length: 6
-        },
-        {
-            name: "AYA_06",
-            southbound: "dependsOnPoint",
-            northbound: "AYA_08",
-            dependsOnPoint: {
-                point: "AYA_A4",
-                normal: "AYA_04",
-                reverse: "AYA_05"
-            },
-            length: 6
-        },
-        {
-            name: "AYA_08",
-            southbound: "AYA_06",
-            northbound: "AYA_10",
-            signals:{
-                southbound: "AYA04", //X7
-                northbound: "AYA06" //X5
+            name: "ZOO_02",
+            southbound: "endOfTrack",
+            northbound: "ZOO_04",
+            signals: {
+                northbound: "ZOO02", //C
+                southbound: "SP4"
             },
             length: 8
         },
         {
-            name: "AYA_10",
-            southbound: "AYA_08",
-            northbound: "AYA_12",
-            length: 6
+            name: "ZOO_04",
+            southbound: "dependsOnPoint",
+            northbound: "ZOO_06",
+            dependsOnPoint: {
+                point: "ZOO_A2",
+                normal: "ZOO_02",
+                reverse: "ZOO_04"
+            },
+            length: 5
         },
         {
-            name: "AYA_12",
-            southbound: "AYA_10",
+            name: "ZOO_06",
+            southbound: "ZOO_04",
+            northbound: "ZOO_08",
+            signals: {
+                northbound: "ZOO06",    //E
+                southbound: "ZOO04" //D
+            },
+            length: 7
+        },
+        {
+            name: "ZOO_08",
+            southbound: "ZOO_06",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "AYA_A6",
-                normal: "AYA_14",
-                reverse: "AYA_CV"
+                point: "ZOO_A4",
+                normal: "ZOO_10",
+                reverse: "ZOO_07"
             },
             length: 4
         },
         {
-            name: "AYA_14",
-            southbound: "dependsOnPoint",
-            northbound: "AYA_16",
-            dependsOnPoint: {
-                point: "AYA_A8",
-                normal: "AYA_12",
-                reverse: "AYA_CV"
-            },
-            length: 2
-        },
-        {
-            name: "AYA_16",
-            southbound: "AYA_14",
-            northbound: "TCA_02",
-            signals:{
-                southbound: "AYA08",
-            },
-            shuntingPanels: {
-                northbound: "ZR4"
-            },
-            length: 8,
-        },
-        //VIA 1
-        {
-            name: "AYA_01",
-            southbound: "ALP_13",
-            northbound: "AYA_03",
-            signals:{
-                northbound: "AYA01" //J
-            },
-            length: 8,
-        },
-        {
-            name: "AYA_03",
-            southbound: "AYA_01",
-            northbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "AYA_A1",
-                normal: "AYA_05",
-                reverse: "AYA_04"
-            },
-            length: 6
-        },
-        {
-            name: "AYA_05",
-            southbound: "dependsOnPoint",
-            northbound: "AYA_07",
-            dependsOnPoint: {
-                point: "AYA_A3",
-                normal: "AYA_03",
-                reverse: "AYA_06"
-            },
-            length: 6
-        },
-        {
-            name: "AYA_07",
-            southbound: "AYA_05",
-            northbound: "AYA_09",
-            signals:{
-                southbound: "AYA03", //X6
-                northbound: "AYA05" //X4
+            name: "ZOO_10",
+            southbound: "ZOO_08",
+            northbound: "CRC_02",
+            signals: {
+                southbound: "ZOO08",    //F
             },
             length: 8
         },
+        //CARICUAO
+        //VIA 1
         {
-            name: "AYA_09",
-            southbound: "AYA_07",
-            northbound: "AYA_11",
-            length: 6
+            name: "Y_01",
+            southbound: "ZOO_09",
+            northbound: "CRC_03",
+            length: 10
         },
         {
-            name: "AYA_11",
-            southbound: "AYA_09",
-            northbound: "dependsOnPoint",
+            name: "CRC_03",
+            southbound: "CRC_01",
+            northbound: "CRC_05",
+            signals:{
+                southbound: "CRC01", //S1
+            },
+            length: 7
+        },
+        {
+            name: "CRC_05",
+            southbound: "CRC_03",
+            northbound: "CRC_05",
+            length: 8
+        },
+        {
+            name: "CRC_07",
+            southbound: "CRC_05",
+            northbound: "Y_11",
+            length: 7
+        },
+        //VIA 1
+        {
+            name: "CRC_02",
+            southbound: "ZOO_10",
+            northbound: "CRC_04",
+            length: 10
+        },
+        {
+            name: "CRC_04",
+            southbound: "CRC_02",
+            northbound: "CRC_06",
+            signals:{
+                southbound: "CRC02", //S2
+            },
+            length: 7
+        },
+        {
+            name: "CRC_06",
+            southbound: "CRC_04",
+            northbound: "CRC_08",
+            length: 8
+        },
+        {
+            name: "CRC_08",
+            southbound: "CRC_06",
+            northbound: "Y_12",
+            length: 7
+        },
+        //Y
+        //VIA 1 - ADJUNTAS
+        {
+            name: "Y_01",
+            southbound: "RUI_15",
+            northbound: "Y_03",
+            signals: {
+                northbound: "Y01" //K
+            },
+            length: 5
+        },
+        {
+            name: "Y_03",
+            southbound: "Y_01",
+            northbound: "Y_05",
+            length: 2
+        },
+        //VIA 1 - ZOOLOGICO
+        {
+            name: "Y_11",
+            southbound: "CRC_07",
+            northbound: "Y_13",
+            length: 5
+        },
+        {
+            name: "Y_13",
+            southbound: "Y_11",
+            northbound: "Y_05",
+            signals: {
+                northbound: "Y03" //Q
+            },
+            length: 6
+        },
+        //VIA 1 - Y
+        {
+            name: "Y_05",
+            southbound: "dependsOnPoint",
+            northbound: "Y_07",
             dependsOnPoint: {
-                point: "AYA_A5",
-                normal: "AYA_13",
-                reverse: "AYA_CV"
+                point: "Y_A1",
+                normal: "Y_03",
+                reverse: "Y_13"
             },
             length: 4
         },
         {
-            name: "AYA_13",
-            southbound: "dependsOnPoint",
-            northbound: "AYA_15",
+            name: "Y_07",
+            southbound: "Y_05",
+            northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "AYA_A7",
-                normal: "AYA_11",
-                reverse: "AYA_CV"
+                point: "Y_A3",
+                normal: "Y_09",
+                reverse: "Y_15"
+            },
+            length: 4
+        },
+        {
+            name: "Y_09",
+            southbound: "Y_07",
+            northbound: "MAM_01",
+            signals: {
+                southbound: "Y05" //J
+            },
+            length: 10
+        },
+        //VIA 2 - ADJUNTAS
+        {
+            name: "Y_02",
+            southbound: "RUI_14",
+            northbound: "Y_04",
+            signals: {
+                northbound: "Y02" //C
+            },
+            length: 5
+        },
+        {
+            name: "Y_04",
+            southbound: "Y_02",
+            northbound: "Y_06",
+            length: 2
+        },
+        //VIA 2 - ZOOLOGICO
+        {
+            name: "Y_12",
+            southbound: "CRC_08",
+            northbound: "Y_14",
+            length: 4
+        },
+        {
+            name: "Y_14",
+            southbound: "Y_12",
+            northbound: "Y_06",
+            signals: {
+                northbound: "Y04" //P
+            },
+            length: 7
+        },
+        //VIA 2 - UNION Y
+        {
+            name: "Y_06",
+            southbound: "dependsOnPoint",
+            northbound: "Y_08",
+            dependsOnPoint: {
+                point: "Y_A2",
+                normal: "Y_04",
+                reverse: "Y_14"
+            },
+            length: 4
+        },
+        {
+            name: "Y_08",
+            southbound: "Y_06",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "Y_A4",
+                normal: "Y_10",
+                reverse: "Y_16"
+            },
+            length: 4
+        },
+        {
+            name: "Y_10",
+            southbound: "Y_08",
+            northbound: "MAM_02",
+            signals: {
+                southbound: "Y06" //D
+            },
+            length: 10
+        },
+        //VÍA R
+        {
+            name: "Y_15",
+            southbound: "Y_16",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "Y_A5",
+                normal: "endOfTrack",
+                reverse: "Y_07"
+            },
+            length: 1
+        },
+        {
+            name: "Y_16",
+            southbound: "dependsOnPoint",
+            northbound: "Y_17",
+            dependsOnPoint: {
+                point: "Y_A6",
+                normal: "Y_15",
+                reverse: "Y_08"
             },
             length: 2
         },
         {
-            name: "AYA_15",
-            southbound: "AYA_13",
-            northbound: "TCA_01",
-            signals:{
-                southbound: "AYA07",
-            },
-            shuntingPanels: {
-                northbound: "ZR3"
-            },
-            length: 8,
-        },
-        {
-            name: "AYA_CV",
-            crossTrackCircuit: true,
-            southboundLineSouthboundDirection: "AYA_12",
-            southboundLineNorthboundDirection: "AYA_14",
-            northboundLineSouthboundDirection: "AYA_11",
-            northboundLineNorthboundDirection: "AYA_13",
-            length: 2
-        },
-        //CARRIZALITO
-        //VIA 2
-        {
-            name: "TCA_02",
-            southbound: "AYA_16",
-            northbound: "TCA_04",
-            length: 10
-        },
-        {
-            "name": "TCA_04",
-            southbound: "TCA_02",
-            northbound: "TCA_06",
-            length: 10
-        },
-        {
-            "name": "TCA_06",
-            southbound: "TCA_04",
-            northbound: "TCA_08",
+            name: "Y_17",
+            southbound: "Y_16",
+            northbound: "endOfTrack",
             signals: {
-                northbound: "TCA02" //I12
+                southbound: "Y07" //R
             },
-            length: 10
+            length: 8
         },
-        {
-            "name": "TCA_08",
-            southbound: "TCA_06",
-            northbound: "TCA_10",
-            signals: {
-                southbound: "TCA04" //I10
-            },
-            length: 10
-        },
-        {
-
-            name: "TCA_10",
-            southbound: "TCA_08",
-            northbound: "TCA_12",
-            length: 10
-        },
-        {
-            "name": "TCA_12",
-            southbound: "TCA_10",
-            northbound: "TRC_02",
-            length: 10
-        },
+        //MAMERA
         //VIA 1
-        {
-            name: "TCA_01",
-            southbound: "AYA_15",
-            northbound: "TCA_03",
-            length: 10
-        },
-        {
-            "name": "TCA_03",
-            southbound: "TCA_01",
-            northbound: "TCA_05",
-            length: 10
-        },
-        {
-            "name": "TCA_05",
-            southbound: "TCA_03",
-            northbound: "TCA_07",
-            signals: {
-                northbound: "TCA01" //I1
-            },
-            length: 10
-        },
-        {
-            "name": "TCA_07",
-            southbound: "TCA_05",
-            northbound: "TCA_09",
-            signals: {
-                southbound: "TCA03" //I3
-            },
-            length: 10
-        },
-        {
-            name: "TCA_09",
-            southbound: "TCA_07",
-            northbound: "TCA_11",
-            length: 10
-        },
-        {
-            "name": "TCA_11",
-            southbound: "TCA_09",
-            northbound: "TRC_01",
-            length: 10
-        },
-        //RIO CRISTAL
-        //VIA 2
         {
             name: "TRC_02",
             southbound: "TCA_12",
