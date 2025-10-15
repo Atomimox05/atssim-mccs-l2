@@ -573,7 +573,7 @@ let mapData = {
             },
             length: 7
         },
-        //VIA 2 - UNION Y
+        //VIA 2 - Y
         {
             name: "Y_06",
             southbound: "dependsOnPoint",
@@ -640,89 +640,137 @@ let mapData = {
         //MAMERA
         //VIA 1
         {
-            name: "TRC_02",
-            southbound: "TCA_12",
-            northbound: "TRC_04",
-            length: 10
+            name: "MAM_01",
+            southbound: "Y_09",
+            northbound: "MAM_03",
+            length: 1
         },
         {
-            "name": "TRC_04",
-            southbound: "TRC_02",
-            northbound: "TRC_06",
-            length: 10
-        },
-        {
-            "name": "TRC_06",
-            southbound: "TRC_04",
-            northbound: "TRC_08",
+            name: "MAM_03",
+            southbound: "MAM_01",
+            northbound: "MAM_05",
             signals: {
-                northbound: "TRC02" //I8
+                northbound: "MAM01" //H
             },
-            length: 10
+            length: 8
         },
         {
-            "name": "TRC_08",
-            southbound: "TRC_06",
-            northbound: "TRC_10",
+            name: "MAM_05",
+            southbound: "dependsOnPoint",
+            northbound: "MAM_07",
+            dependsOnPoint: {
+                point: "MAM_A1",
+                normal: "MAM_03",
+                reverse: "MAM_14"
+            },
+            length: 3
+        },
+        {
+            name: "MAM_07",
+            southbound: "MAM_05",
+            northbound: "MAM_09",
             signals: {
-                southbound: "TRC04" //I6
+                southbound: "MAM03" //G
             },
-            length: 10
+            length: 3
         },
         {
-            name: "TRC_10",
-            southbound: "TRC_08",
-            northbound: "TRC_12",
-            length: 10
-        },
-        {
-            "name": "TRC_12",
-            southbound: "TRC_10",
-            northbound: "TCP_02",
-            length: 10
-        },
-        //VIA 1
-        {
-            name: "TRC_01",
-            southbound: "TCA_11",
-            northbound: "TRC_03",
-            length: 10
-        },
-        {
-            "name": "TRC_03",
-            southbound: "TRC_01",
-            northbound: "TRC_05",
-            length: 10
-        },
-        {
-            "name": "TRC_05",
-            southbound: "TRC_03",
-            northbound: "TRC_07",
+            name: "MAM_09",
+            southbound: "MAM_07",
+            northbound: "MAM_11",
             signals: {
-                northbound: "TRC01" //I5
+                northbound: "MAM05" //M
             },
-            length: 10
+            length: 4
         },
         {
-            "name": "TRC_07",
-            southbound: "TRC_05",
-            northbound: "TRC_09",
+            name: "MAM_11",
+            southbound: "MAM_09",
+            northbound: "ANT_01",
+            length: 8
+        },
+        //VIA 2
+        {
+            name: "MAM_02",
+            southbound: "Y_10",
+            northbound: "MAM_04",
             signals: {
-                southbound: "TRC03" //I7
+                northbound: "MAM02" //E
             },
-            length: 10
+            length: 7
         },
         {
-            name: "TRC_09",
-            southbound: "TRC_07",
-            northbound: "TRC_11",
-            length: 10
+            name: "MAM_04",
+            southbound: "MAM_02",
+            northbound: "MAM_06",
+            length: 1
         },
         {
-            "name": "TRC_11",
-            southbound: "TRC_09",
-            northbound: "TCP_01",
-            length: 10
+            name: "MAM_06",
+            southbound: "dependsOnPoint",
+            northbound: "MAM_08",
+            dependsOnPoint: {
+                point: "MAM_A2",
+                normal: "MAM_04",
+                reverse: "MAM_15"
+            },
+            length: 2
+        },
+        {
+            name: "MAM_08",
+            southbound: "MAM_06",
+            northbound: "MAM_10",
+            signals: {
+                southbound: "MAM04" //F
+            },
+            length: 3
+        },
+        {
+            name: "MAM_10",
+            southbound: "MAM_08",
+            northbound: "MAM_12",
+            signals: {
+                northbound: "MAM06" //A
+            },
+            length: 4
+        },
+        {
+            name: "MAM_12",
+            southbound: "MAM_10",
+            northbound: "ANT_02",
+            length: 8
+        },
+        //VIA Z
+        {
+            name: "MAM_13",
+            southbound: "endOfTrack",
+            northbound: "MAM_14",
+            signals: {
+                northbound: "MAM07" //Z
+            },
+            length: 8
+        },
+        {
+            name: "MAM_14",
+            southbound: "MAM_13",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "MAM_A3",
+                normal: "MAM_15",
+                reverse: "MAM_05"
+            },
+            length: 1
+        },
+        {
+            name: "MAM_15",
+            southbound: "MAM_14",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "MAM_A4",
+                normal: "endOfTrack",
+                reverse: "MAM_06"
+            },
+            length: 1
         },
         //CORRAL DE PIEDRA
         //VIA 2
