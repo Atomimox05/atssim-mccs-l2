@@ -76,6 +76,9 @@ let mapData = {
             signals: {
                 northbound: "AJU03", //G
             },
+            shuntingPanels: {
+                southbound: "ZR1"
+            },
             length: 7
         },
         {
@@ -136,6 +139,9 @@ let mapData = {
             signals: {
                 southbound: "AJU04",//F
             },
+            shuntingPanels: {
+                southbound: "ZR2"
+            },
             length: 8
         },
         {
@@ -185,6 +191,9 @@ let mapData = {
             northbound: "RUI_03",
             signals: {
                 northbound: "RUI01",//K
+            },
+            shuntingPanels: {
+                southbound: "ZR3"
             },
             length: 5
         },
@@ -271,7 +280,7 @@ let mapData = {
         {
             name: "RUI_06",
             southbound: "RUI_04",
-            northbound: "ALP_04",
+            northbound: "RUI_08",
             length: 2
         },
         {
@@ -363,7 +372,7 @@ let mapData = {
                 southbound: "ZOO07",    //G
             },
             shuntingPanels:{
-                northbound: "ZR1"
+                northbound: "ZR4"
             },
             length: 7
         },
@@ -422,7 +431,7 @@ let mapData = {
         //CARICUAO
         //VIA 1
         {
-            name: "Y_01",
+            name: "CRC_01",
             southbound: "ZOO_09",
             northbound: "CRC_03",
             length: 10
@@ -633,7 +642,8 @@ let mapData = {
             southbound: "Y_16",
             northbound: "endOfTrack",
             signals: {
-                southbound: "Y07" //R
+                southbound: "Y07", //R
+                northbound: "SP5"
             },
             length: 8
         },
@@ -746,6 +756,7 @@ let mapData = {
             southbound: "endOfTrack",
             northbound: "MAM_14",
             signals: {
+                southbound: "SP6",
                 northbound: "MAM07" //Z
             },
             length: 8
@@ -772,440 +783,661 @@ let mapData = {
             },
             length: 1
         },
-        //CORRAL DE PIEDRA
-        //VIA 2
-        {
-            name: "TCP_02",
-            southbound: "TRC_12",
-            northbound: "TCP_04",
-            length: 10
-        },
-        {
-            "name": "TCP_04",
-            southbound: "TCP_02",
-            northbound: "TCP_06",
-            length: 10
-        },
-        {
-            "name": "TCP_06",
-            southbound: "TCP_04",
-            northbound: "TCP_08",
-            signals: {
-                northbound: "TCP02" //I4
-            },
-            length: 10
-        },
-        {
-            "name": "TCP_08",
-            southbound: "TCP_06",
-            northbound: "TCP_10",
-            signals: {
-                southbound: "TCP04" //I2
-            },
-            length: 10
-        },
-        {
-            name: "TCP_10",
-            southbound: "TCP_08",
-            northbound: "TCP_12",
-            length: 10
-        },
-        {
-            "name": "TCP_12",
-            southbound: "TCP_10",
-            northbound: "AJU_02",
-            length: 10
-        },
+        //ANTIMANO
         //VIA 1
         {
-            name: "TCP_01",
-            southbound: "TRC_11",
-            northbound: "TCP_03",
-            length: 10
+            name: "ANT_01",
+            southbound: "MAM_11",
+            northbound: "ANT_03",
+            length: 5
         },
         {
-            "name": "TCP_03",
-            southbound: "TCP_01",
-            northbound: "TCP_05",
-            length: 10
-        },
-        {
-            "name": "TCP_05",
-            southbound: "TCP_03",
-            northbound: "TCP_07",
+            name: "ANT_03",
+            southbound: "ANT_01",
+            northbound: "ANT_05",
             signals: {
-                northbound: "TCP01" //I9
+                northbound: "ANT03", //K
+                southbound: "ANT01" //L
             },
-            length: 10
+            length: 7
         },
         {
-            "name": "TCP_07",
-            southbound: "TCP_05",
-            northbound: "TCP_09",
-            signals: {
-                southbound: "TCP03" //I11
-            },
-            length: 10
-        },
-        {
-            name: "TCP_09",
-            southbound: "TCP_07",
-            northbound: "TCP_11",
-            length: 10
-        },
-        {
-            "name": "TCP_11",
-            southbound: "TCP_09",
-            northbound: "AJU_01",
-            length: 10
-        },
-        //LAS ADJUNTAS
-        //VIA 2
-        {
-            name: "AJU_02",
-            southbound: "TCP_12",
-            northbound: "AJU_04",
-            signals:{
-                northbound: "AJU02" //B
-            },
-            shuntingPanels: {
-                southbound: "ZR6"
-            },
-            length: 8
-        },
-        {
-            name: "AJU_04",
-            southbound: "AJU_02",
+            name: "ANT_05",
+            southbound: "ANT_03",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "AJU_A2",
-                normal: "AJU_06",
-                reverse: "AJU_CV"
+                point: "ANT_A1",
+                normal: "ANT_07",
+                reverse: "ANT_CV"
             },
+            length: 1
+        },
+        {
+            name: "ANT_07",
+            northbound: "ANT_09",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "ANT_A3",
+                normal: "ANT_05",
+                reverse: "ANT_CV"
+            },
+            length: 1
+        },
+        {
+            name: "ANT_09",
+            southbound: "ANT_07",
+            northbound: "ANT_11",
+            length: 1
+        },
+        {
+            name: "ANT_11",
+            southbound: "ANT_09",
+            northbound: "ANT_13",
+            signals: {
+                southbound: "ANT05" //J
+            },
+            length: 4
+        },
+        {
+            name: "ANT_13",
+            southbound: "ANT_11",
+            northbound: "ANT_15",
+            signals: {
+                northbound: "ANT07" //H
+            },
+            length: 3
+        },
+        {
+            name: "ANT_15",
+            southbound: "ANT_13",
+            northbound: "ANT_17",
             length: 2
         },
         {
-            name: "AJU_06",
-            northbound: "AJU_08",
-            southbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "AJU_A4",
-                normal: "AJU_04",
-                reverse: "AJU_CV"
-            },
-            length: 8
-        },
-        {
-            name: "AJU_08",
-            southbound: "AJU_06",
-            northbound: "AJU_10",
-            signals: {
-                southbound: "AJU04", //A
-                northbound: "AJU06" //N
-            },
-            length: 8
-        },
-        {
-            name: "AJU_10",
-            southbound: "AJU_08",
-            northbound: "endOfTrack",
-            length: 8
-        },
-        //VIA 1
-        {
-            name: "AJU_01",
-            southbound: "TCP_11",
-            northbound: "AJU_03",
-            signals: {
-                northbound: "AJU01" //L
-            },
-            shuntingPanels: {
-                southbound: "ZR5"
-            },
-            length: 8
-        },
-        {
-            name: "AJU_03",
-            southbound: "AJU_01",
-            northbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "AJU_A1",
-                normal: "AJU_05",
-                reverse: "AJU_CV"
-            },
+            name: "ANT_17",
+            southbound: "ANT_15",
+            northbound: "ANT_19",
             length: 2
         },
         {
-            name: "AJU_05",
-            northbound: "AJU_07",
+            name: "ANT_19",
+            southbound: "ANT_17",
+            northbound: "CRP_01",
+            signals: {
+                southbound: "ANT09" //G
+            },
+            length: 7
+        },
+        //VIA 1
+        {
+            name: "ANT_02",
+            southbound: "MAM_12",
+            northbound: "ANT_04",
+            length: 5
+        },
+        {
+            name: "ANT_04",
+            southbound: "ANT_02",
+            northbound: "ANT_06",
+            signals: {
+                northbound: "ANT04", //C
+                southbound: "ANT02" //B
+            },
+            length: 7
+        },
+        {
+            name: "ANT_06",
+            southbound: "ANT_04",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "ANT_A2",
+                normal: "ANT_08",
+                reverse: "ANT_CV"
+            },
+            length: 1
+        },
+        {
+            name: "ANT_08",
+            northbound: "ANT_10",
             southbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "AJU_A3",
-                normal: "AJU_03",
-                reverse: "AJU_CV"
+                point: "ANT_A4",
+                normal: "ANT_06",
+                reverse: "ANT_CV"
             },
-            length: 8
+            length: 1
         },
         {
-            name: "AJU_07",
-            southbound: "AJU_05",
-            northbound: "AJU_09",
+            name: "ANT_10",
+            southbound: "ANT_08",
+            northbound: "ANT_12",
+            length: 1
+        },
+        {
+            name: "ANT_12",
+            southbound: "ANT_10",
+            northbound: "ANT_14",
             signals: {
-                southbound: "AJU03", //M
-                northbound: "AJU05" //K
+                southbound: "ANT06" //D
             },
-            length: 8
+            length: 4
         },
         {
-            name: "AJU_09",
-            southbound: "AJU_07",
-            northbound: "endOfTrack",
-            length: 8
+            name: "ANT_14",
+            southbound: "ANT_12",
+            northbound: "ANT_16",
+            signals: {
+                northbound: "ANT08" //E
+            },
+            length: 3
         },
         {
-            name: "AJU_CV",
+            name: "ANT_16",
+            southbound: "ANT_14",
+            northbound: "ANT_18",
+            length: 2
+        },
+        {
+            name: "ANT_18",
+            southbound: "ANT_16",
+            northbound: "ANT_20",
+            length: 2
+        },
+        {
+            name: "ANT_20",
+            southbound: "ANT_18",
+            northbound: "CRP_02",
+            signals: {
+                southbound: "ANT10" //F
+            },
+            length: 7
+        },
+        {
+            name: "ANT_CV",
             crossTrackCircuit: true,
-            southboundLineSouthboundDirection: "AJU_04",
-            southboundLineNorthboundDirection: "AJU_06",
-            northboundLineSouthboundDirection: "AJU_03",
-            northboundLineNorthboundDirection: "AJU_05",
+            southboundLineSouthboundDirection: "AJU_06",
+            southboundLineNorthboundDirection: "AJU_08",
+            northboundLineSouthboundDirection: "AJU_05",
+            northboundLineNorthboundDirection: "AJU_07",
+            length: 1
+        },
+        //CARAPITA
+        //VIA 1
+        {
+            name: "CRP_01",
+            southbound: "ANT_19",
+            northbound: "CRP_03",
+            length: 7
+        },
+        {
+            name: "CRP_03",
+            southbound: "CRP_01",
+            northbound: "CRP_05",
+            signals: {
+                southbound: "CRP01" //S1
+            },
+            length: 3
+        },
+        {
+            name: "CRP_05",
+            southbound: "CRP_03",
+            northbound: "CRP_07",
+            length: 4
+        },
+        {
+            name: "CRP_07",
+            southbound: "CRP_05",
+            northbound: "CRP_09",
+            length: 8
+        },
+        {
+            name: "CRP_09",
+            southbound: "CRP_07",
+            northbound: "YAG_01",
+            length: 8
+        },
+        //VIA 2
+        {
+            name: "CRP_02",
+            southbound: "ANT_20",
+            northbound: "CRP_04",
+            length: 7
+        },
+        {
+            name: "CRP_04",
+            southbound: "CRP_02",
+            northbound: "CRP_06",
+            length: 3
+        },
+        {
+            name: "CRP_06",
+            southbound: "CRP_04",
+            northbound: "CRP_08",
+            signals: {
+                northbound: "CRP02" //S2
+            },
+            length: 4
+        },
+        {
+            name: "CRP_08",
+            southbound: "CRP_06",
+            northbound: "CRP_10",
+            length: 8
+        },
+        {
+            name: "CRP_10",
+            southbound: "CRP_08",
+            northbound: "YAG_02",
+            length: 8
+        },
+        //LA YAGUARA
+        //VIA 1
+        {
+            name: "YAG_01",
+            southbound: "CRP_09",
+            northbound: "YAG_03",
+            length: 7
+        },
+        {
+            name: "YAG_03",
+            southbound: "YAG_01",
+            northbound: "YAG_05",
+            signals: {
+                southbound: "YAG01" //S1
+            },
+            length: 7
+        },
+        {
+            name: "YAG_05",
+            southbound: "YAG_03",
+            northbound: "PAZ_01",
+            length: 12
+        },
+        //VÍA 2
+        {
+            name: "YAG_02",
+            southbound: "CRP_10",
+            northbound: "YAG_04",
+            length: 7
+        },
+        {
+            name: "YAG_04",
+            southbound: "YAG_02",
+            northbound: "YAG_06",
+            length: 3
+        },
+        {
+            name: "YAG_06",
+            southbound: "YAG_04",
+            northbound: "YAG_08",
+            signals: {
+                northbound: "YAG02" //S2
+            },
+            length: 4
+        },
+        {
+            name: "YAG_08",
+            southbound: "YAG_06",
+            northbound: "PAZ_02",
+            length: 12
+        },
+        //LA PAZ
+        //VIA 1
+        {
+            name: "PAZ_01",
+            southbound: "YAG_05",
+            northbound: "PAZ_03",
+            signals:{
+                northbound: "PAZ01" //M
+            },
+            length: 7
+        },
+        {
+            name: "PAZ_03",
+            southbound: "PAZ_01",
+            northbound: "PAZ_05",
+            length: 3
+        },
+        {
+            name: "PAZ_05",
+            southbound: "PAZ_03",
+            northbound: "PAZ_07",
+            length: 3
+        },
+        {
+            name: "PAZ_07",
+            southbound: "PAZ_05",
+            northbound: "PAZ_09",
+            signals: {
+                southbound: "PAZ03", //L
+                northbound: "PAZ05" //K
+            },
+            length: 7
+        },
+        {
+            name: "PAZ_09",
+            southbound: "PAZ_07",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A1",
+                normal: "PAZ_11",
+                reverse: "PAZ_CV"
+            },
             length: 2
         },
-
+        {
+            name: "PAZ_11",
+            northbound: "PAZ_13",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A3",
+                normal: "PAZ_09",
+                reverse: "PAZ_CV"
+            },
+            length: 1
+        },
+        {
+            name: "PAZ_13",
+            southbound: "PAZ_11",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A5",
+                normal: "PAZ_15",
+                reverse: "PAZ_20"
+            },
+            length: 1
+        },
+        {
+            name: "PAZ_15",
+            southbound: "PAZ_13",
+            northbound: "PAZ_17",
+            signals: {
+                southbound: "PAZ07", //J
+                northbound: "PAZ09" //H
+            },
+            length: 7
+        },
+        {
+            name: "PAZ_17",
+            northbound: "PAZ_19",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A7",
+                normal: "PAZ_15",
+                reverse: "PAZ_22"
+            },
+            length: 1
+        },
+        {
+            name: "PAZ_19",
+            southbound: "PAZ_17",
+            northbound: "endOfTrack",
+            length: 3
+        },
+        //VIA 2
+        {
+            name: "PAZ_02",
+            southbound: "YAG_08",
+            northbound: "PAZ_04",
+            signals:{
+                northbound: "PAZ02" //A
+            },
+            length: 7
+        },
+        {
+            name: "PAZ_04",
+            southbound: "PAZ_02",
+            northbound: "PAZ_06",
+            length: 3
+        },
+        {
+            name: "PAZ_06",
+            southbound: "PAZ_04",
+            northbound: "PAZ_08",
+            length: 3
+        },
+        {
+            name: "PAZ_08",
+            southbound: "PAZ_06",
+            northbound: "PAZ_10",
+            signals: {
+                southbound: "PAZ04", //B
+            },
+            length: 3
+        },
+        {
+            name: "PAZ_10",
+            southbound: "PAZ_08",
+            northbound: "PAZ_12",
+            signals: {
+                northbound: "PAZ06" //C
+            },
+            length: 4
+        },
+        {
+            name: "PAZ_12",
+            southbound: "PAZ_10",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A2",
+                normal: "PAZ_14",
+                reverse: "PAZ_CV"
+            },
+            length: 2
+        },
+        {
+            name: "PAZ_14",
+            northbound: "PAZ_16",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A4",
+                normal: "PAZ_12",
+                reverse: "PAZ_CV"
+            },
+            length: 2
+        },
+        {
+            name: "PAZ_16",
+            southbound: "PAZ_14",
+            northbound: "PAZ_18",
+            signals: {
+                southbound: "PAZ06", //D
+                northbound: "PAZ08" //E
+            },
+            length: 7
+        },
+        {
+            name: "PAZ_18",
+            southbound: "PAZ_16",
+            northbound: "endOfTrack",
+            length: 3
+        },
+        {
+            name: "PAZ_CV",
+            crossTrackCircuit: true,
+            southboundLineSouthboundDirection: "PAZ_12",
+            southboundLineNorthboundDirection: "PAZ_14",
+            northboundLineSouthboundDirection: "PAZ_09",
+            northboundLineNorthboundDirection: "PAZ_11",
+            length: 1
+        },
+        {
+            name: "PAZ_20",
+            southbound: "PAZ_13",
+            northbound: "PAZ_21",
+            length: 2
+        },
+        {
+            name: "PAZ_21",
+            southbound: "PAZ_20",
+            northbound: "PAZ_22",
+            signals: {
+                southbound: "PAZ10", //O
+                northbound: "PAZ11" //¿
+            },
+            length: 7
+        },
+        {
+            name: "PAZ_22",
+            southbound: "PAZ_21",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A6",
+                normal: "endOfTrack",
+                reverse: "PAZ_17"
+            },
+            length: 1
+        },
     ],
     points: [
         {
-            name: "IDP_A2",
-            trackCircuit: "IDP_04",
-        },
-        {
-            name: "IDP_A4",
-            trackCircuit: "IDP_06",
-        },
-        {
-            name: "IDP_A1",
-            trackCircuit: "IDP_03",
-        },
-        {
-            name: "IDP_A3",
-            trackCircuit: "IDP_05",
-        },
-        {
-            name: "ALP_A2",
-            trackCircuit: "ALP_08",
-        },
-        {
-            name: "ALP_A4",
-            trackCircuit: "ALP_10",
-        },
-        {
-            name: "ALP_A1",
-            trackCircuit: "ALP_07",
-        },
-        {
-            name: "ALP_A3",
-            trackCircuit: "ALP_09",
-        },
-        {
-            name: "AYA_A2",
-            trackCircuit: "AYA_04"
-        },
-        {
-            name: "AYA_A4",
-            trackCircuit: "AYA_06"
-        },
-        {
-            name: "AYA_A6",
-            trackCircuit: "AYA_12"
-        },
-        {
-            name: "AYA_A8",
-            trackCircuit: "AYA_14"
-        },
-        {
-            name: "AYA_A1",
-            trackCircuit: "AYA_03"
-        },
-        {
-            name: "AYA_A3",
-            trackCircuit: "AYA_05"
-        },
-        {
-            name: "AYA_A5",
-            trackCircuit: "AYA_11"
-        },
-        {
-            name: "AYA_A7",
-            trackCircuit: "AYA_13"
-        },
-        {
-            name: "AJU_A2",
-            trackCircuit: "AJU_04"
-        },
-        {
-            name: "AJU_A4",
-            trackCircuit: "AJU_06"
-        },
-        {
             name: "AJU_A1",
-            trackCircuit: "AJU_03"
+            trackCircuit: "AJU_03",
         },
         {
             name: "AJU_A3",
-            trackCircuit: "AJU_05"
+            trackCircuit: "AJU_05",
+        },
+        {
+            name: "AJU_A5",
+            trackCircuit: "AJU_07",
+        },
+        {
+            name: "AJU_A7",
+            trackCircuit: "AJU_09",
+        },
+        {
+            name: "AJU_A9",
+            trackCircuit: "AJU_11",
+        },
+        {
+            name: "AJU_A2",
+            trackCircuit: "AJU_04",
+        },
+        {
+            name: "AJU_A4",
+            trackCircuit: "AJU_06",
+        },
+        {
+            name: "RUI_A1",
+            trackCircuit: "RUI_03",
+        },
+        {
+            name: "RUI_A3",
+            trackCircuit: "RUI_05",
+        },
+        {
+            name: "RUI_A2",
+            trackCircuit: "RUI_04",
+        },
+        {
+            name: "ZOO_A1",
+            trackCircuit: "ZOO_03",
+        },
+        {
+            name: "ZOO_A3",
+            trackCircuit: "ZOO_07",
+        },
+        {
+            name: "ZOO_A2",
+            trackCircuit: "ZOO_04",
+        },
+        {
+            name: "ZOO_A4",
+            trackCircuit: "ZOO_08",
+        },
+        {
+            name: "Y_A1",
+            trackCircuit: "Y_05",
+        },
+        {
+            name: "Y_A3",
+            trackCircuit: "Y_07",
+        },
+        {
+            name: "Y_A2",
+            trackCircuit: "Y_06",
+        },
+        {
+            name: "Y_A4",
+            trackCircuit: "Y_08",
+        },
+        {
+            name: "Y_A5",
+            trackCircuit: "Y_15",
+        },
+        {
+            name: "Y_A6",
+            trackCircuit: "Y_16",
+        },
+        {
+            name: "MAM_A1",
+            trackCircuit: "MAM_05",
+        },
+        {
+            name: "MAM_A3",
+            trackCircuit: "MAM_14",
+        },
+        {
+            name: "MAM_A2",
+            trackCircuit: "MAM_06",
+        },
+        {
+            name: "MAM_A4",
+            trackCircuit: "MAM_15",
+        },
+        {
+            name: "ANT_A1",
+            trackCircuit: "ANT_05",
+        },
+        {
+            name: "ANT_A3",
+            trackCircuit: "ANT_07",
+        },
+        {
+            name: "ANT_A2",
+            trackCircuit: "ANT_06",
+        },
+        {
+            name: "ANT_A4",
+            trackCircuit: "ANT_08",
+        },
+        {
+            name: "PAZ_A1",
+            trackCircuit: "PAZ_09",
+        },
+        {
+            name: "PAZ_A3",
+            trackCircuit: "PAZ_11",
+        },
+        {
+            name: "PAZ_A5",
+            trackCircuit: "PAZ_13",
+        },
+        {
+            name: "PAZ_A7",
+            trackCircuit: "PAZ_17",
+        },
+        {
+            name: "PAZ_A2",
+            trackCircuit: "PAZ_12",
+        },
+        {
+            name: "PAZ_A4",
+            trackCircuit: "PAZ_14",
+        },
+        {
+            name: "PAZ_A6",
+            trackCircuit: "PAZ_22",
         },
     ],
     signals: [
         {
-            name: "IDP02",
+            name: "AJU01",
             direction: "northbound"
         },
         {
-            name: "IDP04",
-            direction: "southbound"
-        },
-        {
-            name: "IDP06",
-            direction: "northbound"
-        },
-        {
-            name: "IDP08",
-            direction: "southbound"
-        },
-        {
-            name: "IDP01",
-            direction: "northbound"
-        },
-        {
-            name: "IDP03",
-            direction: "southbound"
-        },
-        {
-            name: "IDP05",
-            direction: "northbound"
-        },
-        {
-            name: "IDP07",
-            direction: "southbound"
-        },
-        {
-            name: "GCP-S1",
-            direction: "northbound"
-        },
-        {
-            name: "GCP-S2",
-            direction: "southbound"
-        },
-        {
-            name: "ALP02",
-            direction: "northbound"
-        },
-        {
-            name: "ALP04",
-            direction: "southbound"
-        },
-        {
-            name: "ALP06",
-            direction: "northbound"
-        },
-        {
-            name: "ALP08",
-            direction: "southbound"
-        },
-        {
-            name: "ALP01",
-            direction: "northbound"
-        },
-        {
-            name: "ALP03",
-            direction: "southbound"
-        },
-        {
-            name: "ALP05",
-            direction: "northbound"
-        },
-        {
-            name: "ALP07",
-            direction: "southbound"
-        },
-        {
-            name: "AYA02",
-            direction: "northbound"
-        },
-        {
-            name: "AYA04",
-            direction: "southbound"
-        },
-        {
-            name: "AYA06",
-            direction: "northbound"
-        },
-        {
-            name: "AYA08",
-            direction: "southbound"
-        },
-        {
-            name: "AYA01",
-            direction: "northbound"
-        },
-        {
-            name: "AYA03",
-            direction: "southbound"
-        },
-        {
-            name: "AYA05",
-            direction: "northbound"
-        },
-        {
-            name: "AYA07",
-            direction: "southbound"
-        },
-        {
-            name: "TCA02",
-            direction: "northbound"
-        },
-        {
-            name: "TCA04",
-            direction: "southbound"
-        },
-        {
-            name: "TCA01",
-            direction: "northbound"
-        },
-        {
-            name: "TCA03",
-            direction: "southbound"
-        },
-        {
-            name: "TRC02",
-            direction: "northbound"
-        },
-        {
-            name: "TRC04",
-            direction: "southbound"
-        },
-        {
-            name: "TRC01",
-            direction: "northbound"
-        },
-        {
-            name: "TRC03",
-            direction: "southbound"
-        },
-        {
-            name: "TCP02",
-            direction: "northbound"
-        },
-        {
-            name: "TCP04",
-            direction: "southbound"
-        },
-        {
-            name: "TCP01",
-            direction: "northbound"
-        },
-        {
-            name: "TCP03",
+            name: "AJU03",
             direction: "southbound"
         },
         {
@@ -1217,22 +1449,6 @@ let mapData = {
             direction: "southbound"
         },
         {
-            name: "AJU06",
-            direction: "northbound"
-        },
-        {
-            name: "AJU01",
-            direction: "northbound"
-        },
-        {
-            name: "AJU03",
-            direction: "southbound"
-        },
-        {
-            name: "AJU05",
-            direction: "northbound"
-        },
-        {
             name: "SP1",
             direction: "southbound"
         },
@@ -1241,13 +1457,253 @@ let mapData = {
             direction: "southbound"
         },
         {
-            name: "SP3",
+            name: "RUI01",
             direction: "northbound"
         },
         {
-            name: "SP4",
+            name: "RUI03",
+            direction: "southbound"
+        },
+        {
+            name: "RUI05",
             direction: "northbound"
-        }
+        },
+        {
+            name: "RUI07",
+            direction: "southbound"
+        },
+        {
+            name: "RUI02",
+            direction: "northbound"
+        },
+        {
+            name: "RUI04",
+            direction: "southbound"
+        },
+        {
+            name: "RUI06",
+            direction: "northbound"
+        },
+        {
+            name: "RUI08",
+            direction: "southbound"
+        },
+        {
+            name: "ZOO01",
+            direction: "northbound"
+        },
+        {
+            name: "ZOO03",
+            direction: "southbound"
+        },
+        {
+            name: "ZOO05",
+            direction: "northbound"
+        },
+        {
+            name: "ZOO07",
+            direction: "southbound"
+        },
+        {
+            name: "ZOO02",
+            direction: "northbound"
+        },
+        {
+            name: "ZOO04",
+            direction: "southbound"
+        },
+        {
+            name: "ZOO06",
+            direction: "northbound"
+        },
+        {
+            name: "ZOO08",
+            direction: "southbound"
+        },
+        {
+            name: "SP3",
+            direction: "southbound"
+        },
+        {
+            name: "SP4",
+            direction: "southbound"
+        },
+        {
+            name: "CRC01",
+            direction: "southbound"
+        },
+        {
+            name: "CRC02",
+            direction: "northbound"
+        },
+        {
+            name: "Y01",
+            direction: "northbound"
+        },
+        {
+            name: "Y03",
+            direction: "northbound"
+        },
+        {
+            name: "Y05",
+            direction: "southbound"
+        },
+        {
+            name: "Y02",
+            direction: "northbound"
+        },
+        {
+            name: "Y04",
+            direction: "northbound"
+        },
+        {
+            name: "Y06",
+            direction: "southbound"
+        },
+        {
+            name: "Y07",
+            direction: "southbound"
+        },
+        {
+            name: "SP5",
+            direction: "northbound"
+        },
+        {
+            name: "MAM01",
+            direction: "northbound"
+        },
+        {
+            name: "MAM03",
+            direction: "southbound"
+        },
+        {
+            name: "MAM05",
+            direction: "northbound"
+        },
+        {
+            name: "MAM02",
+            direction: "northbound"
+        },
+        {
+            name: "MAM04",
+            direction: "southbound"
+        },
+        {
+            name: "MAM06",
+            direction: "northbound"
+        },
+        {
+            name: "MAM07",
+            direction: "northbound"
+        },
+        {
+            name: "SP6",
+            direction: "southbound"
+        },
+        {
+            name: "ANT01",
+            direction: "southbound"
+        },
+        {
+            name: "ANT03",
+            direction: "northbound"
+        },
+        {
+            name: "ANT05",
+            direction: "southbound"
+        },
+        {
+            name: "ANT07",
+            direction: "northbound"
+        },
+        {
+            name: "ANT09",
+            direction: "southbound"
+        },
+        {
+            name: "ANT02",
+            direction: "southbound"
+        },
+        {
+            name: "ANT04",
+            direction: "northbound"
+        },
+        {
+            name: "ANT06",
+            direction: "southbound"
+        },
+        {
+            name: "ANT08",
+            direction: "northbound"
+        },
+        {
+            name: "ANT10",
+            direction: "southbound"
+        },
+        {
+            name: "CRP01",
+            direction: "southbound"
+        },
+        {
+            name: "CRP02",
+            direction: "northbound"
+        },
+        {
+            name: "YAG01",
+            direction: "southbound"
+        },
+        {
+            name: "YAG02",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ01",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ03",
+            direction: "southbound"
+        },
+        {
+            name: "PAZ05",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ07",
+            direction: "southbound"
+        },
+        {
+            name: "PAZ09",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ02",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ04",
+            direction: "southbound"
+        },
+        {
+            name: "PAZ06",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ08",
+            direction: "southbound"
+        },
+        {
+            name: "PAZ10",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ10",
+            direction: "northbound"
+        },
+        {
+            name: "PAZ11",
+            direction: "southbound"
+        },
     ],
     shuntingPanels: [
         {
@@ -1255,24 +1711,16 @@ let mapData = {
             direction: "northbound"
         },
         {
-            name: "ZR3",
-            direction: "northbound"
-        },
-        {
-            name: "ZR5",
-            direction: "southbound"
-        },
-        {
             name: "ZR2",
             direction: "northbound"
         },
         {
-            name: "ZR4",
-            direction: "northbound"
+            name: "ZR3",
+            direction: "southbound"
         },
         {
-            name: "ZR6",
-            direction: "southbound"
+            name: "ZR4",
+            direction: "northbound"
         },
     ],
     platforms: [
