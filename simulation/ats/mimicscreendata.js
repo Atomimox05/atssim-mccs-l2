@@ -1829,12 +1829,12 @@ var mimicscreendata = [
                 </g>
             </g>
 
-            <!-- CIRCUITOS DE VIA - VIA 2 -->
-            <text id="IDP_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="80" y="214">IDP_02</tspan>
+            <!-- CIRCUITOS DE VIA - VIA 1 -->
+            <text id="AJU_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="92" y="188">AJU_01</tspan>
             </text>
-            <text id="IDP_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="170" y="188">IDP_04</tspan>
+            <text id="AJU_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="177" y="220">AJU_03</tspan>
             </text>
              <text id="IDP_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="220" y="188">IDP_06</tspan>
@@ -1879,7 +1879,7 @@ var mimicscreendata = [
                 <tspan x="1230" y="214">ALP_14</tspan>
             </text>
 
-            <!-- CIRCUITOS DE VIA - VIA 1 -->
+            <!-- CIRCUITOS DE VIA - VIA 2 -->
             <text id="IDP_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="80" y="344">IDP_01</tspan>
             </text>
@@ -1929,8 +1929,8 @@ var mimicscreendata = [
                 <tspan x="1230" y="344">ALP_13</tspan>
             </text>
 
-            <!-- Platform INDEPENDENCIA -->
-            <g id="Independencia" transform="translate(175, 222)">
+            <!-- Platform LAS ADJUNTAS -->
+            <g id="Adjuntas" transform="translate(-55, 222)">
                 <rect id="Rectangle" stroke="#000000" x="164.5" y="0.5" width="55" height="19"></rect>
                 <rect id="Rectangle" stroke="#000000" x="109.5" y="0.5" width="55" height="19"></rect>
                 <rect id="Rectangle" stroke="#000000" x="164.5" y="90.5" width="55" height="19"></rect>
@@ -1943,36 +1943,30 @@ var mimicscreendata = [
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
                     <text id="STATION" font-family="Consolas-BoldMT, Consolas" font-size="16" font-weight="bold" fill="#000000">
-                        <tspan x="0" y="21">INDEPENDENCIA</tspan>
+                        <tspan x="5" y="21">LAS ADJUNTAS</tspan>
                     </text>
                 </g>
             </g>
 
-            <!-- INDEPENDENCIA - Vía 2 (y=200) -->
+            <!-- LAS ADJUNTAS (VÍA 1) (y=200) -->
             <line x1="47" y1="190" x2="47" y2="210" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="50" y1="200" x2="130" y2="200" id="TrackCircuit_IDP_02" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
-            <line x1="285" y1="200" x2="395" y2="200" id="TrackCircuit_IDP_08" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 8 → 80px -->  
-            <line x1="397" y1="200" x2="450" y2="200" id="TrackCircuit_IDP_10" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 6 → 60px -->  
-            <line x1="452" y1="200" x2="530" y2="200" id="TrackCircuit_IDP_12" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 12 → 120px -->  
-            
-            <!-- INDEPENDENCIA - Vía 1 (y=350) -->  
+            <line x1="50" y1="200" x2="170" y2="200" id="TrackCircuit_AJU_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
+            <line x1="548" y1="200" x2="630" y2="200" id="TrackCircuit_AJU_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="632" y1="200" x2="680" y2="200" id="TrackCircuit_AJU_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="682" y1="200" x2="730" y2="200" id="TrackCircuit_AJU_17" stroke="#FFFF06" stroke-width="10"></line>
+
+            <!-- LAS ADJUNTAS (VÍA 2) (y=350) -->  
             <line x1="47" y1="340" x2="47" y2="360" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="50" y1="350" x2="130" y2="350" id="TrackCircuit_IDP_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
-            <line x1="285" y1="350" x2="395" y2="350" id="TrackCircuit_IDP_07" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 8 → 80px -->  
-            <line x1="397" y1="350" x2="480" y2="350" id="TrackCircuit_IDP_09" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->  
-            <line x1="482" y1="350" x2="530" y2="350" id="TrackCircuit_IDP_11" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px --> 
-            
-            <!-- CV INDEPENDENCIA -->
-            <path d="M187.9756,240.621795 L222.00236,310.545095 M222.00319,238.62 L187.97319,308.55" id="TrackCircuit_IDP_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
-            <g id="Point_IDP_A3" transform="translate(244, 340.12) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
-                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
-                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
-                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
-                <line x1="76.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
-            </g>
-            <g id="Point_IDP_A1" transform="translate(131, 313.3)">
+            <line x1="50" y1="350" x2="170" y2="350" id="TrackCircuit_AJU_02" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="172" y1="350" x2="245" y2="350" id="TrackCircuit_AJU_04" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="393" y1="350" x2="470" y2="350" id="TrackCircuit_AJU_06" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
+            <line x1="472" y1="350" x2="546" y2="350" id="TrackCircuit_AJU_08" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
+            <line x1="548" y1="350" x2="630" y2="350" id="TrackCircuit_AJU_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="632" y1="350" x2="680" y2="350" id="TrackCircuit_AJU_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="682" y1="350" x2="730" y2="350" id="TrackCircuit_AJU_14" stroke="#FFFF06" stroke-width="10"></line>
+
+            <!-- CV ADJUNTAS -->
+            <g id="Point_AJU_A1" transform="translate(171, 163.3)">
                 <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="62.9521506" y1="36.7879002" x2="72.9521506" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="46.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
@@ -1980,7 +1974,14 @@ var mimicscreendata = [
                 <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
             </g>
-            <g id="Point_IDP_A4" transform="translate(245.1766, 210) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+            <g id="Point_AJU_A3" transform="translate(302, 203.2) scale(1, -1) translate(-986.2263, -205.1399)translate(930.4525, 171.7031)">
+                <line x1="36" y1="36.5765777" x2="72" y2="36.5765777" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="44.5054181" y1="5.96406803" x2="57.1962237" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(50.8508, 5.9622) scale(-1, 1) rotate(65) translate(-50.8508, -5.9622)"></line>
+                <line x1="28.5386836" y1="24.2171927" x2="56.1287585" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(42.3337, 24.2131) scale(-1, 1) rotate(65) translate(-42.3337, -24.2131)"></line>
+                <line x1="10.5372167" y1="53.1166949" x2="25.9627833" y2="20.0364606" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(18.25, 36.5766) scale(-1, 1) rotate(65) translate(-18.25, -36.5766)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="38" cy="36.7139562" r="8.5"></circle>
+            </g>
+            <g id="Point_AJU_A5" transform="translate(358, 210.2) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
                 <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="66.3531195" y1="36.7844779" x2="76.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
@@ -1988,87 +1989,7 @@ var mimicscreendata = [
                 <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
-            <g id="Point_IDP_A2" transform="translate(188, 203.2) scale(1, -1) translate(-986.2263, -205.1399)translate(930.4525, 171.7031)">
-                <line x1="36" y1="36.5765777" x2="72" y2="36.5765777" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="44.5054181" y1="5.96406803" x2="57.1962237" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(50.8508, 5.9622) scale(-1, 1) rotate(65) translate(-50.8508, -5.9622)"></line>
-                <line x1="28.5386836" y1="24.2171927" x2="56.1287585" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(42.3337, 24.2131) scale(-1, 1) rotate(65) translate(-42.3337, -24.2131)"></line>
-                <line x1="10.5372167" y1="53.1166949" x2="25.9627833" y2="20.0364606" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(18.25, 36.5766) scale(-1, 1) rotate(65) translate(-18.25, -36.5766)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="38" cy="36.7139562" r="8.5"></circle>
-            </g>
-
-            <!-- Platform Guaicaipuro -->
-            <g id="Independencia" transform="translate(510, 222)">
-                <rect id="Rectangle" stroke="#000000" x="164.5" y="0.5" width="55" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="109.5" y="0.5" width="55" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="164.5" y="90.5" width="55" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="109.5" y="90.5" width="55" height="19"></rect>
-                <g id="StationName" transform="translate(102, 40)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-54)" xlink:href="#path-eh8zdmkqnr-53"></use>
-                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-53"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-55)" xlink:href="#path-eh8zdmkqnr-53"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="Consolas-BoldMT, Consolas" font-size="16" font-weight="bold" fill="#000000">
-                        <tspan x="10" y="21">GUAICAIPURO</tspan>
-                    </text>
-                </g>
-            </g>
-
-            <!-- GUACAIPURO - Vía 2 (y=200) -->
-            <line x1="532" y1="200" x2="620" y2="200" id="TrackCircuit_GCP_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="622" y1="200" x2="730" y2="200" id="TrackCircuit_GCP_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="732" y1="200" x2="820" y2="200" id="TrackCircuit_GCP_06" stroke="#FFFF06" stroke-width="10"></line>
-
-            <!-- GUAICAIPURO - Vía 1 (y=350) -->
-            <line x1="532" y1="350" x2="620" y2="350" id="TrackCircuit_GCP_01" stroke="#FFFF06" stroke-width="10"></line> 
-            <line x1="622" y1="350" x2="730" y2="350" id="TrackCircuit_GCP_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="732" y1="350" x2="820" y2="350" id="TrackCircuit_GCP_05" stroke="#FFFF06" stroke-width="10"></line>
-
-            <!-- Platform Ali Primera -->
-            <g id="Independencia" transform="translate(811, 222)">
-                <rect id="Rectangle" stroke="#000000" x="164.5" y="0.5" width="55" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="109.5" y="0.5" width="55" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="164.5" y="90.5" width="55" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="109.5" y="90.5" width="55" height="19"></rect>
-                <g id="StationName" transform="translate(102, 40)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-54)" xlink:href="#path-eh8zdmkqnr-53"></use>
-                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-53"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-55)" xlink:href="#path-eh8zdmkqnr-53"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="Consolas-BoldMT, Consolas" font-size="16" font-weight="bold" fill="#000000">
-                        <tspan x="10" y="21">ALI PRIMERA</tspan>
-                    </text>
-                </g>
-            </g>
-
-            <!-- Ali Primera - Vía 2 (y=200) -->
-            <line x1="822" y1="200" x2="860" y2="200" id="TrackCircuit_ALP_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="862" y1="200" x2="920" y2="200" id="TrackCircuit_ALP_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="922" y1="200" x2="1030" y2="200" id="TrackCircuit_ALP_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1184" y1="200" x2="1230" y2="200" id="TrackCircuit_ALP_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1232" y1="200" x2="1270" y2="200" id="TrackCircuit_ALP_14" stroke="#FFFF06" stroke-width="10"></line>
-
-            <!-- Ali Primera - Vía 1 (y=200) -->
-            <line x1="822" y1="350" x2="860" y2="350" id="TrackCircuit_ALP_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="862" y1="350" x2="920" y2="350" id="TrackCircuit_ALP_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="922" y1="350" x2="1030" y2="350" id="TrackCircuit_ALP_05" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1184" y1="350" x2="1230" y2="350" id="TrackCircuit_ALP_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1232" y1="350" x2="1270" y2="350" id="TrackCircuit_ALP_13" stroke="#FFFF06" stroke-width="10"></line>
-
-            <!-- CV ALI PRIMERA -->
-            <path d="M1087.9756,240.621795 L1122.00236,310.545095 M1122.00319,238.62 L1087.97319,308.55" id="TrackCircuit_ALP_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
-            <g id="Point_ALP_A3" transform="translate(1144, 340.12) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
-                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
-                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
-                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
-                <line x1="76.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
-            </g>
-            <g id="Point_ALP_A1" transform="translate(1031, 313.3)">
+            <g id="Point_AJU_A7" transform="translate(396, 163.3)">
                 <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="62.9521506" y1="36.7879002" x2="72.9521506" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="46.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
@@ -2076,21 +1997,88 @@ var mimicscreendata = [
                 <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
             </g>
-            <g id="Point_ALP_A4" transform="translate(1144.1766, 210) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
-                <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="66.3531195" y1="36.7844779" x2="76.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
-                <line x1="34.4786138" y1="24.2171927" x2="62.0686887" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.2737, 24.2131) scale(-1, 1) rotate(65) translate(-48.2737, -24.2131)"></line>
-                <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
+            <g id="Point_AJU_A9" transform="translate(508, 189.9) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
+                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
+                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
+                <line x1="76.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
             </g>
-            <g id="Point_ALP_A2" transform="translate(1088, 203.2) scale(1, -1) translate(-986.2263, -205.1399)translate(930.4525, 171.7031)">
-                <line x1="36" y1="36.5765777" x2="72" y2="36.5765777" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="44.5054181" y1="5.96406803" x2="57.1962237" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(50.8508, 5.9622) scale(-1, 1) rotate(65) translate(-50.8508, -5.9622)"></line>
-                <line x1="28.5386836" y1="24.2171927" x2="56.1287585" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(42.3337, 24.2131) scale(-1, 1) rotate(65) translate(-42.3337, -24.2131)"></line>
-                <line x1="10.5372167" y1="53.1166949" x2="25.9627833" y2="20.0364606" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(18.25, 36.5766) scale(-1, 1) rotate(65) translate(-18.25, -36.5766)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="38" cy="36.7139562" r="8.5"></circle>
+            <g id="Point_AJU_A2" transform="translate(243, 313.3)">
+                <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="62.9521506" y1="36.7879002" x2="72.9521506" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="46.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
+                <line x1="30.9040235" y1="24.2171927" x2="58.4940984" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(44.6991, 24.2131) scale(-1, 1) rotate(65) translate(-44.6991, -24.2131)"></line>
+                <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
             </g>
+            <g id="Point_AJU_A4" transform="translate(356, 340) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
+                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
+                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
+                <line x1="76.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+            </g>
+            <path d="M334.8756,239.621795 L301.00236,310.545095 M301.00319,239.62 L333.87319,310.55" id="TrackCircuit_AJU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+
+            <!-- Platform RUIZ PINEDA -->
+            <g id="Adjuntas" transform="translate(1055, 222)">
+                <rect id="Rectangle" stroke="#000000" x="45.5" y="-60" width="48" height="19"></rect>
+                <rect id="Rectangle" stroke="#000000" x="95.5" y="-60" width="48" height="19"></rect>
+                <rect id="Rectangle" stroke="#000000" x="45.5" y="150" width="48" height="19"></rect>
+                <rect id="Rectangle" stroke="#000000" x="95.5" y="150" width="48" height="19"></rect>
+                <g id="StationName" transform="translate(32, 40)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-54)" xlink:href="#path-eh8zdmkqnr-53"></use>
+                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-53"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-55)" xlink:href="#path-eh8zdmkqnr-53"></use>
+                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
+                    </g>
+                    <text id="STATION" font-family="Consolas-BoldMT, Consolas" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="10" y="21">RUIZ PINEDA</tspan>
+                    </text>
+                </g>
+            </g>
+
+            <!-- RUIZ PINEDA - Vía 1 (y=200) -->
+            <line x1="732" y1="200" x2="820" y2="200" id="TrackCircuit_RUI_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="822" y1="200" x2="850" y2="200" id="TrackCircuit_RUI_03" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_RUI_A1" transform="translate(880, 189.9) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
+                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
+                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
+                <line x1="66.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+            </g>
+            <g id="Point_RUI_A3" transform="translate(920, 183.5)">
+                <line x1="66.4290698" y1="16.4121395" x2="66.4290698" y2="16.4860835" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
+                <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
+                <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
+                <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
+            </g>
+            <line x1="989" y1="200" x2="1090" y2="200" id="TrackCircuit_RUI_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="200" x2="1205" y2="200" id="TrackCircuit_RUI_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1207" y1="200" x2="1260" y2="200" id="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
+
+            <!-- RUIZ PINEDA - Vía 2 (y=200) -->
+            <line x1="732" y1="350" x2="820" y2="350" id="TrackCircuit_RUI_02" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_RUI_A2" transform="translate(1019, 321) scale(-1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
+                <line x1="66.4290698" y1="16.4121395" x2="249.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
+                <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
+                <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
+                <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
+            </g>
+            <line x1="1074" y1="350" x2="1090" y2="350" id="TrackCircuit_RUI_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="350" x2="1150" y2="350" id="TrackCircuit_RUI_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1152" y1="350" x2="1205" y2="350" id="TrackCircuit_RUI_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1207" y1="350" x2="1260" y2="350" id="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
 
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -2098,10 +2086,10 @@ var mimicscreendata = [
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="117.5 119 1248.75 119 1248.75 109 117.5 109"></polygon>
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 119 117 119 117 109 13 109"></polygon>
                 <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                    <tspan x="13.4978027" y="12">V2</tspan>
+                    <tspan x="13.4978027" y="12">V1</tspan>
                 </text>
                 <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                    <tspan x="13.4978027" y="104">V1</tspan>
+                    <tspan x="13.4978027" y="104">V2</tspan>
                 </text>
                 <g id="StationName" transform="translate(260, 53)">
                     <g id="Rectangle">
@@ -2138,391 +2126,241 @@ var mimicscreendata = [
                 </g>
             </g>
 
-            <!-- Signals INDEPENDENCIA VIA 2 -->
-            <g id="Signal_SP2" transform="translate(40, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+            <!-- Signals LAS ADJUNTAS VIA 1 -->
+            <g id="Signal_SP1" transform="translate(40, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_SP2" transform="translate(65, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <text id="SP2" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="30" y="170">SP2</tspan>
-                </text>
-            <g id="Signal_IDP02" transform="translate(136, 184.5) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_IDP02" transform="translate(100, 170)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_IDP02" transform="translate(97, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="IDP02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="135" y="170">F</tspan>
-                </text>
-            <g id="Signal_IDP04" transform="translate(277, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_IDP04" transform="translate(305, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_IDP04" transform="translate(294, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="IDP04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="275" y="170">E</tspan>
-                </text>
-            <g id="Signal_IDP06" transform="translate(402, 184.5) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_IDP06" transform="translate(365, 170)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_IDP06" transform="translate(362, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="IDP06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="400" y="170">D</tspan>
-                </text>
-            <g id="Signal_IDP08" transform="translate(525, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_IDP08" transform="translate(550, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_IDP08" transform="translate(537, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="IDP08" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="520" y="170">C</tspan>
-                </text>
-                <g id="Fleeting_IDP08" transform="translate(510, 211)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
-                        <tspan x="4.89916992" y="15">A</tspan>
-                    </text>
-                </g>
-
-            <!-- Signals INDEPENDENCIA VIA 1 -->
-            <g id="Signal_SP1" transform="translate(30, 356)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_SP1" transform="translate(65, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                <g id="Button_SP1" transform="translate(65, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
                 <text id="SP1" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="30" y="387.5">SP1</tspan>
+                    <tspan x="30" y="170">SP1</tspan>
                 </text>
-            <g id="Signal_IDP01" transform="translate(136, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+            <g id="Signal_AJU01" transform="translate(175, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_IDP01" transform="translate(100, 361)">
+                <g id="Button_AJU01" transform="translate(140, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_IDP01" transform="translate(97, 386)">
+                <g id="Cancel_AJU01" transform="translate(137, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="IDP01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="135" y="387.5">G</tspan>
+                <text id="AJU01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="175" y="170">H</tspan>
                 </text>
-            <g id="Signal_IDP03" transform="translate(270, 356)" stroke="#000000">
+            <g id="Signal_AJU03" transform="translate(544, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_IDP03" transform="translate(306, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                <g id="Button_AJU03" transform="translate(570, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_IDP03" transform="translate(293, 385)">
+                <g id="Cancel_AJU03" transform="translate(557, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="IDP03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="275" y="387.5">H</tspan>
+                <text id="AJU03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="538" y="170">G</tspan>
                 </text>
-            <g id="Signal_IDP05" transform="translate(402, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            <text id="ZR1" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
+                <tspan x="625" y="237.5">ZR1</tspan>
+            </text>
+            <g id="ShuntingPanel_ZR1" transform="translate(625, 207)" stroke="#000000">
+                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
+                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
             </g>
-                <g id="Button_IDP05" transform="translate(365, 361)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_IDP05" transform="translate(363, 386)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="IDP05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="400" y="387.5">J</tspan>
-                </text>
-                <g id="Fleeting_IDP05" transform="translate(400, 323)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
-                        <tspan x="4.89916992" y="15">A</tspan>
-                    </text>
-                </g>
-            <g id="Signal_IDP07" transform="translate(516, 356)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_IDP07" transform="translate(550, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_IDP07" transform="translate(538, 385)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="IDP07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="520" y="387.5">K</tspan>
-                </text>
 
-            <!-- SIGNALS GUAICAIPURO -->
-            <g id="Signal_GCP-S1" transform="translate(739, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+            <!-- Signals LAS ADJUNTAS VIA 2 -->
+            <g id="Signal_SP2" transform="translate(30, 356)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_GCP-S1" transform="translate(702, 361)">
+                <g id="Button_SP2" transform="translate(64, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_GCP-S1" transform="translate(698, 386)">
+                <text id="SP2" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="30" y="387.5">SP2</tspan>
+                </text>
+            <g id="Signal_AJU02" transform="translate(176, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_AJU02" transform="translate(140, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_AJU" transform="translate(137, 389)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="GCP-S1" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="735" y="387.5">S1</tspan>
+                <text id="AJU02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="175" y="387.5">E</tspan>
                 </text>
-                <g id="Fleeting_GCP-S1" transform="translate(734, 323)">
+            <g id="Signal_AJU04" transform="translate(533, 356)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_AJU04" transform="translate(569, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_AJU04" transform="translate(556, 389)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="AJU04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="535" y="387.5">F</tspan>
+                </text>
+            <text id="ZR2" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
+                <tspan x="625" y="320">ZR2</tspan>
+            </text>
+            <g id="ShuntingPanel_ZR2" transform="translate(633, 334) scale(1, -1) translate(-555.5, -336.5)translate(548, 326)" stroke="#000000">
+                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
+                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
+            </g>
+
+            <!-- SIGNALS RUIZ PINEDA VIA 1 -->
+            <g id="Signal_RUI01" transform="translate(825, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI01" transform="translate(789, 170)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI01" transform="translate(787, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="RUI01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="825" y="170">K</tspan>
+                </text>
+            <g id="Signal_RUI03" transform="translate(1077, 206)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI03" transform="translate(1085, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI03" transform="translate(1073, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <g id="Fleeting_RUI03" transform="translate(1100, 210)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_GCP-S2" transform="translate(615, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <text id="RUI03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="1080" y="238">J</tspan>
+                </text>
+            <g id="Signal_RUI05" transform="translate(1212, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_GCP-S2" transform="translate(640, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                <g id="Button_RUI05" transform="translate(1205, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_GCP-S2" transform="translate(628, 135)">
+                <g id="Cancel_RUI05" transform="translate(1202, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="GCP-S2" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="605" y="170">S2</tspan>
+                <text id="RUI05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="1210" y="238">H</tspan>
                 </text>
-                <g id="Fleeting_GCP-S2" transform="translate(595, 211)">
+            
+                <g id="Button_Y01" transform="translate(1240, 170)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y01" transform="translate(1237, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+            
+            <!-- SIGNALS RUIZ PINEDA VIA 2 -->
+            <g id="Signal_RUI02" transform="translate(824, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI02" transform="translate(789, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI02" transform="translate(785, 386)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="RUI02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="824" y="387.5">C</tspan>
+                </text>
+                <g id="Fleeting_RUI02" transform="translate(820, 323)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
+            <g id="Signal_RUI04" transform="translate(1085, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI04" transform="translate(1085, 371) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI04" transform="translate(1073, 388)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="RUI04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="1080" y="320">D</tspan>
+                </text>
+            <g id="Signal_RUI06" transform="translate(1212, 334) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI06" transform="translate(1205, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI06" transform="translate(785, 386)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="RUI06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="1210" y="320">E</tspan>
+                </text>
+                <g id="Fleeting_RUI06" transform="translate(1178, 323)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
             
-            <!-- SIGNALS ALI PRIMERA VIA 1 -->
-            <g id="Signal_ALP01" transform="translate(828, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP01" transform="translate(793, 361)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP01" transform="translate(790, 386)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="828" y="387.5">L</tspan>
-                </text>
-                <g id="Fleeting_ALP01" transform="translate(822, 323)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
-                        <tspan x="4.89916992" y="15">A</tspan>
-                    </text>
-                </g>
-            <g id="Signal_ALP03" transform="translate(906, 356)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP03" transform="translate(940, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP03" transform="translate(928, 385)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="910" y="387.5">M</tspan>
-                </text>
-            <g id="Signal_ALP05" transform="translate(1038, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP05" transform="translate(1002, 361)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP05" transform="translate(999, 385)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="1038" y="387.5">G</tspan>
-                </text>
-                <g id="Fleeting_ALP05" transform="translate(1035, 323)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
-                        <tspan x="4.89916992" y="15">A</tspan>
-                    </text>
-                </g>
-             <g id="Signal_ALP07" transform="translate(1167, 356)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP07" transform="translate(1200, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP07" transform="translate(1185, 385)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="1170" y="387.5">H</tspan>
-                </text>
-            <text id="ZR1" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="1230" y="320">ZR1</tspan>
-            </text>
-            <g id="ShuntingPanel_ZR1" transform="translate(1235, 335) scale(1, -1) translate(-555.5, -336.5)translate(548, 326)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
-            </g>
-            <g id="Button_AYA01" transform="translate(1237, 360)">
+            <g id="Button_Y02" transform="translate(1240, 361.5)">
                 <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                 <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
             </g>
-            <g id="Cancel_AYA01" transform="translate(1235, 386)">
+            <g id="Cancel_Y02" transform="translate(1237, 390)">
                 <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                 <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
             </g>
 
-            <!-- SIGNALS ALI PRIMERA VIA 2 -->
-            <g id="Signal_ALP02" transform="translate(827, 184.5) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP02" transform="translate(792, 170)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP02" transform="translate(790, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="825" y="170">B</tspan>
-                </text>
-            <g id="Signal_ALP04" transform="translate(915, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP04" transform="translate(940, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP04" transform="translate(928, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="905" y="170">A</tspan>
-                </text>
-                <g id="Fleeting_ALP04" transform="translate(895, 211)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
-                        <tspan x="4.89916992" y="15">A</tspan>
-                    </text>
-                </g>
-            <g id="Signal_ALP06" transform="translate(1037, 184.5) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP06" transform="translate(1002, 170)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP06" transform="translate(1000, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="1035" y="170">F</tspan>
-                </text>
-            <g id="Signal_ALP08" transform="translate(1178, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
-                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-            </g>
-                <g id="Button_ALP08" transform="translate(1203, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_ALP08" transform="translate(1191, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-                <text id="ALP08" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="1170" y="170">E</tspan>
-                </text>
-                <g id="Fleeting_ALP08" transform="translate(1160, 211)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
-                        <tspan x="4.89916992" y="15">A</tspan>
-                    </text>
-                </g>
-            <text id="ZR2" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="1225" y="237.5">ZR2</tspan>
-            </text>
-            <g id="ShuntingPanel_ZR2" transform="translate(1225, 207)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
-            </g>
-                <g id="Button_AYA02" transform="translate(1237, 170)">
-                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
-                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
-                </g>
-                <g id="Cancel_AYA02" transform="translate(1235, 135)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
-                </g>
-
             <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                <tspan x="15.49780273" y="235">V2</tspan>
+                <tspan x="15.49780273" y="235">V1</tspan>
             </text>
             <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                <tspan x="15.49780273" y="330">V1</tspan>
+                <tspan x="15.49780273" y="330">V2</tspan>
             </text>
 
             <!-- DIRECTION ARROWS -->
@@ -2668,13 +2506,23 @@ var mimicscreendata = [
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
 
-            <g id="PageButton_AYACUCHO" transform="translate(1191, 15)">
+            <g id="PageButton_Y" transform="translate(1191, 15)">
                 <g id="Rectangle">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-74)" xlink:href="#path-eh8zdmkqnr-73"></use>
                     <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-73"></use>
                 </g>
                 <text id="TAK" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
-                    <tspan x="11.9970703" y="21">AYA</tspan>
+                    <tspan x="24" y="21">Y</tspan>
+                </text>
+            </g>
+
+            <g id="PageButton_ZOOLOGICO" transform="translate(1191, 655)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-74)" xlink:href="#path-eh8zdmkqnr-73"></use>
+                    <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-73"></use>
+                </g>
+                <text id="TAK" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
+                    <tspan x="11.9970703" y="21">ZOO</tspan>
                 </text>
             </g>
 
@@ -2789,7 +2637,7 @@ var mimicscreendata = [
             </g>
 
             <!-- TRAIN DESCRIBER VIA 1-->
-            <g id="TrainDescriber_IDP_01" transform="translate(70, 422)" opacity="0">
+            <g id="TrainDescriber_AJU_02" transform="translate(70, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>

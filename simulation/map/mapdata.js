@@ -74,10 +74,10 @@ let mapData = {
             southbound: "AJU_11",
             northbound: "AJU_15",
             signals: {
-                northbound: "AJU03", //G
+                southbound: "AJU03", //G
             },
             shuntingPanels: {
-                southbound: "ZR1"
+                northbound: "ZR1"
             },
             length: 7
         },
@@ -85,13 +85,13 @@ let mapData = {
             name: "AJU_15",
             southbound: "AJU_13",
             northbound: "AJU_17",
-            length: 10
+            length: 16
         },
         {
             name: "AJU_17",
             southbound: "AJU_15",
             northbound: "RUI_01",
-            length: 10
+            length: 16
         },
         //VÍA 2
         {
@@ -140,7 +140,7 @@ let mapData = {
                 southbound: "AJU04",//F
             },
             shuntingPanels: {
-                southbound: "ZR2"
+                northbound: "ZR2"
             },
             length: 8
         },
@@ -148,13 +148,13 @@ let mapData = {
             name: "AJU_12",
             southbound: "AJU_10",
             northbound: "AJU_14",
-            length: 10
+            length: 16
         },
         {
             name: "AJU_14",
             southbound: "AJU_12",
             northbound: "RUI_02",
-            length: 10
+            length: 16
         },
         {
             name: "AJU_CV",
@@ -199,47 +199,47 @@ let mapData = {
         },
         {
             name: "RUI_03",
-            southbound: "dependsOnPoint",
+            southbound: "RUI_01",
             northbound: "RUI_05",
+            length: 3
+        },
+        {
+            name: "RUI_05",
+            southbound: "dependsOnPoint",
+            northbound: "RUI_07",
             dependsOnPoint: {
                 point: "RUI_A1",
-                normal: "RUI_01",
+                normal: "RUI_03",
                 reverse: "RUI_51"
             },
             length: 4
         },
         {
-            name: "RUI_05",
-            southbound: "RUI_03",
+            name: "RUI_07",
+            southbound: "RUI_05",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "RUI_A3",
-                normal: "RUI_07",
+                normal: "RUI_09",
                 reverse: "RUI_04"
             },
             length: 2
         },
         {
-            name: "RUI_07",
-            southbound: "RUI_05",
-            northbound: "RUI_09",
-            length: 3
-        },
-        {
             name: "RUI_09",
             southbound: "RUI_07",
             northbound: "RUI_11",
-            signals:{
-                southbound: "RUI03",//J
-                northbound: "RUI05"//H
-            },
-            length: 7
+            length: 3
         },
         {
             name: "RUI_11",
             southbound: "RUI_09",
             northbound: "RUI_13",
-            length: 1
+            signals:{
+                southbound: "RUI03",//J
+                northbound: "RUI05"//H
+            },
+            length: 7
         },
         {
             name: "RUI_13",
@@ -250,6 +250,12 @@ let mapData = {
         {
             name: "RUI_15",
             southbound: "RUI_13",
+            northbound: "RUI_17",
+            length: 1
+        },
+        {
+            name: "RUI_17",
+            southbound: "RUI_15",
             northbound: "Y_01",
             signals: {
                 southbound: "RUI07",//G
@@ -286,28 +292,36 @@ let mapData = {
         {
             name: "RUI_08",
             southbound: "RUI_06",
-            northbound: "RUI_08",
+            northbound: "RUI_10",
             signals:{
                 southbound: "RUI04",//D
-                northbound: "RUI06"//E
             },
-            length: 7
+            length: 4
         },
         {
             name: "RUI_10",
             southbound: "RUI_08",
             northbound: "RUI_12",
-            length: 1
+            signals:{
+                northbound: "RUI06"//E
+            },
+            length: 3
         },
         {
             name: "RUI_12",
             southbound: "RUI_10",
             northbound: "RUI_14",
-            length: 3
+            length: 1
         },
         {
             name: "RUI_14",
             southbound: "RUI_12",
+            northbound: "RUI_16",
+            length: 3
+        },
+        {
+            name: "RUI_16",
+            southbound: "RUI_14",
             northbound: "Y_02",
             signals: {
                 southbound: "RUI08",//F
@@ -489,7 +503,7 @@ let mapData = {
         //VIA 1 - ADJUNTAS
         {
             name: "Y_01",
-            southbound: "RUI_15",
+            southbound: "RUI_17",
             northbound: "Y_03",
             signals: {
                 northbound: "Y01" //K
@@ -553,7 +567,7 @@ let mapData = {
         //VIA 2 - ADJUNTAS
         {
             name: "Y_02",
-            southbound: "RUI_14",
+            southbound: "RUI_16",
             northbound: "Y_04",
             signals: {
                 northbound: "Y02" //C
@@ -868,7 +882,7 @@ let mapData = {
             },
             length: 7
         },
-        //VIA 1
+        //VIA 2
         {
             name: "ANT_02",
             southbound: "MAM_12",
@@ -1725,110 +1739,14 @@ let mapData = {
     ],
     platforms: [
         {
-            name: "INDEPENDENCIA_V1",
-            direction: "southbound",
-            northbound: {
-                trackCircuit: "IDP_07",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "IDP_07",
-                position: 3
-            }
-        },
-        {
-            name: "INDEPENDENCIA_V2",
-            direction: "northbound",
-            northbound: {
-                trackCircuit: "IDP_08",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "IDP_08",
-                position: 3
-            },
-        },
-        {
-            name: "GUAICAIPURO_V1",
-            direction: "southbound",
-            northbound: {
-                trackCircuit: "GCP_03",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "GCP_03",
-                position: 3
-            }
-        },
-        {
-            name: "GUAICAIPURO_V2",
-            direction: "northbound",
-            northbound: {
-                trackCircuit: "GCP_04",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "GCP_04",
-                position: 3
-            }
-        },
-        {
-            name: "ALIPRIMERA_V1",
-            direction: "southbound",
-            northbound: {
-                trackCircuit: "ALP_05",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "ALP_05",
-                position: 3
-            },
-        },
-        {
-            name: "ALIPRIMERA_V2",
-            direction: "northbound",
-            northbound: {
-                trackCircuit: "ALP_06",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "ALP_06",
-                position: 3
-            }
-        },
-        {
-            name: "AYACUCHO_V1",
-            direction: "southbound",
-            northbound: {
-                trackCircuit: "AYA_07",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "AYA_07",
-                position: 3
-            },
-        },
-        {
-            name: "AYACUCHO_V2",
-            direction: "northbound",
-            northbound: {
-                trackCircuit: "AYA_08",
-                position: 6
-            },
-            southbound: {
-                trackCircuit: "AYA_08",
-                position: 3
-            }
-        },
-        {
             name: "ADJUNTAS_V1",
             direction: "northbound",
             northbound: {
-                trackCircuit: "AJU_07",
+                trackCircuit: "AJU_01",
                 position: 6
             },
             southbound: {
-                trackCircuit: "AJU_07",
+                trackCircuit: "AJU_01",
                 position: 3
             },
             terminus: true
@@ -1837,14 +1755,206 @@ let mapData = {
             name: "ADJUNTAS_V2",
             direction: "northbound",
             northbound: {
-                trackCircuit: "AJU_08",
+                trackCircuit: "AJU_02",
                 position: 6
             },
             southbound: {
-                trackCircuit: "AJU_08",
+                trackCircuit: "AJU_02",
                 position: 3
             },
             terminus: true
+        },
+        {
+            name: "RUIZPINEDA_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "RUI_11",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "RUI_11",
+                position: 3
+            }
+        },
+        {
+            name: "RUIZPINEDA_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "RUI_10",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "RUI_08",
+                position: 3
+            }
+        },
+        {
+            name: "ZOOLOGICO_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "ZOO_05",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "ZOO_05",
+                position: 3
+            },
+        },
+        {
+            name: "ZOOLOGICO_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "ZOO_06",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "ZOO_06",
+                position: 3
+            }
+        },
+        {
+            name: "CARICUAO_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "CRC_03",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "CRC_03",
+                position: 3
+            },
+        },
+        {
+            name: "CARICUAO_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "CRC_04",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "CRC_04",
+                position: 3
+            }
+        },
+        {
+            name: "MAMERA_V1",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "MAM_09",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "MAM_07",
+                position: 3
+            },
+        },
+        {
+            name: "MAMERA_V2",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "MAM_10",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "MAM_08",
+                position: 3
+            },
+        },
+        {
+            name: "ANTIMANO_V1",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "ANT_13",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "ANT_11",
+                position: 3
+            },
+        },
+        {
+            name: "ANTIMANO_V2",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "ANT_14",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "ANT_12",
+                position: 3
+            },
+        },
+        {
+            name: "CARAPITA_V1",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "CRP_05",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "CRP_03",
+                position: 3
+            },
+        },
+        {
+            name: "CARAPITA_V2",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "CRP_06",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "CRP_04",
+                position: 3
+            },
+        },
+        {
+            name: "YAGUARA_V1",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "YAG_03",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "YAG_03",
+                position: 3
+            },
+        },
+        {
+            name: "YAGUARA_V2",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "YAG_06",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "YAG_04",
+                position: 3
+            },
+        },
+        {
+            name: "PAZ_V1",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "PAZ_07",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "PAZ_07",
+                position: 3
+            },
+        },
+        {
+            name: "YAGUARA_V2",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "PAZ_08",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "PAZ_06",
+                position: 3
+            },
         }
     ],
 }
