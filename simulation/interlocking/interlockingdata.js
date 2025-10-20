@@ -57,5 +57,45 @@ var interlockingData = {
                 "end": "SP2"
             }
         },
+        {
+            "entry": {
+                "start": "RUI03",
+                "end": "ZR3"
+            },
+            "exit": {
+                "start": "RUI01",
+                "end": "RUI06"
+            }
+        },
+        {
+            "entry": {
+                "start": "RUI04",
+                "end": "ZR3"
+            },
+            "exit": {
+                "start": "RUI01",
+                "end": "RUI05"
+            }
+        },
+        {
+            "entry": {
+                "start": "ZOO06",
+                "end": "ZR4"
+            },
+            "exit": {
+                "start": "ZOO07",
+                "end": "ZOO03"
+            }
+        },
+        {
+            "entry": {
+                "start": "ZOO05",
+                "end": "ZR4"
+            },
+            "exit": {
+                "start": "ZOO07",
+                "end": "ZOO04"
+            }
+        },
     ]
 }

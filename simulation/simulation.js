@@ -7,10 +7,11 @@ var windowManager = new UIWindowManager(document.body, window)
 var ats = new ATS(map, interlocking, windowManager)
 
 //VIA 1
-//interlocking.getSignalFromName("IDP05").requestFleeting()
+interlocking.getSignalFromName("RUI03").requestFleeting()
 
 //VIA 2
-//interlocking.getSignalFromName("TCP04").requestFleeting()
+interlocking.getSignalFromName("RUI02").requestFleeting()
+interlocking.getSignalFromName("RUI06").requestFleeting()
 
 // Pre-reservar rutas críticas  
 /*requestReserveForRouteMultipleTrackCircuits("IDP_09", "GCP_03", "northbound")  
@@ -24,6 +25,7 @@ requestReserveForRouteMultipleTrackCircuits("GCP_04", "IDP_08", "southbound")*/
 var trains = []
 trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("AJU_02"), "southbound", interlocking, ats))
 trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("ZOO_06"), "northbound", interlocking, ats))
+trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("RUI_01"), "southbound", interlocking, ats))
 //trains.push(new Train("19", 6, map, track, map.getTrackCircuitFromName("AJU_08"), "southbound", interlocking, ats))
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {
