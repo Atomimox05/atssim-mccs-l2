@@ -12,7 +12,7 @@ let mapData = {
                 northbound: "AJU01", //H
                 southbound: "SP1"
             },
-            length: 7
+            length: 8
         },
         {
             name: "AJU_03",
@@ -102,7 +102,7 @@ let mapData = {
                 northbound: "AJU02",//E
                 southbound: "SP2"
             },
-            length: 7
+            length: 8
         },
         {
             name: "AJU_04",
@@ -195,7 +195,7 @@ let mapData = {
             shuntingPanels: {
                 southbound: "ZR3"
             },
-            length: 5
+            length: 7
         },
         {
             name: "RUI_03",
@@ -431,7 +431,7 @@ let mapData = {
                 normal: "ZOO_10",
                 reverse: "ZOO_07"
             },
-            length: 4
+            length: 7
         },
         {
             name: "ZOO_10",
@@ -448,7 +448,7 @@ let mapData = {
             name: "CRC_01",
             southbound: "ZOO_09",
             northbound: "CRC_03",
-            length: 10
+            length: 14
         },
         {
             name: "CRC_03",
@@ -471,19 +471,19 @@ let mapData = {
             northbound: "Y_11",
             length: 7
         },
-        //VIA 1
+        //VIA 2
         {
             name: "CRC_02",
             southbound: "ZOO_10",
             northbound: "CRC_04",
-            length: 10
+            length: 14
         },
         {
             name: "CRC_04",
             southbound: "CRC_02",
             northbound: "CRC_06",
             signals:{
-                southbound: "CRC02", //S2
+                northbound: "CRC02", //S2
             },
             length: 7
         },
@@ -1781,7 +1781,7 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "RUI_10",
-                position: 6
+                position: 2
             },
             southbound: {
                 trackCircuit: "RUI_08",
