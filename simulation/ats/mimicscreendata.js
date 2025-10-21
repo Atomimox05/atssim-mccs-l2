@@ -2492,49 +2492,49 @@ var mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_IDP_04" transform="translate(160, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_03" transform="translate(190, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_IDP_06" transform="translate(225, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_05" transform="translate(270, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_IDP_08" transform="translate(325, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_07" transform="translate(345, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_IDP_10" transform="translate(415, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_09" transform="translate(425, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_IDP_12" transform="translate(480, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_11" transform="translate(495, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_GCP_02" transform="translate(565, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_13" transform="translate(575, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_GCP_04" transform="translate(660, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_15" transform="translate(640, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g id="TrainDescriber_GCP_06" transform="translate(760, 110)" opacity="0">
+            <g id="TrainDescriber_AJU_17" transform="translate(690, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
