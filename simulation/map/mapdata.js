@@ -365,7 +365,7 @@ let mapData = {
                 northbound: "ZOO05", //H
                 southbound: "ZOO03" //J
             },
-            length: 7
+            length: 8
         },
         {
             name: "ZOO_07",
@@ -417,10 +417,10 @@ let mapData = {
             southbound: "ZOO_04",
             northbound: "ZOO_08",
             signals: {
-                northbound: "ZOO06",    //E
+                northbound: "ZOO06", //E
                 southbound: "ZOO04" //D
             },
-            length: 7
+            length: 8
         },
         {
             name: "ZOO_08",
@@ -431,7 +431,7 @@ let mapData = {
                 normal: "ZOO_10",
                 reverse: "ZOO_07"
             },
-            length: 7
+            length: 4
         },
         {
             name: "ZOO_10",
