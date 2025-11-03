@@ -526,11 +526,17 @@ let mapData = {
         {
             name: "Y_13",
             southbound: "Y_11",
-            northbound: "Y_05",
+            northbound: "Y_15",
             signals: {
                 northbound: "Y03" //Q
             },
             length: 6
+        },
+        {
+            name: "Y_15",
+            southbound: "Y_13",
+            northbound: "Y_05",
+            length: 2
         },
         //VIA 1 - Y
         {
@@ -551,7 +557,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "Y_A3",
                 normal: "Y_09",
-                reverse: "Y_15"
+                reverse: "Y_17"
             },
             length: 4
         },
@@ -590,11 +596,17 @@ let mapData = {
         {
             name: "Y_14",
             southbound: "Y_12",
-            northbound: "Y_06",
+            northbound: "Y_16",
             signals: {
                 northbound: "Y04" //P
             },
             length: 7
+        },
+        {
+            name: "Y_16",
+            southbound: "Y_14",
+            northbound: "Y_06",
+            length: 2
         },
         //VIA 2 - Y
         {
@@ -615,7 +627,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "Y_A4",
                 normal: "Y_10",
-                reverse: "Y_16"
+                reverse: "Y_17"
             },
             length: 4
         },
@@ -630,30 +642,19 @@ let mapData = {
         },
         //VÍA R
         {
-            name: "Y_15",
-            southbound: "Y_16",
+            name: "Y_17",
+            southbound: "Y_18",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "Y_A5",
                 normal: "endOfTrack",
-                reverse: "Y_07"
+                reverse: "Y_08"
             },
             length: 1
         },
         {
-            name: "Y_16",
-            southbound: "dependsOnPoint",
-            northbound: "Y_17",
-            dependsOnPoint: {
-                point: "Y_A6",
-                normal: "Y_15",
-                reverse: "Y_08"
-            },
-            length: 2
-        },
-        {
-            name: "Y_17",
-            southbound: "Y_16",
+            name: "Y_18",
+            southbound: "Y_17",
             northbound: "endOfTrack",
             signals: {
                 southbound: "Y07", //R
