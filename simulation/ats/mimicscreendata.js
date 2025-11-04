@@ -7803,8 +7803,12 @@ var mimicscreendata = [
             <line x1="247" y1="172" x2="275" y2="172" id="TrackCircuit_Y_03" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="277" y1="172" x2="306" y2="172" id="TrackCircuit_Y_05" stroke="#FFFF06" stroke-width="10"></line>
             <!-- VIA 2 -->
-            <line x1="5" y1="247" x2="75" y2="247" id="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="247" x2="38" y2="247" id="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="40" y1="247" x2="75" y2="247" id="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="77" y1="247" x2="145" y2="247" id="TrackCircuit_RUI_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="147" y1="247" x2="200" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="247" x2="219" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="215" y1="246" x2="255" y2="351" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA TO CRC -->
             <!-- VIA 1 -->
@@ -7816,7 +7820,10 @@ var mimicscreendata = [
 
             <!-- VIA 2 -->
             <line x1="5" y1="397" x2="125" y2="397" id="TrackCircuit_Y_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="127" y1="397" x2="245" y2="397" id="TrackCircuit_Y_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="126" y1="397" x2="200" y2="397" id="TrackCircuit_Y_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="397" x2="223" y2="397" id="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="219" y1="398" x2="270" y2="308" id="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="266" y1="310" x2="302" y2="310" id="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- Y NORMAL VIA -->
             <!-- VIA 1 -->
@@ -7836,14 +7843,19 @@ var mimicscreendata = [
                 <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
             </g>
-            <line x1="465" y1="200" x2="630" y2="200" id="TrackCircuit_Y_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="465" y1="200" x2="640" y2="200" id="TrackCircuit_Y_09" stroke="#FFFF06" stroke-width="10"></line>
 
-            <!-- VÍA 2 -->  
-            <line x1="300" y1="350" x2="390" y2="350" id="TrackCircuit_AJU_02" stroke="#FFFF06" stroke-width="10"></line>
-
-
-
-            <g id="Point_TAK_M4" transform="translate(286.5802, 315.286)">
+            <!-- VÍA 2 -->
+            <line x1="251" y1="350" x2="281" y2="350" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_Y_A2" transform="translate(321, 340) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
+                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="46.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
+                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
+                <line x1="76.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+            </g>
+            <g id="Point_Y_A4" transform="translate(360.2, 313.1)">
                 <line x1="44.4197513" y1="36.7139562" x2="70.4197513" y2="36.7139562" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="70.4197513" y1="36.7139562" x2="102.419751" y2="36.7139562" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="52.9251694" y1="5.96406803" x2="65.615975" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(59.2706, 5.9622) scale(-1, 1) rotate(65) translate(-59.2706, -5.9622)"></line>
@@ -7851,7 +7863,26 @@ var mimicscreendata = [
                 <line x1="13.0941831" y1="56.9890792" x2="31.9006958" y2="16.6583826" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(22.5942, 36.7855) scale(-1, 1) rotate(65) translate(-22.5942, -36.7855)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="46.4197513" cy="36.7139562" r="8.5"></circle>
             </g>
+            <line x1="465" y1="350" x2="580" y2="350" id="TrackCircuit_Y_10" stroke="#FFFF06" stroke-width="10"></line>
             
+            <!-- VIA R -->
+            <g id="Point_Y_A5" transform="translate(397, 235.5)">
+                <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
+                <line x1="23.4065562" y1="52.2667524" x2="50.9950637" y2="52.258618" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(37.2008, 52.2627) scale(-1, 1) rotate(65) translate(-37.2008, -52.2627)"></line>
+                <line x1="51.7705756" y1="53.6275221" x2="64.6604326" y2="25.9851346" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(58.3777, 39.9851) scale(-1, 1) rotate(65) translate(-58.3777, -39.9851)"></line>
+                <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
+            </g>
+            <line x1="472" y1="275" x2="550" y2="275" id="TrackCircuit_Y_18" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="551" y1="265" x2="551" y2="285" id="endOfLine" stroke="#393939" stroke-width="5"></line>
+
+            <!-- MAMERA -->
+            <!-- VIA 1 -->
+            <line x1="642" y1="200" x2="720" y2="200" id="TrackCircuit_MAM_01" stroke="#FFFF06" stroke-width="10"></line>
+            
+            <!-- VIA 2 -->
+            <line x1="582" y1="350" x2="720" y2="350" id="TrackCircuit_MAM_02" stroke="#FFFF06" stroke-width="10"></line>
             
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -7897,14 +7928,7 @@ var mimicscreendata = [
                 <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
             </g>
-            <g id="Point_TAK_M5" transform="translate(323.4658, 237.2374)">
-                <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
-                <line x1="23.4065562" y1="52.2667524" x2="50.9950637" y2="52.258618" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(37.2008, 52.2627) scale(-1, 1) rotate(65) translate(-37.2008, -52.2627)"></line>
-                <line x1="51.7705756" y1="53.6275221" x2="64.6604326" y2="25.9851346" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(58.3777, 39.9851) scale(-1, 1) rotate(65) translate(-58.3777, -39.9851)"></line>
-                <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
-            </g>
+            
             <g id="Point_TAK_M7" transform="translate(686, 342.8943) scale(-1, 1) translate(-686, -342.8943)translate(632, 315.2121)">
                 <line x1="48" y1="36.7139562" x2="74" y2="36.7139562" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="74" y1="36.7139562" x2="108" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
