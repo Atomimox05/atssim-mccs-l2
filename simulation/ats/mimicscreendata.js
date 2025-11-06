@@ -7879,10 +7879,40 @@ var mimicscreendata = [
 
             <!-- MAMERA -->
             <!-- VIA 1 -->
-            <line x1="642" y1="200" x2="720" y2="200" id="TrackCircuit_MAM_01" stroke="#FFFF06" stroke-width="10"></line>
-            
+            <line x1="642" y1="200" x2="700" y2="200" id="TrackCircuit_MAM_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="702" y1="200" x2="763" y2="200" id="TrackCircuit_MAM_03" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_MAM_A1" transform="translate(817.7, 214) scale(-1, 1) translate(-683, -215.857)translate(630, 193)">
+                <line x1="18" y1="9" x2="44" y2="9" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(31, 9) scale(1, -1) translate(-31, -9)"></line>
+                <line x1="26.5054181" y1="39.75363" x2="39.1962237" y2="39.7498881" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(32.8508, 39.7518) scale(-1, -1) rotate(65) translate(-32.8508, -39.7518)"></line>
+                <line x1="10.5386836" y1="21.5048983" x2="38.1287585" y2="21.4967635" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(24.3337, 21.5008) scale(-1, -1) rotate(65) translate(-24.3337, -21.5008)"></line>
+                <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
+                <line x1="44" y1="9" x2="106" y2="9" id="B" stroke="#FFFF06" stroke-width="10" transform="translate(75, 9) scale(1, -1) translate(-75, -9)"></line>
+            </g>
+
             <!-- VIA 2 -->
-            <line x1="582" y1="350" x2="720" y2="350" id="TrackCircuit_MAM_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="582" y1="350" x2="700" y2="350" id="TrackCircuit_MAM_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="702" y1="350" x2="764" y2="350" id="TrackCircuit_MAM_04" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_MAM_A2" transform="translate(820, 341) scale(-1, 1) translate(-686, -342.8943)translate(632, 315.2121)">
+                <line x1="48" y1="36.7139562" x2="74" y2="36.7139562" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="74" y1="36.7139562" x2="108" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="56.5054181" y1="5.96406803" x2="69.1962237" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(62.8508, 5.9622) scale(-1, 1) rotate(65) translate(-62.8508, -5.9622)"></line>
+                <line x1="40.5386836" y1="24.2171927" x2="68.1287585" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(54.3337, 24.2131) scale(-1, 1) rotate(65) translate(-54.3337, -24.2131)"></line>
+                <line x1="14.0015072" y1="58.765864" x2="34.4984928" y2="14.8099363" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(24.25, 36.7879) scale(-1, 1) rotate(65) translate(-24.25, -36.7879)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="50" cy="36.7139562" r="8.5"></circle>
+            </g>
+
+            <!-- VIA Z -->
+            <line x1="675" y1="265" x2="675" y2="285" id="endOfLine" stroke="#393939" stroke-width="5"></line>
+            <line x1="677" y1="275" x2="755" y2="275" id="TrackCircuit_MAM_13" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_TAK_M6" transform="translate(795.8, 273.5) scale(-1, 1) translate(-661.2671, -275.4045)translate(623, 237.1635)">
+                <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
+                <line x1="23.4065562" y1="52.2667524" x2="50.9950637" y2="52.258618" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(37.2008, 52.2627) scale(-1, 1) rotate(65) translate(-37.2008, -52.2627)"></line>
+                <line x1="52.7053437" y1="55.017164" x2="66.8630555" y2="24.6558531" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(59.7842, 39.8365) scale(-1, 1) rotate(65) translate(-59.7842, -39.8365)"></line>
+                <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
+            </g>
             
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -7920,63 +7950,7 @@ var mimicscreendata = [
                     </text>
                 </g>
             </g>
-            <!-- <g id="Point_TAK_M8" transform="translate(287, 193.0739)">
-                <line x1="44" y1="8.92605597" x2="103" y2="8.92605597" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="18" y1="8.92605597" x2="44" y2="8.92605597" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(31, 8.9261) scale(1, -1) translate(-31, -8.9261)"></line>
-                <line x1="26.5054181" y1="39.75363" x2="39.1962237" y2="39.7498881" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(32.8508, 39.7518) scale(-1, -1) rotate(65) translate(-32.8508, -39.7518)"></line>
-                <line x1="10.5386836" y1="21.5048983" x2="38.1287585" y2="21.4967635" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(24.3337, 21.5008) scale(-1, -1) rotate(65) translate(-24.3337, -21.5008)"></line>
-                <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
-            </g>
             
-            <g id="Point_TAK_M7" transform="translate(686, 342.8943) scale(-1, 1) translate(-686, -342.8943)translate(632, 315.2121)">
-                <line x1="48" y1="36.7139562" x2="74" y2="36.7139562" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="74" y1="36.7139562" x2="108" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="56.5054181" y1="5.96406803" x2="69.1962237" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(62.8508, 5.9622) scale(-1, 1) rotate(65) translate(-62.8508, -5.9622)"></line>
-                <line x1="40.5386836" y1="24.2171927" x2="68.1287585" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(54.3337, 24.2131) scale(-1, 1) rotate(65) translate(-54.3337, -24.2131)"></line>
-                <line x1="14.0015072" y1="58.765864" x2="34.4984928" y2="14.8099363" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(24.25, 36.7879) scale(-1, 1) rotate(65) translate(-24.25, -36.7879)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="50" cy="36.7139562" r="8.5"></circle>
-            </g>
-            <g id="Point_TAK_M9" transform="translate(683, 215.857) scale(-1, 1) translate(-683, -215.857)translate(630, 193)">
-                <line x1="18" y1="9" x2="44" y2="9" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(31, 9) scale(1, -1) translate(-31, -9)"></line>
-                <line x1="26.5054181" y1="39.75363" x2="39.1962237" y2="39.7498881" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(32.8508, 39.7518) scale(-1, -1) rotate(65) translate(-32.8508, -39.7518)"></line>
-                <line x1="10.5386836" y1="21.5048983" x2="38.1287585" y2="21.4967635" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(24.3337, 21.5008) scale(-1, -1) rotate(65) translate(-24.3337, -21.5008)"></line>
-                <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
-                <line x1="44" y1="9" x2="106" y2="9" id="B" stroke="#FFFF06" stroke-width="10" transform="translate(75, 9) scale(1, -1) translate(-75, -9)"></line>
-            </g>
-            <g id="Point_TAK_M6" transform="translate(661.2671, 275.4045) scale(-1, 1) translate(-661.2671, -275.4045)translate(623, 237.1635)">
-                <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
-                <line x1="23.4065562" y1="52.2667524" x2="50.9950637" y2="52.258618" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(37.2008, 52.2627) scale(-1, 1) rotate(65) translate(-37.2008, -52.2627)"></line>
-                <line x1="52.7053437" y1="55.017164" x2="66.8630555" y2="24.6558531" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(59.7842, 39.8365) scale(-1, 1) rotate(65) translate(-59.7842, -39.8365)"></line>
-                <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
-            </g>
-            <g id="Point_TAK_M2" transform="translate(119.5, 342.8943) scale(-1, 1) translate(-119.5, -342.8943)translate(68, 315.2121)">
-                <line x1="48" y1="36.7879002" x2="74" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="74" y1="36.7879002" x2="103" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="56.5054181" y1="5.96406803" x2="69.1962237" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(62.8508, 5.9622) scale(-1, 1) rotate(65) translate(-62.8508, -5.9622)"></line>
-                <line x1="40.5386836" y1="24.2171927" x2="68.1287585" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(54.3337, 24.2131) scale(-1, 1) rotate(65) translate(-54.3337, -24.2131)"></line>
-                <line x1="14.0015072" y1="58.765864" x2="34.4984928" y2="14.8099363" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(24.25, 36.7879) scale(-1, 1) rotate(65) translate(-24.25, -36.7879)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="50" cy="36.7139562" r="8.5"></circle>
-            </g>
-            <g id="Point_TAK_M3" transform="translate(118.5, 215.857) scale(-1, 1) translate(-118.5, -215.857)translate(70, 193)">
-                <line x1="44" y1="9" x2="97" y2="9" id="B" stroke="#FFFF06" stroke-width="10" transform="translate(70.5, 9) scale(1, -1) translate(-70.5, -9)"></line>
-                <line x1="18" y1="9" x2="44" y2="9" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(31, 9) scale(1, -1) translate(-31, -9)"></line>
-                <line x1="26.5054181" y1="39.75363" x2="39.1962237" y2="39.7498881" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(32.8508, 39.7518) scale(-1, -1) rotate(65) translate(-32.8508, -39.7518)"></line>
-                <line x1="10.5386836" y1="21.5048983" x2="38.1287585" y2="21.4967635" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(24.3337, 21.5008) scale(-1, -1) rotate(65) translate(-24.3337, -21.5008)"></line>
-                <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
-            </g>
-            <g id="Point_TAK_M1" transform="translate(99.5897, 275.4045) scale(-1, 1) translate(-99.5897, -275.4045)translate(68.6452, 237.1635)">
-                <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
-                <line x1="23.4065562" y1="52.2667524" x2="50.9950637" y2="52.258618" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(37.2008, 52.2627) scale(-1, 1) rotate(65) translate(-37.2008, -52.2627)"></line>
-                <line x1="48.1229055" y1="48.3804452" x2="55.9413434" y2="31.6137511" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(52.2836, 40.1138) scale(-1, 1) rotate(65) translate(-52.2836, -40.1138)"></line>
-                <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
-            </g>-->
             <g id="Taksim" transform="translate(887, 222)">
                 <g id="Plencer_P1" transform="translate(0, 57)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
@@ -8090,31 +8064,7 @@ var mimicscreendata = [
                 </text>
             </g>
 
-            <g id="ShuntingPanel_SP1" transform="translate(819, 357)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
-            </g>
-            <text id="SP2" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="823.196777" y="237.5">SP2</tspan>
-            </text>
-            <g id="ShuntingPanel_SP2" transform="translate(823, 207)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
-            </g>
-            <text id="SP3" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="1176.19678" y="387.5">SP3</tspan>
-            </text>
-            <text id="SP4" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="1170.19678" y="173">SP4</tspan>
-            </text>
-            <g id="ShuntingPanel_SP3" transform="translate(1187.5, 367.5) scale(-1, 1) translate(-1187.5, -367.5)translate(1180, 357)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
-            </g>
-            <g id="ShuntingPanel_SP4" transform="translate(1182.5, 186.5) scale(-1, -1) translate(-1182.5, -186.5)translate(1175, 176)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
-            </g>
+            
             <text id="NB" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
                 <tspan x="573.998535" y="342">NB</tspan>
             </text>

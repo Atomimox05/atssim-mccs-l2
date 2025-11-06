@@ -737,7 +737,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "MAM_A2",
                 normal: "MAM_04",
-                reverse: "MAM_15"
+                reverse: "MAM_14"
             },
             length: 2
         },
@@ -782,19 +782,8 @@ let mapData = {
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "MAM_A3",
-                normal: "MAM_15",
+                normal: "MAM_06",
                 reverse: "MAM_05"
-            },
-            length: 1
-        },
-        {
-            name: "MAM_15",
-            southbound: "MAM_14",
-            northbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "MAM_A4",
-                normal: "endOfTrack",
-                reverse: "MAM_06"
             },
             length: 1
         },
@@ -1382,10 +1371,6 @@ let mapData = {
             trackCircuit: "Y_15",
         },
         {
-            name: "Y_A6",
-            trackCircuit: "Y_16",
-        },
-        {
             name: "MAM_A1",
             trackCircuit: "MAM_05",
         },
@@ -1396,10 +1381,6 @@ let mapData = {
         {
             name: "MAM_A2",
             trackCircuit: "MAM_06",
-        },
-        {
-            name: "MAM_A4",
-            trackCircuit: "MAM_15",
         },
         {
             name: "ANT_A1",
