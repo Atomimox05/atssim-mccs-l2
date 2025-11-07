@@ -1,7 +1,7 @@
 "use strict";
 
 var mimicscreendata = [
-  {
+  /**{
     name: "ADJUNTAS",
     svg: `
 <svg width="1266px" height="815px" viewBox="0 0 1266 815" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -5932,7 +5932,7 @@ var mimicscreendata = [
         </g>
     </g>
 </svg>`,
-  },
+  }, **/
   {
     name: "Y",
     svg: `
@@ -7628,185 +7628,22 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <path id="Line-2" d="M509,333 L518,337.5 L509,342 L509,338 L489,338 L489,337 L509,337 L509,333 Z" fill="#000000" fill-rule="nonzero"></path>
-            <path id="Line-2" d="M940,333 L949,337.5 L940,342 L940,338 L920,338 L920,337 L940,337 L940,333 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M509,333 L518,337.5 L509,342 L509,338 L489,338 L489,337 L509,337 L509,333 Z" fill="#000000" fill-rule="nonzero"></path>   
             <path id="Line-2" d="M521,212 L530,216.5 L521,221 L521,217 L501,217 L501,216 L521,216 L521,212 Z" transform="translate(515.5, 216.5) scale(-1, 1) translate(-515.5, -216.5)" fill="#000000" fill-rule="nonzero"></path>
-            <path id="Line-2" d="M893,212 L902,216.5 L893,221 L893,217 L873,217 L873,216 L893,216 L893,212 Z" transform="translate(887.5, 216.5) scale(-1, 1) translate(-887.5, -216.5)" fill="#000000" fill-rule="nonzero"></path>
-            <g id="DirectionArrow_TAK_03T" transform="translate(177, 457)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-33"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-36)" xlink:href="#path-eh8zdmkqnr-35"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-35"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g id="DirectionArrow_OSM_02T" transform="translate(785, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-38)" xlink:href="#path-eh8zdmkqnr-37"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-37"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-40)" xlink:href="#path-eh8zdmkqnr-39"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-39"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="2.15027223e-18 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g id="DirectionArrow_OSM_08T" transform="translate(963, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-42)" xlink:href="#path-eh8zdmkqnr-41"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-41"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-44)" xlink:href="#path-eh8zdmkqnr-43"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-43"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="2.15027223e-18 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g id="DirectionArrow_OSM_03T" transform="translate(937, 457)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-46)" xlink:href="#path-eh8zdmkqnr-45"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-45"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-48)" xlink:href="#path-eh8zdmkqnr-47"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-47"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="2.15027223e-18 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g id="DirectionArrow_SIS_01T" transform="translate(1144, 457)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-50)" xlink:href="#path-eh8zdmkqnr-49"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-49"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-52)" xlink:href="#path-eh8zdmkqnr-51"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-51"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="2.15027223e-18 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-        
-            <text id="25T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="577.196777" y="269">25T</tspan>
-            </text>
-            <text id="27T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="627.196777" y="269">27T</tspan>
-            </text>
-            <text id="19T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="424.196777" y="269">19T</tspan>
-            </text>
-            <text id="07T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="410.196777" y="344">07T</tspan>
-            </text>
-            <text id="09T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="533.196777" y="344">09T</tspan>
-            </text>
-            <text id="11T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="640.196777" y="344">11T</tspan>
-            </text>
-            <text id="13T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="784.196777" y="344">13T</tspan>
-            </text>
-            <text id="01T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="875.196777" y="344">01T</tspan>
-            </text>
-            <text id="03T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="967.196777" y="344">03T</tspan>
-            </text>
-            <text id="05T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1050.19678" y="344">05T</tspan>
-            </text>
-            <text id="07T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1105.19678" y="344">07T</tspan>
-            </text>
-            <text id="01T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1179.19678" y="344">01T</tspan>
-            </text>
-            <text id="03T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1232.19678" y="344">03T</tspan>
-            </text>
-            <text id="02T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="816.196777" y="194">02T</tspan>
-            </text>
-            <text id="08T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="346.196777" y="194">08T</tspan>
-            </text>
-            <text id="10T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="501.196777" y="194">10T</tspan>
-            </text>
-            <text id="17T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="375.196777" y="269">17T</tspan>
-            </text>
-            <text id="23T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="529.196777" y="269">23T</tspan>
-            </text>
-            <text id="21T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="474.196777" y="269">21T</tspan>
-            </text>
-            <text id="12T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="662.196777" y="194">12T</tspan>
-            </text>
-            <text id="14T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="772.196777" y="194">14T</tspan>
-            </text>
-            <text id="04T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="885.196777" y="194">04T</tspan>
-            </text>
-            <text id="06T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="960.196777" y="194">06T</tspan>
-            </text>
-            <text id="08T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1002.19678" y="194">08T</tspan>
-            </text>
-            <text id="10T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1071.19678" y="194">10T</tspan>
-            </text>
-            <text id="12T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1130.19678" y="194">12T</tspan>
-            </text>
-            <text id="02T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1166.19678" y="194">02T</tspan>
-            </text>
-            <text id="04T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="1235.19678" y="194">04T</tspan>
-            </text>
-            <text id="06T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="234.196777" y="194">06T</tspan>
-            </text>
-            <text id="04T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="201.196777" y="194">04T</tspan>
-            </text>
 
             <!-- VIA TO RUI -->
             <!-- VIA 1 -->
-            <line x1="5" y1="172" x2="55" y2="172" id="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="57" y1="172" x2="105" y2="172" id="TrackCircuit_RUI_15" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="107" y1="172" x2="175" y2="172" id="TrackCircuit_RUI_17" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="172" x2="38" y2="172" id="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="40" y1="172" x2="75" y2="172" id="TrackCircuit_RUI_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="77" y1="172" x2="175" y2="172" id="TrackCircuit_RUI_17" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="177" y1="172" x2="245" y2="172" id="TrackCircuit_Y_01" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="247" y1="172" x2="275" y2="172" id="TrackCircuit_Y_03" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="277" y1="172" x2="306" y2="172" id="TrackCircuit_Y_05" stroke="#FFFF06" stroke-width="10"></line>
             <!-- VIA 2 -->
-            <line x1="5" y1="247" x2="38" y2="247" id="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="40" y1="247" x2="75" y2="247" id="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="77" y1="247" x2="145" y2="247" id="TrackCircuit_RUI_16" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="147" y1="247" x2="200" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="247" x2="50" y2="247" id="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="52" y1="247" x2="90" y2="247" id="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="92" y1="247" x2="155" y2="247" id="TrackCircuit_RUI_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="157" y1="247" x2="200" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="202" y1="247" x2="219" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="215" y1="246" x2="255" y2="351" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
 
@@ -7889,6 +7726,11 @@ var mimicscreendata = [
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
                 <line x1="44" y1="9" x2="106" y2="9" id="B" stroke="#FFFF06" stroke-width="10" transform="translate(75, 9) scale(1, -1) translate(-75, -9)"></line>
             </g>
+            <line x1="872" y1="200" x2="940" y2="200" id="TrackCircuit_MAM_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="942" y1="200" x2="1002" y2="200" id="TrackCircuit_MAM_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1004" y1="200" x2="1115" y2="200" id="TrackCircuit_MAM_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1117" y1="200" x2="1230" y2="200" id="TrackCircuit_ANT_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1232" y1="200" x2="1260" y2="200" id="TrackCircuit_ANT_03" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA 2 -->
             <line x1="582" y1="350" x2="700" y2="350" id="TrackCircuit_MAM_02" stroke="#FFFF06" stroke-width="10"></line>
@@ -7901,11 +7743,16 @@ var mimicscreendata = [
                 <line x1="14.0015072" y1="58.765864" x2="34.4984928" y2="14.8099363" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(24.25, 36.7879) scale(-1, 1) rotate(65) translate(-24.25, -36.7879)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="50" cy="36.7139562" r="8.5"></circle>
             </g>
+            <line x1="876" y1="350" x2="940" y2="350" id="TrackCircuit_MAM_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="942" y1="350" x2="1002" y2="350" id="TrackCircuit_MAM_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1004" y1="350" x2="1115" y2="350" id="TrackCircuit_MAM_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1117" y1="350" x2="1230" y2="350" id="TrackCircuit_ANT_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1232" y1="350" x2="1260" y2="350" id="TrackCircuit_ANT_04" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA Z -->
             <line x1="675" y1="265" x2="675" y2="285" id="endOfLine" stroke="#393939" stroke-width="5"></line>
             <line x1="677" y1="275" x2="755" y2="275" id="TrackCircuit_MAM_13" stroke="#FFFF06" stroke-width="10"></line>
-            <g id="Point_TAK_M6" transform="translate(795.8, 273.5) scale(-1, 1) translate(-661.2671, -275.4045)translate(623, 237.1635)">
+            <g id="Point_MAM_A3" transform="translate(795.8, 273.5) scale(-1, 1) translate(-661.2671, -275.4045)translate(623, 237.1635)">
                 <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
                 <line x1="23.4065562" y1="52.2667524" x2="50.9950637" y2="52.258618" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(37.2008, 52.2627) scale(-1, 1) rotate(65) translate(-37.2008, -52.2627)"></line>
@@ -7913,6 +7760,92 @@ var mimicscreendata = [
                 <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
             </g>
+
+            <!-- SIGNALS RUI - Y VIA 1 -->
+                <g id="Button_RUI03" transform="translate(16, 152) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI03" transform="translate(3, 112)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+            <g id="Signal_RUI07" transform="translate(69, 156) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI07" transform="translate(95, 152) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI07" transform="translate(82, 112)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <g id="Fleeting_RUI07" transform="translate(110, 143)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
+                <text id="RUI07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="62" y="140">G</tspan>
+                </text>
+            <g id="Signal_Y01" transform="translate(252, 155.4) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y01" transform="translate(216, 142)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y01" transform="translate(213, 112)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="250" y="140">K</tspan>
+                </text>
+
+            <!-- SIGNALS RUI - Y VIA 2 -->
+                <g id="Button_RUI04" transform="translate(16, 229) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI04" transform="translate(3, 189)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+            <g id="Signal_RUI08" transform="translate(86, 230) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_RUI08" transform="translate(112, 229) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_RUI08" transform="translate(100, 189)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="RUI08" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="81" y="215">F</tspan>
+                </text>
+            <g id="Signal_Y02" transform="translate(208, 230) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y02" transform="translate(173, 219)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y02" transform="translate(170, 189)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="208" y="215">C</tspan>
+                </text>
             
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -7926,18 +7859,7 @@ var mimicscreendata = [
                 </text>
                 <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
                     <tspan x="13.4978027" y="104">MT1</tspan>
-                </text>
-                <g id="StationName" transform="translate(153, 53)">
-                    <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-57)" xlink:href="#path-eh8zdmkqnr-56"></use>
-                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-56"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-58)" xlink:href="#path-eh8zdmkqnr-56"></use>
-                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
-                    </g>
-                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="26.4941406" y="21">TAKSIM</tspan>
-                    </text>
-                </g>
+                </text>  
                 <g id="StationName" transform="translate(906, 53)">
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-60)" xlink:href="#path-eh8zdmkqnr-59"></use>
@@ -7946,95 +7868,36 @@ var mimicscreendata = [
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
                     <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="14.4921875" y="21">OSMANBEY</tspan>
+                        <tspan x="14.4921875" y="21">MAM</tspan>
                     </text>
                 </g>
             </g>
             
-            <g id="Taksim" transform="translate(887, 222)">
-                <g id="Plencer_P1" transform="translate(0, 57)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <text id="P" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="6.99902344" y="19">P</tspan>
-                    </text>
-                </g>
-                <g id="Plencer_P2" transform="translate(163, 27)">
-                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
-                    <text id="P" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="6.99902344" y="19">P</tspan>
-                    </text>
-                </g>
-                <rect id="Rectangle" stroke="#000000" x="45.5" y="0.5" width="49" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="95.5" y="0.5" width="49" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="45.5" y="90.5" width="49" height="19"></rect>
-                <rect id="Rectangle" stroke="#000000" x="95.5" y="90.5" width="49" height="19"></rect>
-                <g id="StationName" transform="translate(32, 40)">
+            <!-- Platform MAMERA --> 
+            <g id="Y" transform="translate(776, 222)">
+                <rect id="Rectangle" stroke="#000000" x="164.5" y="0.5" width="55" height="19"></rect>
+                <rect id="Rectangle" stroke="#000000" x="109.5" y="0.5" width="55" height="19"></rect>
+                <rect id="Rectangle" stroke="#000000" x="164.5" y="90.5" width="55" height="19"></rect>
+                <rect id="Rectangle" stroke="#000000" x="109.5" y="90.5" width="55" height="19"></rect>
+                <g id="StationName" transform="translate(102, 40)">
                     <g id="Rectangle">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-63)" xlink:href="#path-eh8zdmkqnr-62"></use>
-                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-62"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-64)" xlink:href="#path-eh8zdmkqnr-62"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-54)" xlink:href="#path-eh8zdmkqnr-53"></use>
+                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-53"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-55)" xlink:href="#path-eh8zdmkqnr-53"></use>
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
-                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="14.4921875" y="21">OSMANBEY</tspan>
+                    <text id="STATION" font-family="Consolas-BoldMT, Consolas" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="35" y="21">MAMERA</tspan>
                     </text>
                 </g>
-                <text id="P2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                    <tspan x="85.9985352" y="33">P2</tspan>
-                </text>
-                <text id="P1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                    <tspan x="85.9985352" y="84">P1</tspan>
-                </text>
             </g>
-            <rect id="Rectangle" fill="#000000" x="0" y="0" width="2" height="815"></rect>
-            <rect id="Rectangle" fill="#FFFFFF" x="1264" y="0" width="2" height="815"></rect>
-            <rect id="Rectangle" fill="#FFFFFF" x="2" y="813" width="1264" height="2"></rect>
-            <rect id="Rectangle" fill="#000000" x="0" y="0" width="1266" height="2"></rect>
-            <text id="02T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="95.1967773" y="194">02T</tspan>
-            </text>
-            <text id="15T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="65.1967773" y="269">15T</tspan>
-            </text>
-            <text id="29T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="38.1967773" y="269">29T</tspan>
-            </text>
-            <text id="01T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="80.1967773" y="344">01T</tspan>
-            </text>
-            <text id="03T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="211.196777" y="344">03T</tspan>
-            </text>
-            <text id="05T" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#377E22">
-                <tspan x="358.196777" y="344">05T</tspan>
-            </text>
-            <text id="M6" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="650.797852" y="265">M6</tspan>
-            </text>
-            <text id="M7" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="682.797852" y="370">M7</tspan>
-            </text>
+
             <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
                 <tspan x="8.49780273" y="192">MT2</tspan>
             </text>
             <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
                 <tspan x="8.49780273" y="342">MT1</tspan>
             </text>
-            
-            <g id="DirectionArrow_TAK_04T" transform="translate(177, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
 
             <g id="PageButton_ZOOLOGICO" transform="translate(15, 15)">
                 <g id="Rectangle">

@@ -9,11 +9,13 @@ var ats = new ATS(map, interlocking, windowManager)
 //VIA 1
 interlocking.getSignalFromName("RUI03").requestFleeting()
 interlocking.getSignalFromName("CRC01").requestFleeting()
+interlocking.getSignalFromName("RUI07").requestFleeting()
 
 //VIA 2
 interlocking.getSignalFromName("RUI02").requestFleeting()
 interlocking.getSignalFromName("RUI06").requestFleeting()
 interlocking.getSignalFromName("CRC02").requestFleeting()
+interlocking.getSignalFromName("Y02").requestFleeting()
 
 // Pre-reservar rutas críticas  
 /*requestReserveForRouteMultipleTrackCircuits("IDP_09", "GCP_03", "northbound")  

@@ -568,7 +568,7 @@ let mapData = {
             signals: {
                 southbound: "Y05" //J
             },
-            length: 10
+            length: 14
         },
         //VIA 2 - ADJUNTAS
         {
@@ -638,7 +638,7 @@ let mapData = {
             signals: {
                 southbound: "Y06" //D
             },
-            length: 10
+            length: 14
         },
         //VÍA R
         {
