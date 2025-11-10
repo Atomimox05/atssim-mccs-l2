@@ -545,8 +545,8 @@ let mapData = {
             northbound: "Y_07",
             dependsOnPoint: {
                 point: "Y_A1",
-                normal: "Y_03",
-                reverse: "Y_13"
+                normal: "Y_13",
+                reverse: "Y_03"
             },
             length: 4
         },
@@ -616,7 +616,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "Y_A2",
                 normal: "Y_04",
-                reverse: "Y_14"
+                reverse: "Y_16"
             },
             length: 4
         },

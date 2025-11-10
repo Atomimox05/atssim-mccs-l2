@@ -15,7 +15,6 @@ interlocking.getSignalFromName("RUI07").requestFleeting()
 interlocking.getSignalFromName("RUI02").requestFleeting()
 interlocking.getSignalFromName("RUI06").requestFleeting()
 interlocking.getSignalFromName("CRC02").requestFleeting()
-interlocking.getSignalFromName("Y02").requestFleeting()
 
 // Pre-reservar rutas críticas  
 /*requestReserveForRouteMultipleTrackCircuits("IDP_09", "GCP_03", "northbound")  
@@ -23,14 +22,16 @@ requestReserveForRouteMultipleTrackCircuits("GCP_03", "ALP_05", "northbound")
 requestReserveForRouteMultipleTrackCircuits("ALP_06", "GCP_04", "southbound")  
 requestReserveForRouteMultipleTrackCircuits("GCP_04", "IDP_08", "southbound")*/
 
-//interlocking.getCycleFromName("IDP_1").enable();
-//interlocking.getCycleFromName("AJU_1").enable();
+interlocking.getCycleFromName("Y_1").enable();
+interlocking.getCycleFromName("Y_2").enable()
 
 var trains = []
 trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("AJU_02"), "southbound", interlocking, ats))
 trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("ZOO_06"), "northbound", interlocking, ats))
 trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("RUI_11"), "southbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("CRC_03"), "southbound", interlocking, ats))
+trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("Y_09"), "southbound", interlocking, ats))
+trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("Y_14"), "northbound", interlocking, ats))
 //trains.push(new Train("19", 6, map, track, map.getTrackCircuitFromName("AJU_08"), "southbound", interlocking, ats))
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {

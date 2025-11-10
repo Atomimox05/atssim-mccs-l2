@@ -2,6 +2,32 @@
 //CICLOS DE MANIOBRAS
 var interlockingData = {
     cycles: [
+        {
+            name: "Y_1",
+            routes: {
+                "entry": {
+                    start: "Y05",
+                    end: "RUI07"
+                },
+                "exit": {
+                    start: "Y05",
+                    end: "CRC01"
+                }
+            }
+        },
+        {
+            name: "Y_2",
+            routes: {
+                "exit": {
+                    start: "Y02",
+                    end: "MAM02"
+                },
+                "entry": {
+                    start: "Y04",
+                    end: "MAM02"
+                }
+            }
+        }
         // {
         //     "name": "IDP_1",
         //     "routes": {

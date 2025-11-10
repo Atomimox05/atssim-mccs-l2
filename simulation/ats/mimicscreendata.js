@@ -5932,7 +5932,7 @@ var mimicscreendata = [
         </g>
     </g>
 </svg>`,
-  }, **/
+  },**/
   {
     name: "Y",
     svg: `
@@ -7644,7 +7644,7 @@ var mimicscreendata = [
             <line x1="52" y1="247" x2="90" y2="247" id="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="92" y1="247" x2="155" y2="247" id="TrackCircuit_RUI_16" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="157" y1="247" x2="200" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="202" y1="247" x2="219" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="247" x2="219" y2="247" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="215" y1="246" x2="255" y2="351" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA TO CRC -->
@@ -7846,6 +7846,116 @@ var mimicscreendata = [
                 <text id="Y02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
                     <tspan x="208" y="215">C</tspan>
                 </text>
+
+            <!-- SIGNALS CRC - Y VIA 1 -->
+                <g id="Button_CRC01" transform="translate(16, 342) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_CRC01" transform="translate(3, 355)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+            <g id="Signal_Y03" transform="translate(172, 339) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y03" transform="translate(139, 332)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y03" transform="translate(136, 355)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="171" y="360">Q</tspan>
+                </text>
+
+            <!-- SIGNALS CRC - Y VIA 2 -->
+                <g id="Button_ZOO08" transform="translate(16, 417) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_ZOO08" transform="translate(3, 430)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+            <g id="Signal_Y04" transform="translate(207, 414) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y04" transform="translate(173, 407)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y04" transform="translate(170, 430)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="206" y="435">P</tspan>
+                </text>
+            
+            <!-- SIGNALS Y VIA 1 -->
+            <g id="Signal_Y05" transform="translate(457, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y05" transform="translate(483, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y05" transform="translate(471, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="452" y="168">J</tspan>
+                </text>
+
+            <!-- SIGNALS Y VIA 2 -->
+            <g id="Signal_Y06" transform="translate(450, 355)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y06" transform="translate(485, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y06" transform="translate(472, 389)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="453" y="387.5">D</tspan>
+                </text>
+
+            <!-- SIGNALS VIA R -->
+            <g id="Signal_Y07" transform="translate(455, 282)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_Y07" transform="translate(482, 256) scale(-1, 1) translate(-409, -258)translate(399, 248)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_Y07" transform="translate(469, 217)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="458" y="315">R</tspan>
+                </text>
+            <g id="Signal_SP5" transform="translate(560, 291) scale(-1, 1) translate(-627, -292.75)translate(618, 282)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_SP5" transform="translate(525, 246)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                
             
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -7892,11 +8002,11 @@ var mimicscreendata = [
                 </g>
             </g>
 
-            <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                <tspan x="8.49780273" y="192">MT2</tspan>
+            <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="5" y="102">TO AJU</tspan>
             </text>
-            <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                <tspan x="8.49780273" y="342">MT1</tspan>
+            <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="5" y="475">TO ZOO</tspan>
             </text>
 
             <g id="PageButton_ZOOLOGICO" transform="translate(15, 15)">
