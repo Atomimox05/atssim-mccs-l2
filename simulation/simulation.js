@@ -10,11 +10,15 @@ var ats = new ATS(map, interlocking, windowManager)
 interlocking.getSignalFromName("RUI03").requestFleeting()
 interlocking.getSignalFromName("CRC01").requestFleeting()
 interlocking.getSignalFromName("RUI07").requestFleeting()
+interlocking.getSignalFromName("MAM03").requestFleeting()
+interlocking.getSignalFromName("ANT01").requestFleeting()
 
 //VIA 2
 interlocking.getSignalFromName("RUI02").requestFleeting()
 interlocking.getSignalFromName("RUI06").requestFleeting()
 interlocking.getSignalFromName("CRC02").requestFleeting()
+interlocking.getSignalFromName("MAM02").requestFleeting()
+interlocking.getSignalFromName("MAM06").requestFleeting()
 
 // Pre-reservar rutas críticas  
 /*requestReserveForRouteMultipleTrackCircuits("IDP_09", "GCP_03", "northbound")  
@@ -30,7 +34,7 @@ trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("AJU_02")
 trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("ZOO_06"), "northbound", interlocking, ats))
 trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("RUI_11"), "southbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("CRC_03"), "southbound", interlocking, ats))
-trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("Y_09"), "southbound", interlocking, ats))
+trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("MAM_07"), "southbound", interlocking, ats))
 trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("Y_14"), "northbound", interlocking, ats))
 //trains.push(new Train("19", 6, map, track, map.getTrackCircuitFromName("AJU_08"), "southbound", interlocking, ats))
 

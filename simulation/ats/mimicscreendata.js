@@ -1,7 +1,7 @@
 "use strict";
 
 var mimicscreendata = [
-  /**{
+  {
     name: "ADJUNTAS",
     svg: `
 <svg width="1266px" height="815px" viewBox="0 0 1266 815" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1941,20 +1941,20 @@ var mimicscreendata = [
 
             <!-- LAS ADJUNTAS (VÍA 1) (y=200) -->
             <line x1="47" y1="190" x2="47" y2="210" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="50" y1="200" x2="170" y2="200" id="TrackCircuit_AJU_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
-            <line x1="548" y1="200" x2="630" y2="200" id="TrackCircuit_AJU_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="632" y1="200" x2="680" y2="200" id="TrackCircuit_AJU_15" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="682" y1="200" x2="730" y2="200" id="TrackCircuit_AJU_17" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="50" y1="200" x2="170" y2="200" class="TrackCircuit_AJU_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
+            <line x1="548" y1="200" x2="630" y2="200" class="TrackCircuit_AJU_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="632" y1="200" x2="680" y2="200" class="TrackCircuit_AJU_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="682" y1="200" x2="730" y2="200" class="TrackCircuit_AJU_17" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- LAS ADJUNTAS (VÍA 2) (y=350) -->  
             <line x1="47" y1="340" x2="47" y2="360" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="50" y1="350" x2="170" y2="350" id="TrackCircuit_AJU_02" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
-            <line x1="172" y1="350" x2="245" y2="350" id="TrackCircuit_AJU_04" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
-            <line x1="393" y1="350" x2="470" y2="350" id="TrackCircuit_AJU_06" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
-            <line x1="472" y1="350" x2="546" y2="350" id="TrackCircuit_AJU_08" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
-            <line x1="548" y1="350" x2="630" y2="350" id="TrackCircuit_AJU_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="632" y1="350" x2="680" y2="350" id="TrackCircuit_AJU_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="682" y1="350" x2="730" y2="350" id="TrackCircuit_AJU_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="50" y1="350" x2="170" y2="350" class="TrackCircuit_AJU_02" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="172" y1="350" x2="245" y2="350" class="TrackCircuit_AJU_04" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="393" y1="350" x2="470" y2="350" class="TrackCircuit_AJU_06" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
+            <line x1="472" y1="350" x2="546" y2="350" class="TrackCircuit_AJU_08" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
+            <line x1="548" y1="350" x2="630" y2="350" class="TrackCircuit_AJU_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="632" y1="350" x2="680" y2="350" class="TrackCircuit_AJU_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="682" y1="350" x2="730" y2="350" class="TrackCircuit_AJU_14" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- CV ADJUNTAS -->
             <g id="Point_AJU_A1" transform="translate(171, 163.3)">
@@ -2012,7 +2012,7 @@ var mimicscreendata = [
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
                 <line x1="76.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
             </g>
-            <path d="M334.8756,239.621795 L301.00236,310.545095 M301.00319,239.62 L333.87319,310.55" id="TrackCircuit_AJU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+            <path d="M334.8756,239.621795 L301.00236,310.545095 M301.00319,239.62 L333.87319,310.55" class="TrackCircuit_AJU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
 
             <!-- Platform RUIZ PINEDA -->
             <g id="Adjuntas" transform="translate(1055, 222)">
@@ -2034,8 +2034,8 @@ var mimicscreendata = [
             </g>
 
             <!-- RUIZ PINEDA - Vía 1 (y=200) -->
-            <line x1="732" y1="200" x2="820" y2="200" id="TrackCircuit_RUI_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="822" y1="200" x2="850" y2="200" id="TrackCircuit_RUI_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="732" y1="200" x2="820" y2="200" class="TrackCircuit_RUI_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="822" y1="200" x2="850" y2="200" class="TrackCircuit_RUI_03" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_RUI_A1" transform="translate(880, 189.9) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
                 <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
@@ -2052,12 +2052,12 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="989" y1="200" x2="1090" y2="200" id="TrackCircuit_RUI_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1092" y1="200" x2="1205" y2="200" id="TrackCircuit_RUI_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1207" y1="200" x2="1260" y2="200" id="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="989" y1="200" x2="1090" y2="200" class="TrackCircuit_RUI_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="200" x2="1205" y2="200" class="TrackCircuit_RUI_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1207" y1="200" x2="1260" y2="200" class="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- RUIZ PINEDA - Vía 2 (y=200) -->
-            <line x1="732" y1="350" x2="820" y2="350" id="TrackCircuit_RUI_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="732" y1="350" x2="820" y2="350" class="TrackCircuit_RUI_02" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_RUI_A2" transform="translate(1019, 321) scale(-1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
                 <line x1="66.4290698" y1="16.4121395" x2="249.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -2066,10 +2066,10 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="1074" y1="350" x2="1090" y2="350" id="TrackCircuit_RUI_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1092" y1="350" x2="1150" y2="350" id="TrackCircuit_RUI_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1152" y1="350" x2="1205" y2="350" id="TrackCircuit_RUI_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1207" y1="350" x2="1260" y2="350" id="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1074" y1="350" x2="1090" y2="350" class="TrackCircuit_RUI_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="350" x2="1150" y2="350" class="TrackCircuit_RUI_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1152" y1="350" x2="1205" y2="350" class="TrackCircuit_RUI_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1207" y1="350" x2="1260" y2="350" class="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
 
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -5002,7 +5002,7 @@ var mimicscreendata = [
 
             <!-- ZOOLOGICO (VÍA 1) (y=200) -->
             <line x1="47" y1="190" x2="47" y2="210" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="50" y1="200" x2="170" y2="200" id="TrackCircuit_ZOO_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
+            <line x1="50" y1="200" x2="170" y2="200" class="TrackCircuit_ZOO_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
             <g id="Point_ZOO_A1" transform="translate(171, 183.5)">
                 <line x1="66.4290698" y1="16.4121395" x2="150.4290698" y2="16.4860835" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -5011,7 +5011,7 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="325" y1="200" x2="435" y2="200" id="TrackCircuit_ZOO_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="325" y1="200" x2="435" y2="200" class="TrackCircuit_ZOO_05" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_ZOO_A3" transform="translate(590, 183.5) scale(-1, 1)">
                 <line x1="66.4290698" y1="16.4121395" x2="152.4290698" y2="16.4860835" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -5020,11 +5020,11 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="592" y1="200" x2="680" y2="200" id="TrackCircuit_ZOO_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="592" y1="200" x2="680" y2="200" class="TrackCircuit_ZOO_09" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- ZOOLOGICO (VÍA 2) (y=350) -->  
             <line x1="47" y1="340" x2="47" y2="360" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="50" y1="350" x2="170" y2="350" id="TrackCircuit_ZOO_02" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="50" y1="350" x2="170" y2="350" class="TrackCircuit_ZOO_02" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
             <g id="Point_ZOO_A2" transform="translate(270, 321) scale(-1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
                 <line x1="66.4290698" y1="16.4121395" x2="150.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -5033,7 +5033,7 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="325" y1="350" x2="435" y2="350" id="TrackCircuit_ZOO_06" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
+            <line x1="325" y1="350" x2="435" y2="350" class="TrackCircuit_ZOO_06" stroke="#FFFF06" stroke-width="10"></line> <!-- length: 10 → 100px -->
             <g id="Point_ZOO_A4" transform="translate(491, 321) scale(1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
                 <line x1="66.4290698" y1="16.4121395" x2="152.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -5042,7 +5042,7 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="592" y1="350" x2="680" y2="350" id="TrackCircuit_ZOO_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="592" y1="350" x2="680" y2="350" class="TrackCircuit_ZOO_10" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- Platform CARICUAO -->
             <g id="Zoologico" transform="translate(781, 222)">
@@ -5063,18 +5063,18 @@ var mimicscreendata = [
             </g>
 
             <!-- CARICUAO - Vía 1 (y=200) -->
-            <line x1="682" y1="200" x2="820" y2="200" id="TrackCircuit_CRC_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="822" y1="200" x2="930" y2="200" id="TrackCircuit_CRC_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="932" y1="200" x2="1090" y2="200" id="TrackCircuit_CRC_05" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1092" y1="200" x2="1205" y2="200" id="TrackCircuit_CRC_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1207" y1="200" x2="1260" y2="200" id="TrackCircuit_Y_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="682" y1="200" x2="820" y2="200" class="TrackCircuit_CRC_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="822" y1="200" x2="930" y2="200" class="TrackCircuit_CRC_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="932" y1="200" x2="1090" y2="200" class="TrackCircuit_CRC_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="200" x2="1205" y2="200" class="TrackCircuit_CRC_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1207" y1="200" x2="1260" y2="200" class="TrackCircuit_Y_11" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- CARICUAO - Vía 2 (y=200) -->
-            <line x1="682" y1="350" x2="820" y2="350" id="TrackCircuit_CRC_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="822" y1="350" x2="930" y2="350" id="TrackCircuit_CRC_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="932" y1="350" x2="1090" y2="350" id="TrackCircuit_CRC_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1092" y1="350" x2="1205" y2="350" id="TrackCircuit_CRC_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1207" y1="350" x2="1260" y2="350" id="TrackCircuit_Y_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="682" y1="350" x2="820" y2="350" class="TrackCircuit_CRC_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="822" y1="350" x2="930" y2="350" class="TrackCircuit_CRC_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="932" y1="350" x2="1090" y2="350" class="TrackCircuit_CRC_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="350" x2="1205" y2="350" class="TrackCircuit_CRC_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1207" y1="350" x2="1260" y2="350" class="TrackCircuit_Y_12" stroke="#FFFF06" stroke-width="10"></line>
 
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
@@ -5932,7 +5932,7 @@ var mimicscreendata = [
         </g>
     </g>
 </svg>`,
-  },**/
+  },
   {
     name: "Y",
     svg: `
@@ -7633,34 +7633,34 @@ var mimicscreendata = [
 
             <!-- VIA TO RUI -->
             <!-- VIA 1 -->
-            <line x1="5" y1="172" x2="38" y2="172" id="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="40" y1="172" x2="75" y2="172" id="TrackCircuit_RUI_15" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="77" y1="172" x2="175" y2="172" id="TrackCircuit_RUI_17" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="177" y1="172" x2="245" y2="172" id="TrackCircuit_Y_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="247" y1="172" x2="275" y2="172" id="TrackCircuit_Y_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="277" y1="172" x2="306" y2="172" id="TrackCircuit_Y_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="172" x2="38" y2="172" class="TrackCircuit_RUI_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="40" y1="172" x2="75" y2="172" class="TrackCircuit_RUI_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="77" y1="172" x2="175" y2="172" class="TrackCircuit_RUI_17" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="177" y1="172" x2="245" y2="172" class="TrackCircuit_Y_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="247" y1="172" x2="275" y2="172" class="TrackCircuit_Y_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="277" y1="172" x2="306" y2="172" class="TrackCircuit_Y_05" stroke="#FFFF06" stroke-width="10"></line>
             <!-- VIA 2 -->
-            <line x1="5" y1="247" x2="50" y2="247" id="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="52" y1="247" x2="90" y2="247" id="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="92" y1="247" x2="155" y2="247" id="TrackCircuit_RUI_16" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="157" y1="247" x2="200" y2="247" id="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="202" y1="247" x2="219" y2="247" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="215" y1="246" x2="255" y2="351" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="247" x2="50" y2="247" class="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="52" y1="247" x2="90" y2="247" class="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="92" y1="247" x2="155" y2="247" class="TrackCircuit_RUI_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="157" y1="247" x2="200" y2="247" class="TrackCircuit_Y_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="247" x2="219" y2="247" class="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="215" y1="246" x2="255" y2="351" class="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA TO CRC -->
             <!-- VIA 1 -->
-            <line x1="5" y1="322" x2="75" y2="322" id="TrackCircuit_Y_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="77" y1="322" x2="165" y2="322" id="TrackCircuit_Y_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="167" y1="322" x2="203" y2="322" id="TrackCircuit_Y_15" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="200" y1="322" x2="270" y2="200" id="TrackCircuit_Y_15" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="266" y1="200" x2="281" y2="200" id="TrackCircuit_Y_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="322" x2="75" y2="322" class="TrackCircuit_Y_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="77" y1="322" x2="165" y2="322" class="TrackCircuit_Y_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="167" y1="322" x2="203" y2="322" class="TrackCircuit_Y_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="200" y1="322" x2="270" y2="200" class="TrackCircuit_Y_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="266" y1="200" x2="281" y2="200" class="TrackCircuit_Y_15" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA 2 -->
-            <line x1="5" y1="397" x2="125" y2="397" id="TrackCircuit_Y_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="126" y1="397" x2="200" y2="397" id="TrackCircuit_Y_14" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="202" y1="397" x2="223" y2="397" id="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="219" y1="398" x2="270" y2="308" id="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="266" y1="310" x2="302" y2="310" id="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="397" x2="125" y2="397" class="TrackCircuit_Y_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="126" y1="397" x2="200" y2="397" class="TrackCircuit_Y_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="397" x2="223" y2="397" class="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="219" y1="398" x2="270" y2="308" class="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="266" y1="310" x2="302" y2="310" class="TrackCircuit_Y_16" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- Y NORMAL VIA -->
             <!-- VIA 1 -->
@@ -7680,10 +7680,10 @@ var mimicscreendata = [
                 <line x1="5.34078108" y1="17.309403" x2="13.1592189" y2="0.542708941" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(9.25, 8.9261) scale(-1, -1) rotate(65) translate(-9.25, -8.9261)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
             </g>
-            <line x1="465" y1="200" x2="640" y2="200" id="TrackCircuit_Y_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="465" y1="200" x2="640" y2="200" class="TrackCircuit_Y_09" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VÍA 2 -->
-            <line x1="251" y1="350" x2="281" y2="350" id="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="251" y1="350" x2="281" y2="350" class="TrackCircuit_Y_04" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_Y_A2" transform="translate(321, 340) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
                 <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="46.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
@@ -7700,7 +7700,7 @@ var mimicscreendata = [
                 <line x1="13.0941831" y1="56.9890792" x2="31.9006958" y2="16.6583826" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(22.5942, 36.7855) scale(-1, 1) rotate(65) translate(-22.5942, -36.7855)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="46.4197513" cy="36.7139562" r="8.5"></circle>
             </g>
-            <line x1="465" y1="350" x2="580" y2="350" id="TrackCircuit_Y_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="465" y1="350" x2="580" y2="350" class="TrackCircuit_Y_10" stroke="#FFFF06" stroke-width="10"></line>
             
             <!-- VIA R -->
             <g id="Point_Y_A5" transform="translate(397, 235.5)">
@@ -7711,13 +7711,13 @@ var mimicscreendata = [
                 <polyline id="B" stroke="#FFFF06" stroke-width="10" transform="translate(12.7671, 21.5116) rotate(65) translate(-12.7671, -21.5116)" points="-9.16946804 25.3693828 31.1114124 25.3575061 34.7036677 17.6538899"></polyline>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="41.5341996" cy="39.7625645" r="8.5"></circle>
             </g>
-            <line x1="472" y1="275" x2="550" y2="275" id="TrackCircuit_Y_18" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="472" y1="275" x2="550" y2="275" class="TrackCircuit_Y_18" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="551" y1="265" x2="551" y2="285" id="endOfLine" stroke="#393939" stroke-width="5"></line>
 
             <!-- MAMERA -->
             <!-- VIA 1 -->
-            <line x1="642" y1="200" x2="700" y2="200" id="TrackCircuit_MAM_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="702" y1="200" x2="763" y2="200" id="TrackCircuit_MAM_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="642" y1="200" x2="700" y2="200" class="TrackCircuit_MAM_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="702" y1="200" x2="763" y2="200" class="TrackCircuit_MAM_03" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_MAM_A1" transform="translate(817.7, 214) scale(-1, 1) translate(-683, -215.857)translate(630, 193)">
                 <line x1="18" y1="9" x2="44" y2="9" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(31, 9) scale(1, -1) translate(-31, -9)"></line>
                 <line x1="26.5054181" y1="39.75363" x2="39.1962237" y2="39.7498881" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(32.8508, 39.7518) scale(-1, -1) rotate(65) translate(-32.8508, -39.7518)"></line>
@@ -7726,15 +7726,15 @@ var mimicscreendata = [
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(20, 9) scale(1, -1) translate(-20, -9)" cx="20" cy="9" r="8.5"></circle>
                 <line x1="44" y1="9" x2="106" y2="9" id="B" stroke="#FFFF06" stroke-width="10" transform="translate(75, 9) scale(1, -1) translate(-75, -9)"></line>
             </g>
-            <line x1="872" y1="200" x2="940" y2="200" id="TrackCircuit_MAM_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="942" y1="200" x2="1002" y2="200" id="TrackCircuit_MAM_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1004" y1="200" x2="1115" y2="200" id="TrackCircuit_MAM_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1117" y1="200" x2="1230" y2="200" id="TrackCircuit_ANT_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1232" y1="200" x2="1260" y2="200" id="TrackCircuit_ANT_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="872" y1="200" x2="940" y2="200" class="TrackCircuit_MAM_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="942" y1="200" x2="1002" y2="200" class="TrackCircuit_MAM_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1004" y1="200" x2="1115" y2="200" class="TrackCircuit_MAM_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1117" y1="200" x2="1230" y2="200" class="TrackCircuit_ANT_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1232" y1="200" x2="1260" y2="200" class="TrackCircuit_ANT_03" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA 2 -->
-            <line x1="582" y1="350" x2="700" y2="350" id="TrackCircuit_MAM_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="702" y1="350" x2="764" y2="350" id="TrackCircuit_MAM_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="582" y1="350" x2="700" y2="350" class="TrackCircuit_MAM_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="702" y1="350" x2="764" y2="350" class="TrackCircuit_MAM_04" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_MAM_A2" transform="translate(820, 341) scale(-1, 1) translate(-686, -342.8943)translate(632, 315.2121)">
                 <line x1="48" y1="36.7139562" x2="74" y2="36.7139562" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="74" y1="36.7139562" x2="108" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
@@ -7743,15 +7743,15 @@ var mimicscreendata = [
                 <line x1="14.0015072" y1="58.765864" x2="34.4984928" y2="14.8099363" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(24.25, 36.7879) scale(-1, 1) rotate(65) translate(-24.25, -36.7879)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="50" cy="36.7139562" r="8.5"></circle>
             </g>
-            <line x1="876" y1="350" x2="940" y2="350" id="TrackCircuit_MAM_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="942" y1="350" x2="1002" y2="350" id="TrackCircuit_MAM_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1004" y1="350" x2="1115" y2="350" id="TrackCircuit_MAM_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1117" y1="350" x2="1230" y2="350" id="TrackCircuit_ANT_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1232" y1="350" x2="1260" y2="350" id="TrackCircuit_ANT_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="876" y1="350" x2="940" y2="350" class="TrackCircuit_MAM_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="942" y1="350" x2="1002" y2="350" class="TrackCircuit_MAM_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1004" y1="350" x2="1115" y2="350" class="TrackCircuit_MAM_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1117" y1="350" x2="1230" y2="350" class="TrackCircuit_ANT_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1232" y1="350" x2="1260" y2="350" class="TrackCircuit_ANT_04" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA Z -->
             <line x1="675" y1="265" x2="675" y2="285" id="endOfLine" stroke="#393939" stroke-width="5"></line>
-            <line x1="677" y1="275" x2="755" y2="275" id="TrackCircuit_MAM_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="677" y1="275" x2="755" y2="275" class="TrackCircuit_MAM_13" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_MAM_A3" transform="translate(795.8, 273.5) scale(-1, 1) translate(-661.2671, -275.4045)translate(623, 237.1635)">
                 <line x1="42.5341996" y1="39.7625645" x2="25.5341996" y2="39.7625645" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="22.3331415" y1="70.5182763" x2="35.0316741" y2="70.5145322" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(28.6824, 70.5164) scale(-1, 1) rotate(65) translate(-28.6824, -70.5164)"></line>
@@ -7955,22 +7955,183 @@ var mimicscreendata = [
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                
+                <text id="SP5" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="552" y="315">SP5</tspan>
+                </text>
+            
+            <!-- SIGNALS MAMERA VIA 1 -->
+            <g id="Signal_MAM01" transform="translate(770, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM01" transform="translate(735, 170)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM01" transform="translate(733, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="MAM01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="769" y="170">H</tspan>
+                </text>
+            <g id="Signal_MAM03" transform="translate(867, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM03" transform="translate(894, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM03" transform="translate(881, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="MAM03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="861" y="170">G</tspan>
+                </text>
+                <g id="Fleeting_MAM03" transform="translate(860, 211)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
+            <g id="Signal_MAM05" transform="translate(1010, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM05" transform="translate(975, 170)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM05" transform="translate(973, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="MAM05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="1009" y="170">M</tspan>
+                </text>
+
+                <g id="Button_ANT03" transform="translate(1235, 170)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_ANT03" transform="translate(1232, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+
+            <!-- SIGNALS MAMERA VIA 2 -->
+            <g id="Signal_MAM02" transform="translate(706, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM02" transform="translate(670, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM02" transform="translate(667, 386)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="MAM02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="705" y="387.5">E</tspan>
+                </text>
+                <g id="Fleeting_MAM02" transform="translate(703, 323)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
+            <g id="Signal_MAM04" transform="translate(860, 355)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM04" transform="translate(895, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM04" transform="translate(882, 389)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="Y06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="863" y="387.5">F</tspan>
+                </text>
+            <g id="Signal_MAM06" transform="translate(1010, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM06" transform="translate(975, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM06" transform="translate(972, 386)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="MAM06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="1009" y="387.5">A</tspan>
+                </text>
+                <g id="Fleeting_MAM06" transform="translate(1003, 323)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
+                <g id="Button_ANT04" transform="translate(1235, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_ANT04" transform="translate(1232, 386)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+
+            <!-- SIGNALS VIA Z -->
+            <g id="Signal_SP6" transform="translate(656, 282)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_SP6" transform="translate(690, 256) scale(-1, 1) translate(-409, -258)translate(399, 248)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <text id="SP6" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="655" y="315">SP6</tspan>
+                </text>
+            <g id="Signal_MAM07" transform="translate(760, 291) scale(-1, 1) translate(-627, -292.75)translate(618, 282)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+            </g>
+                <g id="Button_MAM07" transform="translate(735, 246)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_MAM07" transform="translate(733, 217)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="MAM07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="759" y="315">Z</tspan>
+                </text>
             
             <g id="Power" transform="translate(13, 518)">
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 27 117 27 117 17 13 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="117.5 27 1248.75 27 1248.75 17 117.5 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="368 73 640 73 640 63 368 63"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="117.5 119 1248.75 119 1248.75 109 117.5 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="13 119 117 119 117 109 13 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 73 107 73 107 63 0 63"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 10 200 10 200 0 0 0"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 50 200 50 200 40 0 40"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 90 200 90 200 80 0 80"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 130 200 130 200 120 0 120"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="260 27 1248.75 27 1248.75 17 260 17"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="400 73 540 73 540 63 400 63"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="660 73 800 73 800 63 660 63"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="260 119 1248.75 119 1248.75 109 260 109"></polygon>
                 <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                    <tspan x="13.4978027" y="12">MT2</tspan>
+                    <tspan x="1225" y="12">V1</tspan>
                 </text>
                 <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                    <tspan x="13.4978027" y="104">MT1</tspan>
+                    <tspan x="1225" y="104">V2</tspan>
                 </text>  
-                <g id="StationName" transform="translate(906, 53)">
+                <g id="StationName" transform="translate(865, 53)">
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-60)" xlink:href="#path-eh8zdmkqnr-59"></use>
                         <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-59"></use>
@@ -7978,7 +8139,7 @@ var mimicscreendata = [
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
                     <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="14.4921875" y="21">MAM</tspan>
+                        <tspan x="45" y="21">MAM</tspan>
                     </text>
                 </g>
             </g>
@@ -8039,10 +8200,10 @@ var mimicscreendata = [
 
             
             <text id="NB" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                <tspan x="573.998535" y="342">NB</tspan>
+                <tspan x="573.998535" y="342">V2</tspan>
             </text>
             <text id="SB" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                <tspan x="573.998535" y="192">SB</tspan>
+                <tspan x="573.998535" y="192">V1</tspan>
             </text>
             <g id="TrainDescriber_TAK_03T" transform="translate(204, 422)" opacity="0">
                 <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
@@ -8511,10 +8672,10 @@ var mimicscreendata = [
                 <polyline id="Path-32" stroke="#FFFFFF" points="8.2478295e-12 1 39.25 1 75.75 1"></polyline>
                 <line x1="1.08732849e-11" y1="0.5" x2="75.75" y2="0.5" id="Path-32" stroke="#000000"></line>
             </g>
-            <g id="FramedText" transform="translate(872, 723)">
+            <g id="FramedText" transform="translate(942, 723)">
                 <rect id="Background" fill="#FFFFFF" x="0" y="0" width="50" height="18"></rect>
                 <text id="Text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                    <tspan x="8.19726562" y="13.5">MANU</tspan>
+                    <tspan x="12" y="13.5">MCS</tspan>
                 </text>
                 <g id="Frame">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-120)" xlink:href="#path-eh8zdmkqnr-119"></use>
@@ -8522,10 +8683,10 @@ var mimicscreendata = [
                     <rect stroke="#C3C6D2" stroke-width="1.5" stroke-linejoin="square" x="1.45422535" y="0.75" width="47.0915493" height="17.5"></rect>
                 </g>
             </g>
-            <g id="FramedText" transform="translate(942, 723)">
+            <g id="FramedText" transform="translate(872, 723)">
                 <rect id="Background" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="50" height="18"></rect>
                 <text id="Text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                    <tspan x="8.19726562" y="13.5">HWAY</tspan>
+                    <tspan x="8.19726562" y="13.5">MANU</tspan>
                 </text>
                 <g id="Frame">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-123)" xlink:href="#path-eh8zdmkqnr-122"></use>
@@ -8586,7 +8747,7 @@ var mimicscreendata = [
             </g>
             <rect id="Rectangle" stroke="#000000" fill="#9496A2" transform="translate(1182.5, 765.5) scale(1, -1) translate(-1182.5, -765.5)" x="1125.5" y="755.5" width="114" height="20"></rect>
             <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="1127" y="769.5">ISTSIG</tspan>
+                <tspan x="1127" y="769.5">LÍNEA 2</tspan>
             </text>
             <circle id="Oval" stroke="#000000" fill="#008000" cx="1109.5" cy="765.5" r="10"></circle>
         </g>
@@ -11034,9 +11195,9 @@ var mimicscreendata = [
             </g>
 
             <!-- AYACUCHO - Vía 2 (y=200) -->
-            <line x1="5" y1="200" x2="70" y2="200" id="TrackCircuit_ALP_12" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
-            <line x1="72" y1="200" x2="130" y2="200" id="TrackCircuit_ALP_14" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="132" y1="200" x2="210" y2="200" id="TrackCircuit_AYA_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="200" x2="70" y2="200" class="TrackCircuit_ALP_12" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="72" y1="200" x2="130" y2="200" class="TrackCircuit_ALP_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="132" y1="200" x2="210" y2="200" class="TrackCircuit_AYA_02" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_AYA_A2" transform="translate(212, 183.5)">
                 <line x1="66.4290698" y1="16.4121395" x2="152.4290698" y2="16.4860835" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -11053,14 +11214,14 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="522" y1="200" x2="622" y2="200" id="TrackCircuit_AYA_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="624" y1="200" x2="700" y2="200" id="TrackCircuit_AYA_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="863" y1="200" x2="930" y2="200" id="TrackCircuit_AYA_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="522" y1="200" x2="622" y2="200" class="TrackCircuit_AYA_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="624" y1="200" x2="700" y2="200" class="TrackCircuit_AYA_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="863" y1="200" x2="930" y2="200" class="TrackCircuit_AYA_16" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA 1 -->
-            <line x1="5" y1="350" x2="70" y2="350" id="TrackCircuit_ALP_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="72" y1="350" x2="130" y2="350" id="TrackCircuit_ALP_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="132" y1="350" x2="210" y2="350" id="TrackCircuit_AYA_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="350" x2="70" y2="350" class="TrackCircuit_ALP_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="72" y1="350" x2="130" y2="350" class="TrackCircuit_ALP_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="132" y1="350" x2="210" y2="350" class="TrackCircuit_AYA_01" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_AYA_A1" transform="translate(312, 321) scale(-1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
                 <line x1="66.4290698" y1="16.4121395" x2="152.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
@@ -11077,12 +11238,12 @@ var mimicscreendata = [
                 <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="522" y1="350" x2="622" y2="350" id="TrackCircuit_AYA_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="624" y1="350" x2="700" y2="350" id="TrackCircuit_AYA_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="863" y1="350" x2="930" y2="350" id="TrackCircuit_AYA_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="522" y1="350" x2="622" y2="350" class="TrackCircuit_AYA_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="624" y1="350" x2="700" y2="350" class="TrackCircuit_AYA_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="863" y1="350" x2="930" y2="350" class="TrackCircuit_AYA_15" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- CV AYACUCHO -->
-            <path d="M762.9756,240.621795 L798.00236,311 M799.00319,238.62 L760,310.55" id="TrackCircuit_AYA_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+            <path d="M762.9756,240.621795 L798.00236,311 M799.00319,238.62 L760,310.55" class="TrackCircuit_AYA_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
             <g id="Point_AYA_A7" transform="translate(821, 340) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
                 <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
@@ -11117,22 +11278,22 @@ var mimicscreendata = [
             </g>
 
             <!-- CARRIZALITO VIA 2 -->
-            <line x1="932" y1="200" x2="980" y2="200" id="TrackCircuit_TCA_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="982" y1="200" x2="1030" y2="200" id="TrackCircuit_TCA_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1032" y1="200" x2="1080" y2="200" id="TrackCircuit_TCA_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1082" y1="200" x2="1130" y2="200" id="TrackCircuit_TCA_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1132" y1="200" x2="1180" y2="200" id="TrackCircuit_TCA_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1182" y1="200" x2="1230" y2="200" id="TrackCircuit_TCA_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1232" y1="200" x2="1260" y2="200" id="TrackCircuit_TRC_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="932" y1="200" x2="980" y2="200" class="TrackCircuit_TCA_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="982" y1="200" x2="1030" y2="200" class="TrackCircuit_TCA_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1032" y1="200" x2="1080" y2="200" class="TrackCircuit_TCA_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1082" y1="200" x2="1130" y2="200" class="TrackCircuit_TCA_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1132" y1="200" x2="1180" y2="200" class="TrackCircuit_TCA_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1182" y1="200" x2="1230" y2="200" class="TrackCircuit_TCA_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1232" y1="200" x2="1260" y2="200" class="TrackCircuit_TRC_02" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- CARRIZALITO VIA 1 -->
-            <line x1="932" y1="350" x2="980" y2="350" id="TrackCircuit_TCA_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="982" y1="350" x2="1030" y2="350" id="TrackCircuit_TCA_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1032" y1="350" x2="1080" y2="350" id="TrackCircuit_TCA_05" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1082" y1="350" x2="1130" y2="350" id="TrackCircuit_TCA_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1132" y1="350" x2="1180" y2="350" id="TrackCircuit_TCA_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1182" y1="350" x2="1230" y2="350" id="TrackCircuit_TCA_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1232" y1="350" x2="1260" y2="350" id="TrackCircuit_TRC_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="932" y1="350" x2="980" y2="350" class="TrackCircuit_TCA_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="982" y1="350" x2="1030" y2="350" class="TrackCircuit_TCA_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1032" y1="350" x2="1080" y2="350" class="TrackCircuit_TCA_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1082" y1="350" x2="1130" y2="350" class="TrackCircuit_TCA_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1132" y1="350" x2="1180" y2="350" class="TrackCircuit_TCA_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1182" y1="350" x2="1230" y2="350" class="TrackCircuit_TCA_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1232" y1="350" x2="1260" y2="350" class="TrackCircuit_TRC_01" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- Signals AYACUCHO VIA 1 -->
                 <g id="Button_ALP07" transform="translate(25, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
@@ -14459,45 +14620,45 @@ var mimicscreendata = [
             </text>
             
             <!-- TRACK CIRCUITS V2 -->
-            <line x1="5" y1="200" x2="50" y2="200" id="TrackCircuit_TCA_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="52" y1="200" x2="100" y2="200" id="TrackCircuit_TRC_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="102" y1="200" x2="150" y2="200" id="TrackCircuit_TRC_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="152" y1="200" x2="200" y2="200" id="TrackCircuit_TRC_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="202" y1="200" x2="250" y2="200" id="TrackCircuit_TRC_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="252" y1="200" x2="300" y2="200" id="TrackCircuit_TRC_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="302" y1="200" x2="350" y2="200" id="TrackCircuit_TRC_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="352" y1="200" x2="400" y2="200" id="TrackCircuit_TCP_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="402" y1="200" x2="450" y2="200" id="TrackCircuit_TCP_04" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="452" y1="200" x2="500" y2="200" id="TrackCircuit_TCP_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="502" y1="200" x2="550" y2="200" id="TrackCircuit_TCP_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="552" y1="200" x2="600" y2="200" id="TrackCircuit_TCP_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="602" y1="200" x2="650" y2="200" id="TrackCircuit_TCP_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="652" y1="200" x2="730" y2="200" id="TrackCircuit_AJU_02" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="892" y1="200" x2="1015" y2="200" id="TrackCircuit_AJU_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1017" y1="200" x2="1095" y2="200" id="TrackCircuit_AJU_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="200" x2="50" y2="200" class="TrackCircuit_TCA_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="52" y1="200" x2="100" y2="200" class="TrackCircuit_TRC_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="102" y1="200" x2="150" y2="200" class="TrackCircuit_TRC_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="152" y1="200" x2="200" y2="200" class="TrackCircuit_TRC_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="200" x2="250" y2="200" class="TrackCircuit_TRC_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="252" y1="200" x2="300" y2="200" class="TrackCircuit_TRC_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="302" y1="200" x2="350" y2="200" class="TrackCircuit_TRC_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="352" y1="200" x2="400" y2="200" class="TrackCircuit_TCP_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="402" y1="200" x2="450" y2="200" class="TrackCircuit_TCP_04" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="452" y1="200" x2="500" y2="200" class="TrackCircuit_TCP_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="502" y1="200" x2="550" y2="200" class="TrackCircuit_TCP_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="552" y1="200" x2="600" y2="200" class="TrackCircuit_TCP_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="602" y1="200" x2="650" y2="200" class="TrackCircuit_TCP_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="652" y1="200" x2="730" y2="200" class="TrackCircuit_AJU_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="892" y1="200" x2="1015" y2="200" class="TrackCircuit_AJU_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1017" y1="200" x2="1095" y2="200" class="TrackCircuit_AJU_10" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1096" y1="190" x2="1096" y2="210" id="endOfLine" stroke="#393939" stroke-width="5"></line>
             
             <!-- TRACK CIRCUITS V2 -->
-            <line x1="5" y1="350" x2="50" y2="350" id="TrackCircuit_TCA_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="52" y1="350" x2="100" y2="350" id="TrackCircuit_TRC_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="102" y1="350" x2="150" y2="350" id="TrackCircuit_TRC_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="152" y1="350" x2="200" y2="350" id="TrackCircuit_TRC_05" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="202" y1="350" x2="250" y2="350" id="TrackCircuit_TRC_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="252" y1="350" x2="300" y2="350" id="TrackCircuit_TRC_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="302" y1="350" x2="350" y2="350" id="TrackCircuit_TRC_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="352" y1="350" x2="400" y2="350" id="TrackCircuit_TCP_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="402" y1="350" x2="450" y2="350" id="TrackCircuit_TCP_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="452" y1="350" x2="500" y2="350" id="TrackCircuit_TCP_05" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="502" y1="350" x2="550" y2="350" id="TrackCircuit_TCP_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="552" y1="350" x2="600" y2="350" id="TrackCircuit_TCP_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="602" y1="350" x2="650" y2="350" id="TrackCircuit_TCP_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="652" y1="350" x2="730" y2="350" id="TrackCircuit_AJU_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="892" y1="350" x2="1015" y2="350" id="TrackCircuit_AJU_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1017" y1="350" x2="1095" y2="350" id="TrackCircuit_AJU_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="5" y1="350" x2="50" y2="350" class="TrackCircuit_TCA_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="52" y1="350" x2="100" y2="350" class="TrackCircuit_TRC_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="102" y1="350" x2="150" y2="350" class="TrackCircuit_TRC_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="152" y1="350" x2="200" y2="350" class="TrackCircuit_TRC_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="202" y1="350" x2="250" y2="350" class="TrackCircuit_TRC_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="252" y1="350" x2="300" y2="350" class="TrackCircuit_TRC_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="302" y1="350" x2="350" y2="350" class="TrackCircuit_TRC_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="352" y1="350" x2="400" y2="350" class="TrackCircuit_TCP_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="402" y1="350" x2="450" y2="350" class="TrackCircuit_TCP_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="452" y1="350" x2="500" y2="350" class="TrackCircuit_TCP_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="502" y1="350" x2="550" y2="350" class="TrackCircuit_TCP_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="552" y1="350" x2="600" y2="350" class="TrackCircuit_TCP_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="602" y1="350" x2="650" y2="350" class="TrackCircuit_TCP_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="652" y1="350" x2="730" y2="350" class="TrackCircuit_AJU_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="892" y1="350" x2="1015" y2="350" class="TrackCircuit_AJU_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1017" y1="350" x2="1095" y2="350" class="TrackCircuit_AJU_09" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1096" y1="340" x2="1096" y2="360" id="endOfLine" stroke="#393939" stroke-width="5"></line>
 
             <!-- CV ADJUNTAS -->
-            <path d="M792.9756,240.621795 L828.00236,311 M829.00319,238.62 L790,310.55" id="TrackCircuit_AJU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+            <path d="M792.9756,240.621795 L828.00236,311 M829.00319,238.62 L790,310.55" class="TrackCircuit_AJU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
             <g id="Point_AJU_A3" transform="translate(851, 340) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
                 <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>

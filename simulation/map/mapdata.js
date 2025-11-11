@@ -305,7 +305,7 @@ let mapData = {
             signals:{
                 northbound: "RUI06"//E
             },
-            length: 3
+            length: 4
         },
         {
             name: "RUI_12",
@@ -326,7 +326,7 @@ let mapData = {
             signals: {
                 southbound: "RUI08",//F
             },
-            length: 7
+            length: 8
         },
         {
             name: "RUI_51",
@@ -457,7 +457,7 @@ let mapData = {
             signals:{
                 southbound: "CRC01", //S1
             },
-            length: 7
+            length: 8
         },
         {
             name: "CRC_05",
@@ -485,7 +485,7 @@ let mapData = {
             signals:{
                 northbound: "CRC02", //S2
             },
-            length: 7
+            length: 8
         },
         {
             name: "CRC_06",
@@ -677,7 +677,7 @@ let mapData = {
             signals: {
                 northbound: "MAM01" //H
             },
-            length: 8
+            length: 10
         },
         {
             name: "MAM_05",
@@ -697,7 +697,7 @@ let mapData = {
             signals: {
                 southbound: "MAM03" //G
             },
-            length: 3
+            length: 4
         },
         {
             name: "MAM_09",
@@ -722,7 +722,7 @@ let mapData = {
             signals: {
                 northbound: "MAM02" //E
             },
-            length: 7
+            length: 10
         },
         {
             name: "MAM_04",
@@ -748,7 +748,7 @@ let mapData = {
             signals: {
                 southbound: "MAM04" //F
             },
-            length: 3
+            length: 4
         },
         {
             name: "MAM_10",
@@ -782,8 +782,8 @@ let mapData = {
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "MAM_A3",
-                normal: "MAM_06",
-                reverse: "MAM_05"
+                normal: "MAM_05",
+                reverse: "MAM_06"
             },
             length: 1
         },
@@ -1792,7 +1792,8 @@ let mapData = {
             southbound: {
                 trackCircuit: "ZOO_06",
                 position: 3
-            }
+            },
+            terminus: true
         },
         {
             name: "CARICUAO_V1",
@@ -1823,11 +1824,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "MAM_09",
-                position: 6
+                position: 3
             },
             southbound: {
                 trackCircuit: "MAM_07",
-                position: 3
+                position: 2
             },
         },
         {
@@ -1835,7 +1836,7 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "MAM_10",
-                position: 6
+                position: 2
             },
             southbound: {
                 trackCircuit: "MAM_08",

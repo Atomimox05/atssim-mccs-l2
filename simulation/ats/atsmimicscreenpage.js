@@ -66,19 +66,38 @@ class ATSMimicScreenPage {
 
     startTrackCircuits() {
         this.interlocking.trackCircuits.forEach(interlockingTrackCircuit => {
-            var trackCircuitInScreen = this.HTMLElement.querySelector(`#TrackCircuit_${interlockingTrackCircuit.name}`)
-            if (trackCircuitInScreen != null) {
-                this.updateTrackCircuit(interlockingTrackCircuit, trackCircuitInScreen)
-            }
-            var directionArrowInScreen = this.HTMLElement.querySelector(`#DirectionArrow_${interlockingTrackCircuit.name}`)
-            if (directionArrowInScreen != null) {
-                this.updateDirectionArrow(interlockingTrackCircuit, directionArrowInScreen)
-            }
-            var trainDescriberInScreen = this.HTMLElement.querySelector(`#TrainDescriber_${interlockingTrackCircuit.name}`)
-            if (trainDescriberInScreen != null) {
-                this.trainDescribers.push(new ATSTrainDescriber(this.ats.trainManager, interlockingTrackCircuit.name, trainDescriberInScreen))
-            }
-        })
+            
+            // 1. Busca TODOS los elementos y los guarda en una LISTA
+            const listaDeTrackCircuits = this.HTMLElement.querySelectorAll(
+                `.TrackCircuit_${interlockingTrackCircuit.name}`
+            );
+            
+            // 2. ¡ESTA ES LA CORRECCIÓN!
+            // Recorremos la lista y llamamos a updateTrackCircuit 
+            // para CADA elemento individual.
+            listaDeTrackCircuits.forEach(unSoloTrackCircuit => {
+                // "unSoloTrackCircuit" SÍ es un elemento y SÍ tiene .setAttribute
+                this.updateTrackCircuit(interlockingTrackCircuit, unSoloTrackCircuit);
+            });
+
+            // --- Repetimos el patrón para los demás ---
+
+            const listaDeDirectionArrows = this.HTMLElement.querySelectorAll(
+                `.DirectionArrow_${interlockingTrackCircuit.name}`
+            );
+            listaDeDirectionArrows.forEach(unaSolaArrow => {
+                this.updateDirectionArrow(interlockingTrackCircuit, unaSolaArrow);
+            });
+
+            const listaDeTrainDescribers = this.HTMLElement.querySelectorAll(
+                `.TrainDescriber_${interlockingTrackCircuit.name}`
+            );
+            listaDeTrainDescribers.forEach(unSoloDescriber => {
+                this.trainDescribers.push(
+                    new ATSTrainDescriber(this.ats.trainManager, interlockingTrackCircuit.name, unSoloDescriber)
+                );
+            });
+        });
     }
 
     startPoints() {
@@ -169,7 +188,7 @@ class ATSMimicScreenPage {
             color = "blue"
         }
         trackCircuitInScreen.setAttribute("stroke", color)
-        setTimeout(() => { this.updateTrackCircuit(interlockingTrackCircuit, trackCircuitInScreen) }, 200)
+        setTimeout(() => { this.updateTrackCircuit(interlockingTrackCircuit, trackCircuitInScreen) }, 100)
     }
 
     updateDirectionArrow(interlockingTrackCircuit, directionArrowInScreen) {
