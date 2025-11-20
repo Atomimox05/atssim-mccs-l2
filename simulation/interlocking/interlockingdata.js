@@ -27,20 +27,20 @@ var interlockingData = {
                     end: "MAM02"
                 }
             }
+        },
+        {
+            name: "MAM_1",
+            routes: {
+                "entry": {
+                    start: "MAM03",
+                    end: "SP6"
+                },
+                "exit": {
+                    start: "MAM07",
+                    end: "MAM06"
+                }
+            }
         }
-        // {
-        //     "name": "IDP_1",
-        //     "routes": {
-        //         "entry": {
-        //             "start": "IDP04",
-        //             "end": "SP1"
-        //         },
-        //         "exit": {
-        //             "start": "IDP01",
-        //             "end": "IDP05"
-        //         }
-        //     }
-        // },
     ],
     shuntingRoutes: [
         {

@@ -668,7 +668,7 @@ let mapData = {
             name: "MAM_01",
             southbound: "Y_09",
             northbound: "MAM_03",
-            length: 1
+            length: 4
         },
         {
             name: "MAM_03",
