@@ -2582,12 +2582,6 @@ var mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_IDP_CV" transform="translate(140, 265)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
 
             <!-- TRAIN DESCRIBER VIA 2-->
             <g class="TrainDescriber_AJU_02" transform="translate(95, 422)" opacity="0">
@@ -7652,7 +7646,7 @@ var mimicscreendata = [
                 <tspan x="190" y="166">Y_01</tspan>
             </text>
             <text id="Y_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="250" y="166">Y_03</tspan>
+                <tspan x="265" y="166">Y_03</tspan>
             </text>
              <text id="Y_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="330" y="194">Y_05</tspan>
@@ -7689,35 +7683,62 @@ var mimicscreendata = [
             </text>
 
             <!-- CIRCUITOS DE VIA - VIA 2 -->
-            <text id="ZOO_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="92" y="364">ZOO_02</tspan>
+            <text id="RUI_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="5" y="260">RUI_12</tspan>
             </text>
-             <text id="ZOO_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="220" y="369">ZOO_04</tspan>
+            <text id="RUI_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="55" y="260">RUI_14</tspan>
             </text>
-             <text id="ZOO_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="360" y="344">ZOO_06</tspan>
-            </text>
-            <text id="ZOO_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="510" y="369">ZOO_08</tspan>
-            </text>
-            <text id="ZOO_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="630" y="364">ZOO_10</tspan>
-            </text>
-            <text id="CRC_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="735" y="364">CRC_02</tspan>
-            </text>
-            <text id="CRC_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="860" y="344">CRC_04</tspan>
-            </text>
-            <text id="CRC_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="995" y="364">CRC_06</tspan>
-            </text>
-            <text id="CRC_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1130" y="364">CRC_08</tspan>
+            <text id="RUI_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="110" y="260">RUI_16</tspan>
             </text>
             <text id="Y_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1225" y="344">Y_12</tspan>
+                <tspan x="60" y="410">Y_12</tspan>
+            </text>
+            <text id="Y_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="145" y="410">Y_14</tspan>
+            </text>
+            <text id="Y_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="265" y="302">Y_16</tspan>
+            </text>
+            <text id="Y_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="168" y="260">Y_02</tspan>
+            </text>
+            <text id="Y_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="255" y="364">Y_04</tspan>
+            </text>
+            <text id="Y_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="335" y="364">Y_06</tspan>
+            </text>
+            <text id="Y_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="420" y="364">Y_08</tspan>
+            </text>
+            <text id="Y_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="515" y="364">Y_10</tspan>
+            </text>
+            <text id="MAM_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="625" y="364">MAM_02</tspan>
+            </text>
+            <text id="MAM_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="720" y="364">MAM_04</tspan>
+            </text>
+            <text id="MAM_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="770" y="364">MAM_06</tspan>
+            </text>
+            <text id="MAM_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="905" y="364">MAM_08</tspan>
+            </text>
+            <text id="MAM_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="945" y="364">MAM_10</tspan>
+            </text>
+            <text id="MAM_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1045" y="364">MAM_12</tspan>
+            </text>
+            <text id="ANT_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1160" y="364">ANT_02</tspan>
+            </text>
+            <text id="ANT_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1230" y="344">ANT_04</tspan>
             </text>
             
             <!-- VIA TO RUI -->
@@ -7726,8 +7747,7 @@ var mimicscreendata = [
             <line x1="40" y1="172" x2="75" y2="172" class="TrackCircuit_RUI_15" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="77" y1="172" x2="175" y2="172" class="TrackCircuit_RUI_17" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="177" y1="172" x2="245" y2="172" class="TrackCircuit_Y_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="247" y1="172" x2="275" y2="172" class="TrackCircuit_Y_03" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="277" y1="172" x2="306" y2="172" class="TrackCircuit_Y_05" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="247" y1="172" x2="306" y2="172" class="TrackCircuit_Y_03" stroke="#FFFF06" stroke-width="10"></line>
             <!-- VIA 2 -->
             <line x1="5" y1="247" x2="50" y2="247" class="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="52" y1="247" x2="90" y2="247" class="TrackCircuit_RUI_14" stroke="#FFFF06" stroke-width="10"></line>
@@ -8253,10 +8273,10 @@ var mimicscreendata = [
             </g>
 
             <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
-                <tspan x="5" y="102">TO AJU</tspan>
+                <tspan x="5" y="280">↑ TO AJU</tspan>
             </text>
             <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
-                <tspan x="5" y="475">TO ZOO</tspan>
+                <tspan x="5" y="305">↓ TO ZOO</tspan>
             </text>
 
             <g id="PageButton_ZOOLOGICO" transform="translate(15, 15)">
@@ -8351,222 +8371,228 @@ var mimicscreendata = [
             <text id="SB" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
                 <tspan x="573.998535" y="192">V1</tspan>
             </text>
-            <g class="TrainDescriber_TAK_03T" transform="translate(204, 422)" opacity="0">
+
+            <!-- TRAIN DESCRIBER VIA 1-->
+            <g class="TrainDescriber_RUI_13" transform="translate(5, 60)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_RUI_15" transform="translate(45, 60)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_RUI_17" transform="translate(115, 60)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_11" transform="translate(30, 462)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_13" transform="translate(105, 462)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_15" transform="translate(230, 462)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_01" transform="translate(200, 60)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_03" transform="translate(245, 60)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_05" transform="translate(310, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_07" transform="translate(395, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_09" transform="translate(545, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_01" transform="translate(660, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_03" transform="translate(720, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_05" transform="translate(805, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_07" transform="translate(900, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_09" transform="translate(960, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_11" transform="translate(1045, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_01" transform="translate(1160, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_03" transform="translate(1230, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+
+            <!-- TRAIN DESCRIBER VIA 2-->
+            <g class="TrainDescriber_Y_12" transform="translate(55, 486)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_14" transform="translate(150, 486)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_16" transform="translate(245, 486)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_02" transform="translate(165, 85)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_04" transform="translate(240, 85)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_06" transform="translate(310, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_08" transform="translate(395, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_Y_10" transform="translate(520, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_02" transform="translate(625, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_04" transform="translate(720, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_06" transform="translate(805, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_08" transform="translate(900, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_10" transform="translate(960, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_MAM_12" transform="translate(1045, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_02" transform="translate(1160, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_04" transform="translate(1230, 422)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+
+            <g class="TrainDescriber_Y_18" transform="translate(513, 286)" opacity="0">
                 <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
                     <tspan x="6" y="13">0000</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TAK_01T" transform="translate(99, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_02T" transform="translate(99, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_04T" transform="translate(173, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_06T" transform="translate(231, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_08T" transform="translate(314, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_05T" transform="translate(314, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_07T" transform="translate(395, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_09T" transform="translate(508, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_11T" transform="translate(657, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_13T" transform="translate(769, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_01T" transform="translate(859, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_03T" transform="translate(958, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_05T" transform="translate(1027, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_07T" transform="translate(1090, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_SIS_01T" transform="translate(1164, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_SIS_03T" transform="translate(1214, 422)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_17T" transform="translate(343, 234)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_27T" transform="translate(627, 234)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_25T" transform="translate(567, 286)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_23T" transform="translate(513, 286)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_21T" transform="translate(457, 286)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_19T" transform="translate(402, 286)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_10T" transform="translate(485, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_12T" transform="translate(657, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_14T" transform="translate(751, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_02T" transform="translate(815, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_04T" transform="translate(869, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_06T" transform="translate(928, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_08T" transform="translate(987, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_10T" transform="translate(1056, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_OSM_12T" transform="translate(1117, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_SIS_02T" transform="translate(1167, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_SIS_04T" transform="translate(1214, 112)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_15T" transform="translate(41, 234)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TAK_29T" transform="translate(41, 234)" opacity="0">
-                <rect id="Rectangle" fill="#00B5E2" x="0" y="0" width="50" height="20"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="6" y="13">0000</tspan>
-                </text>
-            </g>
+            
             <g id="HoldButton_TAKSIM_P1" transform="translate(611, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">

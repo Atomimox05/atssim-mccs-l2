@@ -32,11 +32,11 @@ interlocking.getCycleFromName("Y_2").enable()
 var trains = []
 trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("AJU_02"), "southbound", interlocking, ats))
 trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("ZOO_06"), "northbound", interlocking, ats))
-trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("RUI_11"), "southbound", interlocking, ats))
+trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("RUI_05"), "southbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("CRC_03"), "southbound", interlocking, ats))
-trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("MAM_07"), "southbound", interlocking, ats))
+trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("ANT_03"), "southbound", interlocking, ats))
 trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("Y_14"), "northbound", interlocking, ats))
-//trains.push(new Train("19", 6, map, track, map.getTrackCircuitFromName("AJU_08"), "southbound", interlocking, ats))
+trains.push(new Train("07", 6, map, track, map.getTrackCircuitFromName("Y_18"), "northbound", interlocking, ats))
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {
     var startTrackCircuit = interlocking.getTrackCircuitFromName(startTrackCircuitName)
