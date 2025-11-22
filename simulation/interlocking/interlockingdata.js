@@ -3,6 +3,32 @@
 var interlockingData = {
     cycles: [
         {
+            name: "ZOO_1",
+            routes: {
+                "entry": {
+                    start: "ZOO03",
+                    end: "SP3"
+                },
+                "exit": {
+                    start: "ZOO01",
+                    end: "ZOO06"
+                }
+            }
+        },
+        {
+            name: "ZOO_2",
+            routes: {
+                "entry": {
+                    start: "ZOO07",
+                    end: "ZOO04"
+                },
+                "exit": {
+                    start: "ZOO06",
+                    end: "CRC02"
+                }
+            }
+        },
+        {
             name: "Y_1",
             routes: {
                 "entry": {

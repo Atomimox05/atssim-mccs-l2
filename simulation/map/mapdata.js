@@ -647,8 +647,8 @@ let mapData = {
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "Y_A5",
-                normal: "endOfTrack",
-                reverse: "Y_08"
+                normal: "Y_08",
+                reverse: "Y_07"
             },
             length: 1
         },
