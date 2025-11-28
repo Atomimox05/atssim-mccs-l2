@@ -8867,7 +8867,7 @@ var mimicscreendata = [
 </svg>`,
   },
   {
-    name: "ANT",
+    name: "ANTIMANO",
     svg: `
 <svg width="1266px" height="815px" viewBox="0 0 1266 815" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
@@ -11287,8 +11287,8 @@ var mimicscreendata = [
                 <tspan x="1230" y="344">TRC_01</tspan>
             </text>
 
-            <!-- Platform AYACUCHO -->
-            <g id="Ayacucho" transform="translate(475, 222)">
+            <!-- Platform ANTIMANO -->
+            <g id="Antimano" transform="translate(405, 222)">
                 <rect id="Rectangle" stroke="#000000" x="45.5" y="-60" width="49" height="19"></rect>
                 <rect id="Rectangle" stroke="#000000" x="95.5" y="-60" width="49" height="19"></rect>
                 <rect id="Rectangle" stroke="#000000" x="45.5" y="150" width="49" height="19"></rect>
@@ -11301,78 +11301,15 @@ var mimicscreendata = [
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
                     <text id="STATION" font-family="CourierNewPS-BoldMT, Consolas" font-size="16" font-weight="bold" fill="#000000">
-                        <tspan x="25" y="21">AYACUCHO</tspan>
+                        <tspan x="25" y="21">ANTÍMANO</tspan>
                     </text>
                 </g>
             </g>
 
-            <!-- AYACUCHO - Vía 2 (y=200) -->
-            <line x1="5" y1="200" x2="70" y2="200" class="TrackCircuit_ALP_12" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
-            <line x1="72" y1="200" x2="130" y2="200" class="TrackCircuit_ALP_14" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="132" y1="200" x2="210" y2="200" class="TrackCircuit_AYA_02" stroke="#FFFF06" stroke-width="10"></line>
-            <g id="Point_AYA_A2" transform="translate(212, 183.5)">
-                <line x1="66.4290698" y1="16.4121395" x2="152.4290698" y2="16.4860835" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
-                <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
-                <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
-                <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
-            </g>
-            <g id="Point_AYA_A4" transform="translate(520, 183.5) scale(-1, 1)">
-                <line x1="66.4290698" y1="16.4121395" x2="152.4290698" y2="16.4860835" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
-                <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
-                <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
-                <line x1="11.5702584" y1="34.241902" x2="28.619282" y2="-2.49481349" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
-            </g>
-            <line x1="522" y1="200" x2="622" y2="200" class="TrackCircuit_AYA_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="624" y1="200" x2="700" y2="200" class="TrackCircuit_AYA_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="863" y1="200" x2="930" y2="200" class="TrackCircuit_AYA_16" stroke="#FFFF06" stroke-width="10"></line>
-
-            <!-- VIA 1 -->
-            <line x1="5" y1="350" x2="70" y2="350" class="TrackCircuit_ALP_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="72" y1="350" x2="130" y2="350" class="TrackCircuit_ALP_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="132" y1="350" x2="210" y2="350" class="TrackCircuit_AYA_01" stroke="#FFFF06" stroke-width="10"></line>
-            <g id="Point_AYA_A1" transform="translate(312, 321) scale(-1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
-                <line x1="66.4290698" y1="16.4121395" x2="152.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
-                <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
-                <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
-                <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
-            </g>
-            <g id="Point_AYA_A3" transform="translate(420.8, 321) scale(1, -1) translate(-402.2145, -323.0472)translate(349, 277.7)">
-                <line x1="66.4290698" y1="16.4121395" x2="152.42907" y2="16.3943778" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
-                <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
-                <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
-                <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
-            </g>
-            <line x1="522" y1="350" x2="622" y2="350" class="TrackCircuit_AYA_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="624" y1="350" x2="700" y2="350" class="TrackCircuit_AYA_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="863" y1="350" x2="930" y2="350" class="TrackCircuit_AYA_15" stroke="#FFFF06" stroke-width="10"></line>
-
-            <!-- CV AYACUCHO -->
-            <path d="M762.9756,240.621795 L798.00236,311 M799.00319,238.62 L760,310.55" class="TrackCircuit_AYA_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
-            <g id="Point_AYA_A7" transform="translate(821, 340) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
-                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
-                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
-                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
-                <line x1="79.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
-            </g>
-            <g id="Point_AYA_A5" transform="translate(702, 313.3)">
-                <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="62.9521506" y1="36.7879002" x2="77" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="46.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
-                <line x1="30.9040235" y1="24.2171927" x2="58.4940984" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(44.6991, 24.2131) scale(-1, 1) rotate(65) translate(-44.6991, -24.2131)"></line>
-                <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
-                <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
-            </g>
-            <g id="Point_AYA_A8" transform="translate(822, 210) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+            <!-- ANTIMANO - Vía 1 (y=200) -->
+            <line x1="5" y1="200" x2="100" y2="200" class="TrackCircuit_ANT_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->  
+            <line x1="102" y1="200" x2="222" y2="200" class="TrackCircuit_ANT_03" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_ANT_A3" transform="translate(345.5, 210) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
                 <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="66.3531195" y1="36.7844779" x2="76.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
@@ -11380,7 +11317,7 @@ var mimicscreendata = [
                 <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
-            <g id="Point_AYA_A6" transform="translate(739, 210) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+            <g id="Point_ANT_A1" transform="translate(262, 210) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
                 <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="66.3531195" y1="36.7844779" x2="81.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
@@ -11388,7 +11325,36 @@ var mimicscreendata = [
                 <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
+           <line x1="386" y1="200" x2="436" y2="200" class="TrackCircuit_ANT_09" stroke="#FFFF06" stroke-width="10"></line>
+           <line x1="438" y1="200" x2="500" y2="200" class="TrackCircuit_ANT_11" stroke="#FFFF06" stroke-width="10"></line>
+           <line x1="502" y1="200" x2="564" y2="200" class="TrackCircuit_ANT_13" stroke="#FFFF06" stroke-width="10"></line>
 
+            <!-- VIA 2 -->
+            <line x1="5" y1="350" x2="100" y2="350" class="TrackCircuit_ANT_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="102" y1="350" x2="222" y2="350" class="TrackCircuit_ANT_04" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_ANT_A4" transform="translate(344, 339.9) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
+                <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
+                <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
+                <line x1="79.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+            </g>
+            <g id="Point_ANT_A2" transform="translate(224, 313.3)">
+                <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="62.9521506" y1="36.7879002" x2="77" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="46.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
+                <line x1="30.9040235" y1="24.2171927" x2="58.4940984" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(44.6991, 24.2131) scale(-1, 1) rotate(65) translate(-44.6991, -24.2131)"></line>
+                <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
+            </g>
+            <line x1="385" y1="350" x2="436" y2="350" class="TrackCircuit_ANT_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="438" y1="350" x2="500" y2="350" class="TrackCircuit_ANT_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="502" y1="350" x2="564" y2="350" class="TrackCircuit_ANT_14" stroke="#FFFF06" stroke-width="10"></line>
+
+            <!-- CV AYACUCHO -->
+            <path d="M762.9756,240.621795 L798.00236,311 M799.00319,238.62 L760,310.55" class="TrackCircuit_AYA_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+            
             <!-- CARRIZALITO VIA 2 -->
             <line x1="932" y1="200" x2="980" y2="200" class="TrackCircuit_TCA_02" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="982" y1="200" x2="1030" y2="200" class="TrackCircuit_TCA_04" stroke="#FFFF06" stroke-width="10"></line>
