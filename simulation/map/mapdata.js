@@ -849,19 +849,19 @@ let mapData = {
             signals: {
                 northbound: "ANT07" //H
             },
-            length: 3
+            length: 4
         },
         {
             name: "ANT_15",
             southbound: "ANT_13",
             northbound: "ANT_17",
-            length: 2
+            length: 4
         },
         {
             name: "ANT_17",
             southbound: "ANT_15",
             northbound: "ANT_19",
-            length: 2
+            length: 4
         },
         {
             name: "ANT_19",
@@ -933,19 +933,19 @@ let mapData = {
             signals: {
                 northbound: "ANT08" //E
             },
-            length: 3
+            length: 4
         },
         {
             name: "ANT_16",
             southbound: "ANT_14",
             northbound: "ANT_18",
-            length: 2
+            length: 4
         },
         {
             name: "ANT_18",
             southbound: "ANT_16",
             northbound: "ANT_20",
-            length: 2
+            length: 4
         },
         {
             name: "ANT_20",
@@ -959,10 +959,10 @@ let mapData = {
         {
             name: "ANT_CV",
             crossTrackCircuit: true,
-            southboundLineSouthboundDirection: "AJU_06",
-            southboundLineNorthboundDirection: "AJU_08",
-            northboundLineSouthboundDirection: "AJU_05",
-            northboundLineNorthboundDirection: "AJU_07",
+            southboundLineSouthboundDirection: "ANT_06",
+            southboundLineNorthboundDirection: "ANT_08",
+            northboundLineSouthboundDirection: "ANT_05",
+            northboundLineNorthboundDirection: "ANT_07",
             length: 1
         },
         //CARAPITA

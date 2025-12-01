@@ -11325,9 +11325,12 @@ var mimicscreendata = [
                 <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
-           <line x1="386" y1="200" x2="436" y2="200" class="TrackCircuit_ANT_09" stroke="#FFFF06" stroke-width="10"></line>
-           <line x1="438" y1="200" x2="500" y2="200" class="TrackCircuit_ANT_11" stroke="#FFFF06" stroke-width="10"></line>
-           <line x1="502" y1="200" x2="564" y2="200" class="TrackCircuit_ANT_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="386" y1="200" x2="436" y2="200" class="TrackCircuit_ANT_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="438" y1="200" x2="500" y2="200" class="TrackCircuit_ANT_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="502" y1="200" x2="564" y2="200" class="TrackCircuit_ANT_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="566" y1="200" x2="636" y2="200" class="TrackCircuit_ANT_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="638" y1="200" x2="708" y2="200" class="TrackCircuit_ANT_17" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="710" y1="200" x2="780" y2="200" class="TrackCircuit_ANT_19" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA 2 -->
             <line x1="5" y1="350" x2="100" y2="350" class="TrackCircuit_ANT_02" stroke="#FFFF06" stroke-width="10"></line>
@@ -11351,9 +11354,12 @@ var mimicscreendata = [
             <line x1="385" y1="350" x2="436" y2="350" class="TrackCircuit_ANT_10" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="438" y1="350" x2="500" y2="350" class="TrackCircuit_ANT_12" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="502" y1="350" x2="564" y2="350" class="TrackCircuit_ANT_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="566" y1="350" x2="636" y2="350" class="TrackCircuit_ANT_16" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="638" y1="350" x2="708" y2="350" class="TrackCircuit_ANT_18" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="710" y1="350" x2="780" y2="350" class="TrackCircuit_ANT_20" stroke="#FFFF06" stroke-width="10"></line>
 
-            <!-- CV AYACUCHO -->
-            <path d="M762.9756,240.621795 L798.00236,311 M799.00319,238.62 L760,310.55" class="TrackCircuit_AYA_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+            <!-- CV ANTIMANO -->
+            <path d="M284.9,239 L320.5,311 M322.4,239 L281.9,311" class="TrackCircuit_ANT_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
             
             <!-- CARRIZALITO VIA 2 -->
             <line x1="932" y1="200" x2="980" y2="200" class="TrackCircuit_TCA_02" stroke="#FFFF06" stroke-width="10"></line>
@@ -11373,184 +11379,206 @@ var mimicscreendata = [
             <line x1="1182" y1="350" x2="1230" y2="350" class="TrackCircuit_TCA_11" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1232" y1="350" x2="1260" y2="350" class="TrackCircuit_TRC_01" stroke="#FFFF06" stroke-width="10"></line>
 
-            <!-- Signals AYACUCHO VIA 1 -->
-                <g id="Button_ALP07" transform="translate(25, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+            <!-- Signals ANTIMANO VIA 1 -->
+                <g id="Button_MAM03" transform="translate(25, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_ALP07" transform="translate(12, 386)">
+                <g id="Cancel_MAM03" transform="translate(12, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-            <g id="Signal_AYA01" transform="translate(220, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+            <g id="Signal_ANT01" transform="translate(95, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA01" transform="translate(185, 361)">
+                <g id="Button_ANT01" transform="translate(120, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA01" transform="translate(182, 386)">
+                <g id="Cancel_ANT01" transform="translate(107, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="220" y="390">J</tspan>
+                <text id="ANT01" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="89" y="170">L</tspan>
                 </text>
-                <g id="Fleeting_AYA01" transform="translate(210, 323)">
+                <g id="Fleeting_ANT01" transform="translate(85, 211)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_AYA03" transform="translate(513, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+            <g id="Signal_ANT03" transform="translate(230, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA03" transform="translate(506, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                <g id="Button_ANT03" transform="translate(195, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA03" transform="translate(493, 386)">
+                <g id="Cancel_ANT03" transform="translate(192, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="489" y="333">X6</tspan>
+                <text id="ANT03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="230" y="169">K</tspan>
                 </text>
-            <g id="Signal_AYA05" transform="translate(630, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+            <g id="Signal_ANT05" transform="translate(422, 205)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA05" transform="translate(625, 361)">
+                <g id="Button_ANT05" transform="translate(435, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA05" transform="translate(622, 386)">
+                <g id="Cancel_ANT05" transform="translate(421, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="642" y="333">X4</tspan>
+                <text id="ANT05" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="425" y="240">J</tspan>
                 </text>
-                <g id="Fleeting_AYA05" transform="translate(597, 323)">
+                <g id="Fleeting_ANT05" transform="translate(446, 211)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_AYA07" transform="translate(845, 356)" stroke="#000000">
+            <g id="Signal_ANT07" transform="translate(570, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA07" transform="translate(880, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                <g id="Button_ANT07" transform="translate(555, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA07" transform="translate(867, 385)">
+                <g id="Cancel_ANT07" transform="translate(553, 135)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="848" y="390">K</tspan>
+                <text id="ANT07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="570" y="240">H</tspan>
                 </text>
-            <text id="ZR3" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="930" y="390">ZR3</tspan>
-            </text>
-            <g id="ShuntingPanel_ZR3" transform="translate(930, 357)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
+            <g id="Signal_ANT09" transform="translate(705, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
+                <g id="Button_ANT09" transform="translate(730, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_ANT09" transform="translate(717, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="ANT09" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="699" y="170">G</tspan>
+                </text>
+                <g id="Fleeting_ANT09" transform="translate(690, 211)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
 
-            <!-- Signals AYACUCHO VIA 2 -->
-                <g id="Button_ALP08" transform="translate(25, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+            <!-- Signals ANTIMANO VIA 2 -->
+                <g id="Button_MAM04" transform="translate(25, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_ALP08" transform="translate(12, 135)">
+                <g id="Cancel_MAM04" transform="translate(12, 386)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-            <g id="Signal_AYA02" transform="translate(220, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
+            <g id="Signal_ANT02" transform="translate(85, 356)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA02" transform="translate(185, 170)">
+                <g id="Button_ANT02" transform="translate(119, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA02" transform="translate(182, 135)">
+                <g id="Cancel_ANT02" transform="translate(105, 385)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="220" y="169">D</tspan>
+                <text id="ANT02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="88" y="390">B</tspan>
                 </text>
-            <g id="Signal_AYA04" transform="translate(505, 205)" stroke="#000000">
+            <g id="Signal_ANT04" transform="translate(228, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA04" transform="translate(507, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                <g id="Button_ANT04" transform="translate(193, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA04" transform="translate(494, 135)">
+                <g id="Cancel_ANT04" transform="translate(190, 386)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="489" y="225">X7</tspan>
+                <text id="ANT04" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="226" y="390">C</tspan>
                 </text>
-                <g id="Fleeting_AYA04" transform="translate(527, 211)">
+                <g id="Fleeting_ANT04" transform="translate(220, 323)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_AYA06" transform="translate(630, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
+            <g id="Signal_ANT06" transform="translate(431, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA06" transform="translate(625, 170)">
+                <g id="Button_ANT06" transform="translate(436, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA06" transform="translate(622, 135)">
+                <g id="Cancel_ANT06" transform="translate(423, 386)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="642" y="225">X5</tspan>
+                <text id="ANT06" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="425" y="320">D</tspan>
                 </text>
-            <g id="Signal_AYA08" transform="translate(855, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#000000">
+            <g id="Signal_ANT08" transform="translate(570, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-                <g id="Button_AYA08" transform="translate(880, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                <g id="Button_ANT08" transform="translate(555, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_AYA08" transform="translate(867, 135)">
+                <g id="Cancel_ANT08" transform="translate(552, 386)">
                     <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="AYA08" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="848" y="170">C</tspan>
+                <text id="ANT08" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="570" y="320">E</tspan>
                 </text>
-                <g id="Fleeting_AYA08" transform="translate(840, 211)">
+                <g id="Fleeting_ANT08" transform="translate(535, 323)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <text id="ZR4" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
-                <tspan x="930" y="237.5">ZR4</tspan>
-            </text>
-            <g id="ShuntingPanel_ZR4" transform="translate(930, 207)" stroke="#000000">
-                <rect id="Rectangle" fill="#AFB2C1" x="4.5" y="10.5" width="11" height="11"></rect>
-                <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
+            <g id="Signal_ANT10" transform="translate(695, 356)" stroke="#000000">
+                <polyline id="foot" points="18 0 18 15 12 15"></polyline>
+                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
             </g>
-
+                <g id="Button_ANT10" transform="translate(730, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_ANT10" transform="translate(717, 385)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+                <text id="ANT10" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
+                    <tspan x="700" y="390">F</tspan>
+                </text>
+            
             <!-- SIGNALS CARRIZALITO -->
             <g id="Signal_TCA02" transform="translate(1088, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#000000">
                 <polyline id="foot" points="18 0 18 15 12 15"></polyline>
@@ -11784,22 +11812,22 @@ var mimicscreendata = [
             <rect id="Rectangle" fill="#FFFFFF" x="1264" y="0" width="2" height="815"></rect>
             <rect id="Rectangle" fill="#000000" x="0" y="0" width="1266" height="2"></rect>
             
-            <g id="PageButton_INDEPENDENCIA" transform="translate(15, 15)">
+            <g id="PageButton_Y" transform="translate(15, 15)">
                 <g id="Rectangle">
                     <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-72)" xlink:href="#path-l6_a5lxqar-71"></use>
                     <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-71"></use>
                 </g>
                 <text id="IDP" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
-                    <tspan x="11.9970703" y="21">IDP</tspan>
+                    <tspan x="25" y="21">Y</tspan>
                 </text>
             </g>
-            <g id="PageButton_ADJUNTAS" transform="translate(1191, 15)">
+            <g id="PageButton_PAZ" transform="translate(1191, 15)">
                 <g id="Rectangle">
                     <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-74)" xlink:href="#path-l6_a5lxqar-73"></use>
                     <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-73"></use>
                 </g>
                 <text id="TAK" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
-                    <tspan x="11.9970703" y="21">AJU</tspan>
+                    <tspan x="11.9970703" y="21">PAZ</tspan>
                 </text>
             </g>
             
