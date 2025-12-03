@@ -239,7 +239,7 @@ let mapData = {
                 southbound: "RUI03",//J
                 northbound: "RUI05"//H
             },
-            length: 7
+            length: 8
         },
         {
             name: "RUI_13",
@@ -971,7 +971,7 @@ let mapData = {
             name: "CRP_01",
             southbound: "ANT_19",
             northbound: "CRP_03",
-            length: 7
+            length: 9
         },
         {
             name: "CRP_03",
@@ -1005,7 +1005,7 @@ let mapData = {
             name: "CRP_02",
             southbound: "ANT_20",
             northbound: "CRP_04",
-            length: 7
+            length: 9
         },
         {
             name: "CRP_04",
@@ -1848,11 +1848,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "ANT_13",
-                position: 6
+                position: 3
             },
             southbound: {
                 trackCircuit: "ANT_11",
-                position: 3
+                position: 2
             },
         },
         {
@@ -1860,7 +1860,7 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "ANT_14",
-                position: 6
+                position: 2
             },
             southbound: {
                 trackCircuit: "ANT_12",
