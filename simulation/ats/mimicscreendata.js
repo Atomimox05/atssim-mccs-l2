@@ -10821,7 +10821,7 @@ var mimicscreendata = [
                 <text id="MT1" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
                     <tspan x="4.49780273" y="104">V1</tspan>
                 </text>
-                <g id="StationName" transform="translate(500, 53)">
+                <g id="StationName" transform="translate(435, 53)">
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-2)" xlink:href="#path-l6_a5lxqar-1"></use>
                         <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-1"></use>
@@ -10829,12 +10829,18 @@ var mimicscreendata = [
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
                     <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="45" y="21">AYA</tspan>
+                        <tspan x="45" y="21">ANT</tspan>
                     </text>
                 </g>
-                <g id="StationName" transform="translate(1030, 53)">    
+                <g id="StationName" transform="translate(892, 53)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-2)" xlink:href="#path-l6_a5lxqar-1"></use>
+                        <use fill="#AFB2C1" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-3)" xlink:href="#path-l6_a5lxqar-1"></use>
+                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
+                    </g>
                     <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#000000">
-                        <tspan x="26.4941406" y="21">TCA</tspan>
+                        <tspan x="45" y="21">CRP</tspan>
                     </text>
                 </g>
             </g>
@@ -10853,65 +10859,65 @@ var mimicscreendata = [
                 <tspan x="1235" y="330">V2</tspan>
             </text>
 
-            <!-- DIRECTION ARROWS VIA 2 -->
-            <g class="DirectionArrow_AYA_02" transform="translate(120, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g class="DirectionArrow_AYA_08" transform="translate(515, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g class="DirectionArrow_AYA_16" transform="translate(850, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
-            <g class="DirectionArrow_TCA_06" transform="translate(1000, 72)">
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
-                <g id="southboundlight">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
-                </g>
-                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
-                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
-                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
-                </g>
-                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
-                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
-            </g>
             <!-- DIRECTION ARROWS VIA 1 -->
-            <g class="DirectionArrow_AYA_01" transform="translate(120, 457)">
+            <g class="DirectionArrow_ANT_05" transform="translate(110, 72)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
+                </g>
+                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
+            <g class="DirectionArrow_ANT_11" transform="translate(450, 72)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
+                </g>
+                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
+            <g class="DirectionArrow_ANT_19" transform="translate(720, 72)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
+                </g>
+                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
+            <g class="DirectionArrow_CRP_03" transform="translate(905, 72)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
+                </g>
+                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
+            <!-- DIRECTION ARROWS VIA 2 -->
+            <g class="DirectionArrow_ANT_04" transform="translate(110, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -10925,7 +10931,7 @@ var mimicscreendata = [
                 <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_AYA_07" transform="translate(515, 457)">
+            <g class="DirectionArrow_ANT_14" transform="translate(450, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -10939,7 +10945,7 @@ var mimicscreendata = [
                 <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_AYA_15" transform="translate(850, 457)">
+            <g class="DirectionArrow_ANT_20" transform="translate(720, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -10953,7 +10959,7 @@ var mimicscreendata = [
                 <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_TCA_07" transform="translate(1060, 457)">
+            <g class="DirectionArrow_CRP_06" transform="translate(905, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -10966,325 +10972,290 @@ var mimicscreendata = [
                 </g>
                 <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
+
+            <!-- TRAIN DESCRIBER VIA 1 -->
+            <g class="TrainDescriber_ANT_01" transform="translate(35, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_03" transform="translate(145, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_05" transform="translate(250, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_07" transform="translate(330, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_09" transform="translate(390, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_11" transform="translate(455, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_13" transform="translate(515, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_15" transform="translate(590, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_17" transform="translate(670, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_ANT_19" transform="translate(770, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CRP_01" transform="translate(835, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CRP_03" transform="translate(910, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CRP_05" transform="translate(970, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CRP_07" transform="translate(1070, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CRP_09" transform="translate(1190, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
             </g>
 
             <!-- TRAIN DESCRIBER VIA 2-->
-            <g class="TrainDescriber_ALP_12" transform="translate(20, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_02" transform="translate(35, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_ALP_14" transform="translate(85, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_04" transform="translate(145, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_02" transform="translate(160, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_06" transform="translate(250, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_04" transform="translate(280, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_08" transform="translate(330, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_06" transform="translate(420, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_10" transform="translate(390, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_08" transform="translate(555, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_12" transform="translate(455, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_10" transform="translate(650, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_14" transform="translate(515, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_12" transform="translate(730, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_16" transform="translate(590, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_14" transform="translate(810, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_18" transform="translate(670, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AYA_16" transform="translate(875, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_20" transform="translate(770, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCA_02" transform="translate(940, 110)" opacity="0">
+            <g class="TrainDescriber_ANT_CV" transform="translate(350, 265)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCA_04" transform="translate(990, 110)" opacity="0">
+            <g class="TrainDescriber_CRP_02" transform="translate(835, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCA_06" transform="translate(1040, 110)" opacity="0">
+            <g class="TrainDescriber_CRP_04" transform="translate(910, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCA_08" transform="translate(1090, 110)" opacity="0">
+            <g class="TrainDescriber_CRP_06" transform="translate(970, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCA_10" transform="translate(1140, 110)" opacity="0">
+            <g class="TrainDescriber_CRP_08" transform="translate(1070, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCA_12" transform="translate(1190, 110)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TRC_02" transform="translate(1230, 110)" opacity="0">
+            <g class="TrainDescriber_CRP_10" transform="translate(1190, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
 
-            <!-- TRAIN DESCRIBER VIA 1-->
-            <g class="TrainDescriber_ALP_11" transform="translate(20, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_ALP_13" transform="translate(85, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_01" transform="translate(160, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_03" transform="translate(280, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_05" transform="translate(420, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_07" transform="translate(555, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_09" transform="translate(650, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_11" transform="translate(730, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_13" transform="translate(810, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_15" transform="translate(875, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AYA_CV" transform="translate(820, 265)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TCA_01" transform="translate(940, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TCA_03" transform="translate(990, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TCA_05" transform="translate(1040, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TCA_07" transform="translate(1090, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TCA_09" transform="translate(1140, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TCA_11" transform="translate(1190, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_TRC_01" transform="translate(1230, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
+            <!-- CIRCUITOS DE VIA - VIA 1 -->
+            <text id="ANT_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="35" y="214">ANT_01</tspan>
+            </text>
+            <text id="ANT_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="145" y="190">ANT_03</tspan>
+            </text>
+            <text id="ANT_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="250" y="190">ANT_05</tspan>
+            </text>
+            <text id="ANT_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="330" y="190">ANT_07</tspan>
+            </text>
+            <text id="ANT_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="390" y="190">ANT_09</tspan>
+            </text>
+            <text id="ANT_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="465" y="214">ANT_11</tspan>
+            </text>
+            <text id="ANT_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="515" y="214">ANT_13</tspan>
+            </text>
+            <text id="ANT_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="590" y="190">ANT_15</tspan>
+            </text>
+            <text id="ANT_17" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="670" y="190">ANT_17</tspan>
+            </text>
+            <text id="ANT_19" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="770" y="190">ANT_19</tspan>
+            </text>
+            <text id="CRP_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="835" y="190">CRP_01</tspan>
+            </text>
+            <text id="CRP_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="920" y="214">CRP_03</tspan>
+            </text>
+            <text id="CRP_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="970" y="214">CRP_05</tspan>
+            </text>
+            <text id="CRP_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1070" y="190">CRP_07</tspan>
+            </text>
+            <text id="CRP_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1170" y="190">CRP_09</tspan>
+            </text>
 
             <!-- CIRCUITOS DE VIA - VIA 2 -->
-            <text id="ALP_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="20" y="214">ALP_12</tspan>
+            <text id="ANT_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="35" y="344">ANT_02</tspan>
             </text>
-            <text id="ALP_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="85" y="190">ALP_14</tspan>
+            <text id="ANT_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="145" y="365">ANT_04</tspan>
             </text>
-            <text id="AYA_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="150" y="190">AYA_02</tspan>
+            <text id="ANT_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="250" y="365">ANT_06</tspan>
             </text>
-            <text id="AYA_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="300" y="190">AYA_04</tspan>
+            <text id="ANT_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="330" y="365">ANT_08</tspan>
             </text>
-            <text id="AYA_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="400" y="190">AYA_06</tspan>
+            <text id="ANT_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="390" y="365">ANT_10</tspan>
             </text>
-            <text id="AYA_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="555" y="214">AYA_08</tspan>
+            <text id="ANT_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="455" y="344">ANT_12</tspan>
             </text>
-            <text id="AYA_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="655" y="190">AYA_10</tspan>
+            <text id="ANT_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="500" y="344">ANT_14</tspan>
             </text>
-            <text id="AYA_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="740" y="185">AYA_12</tspan>
+            <text id="ANT_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="590" y="365">ANT_16</tspan>
             </text>
-            <text id="AYA_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="790" y="185">AYA_14</tspan>
+            <text id="ANT_18" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="670" y="365">ANT_18</tspan>
             </text>
-            <text id="AYA_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="895" y="190">AYA_16</tspan>
+            <text id="ANT_20" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="770" y="365">AYA_13</tspan>
             </text>
-            <text id="TCA_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="940" y="190">TCA_02</tspan>
+            <text id="CRP_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="835" y="365">CRP_02</tspan>
             </text>
-            <text id="TCA_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="990" y="190">TCA_04</tspan>
+            <text id="CRP_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="910" y="344">CRP_04</tspan>
             </text>
-            <text id="TCA_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1032" y="190">TCA_06</tspan>
+            <text id="CRP_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="960" y="344">CRP_06</tspan>
             </text>
-            <text id="TCA_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1090" y="214">TCA_08</tspan>
+            <text id="CRP_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1070" y="365">CRP_08</tspan>
             </text>
-            <text id="TCA_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1140" y="190">TCA_10</tspan>
-            </text>
-            <text id="TCA_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1190" y="190">TCA_12</tspan>
-            </text>
-            <text id="TRC_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1230" y="214">TRC_02</tspan>
-            </text>
-            <!-- CIRCUITOS DE VIA - VIA 1 -->
-            <text id="ALP_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="20" y="344">ALP_11</tspan>
-            </text>
-            <text id="ALP_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="85" y="365">ALP_13</tspan>
-            </text>
-            <text id="AYA_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="150" y="365">AYA_01</tspan>
-            </text>
-            <text id="AYA_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="250" y="365">AYA_03</tspan>
-            </text>
-            <text id="AYA_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="450" y="365">AYA_05</tspan>
-            </text>
-            <text id="AYA_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="555" y="344">AYA_07</tspan>
-            </text>
-            <text id="AYA_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="655" y="365">AYA_09</tspan>
-            </text>
-            <text id="AYA_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="740" y="370">AYA_11</tspan>
-            </text>
-            <text id="AYA_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="790" y="370">AYA_13</tspan>
-            </text>
-            <text id="AYA_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="895" y="365">AYA_15</tspan>
-            </text>
-            <text id="TCA_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="940" y="365">TCA_01</tspan>
-            </text>
-            <text id="TCA_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="990" y="365">TCA_03</tspan>
-            </text>
-            <text id="TCA_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1032" y="344">TCA_05</tspan>
-            </text>
-            <text id="TCA_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1090" y="365">TCA_07</tspan>
-            </text>
-            <text id="TCA_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1140" y="365">TCA_09</tspan>
-            </text>
-            <text id="TCA_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1190" y="365">TCA_11</tspan>
-            </text>
-            <text id="TRC_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1230" y="344">TRC_01</tspan>
+            <text id="CRP_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1170" y="365">CRP_10</tspan>
             </text>
 
             <!-- Platform ANTIMANO -->
@@ -11496,6 +11467,14 @@ var mimicscreendata = [
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
+                <g id="Button_PAZ01" transform="translate(1236, 170)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_PAZ01" transform="translate(1233, 135)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
 
             <!-- Signals ANTIMANO VIA 2 -->
                 <g id="Button_MAM04" transform="translate(25, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
@@ -11636,6 +11615,14 @@ var mimicscreendata = [
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
+                </g>
+                <g id="Button_YAG02" transform="translate(1236, 361)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_YAG02" transform="translate(1232.5, 386)">
+                    <circle id="circle" stroke="#000000" fill="#9496A2" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
 
             <g id="ControlBar" transform="translate(0, 695)">
@@ -14295,13 +14282,13 @@ var mimicscreendata = [
             <rect id="Rectangle" fill="#FFFFFF" x="1264" y="0" width="2" height="815"></rect>
             <rect id="Rectangle" fill="#000000" x="0" y="0" width="1266" height="2"></rect>
 
-            <g id="PageButton_AYACUCHO" transform="translate(15, 15)">
+            <g id="PageButton_ANTIMANO" transform="translate(15, 15)">
                 <g id="Rectangle">
                     <use fill="black" fill-opacity="1" filter="url(#filter-q4a68nfso5-32)" xlink:href="#path-q4a68nfso5-31"></use>
                     <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-q4a68nfso5-31"></use>
                 </g>
                 <text id="AYA" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
-                    <tspan x="11.9970703" y="21">AYA</tspan>
+                    <tspan x="11.9970703" y="21">ANT</tspan>
                 </text>
             </g>
 

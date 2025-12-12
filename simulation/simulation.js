@@ -15,6 +15,7 @@ interlocking.getSignalFromName("ANT01").requestFleeting()
 interlocking.getSignalFromName("ANT05").requestFleeting()
 interlocking.getSignalFromName("ANT09").requestFleeting()
 interlocking.getSignalFromName("CRP01").requestFleeting()
+interlocking.getSignalFromName("YAG01").requestFleeting()
 
 //VIA 2
 interlocking.getSignalFromName("RUI02").requestFleeting()
@@ -41,9 +42,10 @@ var trains = []
 //trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("ZOO_06"), "northbound", interlocking, ats))
 //trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("RUI_05"), "southbound", interlocking, ats))
 //trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("CRC_03"), "southbound", interlocking, ats))
-//trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("ANT_03"), "southbound", interlocking, ats))
+trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("CRP_09"), "southbound", interlocking, ats))
 //trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("Y_14"), "northbound", interlocking, ats))
 //trains.push(new Train("07", 6, map, track, map.getTrackCircuitFromName("Y_18"), "northbound", interlocking, ats))
+trains.push(new Train("08", 6, map, track, map.getTrackCircuitFromName("ANT_02"), "northbound", interlocking, ats))
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {
     var startTrackCircuit = interlocking.getTrackCircuitFromName(startTrackCircuitName)

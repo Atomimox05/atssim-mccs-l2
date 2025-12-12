@@ -408,7 +408,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "ZOO_A2",
                 normal: "ZOO_02",
-                reverse: "ZOO_04"
+                reverse: "ZOO_03"
             },
             length: 5
         },
@@ -980,7 +980,7 @@ let mapData = {
             signals: {
                 southbound: "CRP01" //S1
             },
-            length: 3
+            length: 4
         },
         {
             name: "CRP_05",
@@ -1011,7 +1011,7 @@ let mapData = {
             name: "CRP_04",
             southbound: "CRP_02",
             northbound: "CRP_06",
-            length: 3
+            length: 4
         },
         {
             name: "CRP_06",
@@ -1884,7 +1884,7 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "CRP_06",
-                position: 6
+                position: 2
             },
             southbound: {
                 trackCircuit: "CRP_04",
