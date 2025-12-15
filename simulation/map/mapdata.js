@@ -643,12 +643,12 @@ let mapData = {
         //VÍA R
         {
             name: "Y_17",
-            southbound: "Y_18",
-            northbound: "dependsOnPoint",
+            southbound: "dependsOnPoint",
+            northbound: "Y_18",
             dependsOnPoint: {
                 point: "Y_A5",
-                normal: "Y_08",
-                reverse: "Y_07"
+                normal: "Y_07",
+                reverse: "Y_08"
             },
             length: 1
         },
