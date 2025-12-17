@@ -1049,7 +1049,7 @@ let mapData = {
             signals: {
                 southbound: "YAG01" //S1
             },
-            length: 7
+            length: 8
         },
         {
             name: "YAG_05",
@@ -1068,7 +1068,7 @@ let mapData = {
             name: "YAG_04",
             southbound: "YAG_02",
             northbound: "YAG_06",
-            length: 3
+            length: 4
         },
         {
             name: "YAG_06",
@@ -1116,7 +1116,7 @@ let mapData = {
                 southbound: "PAZ03", //L
                 northbound: "PAZ05" //K
             },
-            length: 7
+            length: 8
         },
         {
             name: "PAZ_09",
@@ -1207,7 +1207,7 @@ let mapData = {
             signals: {
                 southbound: "PAZ04", //B
             },
-            length: 3
+            length: 4
         },
         {
             name: "PAZ_10",
@@ -1254,7 +1254,7 @@ let mapData = {
             name: "PAZ_18",
             southbound: "PAZ_16",
             northbound: "endOfTrack",
-            length: 3
+            length: 5
         },
         {
             name: "PAZ_CV",
