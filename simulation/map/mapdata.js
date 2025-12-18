@@ -1154,21 +1154,21 @@ let mapData = {
         {
             name: "PAZ_15",
             southbound: "PAZ_13",
-            northbound: "PAZ_17",
+            northbound: "endOfTrack",
             signals: {
                 southbound: "PAZ07", //J
                 northbound: "PAZ09" //H
             },
-            length: 7
+            length: 8
         },
         {
             name: "PAZ_17",
             northbound: "PAZ_19",
             southbound: "dependsOnPoint",
             dependsOnPoint: {
-                point: "PAZ_A7",
+                point: "PAZ_A6",
                 normal: "PAZ_15",
-                reverse: "PAZ_22"
+                reverse: "PAZ_20"
             },
             length: 1
         },
@@ -1243,12 +1243,12 @@ let mapData = {
         {
             name: "PAZ_16",
             southbound: "PAZ_14",
-            northbound: "PAZ_18",
+            northbound: "endOfTrack",
             signals: {
-                southbound: "PAZ06", //D
-                northbound: "PAZ08" //E
+                southbound: "PAZ08", //D
+                northbound: "PAZ10" //E
             },
-            length: 7
+            length: 8
         },
         {
             name: "PAZ_18",
@@ -1268,29 +1268,14 @@ let mapData = {
         {
             name: "PAZ_20",
             southbound: "PAZ_13",
-            northbound: "PAZ_21",
-            length: 2
-        },
-        {
-            name: "PAZ_21",
-            southbound: "PAZ_20",
-            northbound: "PAZ_22",
+            northbound: "PAZ_17",
             signals: {
-                southbound: "PAZ10", //O
-                northbound: "PAZ11" //¿
+                southbound: "PAZ11", //O
             },
-            length: 7
-        },
-        {
-            name: "PAZ_22",
-            southbound: "PAZ_21",
-            northbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "PAZ_A6",
-                normal: "endOfTrack",
-                reverse: "PAZ_17"
+            shuntingPanels: {
+                northbound: "ZR5"
             },
-            length: 1
+            length: 8
         },
     ],
     points: [
@@ -1411,7 +1396,7 @@ let mapData = {
             trackCircuit: "PAZ_13",
         },
         {
-            name: "PAZ_A7",
+            name: "PAZ_A6",
             trackCircuit: "PAZ_17",
         },
         {
@@ -1421,11 +1406,7 @@ let mapData = {
         {
             name: "PAZ_A4",
             trackCircuit: "PAZ_14",
-        },
-        {
-            name: "PAZ_A6",
-            trackCircuit: "PAZ_22",
-        },
+        }
     ],
     signals: [
         {
@@ -1693,12 +1674,8 @@ let mapData = {
             direction: "northbound"
         },
         {
-            name: "PAZ10",
-            direction: "northbound"
-        },
-        {
             name: "PAZ11",
-            direction: "southbound"
+            direction: "northbound"
         },
     ],
     shuntingPanels: [
@@ -1716,6 +1693,10 @@ let mapData = {
         },
         {
             name: "ZR4",
+            direction: "northbound"
+        },
+        {
+            name: "ZR5",
             direction: "northbound"
         },
     ],
@@ -1821,7 +1802,7 @@ let mapData = {
         },
         {
             name: "MAMERA_V1",
-            direction: "northbound",
+            direction: "southbound",
             northbound: {
                 trackCircuit: "MAM_09",
                 position: 3
@@ -1833,7 +1814,7 @@ let mapData = {
         },
         {
             name: "MAMERA_V2",
-            direction: "southbound",
+            direction: "northbound",
             northbound: {
                 trackCircuit: "MAM_10",
                 position: 2
@@ -1845,7 +1826,7 @@ let mapData = {
         },
         {
             name: "ANTIMANO_V1",
-            direction: "northbound",
+            direction: "southbound",
             northbound: {
                 trackCircuit: "ANT_13",
                 position: 3
@@ -1857,7 +1838,7 @@ let mapData = {
         },
         {
             name: "ANTIMANO_V2",
-            direction: "southbound",
+            direction: "northbound",
             northbound: {
                 trackCircuit: "ANT_14",
                 position: 2
@@ -1869,7 +1850,7 @@ let mapData = {
         },
         {
             name: "CARAPITA_V1",
-            direction: "northbound",
+            direction: "southbound",
             northbound: {
                 trackCircuit: "CRP_05",
                 position: 6
@@ -1881,7 +1862,7 @@ let mapData = {
         },
         {
             name: "CARAPITA_V2",
-            direction: "southbound",
+            direction: "northbound",
             northbound: {
                 trackCircuit: "CRP_06",
                 position: 2
@@ -1893,7 +1874,7 @@ let mapData = {
         },
         {
             name: "YAGUARA_V1",
-            direction: "northbound",
+            direction: "southbound",
             northbound: {
                 trackCircuit: "YAG_03",
                 position: 6
@@ -1905,10 +1886,10 @@ let mapData = {
         },
         {
             name: "YAGUARA_V2",
-            direction: "southbound",
+            direction: "northbound",
             northbound: {
                 trackCircuit: "YAG_06",
-                position: 6
+                position: 2
             },
             southbound: {
                 trackCircuit: "YAG_04",
@@ -1917,7 +1898,7 @@ let mapData = {
         },
         {
             name: "PAZ_V1",
-            direction: "northbound",
+            direction: "southbound",
             northbound: {
                 trackCircuit: "PAZ_07",
                 position: 6
@@ -1928,14 +1909,14 @@ let mapData = {
             },
         },
         {
-            name: "YAGUARA_V2",
-            direction: "southbound",
+            name: "PAZ_V2",
+            direction: "northbound",
             northbound: {
-                trackCircuit: "PAZ_08",
-                position: 6
+                trackCircuit: "PAZ_10",
+                position: 2
             },
             southbound: {
-                trackCircuit: "PAZ_06",
+                trackCircuit: "PAZ_08",
                 position: 3
             },
         }

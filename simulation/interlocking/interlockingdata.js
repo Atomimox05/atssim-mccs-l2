@@ -3,18 +3,44 @@
 var interlockingData = {
     cycles: [
         {
-            name: "ZOO_1",
+            name: "AJU_1",
             routes: {
                 "entry": {
-                    start: "ZOO03",
-                    end: "SP3"
+                    start: "AJU03",
+                    end: "SP2"
                 },
                 "exit": {
-                    start: "ZOO01",
-                    end: "ZOO06"
+                    start: "AJU02",
+                    end: "RUI02"
                 }
             }
         },
+        {
+            name: "AJU_2",
+            routes: {
+                "entry": {
+                    start: "AJU03",
+                    end: "SP1"
+                },
+                "exit": {
+                    start: "AJU01",
+                    end: "RUI02"
+                }
+            }
+        },
+        // {
+        //     name: "ZOO_1",
+        //     routes: {
+        //         "entry": {
+        //             start: "ZOO03",
+        //             end: "SP3"
+        //         },
+        //         "exit": {
+        //             start: "ZOO01",
+        //             end: "ZOO06"
+        //         }
+        //     }
+        // },
         {
             name: "ZOO_2",
             routes: {
@@ -33,22 +59,22 @@ var interlockingData = {
             routes: {
                 "entry": {
                     start: "Y05",
-                    end: "RUI07"
+                    end: "CRC01"
                 },
                 "exit": {
                     start: "Y05",
-                    end: "CRC01"
+                    end: "RUI07"
                 }
             }
         },
         {
             name: "Y_2",
             routes: {
-                "exit": {
+                "entry": {
                     start: "Y02",
                     end: "MAM02"
                 },
-                "entry": {
+                "exit": {
                     start: "Y04",
                     end: "MAM02"
                 }
@@ -66,7 +92,85 @@ var interlockingData = {
                     end: "MAM06"
                 }
             }
-        }
+        },
+        {
+            name: "ANT_1",
+            routes: {
+                "entry": {
+                    start: "ANT04",
+                    end: "ANT08"
+                },
+                "exit": {
+                    start: "ANT06",
+                    end: "ANT01"
+                }
+            }
+        },
+        {
+            name: "ANT_2",
+            routes: {
+                "entry": {
+                    start: "ANT04",
+                    end: "ANT07"
+                },
+                "exit": {
+                    start: "ANT05",
+                    end: "ANT01"
+                }
+            }
+        },
+        {
+            name: "ANT_3",
+            routes: {
+                "entry": {
+                    start: "ANT05",
+                    end: "ANT02"
+                },
+                "exit": {
+                    start: "ANT04",
+                    end: "ANT08"
+                }
+            }
+        },
+        {
+            name: "ANT_4",
+            routes: {
+                "entry": {
+                    start: "ANT05",
+                    end: "ANT01"
+                },
+                "exit": {
+                    start: "ANT03",
+                    end: "ANT08"
+                }
+            }
+        },
+        {
+            name: "PAZ_1",
+            routes: {
+                "entry": {
+                    start: "PAZ06",
+                    end: "PAZ10"
+                },
+                "exit": {
+                    start: "PAZ08",
+                    end: "PAZ03"
+                }
+            }
+        },
+        {
+            name: "PAZ_2",
+            routes: {
+                "entry": {
+                    start: "PAZ06",
+                    end: "PAZ09"
+                },
+                "exit": {
+                    start: "PAZ07",
+                    end: "PAZ03"
+                }
+            }
+        },
     ],
     shuntingRoutes: [
         {
@@ -147,6 +251,16 @@ var interlockingData = {
             "exit": {
                 "start": "ZOO07",
                 "end": "ZOO04"
+            }
+        },
+        {
+            "entry": {
+                "start": "PAZ06",
+                "end": "ZR5"
+            },
+            "exit": {
+                "start": "PAZ11",
+                "end": "PAZ03"
             }
         },
     ]
