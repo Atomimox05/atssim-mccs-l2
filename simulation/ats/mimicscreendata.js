@@ -1522,38 +1522,38 @@ var mimicscreendata = [
                         <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-2)" xlink:href="#path-eh8zdmkqnr-1"></use>
                         <rect stroke="#000000" stroke-width="0.5" stroke-linejoin="square" fill="#9496A2" fill-rule="evenodd" x="0.25" y="0.25" width="133.5" height="119.5"></rect>
                     </g>
-                    <line x1="0" y1="0.5" x2="120" y2="0.5" id="LightEffect" stroke="#FFFFFF"></line>
-                    <line x1="1.5" y1="23.5" x2="120" y2="23.5" id="LightEffect-Copy-2" stroke="#FFFFFF"></line>
+                    <line x1="0" y1="0.5" x2="134" y2="0.5" id="LightEffect" stroke="#FFFFFF"></line>
+                    <line x1="1.5" y1="23.5" x2="133.5" y2="23.5" id="LightEffect-Copy-2" stroke="#FFFFFF"></line>
                     <line x1="1" y1="0.5" x2="1" y2="119.5" id="LightEffect-Copy" stroke="#FFFFFF"></line>
-                    <line x1="0" y1="22.5" x2="120" y2="22.5" id="TitleBorder" stroke="#000000"></line>
+                    <line x1="0" y1="22.5" x2="134" y2="22.5" id="TitleBorder" stroke="#000000"></line>
                     <text id="Title" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                        <tspan x="28.5" y="16">POINTS</tspan>
+                        <tspan x="39.9956055" y="16">POINTS</tspan>
                     </text>
                 </g>
-                <g id="ControlGroup" transform="translate(405, 0)">
+                <g id="ControlGroup" transform="translate(433, 0)">
                     <g id="Background">
                         <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-4)" xlink:href="#path-eh8zdmkqnr-3"></use>
                         <rect stroke="#000000" stroke-width="0.5" stroke-linejoin="square" fill="#9496A2" fill-rule="evenodd" x="0.25" y="0.25" width="135.5" height="119.5"></rect>
                     </g>
-                    <line x1="0" y1="0.5" x2="110" y2="0.5" id="LightEffect" stroke="#FFFFFF"></line>
-                    <line x1="1.5" y1="23.5" x2="110" y2="23.5" id="LightEffect-Copy-2" stroke="#FFFFFF"></line>
+                    <line x1="0" y1="0.5" x2="136" y2="0.5" id="LightEffect" stroke="#FFFFFF"></line>
+                    <line x1="1.5" y1="23.5" x2="135.5" y2="23.5" id="LightEffect-Copy-2" stroke="#FFFFFF"></line>
                     <line x1="1" y1="0.5" x2="1" y2="119.5" id="LightEffect-Copy" stroke="#FFFFFF"></line>
-                    <line x1="0" y1="22.5" x2="110" y2="22.5" id="TitleBorder" stroke="#000000"></line>
+                    <line x1="0" y1="22.5" x2="136" y2="22.5" id="TitleBorder" stroke="#000000"></line>
                     <text id="Title" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                        <tspan x="30" y="16">FLEETS</tspan>
+                        <tspan x="40.9956055" y="16">FLEETS</tspan>
                     </text>
                 </g>
-                <g id="ControlGroup" transform="translate(515, 0)">
+                <g id="ControlGroup" transform="translate(569, 0)">
                     <g id="Background">
                         <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-6)" xlink:href="#path-eh8zdmkqnr-5"></use>
-                        <rect stroke="#000000" stroke-width="0.5" stroke-linejoin="square" fill="#9496A2" fill-rule="evenodd" x="0.25" y="0.25" width="345" height="119.5"></rect>
+                        <rect stroke="#000000" stroke-width="0.5" stroke-linejoin="square" fill="#9496A2" fill-rule="evenodd" x="0.25" y="0.25" width="290.5" height="119.5"></rect>
                     </g>
-                    <line x1="0" y1="0.5" x2="345" y2="0.5" id="LightEffect" stroke="#FFFFFF"></line>
-                    <line x1="1.5" y1="23.5" x2="345" y2="23.5" id="LightEffect-Copy-2" stroke="#FFFFFF"></line>
+                    <line x1="0" y1="0.5" x2="291" y2="0.5" id="LightEffect" stroke="#FFFFFF"></line>
+                    <line x1="1.5" y1="23.5" x2="290.5" y2="23.5" id="LightEffect-Copy-2" stroke="#FFFFFF"></line>
                     <line x1="1" y1="0.5" x2="1" y2="119.5" id="LightEffect-Copy" stroke="#FFFFFF"></line>
-                    <line x1="0" y1="22.5" x2="345" y2="22.5" id="TitleBorder" stroke="#000000"></line>
+                    <line x1="0" y1="22.5" x2="291" y2="22.5" id="TitleBorder" stroke="#000000"></line>
                     <text id="Title" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#000000">
-                        <tspan x="110" y="16">REGULATION</tspan>
+                        <tspan x="100.492676" y="16">REGULATION</tspan>
                     </text>
                 </g>
                 <g id="ControlGroup" transform="translate(860, 0)">
@@ -1682,7 +1682,7 @@ var mimicscreendata = [
                     </g>
                 </g>
 
-                <g id="PointControls" transform="translate(318, 57)">
+                <g id="PointControls" transform="translate(333, 57)">
                     <g id="PointLockButton" transform="translate(4, 0)">
                         <g id="borders" fill="black" fill-opacity="1">
                             <use filter="url(#filter-eh8zdmkqnr-22)" xlink:href="#path-eh8zdmkqnr-21"></use>
@@ -1720,7 +1720,7 @@ var mimicscreendata = [
                         </text>
                     </g>
                 </g>
-                <g id="FleetingControls" transform="translate(432, 57)">
+                <g id="FleetingControls" transform="translate(472, 57)">
                     <g id="FleetingOnButton">
                         <g id="borders" fill="black" fill-opacity="1">
                             <use filter="url(#filter-eh8zdmkqnr-30)" xlink:href="#path-eh8zdmkqnr-29"></use>
@@ -2576,7 +2576,7 @@ var mimicscreendata = [
                 </text>
             </g>
 
-            <g id="HoldButton_INDEPENDENCIA_V1" transform="translate(545, 752)">
+            <g id="HoldButton_ADJUNTAS_V1" transform="translate(611, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -2618,7 +2618,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_INDEPENDENCIA_V2" transform="translate(545, 783)">
+            <g id="HoldButton_ADJUNTAS_V2" transform="translate(611, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -2660,7 +2660,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_GUAICAIPURO_V1" transform="translate(620, 752)">
+            <g id="HoldButton_RUIZPINEDA_V1" transform="translate(689, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -2702,7 +2702,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_GUAICAIPURO_V2" transform="translate(620, 783)">
+            <g id="HoldButton_RUIZPINEDA_V2" transform="translate(689, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -2744,96 +2744,6 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_ALIPRIMERA_V1" transform="translate(690, 752)">
-                <g id="OffButton" transform="translate(32, 0)">
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-92)" xlink:href="#path-eh8zdmkqnr-91"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-94)" xlink:href="#path-eh8zdmkqnr-93"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="OnButton">
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-96)" xlink:href="#path-eh8zdmkqnr-95"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-98)" xlink:href="#path-eh8zdmkqnr-97"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-            <g id="HoldButton_ALIPRIMERA_V2" transform="translate(690, 783)">
-                <g id="OffButton" transform="translate(32, 0)">
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-100)" xlink:href="#path-eh8zdmkqnr-99"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-102)" xlink:href="#path-eh8zdmkqnr-101"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="OnButton">
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-104)" xlink:href="#path-eh8zdmkqnr-103"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-106)" xlink:href="#path-eh8zdmkqnr-105"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-            <text id="NB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="522" y="765">V1</tspan>
-            </text>
-            <text id="SB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="522" y="797">V2</tspan>
-            </text>
             <g id="HoldButton_GlobalNorthbound" transform="translate(783, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="borders" fill="black" fill-opacity="1">
@@ -2896,43 +2806,46 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <text id="HOLD-IDP" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
-                <tspan x="545" y="732">HOLD IDP</tspan>
+            <text id="HOLD-AJU" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                <tspan x="605.894531" y="732">HOLD AJU</tspan>
             </text>
-            <text id="HOLD-GCP" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
-                <tspan x="620" y="732">HOLD GCP</tspan>
+            <text id="NB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                <tspan x="583.098633" y="765">V1</tspan>
             </text>
-            <text id="HOLD-ALP" font-family="CourierNewPS-BoldMT, Courier New" font-size="12" font-weight="bold" fill="#000000">
-                <tspan x="690" y="732">HOLD ALP</tspan>
+            <text id="SB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                <tspan x="583.098633" y="797">V2</tspan>
+            </text>
+            <text id="HOLD-RUI" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                <tspan x="683.894531" y="732">HOLD RUI</tspan>
             </text>
             <text id="GLOBAL-HOLD" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
                 <tspan x="766.29248" y="732">GLOBAL HOLD</tspan>
             </text>
-            <line x1="515" y1="737.5" x2="859.5" y2="737.5" id="Path-32" stroke="#FFFFFF" stroke-width="0.5"></line>
-            <line x1="515" y1="737" x2="859.5" y2="737" id="Path-32" stroke="#000000" stroke-width="0.5"></line>
+            <line x1="570.5" y1="737.5" x2="859.5" y2="737.5" id="Path-32" stroke="#FFFFFF" stroke-width="0.5"></line>
+            <line x1="570.5" y1="737" x2="859.5" y2="737" id="Path-32" stroke="#000000" stroke-width="0.5"></line>
             <g id="Group-2" transform="translate(765.25, 775.125) rotate(270) translate(-765.25, -775.125)translate(727.375, 774.375)" stroke-width="0.5">
                 <polyline id="Path-32" stroke="#FFFFFF" points="8.2478295e-12 1 39.25 1 75.75 1"></polyline>
                 <line x1="1.08732849e-11" y1="0.5" x2="75.75" y2="0.5" id="Path-32" stroke="#000000"></line>
             </g>
             <g id="FramedText" transform="translate(872, 723)">
-                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="50" height="18"></rect>
+             <rect id="Background" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="50" height="18"></rect>
                 <text id="Text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
                     <tspan x="8.19726562" y="13.5">MANU</tspan>
                 </text>
                 <g id="Frame">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-120)" xlink:href="#path-eh8zdmkqnr-119"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-121)" xlink:href="#path-eh8zdmkqnr-119"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-123)" xlink:href="#path-eh8zdmkqnr-122"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-124)" xlink:href="#path-eh8zdmkqnr-122"></use>
                     <rect stroke="#C3C6D2" stroke-width="1.5" stroke-linejoin="square" x="1.45422535" y="0.75" width="47.0915493" height="17.5"></rect>
                 </g>
             </g>
             <g id="FramedText" transform="translate(942, 723)">
-                <rect id="Background" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="50" height="18"></rect>
+                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="50" height="18"></rect>
                 <text id="Text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
                     <tspan x="12" y="13.5">MCS</tspan>
                 </text>
                 <g id="Frame">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-123)" xlink:href="#path-eh8zdmkqnr-122"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-124)" xlink:href="#path-eh8zdmkqnr-122"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-120)" xlink:href="#path-eh8zdmkqnr-119"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-121)" xlink:href="#path-eh8zdmkqnr-119"></use>
                     <rect stroke="#C3C6D2" stroke-width="1.5" stroke-linejoin="square" x="1.45422535" y="0.75" width="47.0915493" height="17.5"></rect>
                 </g>
             </g>
@@ -2989,7 +2902,7 @@ var mimicscreendata = [
             </g>
             <rect id="Rectangle" stroke="#000000" fill="#9496A2" transform="translate(1182.5, 765.5) scale(1, -1) translate(-1182.5, -765.5)" x="1125.5" y="755.5" width="114" height="20"></rect>
             <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="1127" y="769.5">MTLE L2</tspan>
+                <tspan x="1127" y="769.5">LÍNEA 2</tspan>
             </text>
             <circle id="Oval" stroke="#000000" fill="#008000" cx="1109.5" cy="765.5" r="10"></circle>
         </g>
@@ -5418,7 +5331,7 @@ var mimicscreendata = [
                 </text>
             </g>
 
-            <g id="HoldButton_ZOOLOGICO_P1" transform="translate(611, 752)">
+            <g id="HoldButton_ZOOLOGICO_V1" transform="translate(611, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -5460,7 +5373,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_ZOOLOGICO_P2" transform="translate(611, 783)">
+            <g id="HoldButton_ZOOLOGICO_V2" transform="translate(611, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -5502,7 +5415,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_CARICUAO_P1" transform="translate(689, 752)">
+            <g id="HoldButton_CARICUAO_V1" transform="translate(689, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -5544,7 +5457,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_CARICUAO_P2" transform="translate(689, 783)">
+            <g id="HoldButton_CARICUAO_V2" transform="translate(689, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -7343,7 +7256,92 @@ var mimicscreendata = [
                         <tspan x="122.495605" y="16">CYCLES</tspan>
                     </text>
                 </g>
-                <g id="CycleButtons_MAM_1" transform="translate(150, 30)">
+                <g id="CycleButtons_Y_2" transform="translate(115, 30)">
+                    <g id="OffButton" transform="translate(36, 0)">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-eh8zdmkqnr-14)" xlink:href="#path-eh8zdmkqnr-13"></use>
+                        </g>
+                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                            <tspan x="0.397949219" y="13.5">OFF</tspan>
+                        </text>
+                    </g>
+                    <g id="OnButton" transform="translate(4, 0)">
+                        <g id="active">
+                            <g id="borders" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-eh8zdmkqnr-16)" xlink:href="#path-eh8zdmkqnr-15"></use>
+                            </g>
+                            <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
+                            <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                                <tspan x="4.59863281" y="13.5">ON</tspan>
+                            </text>
+                        </g>
+                        <g id="inactive">
+                            <g id="borders" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-eh8zdmkqnr-18)" xlink:href="#path-eh8zdmkqnr-17"></use>
+                            </g>
+                            <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
+                            <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                                <tspan x="4.59863281" y="13.5">ON</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-20)" xlink:href="#path-eh8zdmkqnr-19"></use>
+                        <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-19"></use>
+                    </g>
+                    <g id="Group" transform="translate(47, 37) scale(-1 ,1)">
+                        <line x1="20" y1="0.5" x2="44" y2="0.5" id="Path-20" stroke="#000000"></line>
+                        <line x1="20" y1="27.5" x2="44" y2="27.5" id="Path-20" stroke="#000000"></line>
+                        <line x1="-15" y1="14" x2="10" y2="14" id="Path-20" stroke="#000000"></line>
+                        <polyline id="Path-20" stroke="#000000" stroke-width="4" points="9.49240686e-15 14 12 14 22 0.5 42 0.5"></polyline>
+                        <polyline id="Path-20" stroke="#000000" stroke-width="4" transform="translate(23.75, 20.75) scale(1, -1) translate(-23.75, -20.75)" points="12 27.5 22 14 42 14"></polyline>
+                        <polygon id="Triangle" fill="#000000" transform="translate(-2, 14.2) rotate(-90) translate(-37, -27.5)" points="37 23.5 42 31.5 32 31.5"></polygon>                    </g>
+                </g>
+                <g id="CycleButtons_Y_1" transform="translate(38, 30)">
+                    <g id="OffButton" transform="translate(36, 0)">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-eh8zdmkqnr-14)" xlink:href="#path-eh8zdmkqnr-13"></use>
+                        </g>
+                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                            <tspan x="0.397949219" y="13.5">OFF</tspan>
+                        </text>
+                    </g>
+                    <g id="OnButton" transform="translate(4, 0)">
+                        <g id="active">
+                            <g id="borders" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-eh8zdmkqnr-16)" xlink:href="#path-eh8zdmkqnr-15"></use>
+                            </g>
+                            <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
+                            <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                                <tspan x="4.59863281" y="13.5">ON</tspan>
+                            </text>
+                        </g>
+                        <g id="inactive">
+                            <g id="borders" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-eh8zdmkqnr-18)" xlink:href="#path-eh8zdmkqnr-17"></use>
+                            </g>
+                            <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
+                            <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                                <tspan x="4.59863281" y="13.5">ON</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-20)" xlink:href="#path-eh8zdmkqnr-19"></use>
+                        <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-19"></use>
+                    </g>
+                    <g id="Group" transform="translate(60, 37) scale(-1 ,1)">
+                        <line x1="20" y1="0.5" x2="57" y2="0.5" id="Path-20" stroke="#000000"></line>
+                        <line x1="20" y1="27.5" x2="57" y2="27.5" id="Path-20" stroke="#000000"></line>
+                        <polyline id="Path-20" stroke="#000000" stroke-width="4" points="9.49240686e-15 14 12 14 22 0.5 42 0.5"></polyline>
+                        <polyline id="Path-20" stroke="#000000" stroke-width="4" transform="translate(23.75, 20.75) scale(1, -1) translate(-23.75, -20.75)" points="12 27.5 22 14 42 14"></polyline>
+                        <polygon id="Triangle" fill="#000000" transform="translate(42, 27.5) rotate(90) translate(-37, -27.5)" points="37 23.5 42 31.5 32 31.5"></polygon>
+                        <polygon id="Triangle" fill="#000000" transform="translate(42, 1) rotate(90) translate(-37, -27.5)" points="37 23.5 42 31.5 32 31.5"></polygon>
+                    </g>
+                </g>
+                <g id="CycleButtons_MAM_1" transform="translate(192, 30)">
                     <g id="OffButton" transform="translate(36, 0)">
                         <g id="borders" fill="black" fill-opacity="1">
                             <use filter="url(#filter-eh8zdmkqnr-14)" xlink:href="#path-eh8zdmkqnr-13"></use>
@@ -8064,8 +8062,9 @@ var mimicscreendata = [
             <g id="Power" transform="translate(13, 518)">
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 10 200 10 200 0 0 0"></polygon>
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 50 200 50 200 40 0 40"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 90 200 90 200 80 0 80"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 130 200 130 200 120 0 120"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 100 200 100 200 90 0 90"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 140 200 140 200 130 0 130"></polygon>
+                
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="260 27 1248.75 27 1248.75 17 260 17"></polygon>
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="400 73 540 73 540 63 400 63"></polygon>
                 <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="660 73 800 73 800 63 660 63"></polygon>
@@ -8373,13 +8372,13 @@ var mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_Y_08" transform="translate(395, 422)" opacity="0">
+            <g class="TrainDescriber_Y_08" transform="translate(390, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_Y_10" transform="translate(520, 422)" opacity="0">
+            <g class="TrainDescriber_Y_10" transform="translate(510, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
@@ -8446,7 +8445,7 @@ var mimicscreendata = [
                 </text>
             </g>
             
-            <g id="HoldButton_TAKSIM_P1" transform="translate(611, 752)">
+            <g id="HoldButton_MAMERA_V1" transform="translate(650, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -8488,7 +8487,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_TAKSIM_P2" transform="translate(611, 783)">
+            <g id="HoldButton_MAMERA_V2" transform="translate(650, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -8522,90 +8521,6 @@ var mimicscreendata = [
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
                             <use filter="url(#filter-eh8zdmkqnr-90)" xlink:href="#path-eh8zdmkqnr-89"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-            <g id="HoldButton_OSMANBEY_P1" transform="translate(689, 752)">
-                <g id="OffButton" transform="translate(32, 0)">
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-92)" xlink:href="#path-eh8zdmkqnr-91"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-94)" xlink:href="#path-eh8zdmkqnr-93"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="OnButton">
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-96)" xlink:href="#path-eh8zdmkqnr-95"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-98)" xlink:href="#path-eh8zdmkqnr-97"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-            <g id="HoldButton_OSMANBEY_P2" transform="translate(689, 783)">
-                <g id="OffButton" transform="translate(32, 0)">
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-100)" xlink:href="#path-eh8zdmkqnr-99"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-102)" xlink:href="#path-eh8zdmkqnr-101"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="0.397949219" y="13.5">OFF</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="OnButton">
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-104)" xlink:href="#path-eh8zdmkqnr-103"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-eh8zdmkqnr-106)" xlink:href="#path-eh8zdmkqnr-105"></use>
                         </g>
                         <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
                         <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
@@ -8677,16 +8592,13 @@ var mimicscreendata = [
                 </g>
             </g>
             <text id="HOLD-TAK" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="605.894531" y="732">HOLD TAK</tspan>
+                <tspan x="645" y="732">HOLD MAM</tspan>
             </text>
             <text id="NB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="583.098633" y="765">NB</tspan>
+                <tspan x="583.098633" y="765">V1</tspan>
             </text>
             <text id="SB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="583.098633" y="797">SB</tspan>
-            </text>
-            <text id="HOLD-OSM" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="683.894531" y="732">HOLD OSM</tspan>
+                <tspan x="583.098633" y="797">V2</tspan>
             </text>
             <text id="GLOBAL-HOLD" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
                 <tspan x="766.29248" y="732">GLOBAL HOLD</tspan>
@@ -11873,7 +11785,7 @@ var mimicscreendata = [
                 </g>
             </g>
             
-            <g id="HoldButton_ANTIMANO_P1" transform="translate(611, 752)">
+            <g id="HoldButton_ANTIMANO_V1" transform="translate(611, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -11915,7 +11827,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_ANTIMANO_P2" transform="translate(611, 783)">
+            <g id="HoldButton_ANTIMANO_V2" transform="translate(611, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -11957,7 +11869,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_CARAPITA_P1" transform="translate(689, 752)">
+            <g id="HoldButton_CARAPITA_V1" transform="translate(689, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -11999,7 +11911,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_CARAPITA_P2" transform="translate(689, 783)">
+            <g id="HoldButton_CARAPITA_V2" transform="translate(689, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -14258,170 +14170,134 @@ var mimicscreendata = [
                 <tspan x="1230" y="330">V2</tspan>
             </text>
 
-            <!-- TRAIN DESCRIBER VIA 2-->
-            <g class="TrainDescriber_TCA_12" transform="translate(12, 110)" opacity="0">
+            <!-- TRAIN DESCRIBER VIA 1 -->
+            <g class="TrainDescriber_CRP_09" transform="translate(45, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_02" transform="translate(60, 110)" opacity="0">
+            <g class="TrainDescriber_YAG_01" transform="translate(145, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_04" transform="translate(110, 110)" opacity="0">
+            <g class="TrainDescriber_YAG_03" transform="translate(258, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_06" transform="translate(160, 110)" opacity="0">
+            <g class="TrainDescriber_YAG_05" transform="translate(360, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_08" transform="translate(210, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_01" transform="translate(445, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_10" transform="translate(260, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_03" transform="translate(530, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_12" transform="translate(310, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_05" transform="translate(590, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_02" transform="translate(360, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_07" transform="translate(685, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_04" transform="translate(410, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_09" transform="translate(795, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_06" transform="translate(460, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_11" transform="translate(865, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_08" transform="translate(510, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_13" transform="translate(950, 90)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_10" transform="translate(560, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_15" transform="translate(1045, 240)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_12" transform="translate(610, 110)" opacity="0">
+            <g class="TrainDescriber_PAZ_17" transform="translate(1145, 80)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AJU_02" transform="translate(675, 110)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AJU_04" transform="translate(760, 110)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AJU_06" transform="translate(835, 110)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AJU_08" transform="translate(940, 110)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AJU_CV" transform="translate(755, 265)" opacity="0">
+            <g class="TrainDescriber_PAZ_CV" transform="translate(875, 265)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
 
-            <!-- CIRCUITOS DE VIA - VIA 2 -->
-            <text id="TCA_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="12.5" y="214">TCA_12</tspan>
+            <!-- CIRCUITOS DE VIA - VIA 1 -->
+            <text id="CRP_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="50" y="190">CRP_09</tspan>
             </text>
-            <text id="TRC_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="60" y="190">TRC_02</tspan>
+            <text id="YAG_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="145" y="190">YAG_01</tspan>
             </text>
-            <text id="TRC_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="110" y="190">TRC_04</tspan>
+            <text id="YAG_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="258" y="214">YAG_03</tspan>
             </text>
-            <text id="TRC_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="160" y="190">TRC_06</tspan>
+            <text id="YAG_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="360" y="190">YAG_05</tspan>
             </text>
-            <text id="TRC_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="210" y="214">TRC_08</tspan>
+            <text id="PAZ_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="440" y="190">PAZ_01</tspan>
             </text>
-            <text id="TRC_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="260" y="190">TRC_10</tspan>
+            <text id="PAZ_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="530" y="190">PAZ_03</tspan>
             </text>
-            <text id="TRC_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="310" y="190">TRC_12</tspan>
+            <text id="PAZ_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="590" y="190">PAZ_05</tspan>
             </text>
-            <text id="TCP_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="360" y="190">TCP_02</tspan>
+            <text id="PAZ_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="685" y="214">PAZ_07</tspan>
             </text>
-            <text id="TCP_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="410" y="190">TCP_04</tspan>
+            <text id="PAZ_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="805" y="187">PAZ_09</tspan>
             </text>
-            <text id="TCP_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="460" y="190">TCP_06</tspan>
+            <text id="PAZ_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="845" y="187">PAZ_11</tspan>
             </text>
-            <text id="TCP_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="510" y="214">TCP_08</tspan>
+            <text id="PAZ_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="930" y="217">PAZ_13</tspan>
             </text>
-            <text id="TCP_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="560" y="190">TCP_10</tspan>
+            <text id="PAZ_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1045" y="214">PAZ_15</tspan>
             </text>
-            <text id="TCP_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="610" y="190">TCP_12</tspan>
+            <text id="PAZ_17" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1160" y="217">PAZ_17</tspan>
             </text>
-            <text id="AJU_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="665" y="190">AJU_02</tspan>
-            </text>
-            <text id="AJU_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="770" y="185">AJU_04</tspan>
-            </text>
-            <text id="AJU_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="820" y="185">AJU_06</tspan>
-            </text>
-            <text id="AJU_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="940" y="190">AJU_08</tspan>
-            </text>
-            <text id="AJU_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1040" y="190">AJU_10</tspan>
+            <text id="PAZ_19" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1205" y="190">PAZ_19</tspan>
             </text>
 
             <!-- DIRECTION ARROWS VIA 1 -->
@@ -14468,6 +14344,21 @@ var mimicscreendata = [
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
             <g class="DirectionArrow_PAZ_15" transform="translate(1010, 280)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
+                </g>
+                <polygon id="southbound" fill="#9496A2" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
+
+            <g class="DirectionArrow_PAZ_20" transform="translate(1015, 40)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#000000" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
@@ -14540,164 +14431,144 @@ var mimicscreendata = [
                 <polygon id="northbound" fill="#9496A2" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
 
-             <!-- TRAIN DESCRIBER VIA 2-->
-            <g class="TrainDescriber_TCA_11" transform="translate(12, 422)" opacity="0">
+             <!-- TRAIN DESCRIBER VIA 2 -->
+            <g class="TrainDescriber_CRP_10" transform="translate(45, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_01" transform="translate(60, 422)" opacity="0">
+            <g class="TrainDescriber_YAG_02" transform="translate(145, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_03" transform="translate(110, 422)" opacity="0">
+            <g class="TrainDescriber_YAG_04" transform="translate(230, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_05" transform="translate(160, 422)" opacity="0">
+            <g class="TrainDescriber_YAG_06" transform="translate(285, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_07" transform="translate(210, 422)" opacity="0">
+            <g class="TrainDescriber_YAG_08" transform="translate(360, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_09" transform="translate(260, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_02" transform="translate(445, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TRC_11" transform="translate(310, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_04" transform="translate(530, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_01" transform="translate(360, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_06" transform="translate(590, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_03" transform="translate(410, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_08" transform="translate(660, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_05" transform="translate(460, 422)" opacity="0">
+            </g>
+            <g class="TrainDescriber_PAZ_10" transform="translate(710, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_07" transform="translate(510, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_12" transform="translate(795, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_09" transform="translate(560, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_14" transform="translate(865, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_TCP_11" transform="translate(610, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_16" transform="translate(985, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AJU_01" transform="translate(675, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_18" transform="translate(1145, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_AJU_03" transform="translate(760, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AJU_05" transform="translate(835, 422)" opacity="0">
-                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
-                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
-                    <tspan x="6" y="13">-</tspan>
-                </text>
-            </g>
-            <g class="TrainDescriber_AJU_07" transform="translate(940, 422)" opacity="0">
+            <g class="TrainDescriber_PAZ_20" transform="translate(1050, 90)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
 
-            <!-- CIRCUITOS DE VIA - VIA 1 -->
-            <text id="TCA_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="12.5" y="344">TCA_11</tspan>
+            <!-- CIRCUITOS DE VIA - VIA 2 -->
+            <text id="CRP_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="50" y="365">CRP_10</tspan>
             </text>
-            <text id="TRC_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="60" y="365">TRC_01</tspan>
+            <text id="YAG_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="145" y="365">YAG_02</tspan>
             </text>
-            <text id="TRC_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="110" y="365">TRC_03</tspan>
+            <text id="YAG_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="230" y="345">YAG_04</tspan>
             </text>
-            <text id="TRC_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="160" y="344">TRC_05</tspan>
+            <text id="YAG_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="275" y="345">YAG_06</tspan>
             </text>
-            <text id="TRC_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="210" y="365">TRC_07</tspan>
+            <text id="YAG_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="360" y="365">YAG_08</tspan>
             </text>
-            <text id="TRC_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="260" y="365">TRC_09</tspan>
+            <text id="PAZ_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="440" y="365">PAZ_02</tspan>
             </text>
-            <text id="TRC_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="310" y="365">TRC_11</tspan>
+            <text id="PAZ_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="530" y="365">PAZ_04</tspan>
             </text>
-            <text id="TCP_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="360" y="365">TCP_01</tspan>
+            <text id="PAZ_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="590" y="365">PAZ_06</tspan>
             </text>
-            <text id="TCP_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="410" y="365">TCP_03</tspan>
+            <text id="PAZ_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="660" y="345">PAZ_08</tspan>
             </text>
-            <text id="TRC_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="460" y="344">TRC_05</tspan>
+            <text id="PAZ_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="700" y="345">PAZ_10</tspan>
             </text>
-            <text id="TRC_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="510" y="365">TRC_07</tspan>
+            <text id="PAZ_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="805" y="370">PAZ_12</tspan>
             </text>
-            <text id="TRC_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="560" y="365">TRC_09</tspan>
+            <text id="PAZ_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="845" y="370">PAZ_14</tspan>
             </text>
-            <text id="TRC_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="610" y="365">TRC_11</tspan>
+            <text id="PAZ_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="985" y="365">PAZ_16</tspan>
             </text>
-            <text id="AJU_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="665" y="365">AJU_01</tspan>
+            <text id="PAZ_18" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1145" y="365">PAZ_18</tspan>
             </text>
-            <text id="AJU_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="770" y="370">AJU_03</tspan>
-            </text>
-            <text id="AJU_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="820" y="370">AJU_05</tspan>
-            </text>
-            <text id="AJU_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="940" y="365">AJU_07</tspan>
-            </text>
-            <text id="AJU_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1040" y="365">AJU_09</tspan>
+            <text id="PAZ_20" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
+                <tspan x="1050" y="154">PAZ_15</tspan>
             </text>
             
             <!-- TRACK CIRCUITS V1 -->
@@ -14838,7 +14709,7 @@ var mimicscreendata = [
                 <text id="YAG02" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
                     <tspan x="340" y="320">S2</tspan>
                 </text>
-                <g id="Fleeting_YAG02" transform="translate(305, 323)">
+                <g id="Fleeting_YAG02" transform="translate(308, 323)">
                     <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
@@ -15114,7 +14985,7 @@ var mimicscreendata = [
                 </g>
             </g>
             
-            <g id="HoldButton_TAKSIM_P1" transform="translate(611, 752)">
+            <g id="HoldButton_YAGUARA_V1" transform="translate(611, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -15156,7 +15027,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_TAKSIM_P2" transform="translate(611, 783)">
+            <g id="HoldButton_YAGUARA_V2" transform="translate(611, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -15198,7 +15069,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_OSMANBEY_P1" transform="translate(689, 752)">
+            <g id="HoldButton_PAZ_V1" transform="translate(689, 752)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -15240,7 +15111,7 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-            <g id="HoldButton_OSMANBEY_P2" transform="translate(689, 783)">
+            <g id="HoldButton_PAZ_V2" transform="translate(689, 783)">
                 <g id="OffButton" transform="translate(32, 0)">
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
@@ -15344,11 +15215,11 @@ var mimicscreendata = [
                     </g>
                 </g>
             </g>
-             <text id="HOLD-TAK" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="605.894531" y="732">HOLD TAK</tspan>
+             <text id="HOLD-YAG" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                <tspan x="605.894531" y="732">HOLD YAG</tspan>
             </text>
-            <text id="HOLD-OSM" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                <tspan x="683.894531" y="732">HOLD OSM</tspan>
+            <text id="HOLD-PAZ" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                <tspan x="683.894531" y="732">HOLD PAZ</tspan>
             </text>
             <text id="NB" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
                 <tspan x="583.098633" y="765">V1</tspan>
