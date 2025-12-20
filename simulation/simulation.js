@@ -44,7 +44,7 @@ interlocking.getCycleFromName("Y_2").enable()
 interlocking.getCycleFromName("PAZ_1").enable()
 
 var trains = []
-trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("RUI_16"), "northbound", interlocking, ats))
+trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("Y_02"), "northbound", interlocking, ats))
 trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("CRC_04"), "northbound", interlocking, ats))
 trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("AJU_15"), "southbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("MAM_03"), "southbound", interlocking, ats))
@@ -54,6 +54,8 @@ trains.push(new Train("07", 6, map, track, map.getTrackCircuitFromName("PAZ_06")
 trains.push(new Train("08", 6, map, track, map.getTrackCircuitFromName("MAM_12"), "northbound", interlocking, ats))
 trains.push(new Train("09", 6, map, track, map.getTrackCircuitFromName("AJU_01"), "southbound", interlocking, ats))
 trains.push(new Train("10", 6, map, track, map.getTrackCircuitFromName("PAZ_20"), "southbound", interlocking, ats))
+trains.push(new Train("11", 6, map, track, map.getTrackCircuitFromName("ZOO_05"), "northbound", interlocking, ats))
+trains.push(new Train("12", 6, map, track, map.getTrackCircuitFromName("MAM_13"), "southbound", interlocking, ats))
 
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {

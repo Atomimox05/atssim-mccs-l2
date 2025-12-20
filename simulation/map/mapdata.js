@@ -469,7 +469,7 @@ let mapData = {
             name: "CRC_07",
             southbound: "CRC_05",
             northbound: "Y_11",
-            length: 7
+            length: 14
         },
         //VIA 2
         {
@@ -497,7 +497,7 @@ let mapData = {
             name: "CRC_08",
             southbound: "CRC_06",
             northbound: "Y_12",
-            length: 7
+            length: 14
         },
         //Y
         //VIA 1 - ADJUNTAS
@@ -521,7 +521,7 @@ let mapData = {
             name: "Y_11",
             southbound: "CRC_07",
             northbound: "Y_13",
-            length: 5
+            length: 8
         },
         {
             name: "Y_13",
@@ -530,7 +530,7 @@ let mapData = {
             signals: {
                 northbound: "Y03" //Q
             },
-            length: 6
+            length: 7
         },
         {
             name: "Y_15",
@@ -568,7 +568,7 @@ let mapData = {
             signals: {
                 southbound: "Y05" //J
             },
-            length: 14
+            length: 16
         },
         //VIA 2 - ADJUNTAS
         {
@@ -591,7 +591,7 @@ let mapData = {
             name: "Y_12",
             southbound: "CRC_08",
             northbound: "Y_14",
-            length: 4
+            length: 8
         },
         {
             name: "Y_14",
@@ -638,7 +638,7 @@ let mapData = {
             signals: {
                 southbound: "Y06" //D
             },
-            length: 14
+            length: 16
         },
         //VÍA R
         {
