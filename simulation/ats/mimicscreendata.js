@@ -7812,7 +7812,7 @@ var mimicscreendata = [
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="Y03" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
-                    <tspan x="171" y="360">Q</tspan>
+                    <tspan x="171" y="360">N</tspan>
                 </text>
 
             <!-- SIGNALS CRC - Y VIA 2 -->
