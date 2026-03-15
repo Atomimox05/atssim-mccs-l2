@@ -17,6 +17,7 @@ interlocking.getSignalFromName("ANT09").requestFleeting()
 interlocking.getSignalFromName("CRP01").requestFleeting()
 interlocking.getSignalFromName("YAG01").requestFleeting()
 interlocking.getSignalFromName("PAZ03").requestFleeting()
+interlocking.getSignalFromName("PAZ07").requestFleeting()
 
 //VIA 2
 interlocking.getSignalFromName("RUI02").requestFleeting()
@@ -29,6 +30,8 @@ interlocking.getSignalFromName("ANT08").requestFleeting()
 interlocking.getSignalFromName("CRP02").requestFleeting()
 interlocking.getSignalFromName("YAG02").requestFleeting()
 interlocking.getSignalFromName("PAZ02").requestFleeting()
+interlocking.getSignalFromName("PAZ06").requestFleeting()
+interlocking.getSignalFromName("PAZ10").requestFleeting()
 
 // Pre-reservar rutas críticas  
 requestReserveForRouteMultipleTrackCircuits("AJU_15", "AJU_13", "southbound")
@@ -41,7 +44,7 @@ interlocking.getCycleFromName("AJU_1").enable();
 interlocking.getCycleFromName("ZOO_2").enable();
 interlocking.getCycleFromName("Y_1").enable();
 interlocking.getCycleFromName("Y_2").enable()
-interlocking.getCycleFromName("PAZ_1").enable()
+//interlocking.getCycleFromName("PAZ_1").enable()
 
 var trains = []
 trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("Y_02"), "northbound", interlocking, ats))
