@@ -1283,13 +1283,13 @@ let mapData = {
             name: "ART_01",
             southbound: "PAZ_19",
             northbound: "ART_03",
-            length: 4
+            length: 6
         },
         {
             name: "ART_03",
             southbound: "ART_01",
             northbound: "ART_05",
-            length: 4
+            length: 6
         },
         {
             name: "ART_05",
@@ -1298,7 +1298,7 @@ let mapData = {
             signals: {
                 southbound: "ART01", //G
             },
-            length: 7
+            length: 8
         },
         {
             name: "ART_07",
@@ -1341,13 +1341,13 @@ let mapData = {
             name: "ART_08",
             southbound: "ART_06",
             northbound: "ART_10",
-            length: 3
+            length: 7
         },
         {
             name: "ART_10",
             southbound: "ART_08",
             northbound: "MAT_02",
-            length: 3
+            length: 7
         },
         //MATERNIDAD
         //VIA 1
@@ -2542,6 +2542,54 @@ let mapData = {
                 trackCircuit: "PAZ_08",
                 position: 3
             },
-        }
+        },
+        {
+            name: "ARTIGAS_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "ART_05",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "ART_05",
+                position: 3
+            },
+        },
+        {
+            name: "ARTIGAS_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "ART_06",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "ART_04",
+                position: 3
+            },
+        },
+        {
+            name: "MATERNIDAD_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "MAT_05",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "MAT_03",
+                position: 2
+            },
+        },
+        {
+            name: "MATERNIDAD_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "MAT_06",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "MAT_04",
+                position: 3
+            },
+        },
     ],
 }

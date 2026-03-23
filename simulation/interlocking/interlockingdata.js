@@ -171,6 +171,32 @@ var interlockingData = {
                 }
             }
         },
+        {
+            name: "PAZ_3",
+            routes: {
+                "entry": {
+                    start: "PAZ07",
+                    end: "PAZ04"
+                },
+                "exit": {
+                    start: "PAZ06",
+                    end: "PAZ10"
+                }
+            }
+        },
+        {
+            name: "PAZ_4",
+            routes: {
+                "entry": {
+                    start: "PAZ07",
+                    end: "PAZ03"
+                },
+                "exit": {
+                    start: "PAZ05",
+                    end: "PAZ10"
+                }
+            }
+        },
     ],
     shuntingRoutes: [
         {
