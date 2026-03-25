@@ -21,8 +21,9 @@ interlocking.getSignalFromName("PAZ07").requestFleeting()
 interlocking.getSignalFromName("ART01").requestFleeting()
 interlocking.getSignalFromName("MAT01").requestFleeting()
 interlocking.getSignalFromName("CPU01").requestFleeting()
-//interlocking.getSignalFromName("CPU05").requestFleeting()
-//interlocking.getSignalFromName("SIL01").requestFleeting()
+interlocking.getSignalFromName("CPU05").requestFleeting()
+interlocking.getSignalFromName("SIL01").requestFleeting()
+interlocking.getSignalFromName("SIL05").requestFleeting()
 
 //VIA 2
 interlocking.getSignalFromName("RUI02").requestFleeting()
@@ -39,7 +40,9 @@ interlocking.getSignalFromName("PAZ06").requestFleeting()
 interlocking.getSignalFromName("PAZ10").requestFleeting()
 interlocking.getSignalFromName("ART04").requestFleeting()
 interlocking.getSignalFromName("MAT04").requestFleeting()
-//interlocking.getSignalFromName("CPU04").requestFleeting()
+interlocking.getSignalFromName("CPU04").requestFleeting()
+interlocking.getSignalFromName("CPU08").requestFleeting()
+interlocking.getSignalFromName("SIL04").requestFleeting()
 
 // Pre-reservar rutas críticas  
 requestReserveForRouteMultipleTrackCircuits("AJU_15", "AJU_13", "southbound")
@@ -67,8 +70,10 @@ trains.push(new Train("09", 6, map, track, map.getTrackCircuitFromName("AJU_01")
 trains.push(new Train("10", 6, map, track, map.getTrackCircuitFromName("PAZ_20"), "southbound", interlocking, ats))
 trains.push(new Train("11", 6, map, track, map.getTrackCircuitFromName("ZOO_05"), "northbound", interlocking, ats))
 trains.push(new Train("12", 6, map, track, map.getTrackCircuitFromName("MAM_13"), "southbound", interlocking, ats))
-trains.push(new Train("13", 6, map, track, map.getTrackCircuitFromName("MAT_09"), "southbound", interlocking, ats))
-//trains.push(new Train("14", 6, map, track, map.getTrackCircuitFromName("CPU_13"), "southbound", interlocking, ats))
+trains.push(new Train("13", 6, map, track, map.getTrackCircuitFromName("ART_09"), "southbound", interlocking, ats))
+trains.push(new Train("14", 6, map, track, map.getTrackCircuitFromName("SIL_07"), "southbound", interlocking, ats))
+trains.push(new Train("15", 6, map, track, map.getTrackCircuitFromName("ART_08"), "northbound", interlocking, ats))
+trains.push(new Train("16", 6, map, track, map.getTrackCircuitFromName("CPU_14"), "northbound", interlocking, ats))
 
 
 function requestReserveForRouteMultipleTrackCircuits(startTrackCircuitName, endTrackCircuitName, direction) {

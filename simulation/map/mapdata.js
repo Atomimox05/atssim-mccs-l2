@@ -1531,7 +1531,7 @@ let mapData = {
             signals: {
                 southbound: "CPU06", //D
             },
-            length: 3
+            length: 4
         },
         {
             name: "CPU_10",
@@ -1540,7 +1540,7 @@ let mapData = {
             signals: {
                 northbound: "CPU08", //E
             },
-            length: 5
+            length: 4
         },
         {
             name: "CPU_12",
@@ -1726,7 +1726,7 @@ let mapData = {
             northbound: "endOfTrack",
             signals: {
                 southbound: "SIL10", //F
-                northbound: "SIL10" //SP8
+                northbound: "SIL12" //SP8
             },
             length: 10
         },
@@ -2612,6 +2612,30 @@ let mapData = {
             },
             southbound: {
                 trackCircuit: "CPU_08",
+                position: 3
+            },
+        },
+        {
+            name: "SILENCIO_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "SIL_09",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "SIL_07",
+                position: 2
+            },
+        },
+        {
+            name: "SILENCIO_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "SIL_10",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "SIL_08",
                 position: 3
             },
         },
