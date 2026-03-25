@@ -1744,49 +1744,49 @@ let mimicscreendata = [
 
             <!-- CIRCUITOS DE VIA - VIA 1 -->
             <text id="AJU_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="92" y="188">AJU_01</tspan>
+                <tspan x="92" y="190">AJU_01</tspan>
             </text>
             <text id="AJU_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="177" y="220">AJU_03</tspan>
+                <tspan x="190" y="220">AJU_03</tspan>
             </text>
              <text id="AJU_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="250" y="188">AJU_05</tspan>
+                <tspan x="265" y="190">AJU_05</tspan>
             </text>
              <text id="AJU_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="360" y="188">AJU_07</tspan>
+                <tspan x="345" y="190">AJU_07</tspan>
             </text>
             <text id="AJU_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="405" y="220">AJU_09</tspan>
+                <tspan x="415" y="220">AJU_09</tspan>
             </text>
             <text id="AJU_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="515" y="220">AJU_11</tspan>
+                <tspan x="495" y="220">AJU_11</tspan>
             </text>
             <text id="AJU_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="585" y="194">AJU_13</tspan>
+                <tspan x="585" y="190">AJU_13</tspan>
             </text>
             <text id="AJU_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="640" y="194">AJU_15</tspan>
+                <tspan x="640" y="190">AJU_15</tspan>
             </text>
             <text id="AJU_17" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="690" y="194">AJU_17</tspan>
+                <tspan x="690" y="190">AJU_17</tspan>
             </text>
             <text id="RUI_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="750" y="194">RUI_01</tspan>
+                <tspan x="750" y="190">RUI_01</tspan>
             </text>
             <text id="RUI_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="820" y="194">RUI_03</tspan>
+                <tspan x="820" y="214">RUI_03</tspan>
             </text>
             <text id="RUI_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="880" y="188">RUI_05</tspan>
+                <tspan x="880" y="190">RUI_05</tspan>
             </text>
             <text id="RUI_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="925" y="220">RUI_07</tspan>
+                <tspan x="940" y="190">RUI_07</tspan>
             </text>
             <text id="RUI_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1025" y="194">RUI_09</tspan>
+                <tspan x="1025" y="190">RUI_09</tspan>
             </text>
             <text id="RUI_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1135" y="214">RUI_11</tspan>
+                <tspan x="1135" y="190">RUI_11</tspan>
             </text>
             <text id="RUI_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="1220" y="214">RUI_13</tspan>
@@ -1794,19 +1794,19 @@ let mimicscreendata = [
 
             <!-- CIRCUITOS DE VIA - VIA 2 -->
             <text id="AJU_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="92" y="369">AJU_02</tspan>
+                <tspan x="92" y="364">AJU_02</tspan>
             </text>
              <text id="AJU_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="220" y="369">AJU_04</tspan>
+                <tspan x="225" y="364">AJU_04</tspan>
             </text>
             <text id="AJU_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="385" y="369">AJU_06</tspan>
+                <tspan x="375" y="364">AJU_06</tspan>
             </text>
             <text id="AJU_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="495" y="364">AJU_08</tspan>
             </text>
             <text id="AJU_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="585" y="364">AJU_10</tspan>
+                <tspan x="580" y="364">AJU_10</tspan>
             </text>
             <text id="AJU_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="640" y="364">AJU_12</tspan>
@@ -1815,22 +1815,22 @@ let mimicscreendata = [
                 <tspan x="690" y="364">AJU_14</tspan>
             </text>
             <text id="RUI_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="750" y="364">RUI_02</tspan>
+                <tspan x="755" y="364">RUI_02</tspan>
             </text>
             <text id="RUI_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="875" y="364">RUI_04</tspan>
+                <tspan x="935" y="364">RUI_04</tspan>
             </text>
             <text id="RUI_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1040" y="369">RUI_06</tspan>
+                <tspan x="1040" y="364">RUI_06</tspan>
             </text>
             <text id="RUI_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1108" y="344">RUI_08</tspan>
+                <tspan x="1105" y="364">RUI_08</tspan>
             </text>
             <text id="RUI_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1145" y="344">RUI_10</tspan>
+                <tspan x="1160" y="364">RUI_10</tspan>
             </text>
             <text id="RUI_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1220" y="344">RUI_12</tspan>
+                <tspan x="1220" y="342">RUI_12</tspan>
             </text>
 
             <!-- Platform LAS ADJUNTAS -->
@@ -2490,6 +2490,12 @@ let mimicscreendata = [
                 </text>
             </g>
             <g class="TrainDescriber_RUI_13" transform="translate(1220, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_AJU_CV" transform="translate(250, 265)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
@@ -4650,31 +4656,31 @@ let mimicscreendata = [
 
             <!-- CIRCUITOS DE VIA - VIA 1 -->
             <text id="ZOO_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="92" y="194">ZOO_01</tspan>
+                <tspan x="92" y="192">ZOO_01</tspan>
             </text>
              <text id="ZOO_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="240" y="188">ZOO_03</tspan>
+                <tspan x="240" y="192">ZOO_03</tspan>
             </text>
              <text id="ZOO_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="360" y="194">ZOO_05</tspan>
+                <tspan x="360" y="192">ZOO_05</tspan>
             </text>
             <text id="ZOO_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="490" y="188">ZOO_07</tspan>
+                <tspan x="505" y="192">ZOO_07</tspan>
             </text>
             <text id="ZOO_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="630" y="194">ZOO_09</tspan>
+                <tspan x="625" y="192">ZOO_09</tspan>
             </text>
             <text id="CRC_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="735" y="194">CRC_01</tspan>
+                <tspan x="735" y="192">CRC_01</tspan>
             </text>
             <text id="CRC_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="860" y="214">CRC_03</tspan>
+                <tspan x="860" y="192">CRC_03</tspan>
             </text>
             <text id="CRC_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="995" y="194">CRC_05</tspan>
+                <tspan x="995" y="192">CRC_05</tspan>
             </text>
              <text id="CRC_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1130" y="194">CRC_07</tspan>
+                <tspan x="1130" y="192">CRC_07</tspan>
             </text>
             <text id="Y_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="1225" y="214">Y_11</tspan>
@@ -4685,22 +4691,22 @@ let mimicscreendata = [
                 <tspan x="92" y="364">ZOO_02</tspan>
             </text>
              <text id="ZOO_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="220" y="369">ZOO_04</tspan>
+                <tspan x="220" y="364">ZOO_04</tspan>
             </text>
              <text id="ZOO_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="360" y="344">ZOO_06</tspan>
+                <tspan x="362" y="364">ZOO_06</tspan>
             </text>
             <text id="ZOO_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="510" y="369">ZOO_08</tspan>
+                <tspan x="505" y="364">ZOO_08</tspan>
             </text>
             <text id="ZOO_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="630" y="364">ZOO_10</tspan>
+                <tspan x="625" y="364">ZOO_10</tspan>
             </text>
             <text id="CRC_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="735" y="364">CRC_02</tspan>
             </text>
             <text id="CRC_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="860" y="344">CRC_04</tspan>
+                <tspan x="860" y="364">CRC_04</tspan>
             </text>
             <text id="CRC_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="995" y="364">CRC_06</tspan>
@@ -4709,7 +4715,7 @@ let mimicscreendata = [
                 <tspan x="1130" y="364">CRC_08</tspan>
             </text>
             <text id="Y_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1225" y="344">Y_12</tspan>
+                <tspan x="1225" y="342">Y_12</tspan>
             </text>
 
             <!-- Platform ZOOLOGICO -->
@@ -21505,7 +21511,7 @@ let mimicscreendata = [
                     <polygon id="Triangle" fill="#000000" transform="translate(4, 5) scale(-1, 1) rotate(90) translate(-4, -5)" points="4 1 9 9 -1 9"></polygon>
                 </g>
             </g>
-            <g id="CycleButtons_ANT_2" transform="translate(82, 725)">
+            <g id="CycleButtons_SIL_3" transform="translate(82, 725)">
                 <g id="OffButton" transform="translate(36, 0)">
                     <g id="borders" fill="black" fill-opacity="1">
                         <use filter="url(#filter-l6_a5lxqar-84)" xlink:href="#path-l6_a5lxqar-83"></use>

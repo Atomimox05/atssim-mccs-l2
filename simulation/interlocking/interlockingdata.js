@@ -197,6 +197,110 @@ var interlockingData = {
                 }
             }
         },
+        {
+            name: "CPU_1",
+            routes: {
+                "entry": {
+                    start: "CPU04",
+                    end: "CPU07"
+                },
+                "exit": {
+                    start: "CPU05",
+                    end: "CPU01"
+                }
+            }
+        },
+        {
+            name: "CPU_2",
+            routes: {
+                "entry": {
+                    start: "CPU04",
+                    end: "CPU08"
+                },
+                "exit": {
+                    start: "CPU06",
+                    end: "CPU01"
+                }
+            }
+        },
+        {
+            name: "CPU_3",
+            routes: {
+                "entry": {
+                    start: "CPU05",
+                    end: "CPU02"
+                },
+                "exit": {
+                    start: "CPU04",
+                    end: "CPU08"
+                }
+            }
+        },
+        {
+            name: "CPU_4",
+            routes: {
+                "entry": {
+                    start: "CPU05",
+                    end: "CPU01"
+                },
+                "exit": {
+                    start: "CPU03",
+                    end: "CPU08"
+                }
+            }
+        },
+        {
+            name: "SIL_1",
+            routes: {
+                "entry": {
+                    start: "SIL04",
+                    end: "SIL07"
+                },
+                "exit": {
+                    start: "SIL05",
+                    end: "SIL01"
+                }
+            }
+        },
+        {
+            name: "SIL_2",
+            routes: {
+                "entry": {
+                    start: "SIL04",
+                    end: "SIL08"
+                },
+                "exit": {
+                    start: "SIL06",
+                    end: "SIL01"
+                }
+            }
+        },
+        {
+            name: "SIL_3",
+            routes: {
+                "entry": {
+                    start: "SIL08",
+                    end: "SIL11"
+                },
+                "exit": {
+                    start: "SIL09",
+                    end: "SIL05"
+                }
+            }
+        },
+        {
+            name: "SIL_4",
+            routes: {
+                "entry": {
+                    start: "SIL08",
+                    end: "SIL12"
+                },
+                "exit": {
+                    start: "SIL10",
+                    end: "SIL05"
+                }
+            }
+        },
     ],
     shuntingRoutes: [
         {

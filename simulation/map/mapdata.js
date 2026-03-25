@@ -1355,7 +1355,7 @@ let mapData = {
             name: "MAT_01",
             southbound: "ART_09",
             northbound: "MAT_03",
-            length: 4
+            length: 6
         },
         {
             name: "MAT_03",
@@ -1573,7 +1573,7 @@ let mapData = {
                 southbound: "SIL01", //G
                 northbound: "SIL03" //K
             },
-            length: 10
+            length: 12
         },
         {
             name: "SIL_03",
@@ -1656,7 +1656,7 @@ let mapData = {
                 southbound: "SIL02", //F
                 northbound: "SIL04" //C
             },
-            length: 10
+            length: 12
         },
         {
             name: "SIL_04",
