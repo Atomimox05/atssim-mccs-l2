@@ -2591,5 +2591,29 @@ let mapData = {
                 position: 3
             },
         },
+        {
+            name: "CAPUCHINOS_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "CPU_11",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "CPU_07",
+                position: 2
+            },
+        },
+        {
+            name: "CAPUCHINOS_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "CPU_10",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "CPU_08",
+                position: 3
+            },
+        },
     ],
 }
