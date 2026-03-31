@@ -4659,7 +4659,7 @@ let mimicscreendata = [
                 <tspan x="92" y="192">ZOO_01</tspan>
             </text>
              <text id="ZOO_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="240" y="192">ZOO_03</tspan>
+                <tspan x="230" y="192">ZOO_03</tspan>
             </text>
              <text id="ZOO_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="360" y="192">ZOO_05</tspan>
@@ -4691,7 +4691,7 @@ let mimicscreendata = [
                 <tspan x="92" y="364">ZOO_02</tspan>
             </text>
              <text id="ZOO_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="220" y="364">ZOO_04</tspan>
+                <tspan x="230" y="364">ZOO_04</tspan>
             </text>
              <text id="ZOO_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="362" y="364">ZOO_06</tspan>
@@ -7477,10 +7477,10 @@ let mimicscreendata = [
                 <tspan x="265" y="166">Y_03</tspan>
             </text>
              <text id="Y_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="330" y="194">Y_05</tspan>
+                <tspan x="310" y="216">Y_05</tspan>
             </text>
             <text id="Y_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="410" y="194">Y_07</tspan>
+                <tspan x="400" y="194">Y_07</tspan>
             </text>
             <text id="Y_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="520" y="194">Y_09</tspan>
@@ -7498,7 +7498,7 @@ let mimicscreendata = [
                 <tspan x="705" y="194">MAM_03</tspan>
             </text>
             <text id="MAM_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="785" y="194">MAM_05</tspan>
+                <tspan x="800" y="194">MAM_05</tspan>
             </text>
             <text id="MAM_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="905" y="194">MAM_07</tspan>
@@ -7518,7 +7518,7 @@ let mimicscreendata = [
 
             <!-- CIRCUITOS DE VIA - VIA 2 -->
             <text id="RUI_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="5" y="260">RUI_12</tspan>
+                <tspan x="12" y="260">RUI_12</tspan>
             </text>
             <text id="RUI_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="55" y="260">RUI_14</tspan>
@@ -7533,7 +7533,7 @@ let mimicscreendata = [
                 <tspan x="145" y="410">Y_14</tspan>
             </text>
             <text id="Y_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="265" y="302">Y_16</tspan>
+                <tspan x="275" y="302">Y_16</tspan>
             </text>
             <text id="Y_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="168" y="260">Y_02</tspan>
@@ -7542,10 +7542,10 @@ let mimicscreendata = [
                 <tspan x="255" y="364">Y_04</tspan>
             </text>
             <text id="Y_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="335" y="364">Y_06</tspan>
+                <tspan x="315" y="364">Y_06</tspan>
             </text>
             <text id="Y_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="420" y="364">Y_08</tspan>
+                <tspan x="400" y="364">Y_08</tspan>
             </text>
             <text id="Y_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="515" y="364">Y_10</tspan>
@@ -7557,7 +7557,7 @@ let mimicscreendata = [
                 <tspan x="720" y="364">MAM_04</tspan>
             </text>
             <text id="MAM_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="770" y="364">MAM_06</tspan>
+                <tspan x="800" y="364">MAM_06</tspan>
             </text>
             <text id="MAM_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="905" y="364">MAM_08</tspan>
@@ -8355,6 +8355,24 @@ let mimicscreendata = [
                 </text>
             </g>
             <g class="TrainDescriber_Y_16" transform="translate(245, 486)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_RUI_12" transform="translate(15, 85)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_RUI_14" transform="translate(55, 85)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_RUI_16" transform="translate(110, 85)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
@@ -10997,7 +11015,7 @@ let mimicscreendata = [
 
             <!-- CIRCUITOS DE VIA - VIA 1 -->
             <text id="ANT_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="35" y="214">ANT_01</tspan>
+                <tspan x="40" y="190">ANT_01</tspan>
             </text>
             <text id="ANT_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="145" y="190">ANT_03</tspan>
@@ -11012,10 +11030,10 @@ let mimicscreendata = [
                 <tspan x="390" y="190">ANT_09</tspan>
             </text>
             <text id="ANT_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="465" y="214">ANT_11</tspan>
+                <tspan x="455" y="190">ANT_11</tspan>
             </text>
             <text id="ANT_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="515" y="214">ANT_13</tspan>
+                <tspan x="515" y="190">ANT_13</tspan>
             </text>
             <text id="ANT_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="590" y="190">ANT_15</tspan>
@@ -11024,27 +11042,27 @@ let mimicscreendata = [
                 <tspan x="670" y="190">ANT_17</tspan>
             </text>
             <text id="ANT_19" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="770" y="190">ANT_19</tspan>
+                <tspan x="760" y="190">ANT_19</tspan>
             </text>
             <text id="CRP_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="835" y="190">CRP_01</tspan>
             </text>
             <text id="CRP_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="920" y="214">CRP_03</tspan>
+                <tspan x="910" y="190">CRP_03</tspan>
             </text>
             <text id="CRP_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="970" y="214">CRP_05</tspan>
+                <tspan x="970" y="190">CRP_05</tspan>
             </text>
             <text id="CRP_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="1070" y="190">CRP_07</tspan>
             </text>
             <text id="CRP_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1170" y="190">CRP_09</tspan>
+                <tspan x="1190" y="190">CRP_09</tspan>
             </text>
 
             <!-- CIRCUITOS DE VIA - VIA 2 -->
             <text id="ANT_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="35" y="344">ANT_02</tspan>
+                <tspan x="40" y="365">ANT_02</tspan>
             </text>
             <text id="ANT_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="145" y="365">ANT_04</tspan>
@@ -11059,10 +11077,10 @@ let mimicscreendata = [
                 <tspan x="390" y="365">ANT_10</tspan>
             </text>
             <text id="ANT_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="455" y="344">ANT_12</tspan>
+                <tspan x="455" y="365">ANT_12</tspan>
             </text>
             <text id="ANT_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="500" y="344">ANT_14</tspan>
+                <tspan x="515" y="365">ANT_14</tspan>
             </text>
             <text id="ANT_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="590" y="365">ANT_16</tspan>
@@ -11071,22 +11089,22 @@ let mimicscreendata = [
                 <tspan x="670" y="365">ANT_18</tspan>
             </text>
             <text id="ANT_20" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="770" y="365">AYA_13</tspan>
+                <tspan x="760" y="365">ANT_20</tspan>
             </text>
             <text id="CRP_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="835" y="365">CRP_02</tspan>
             </text>
             <text id="CRP_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="910" y="344">CRP_04</tspan>
+                <tspan x="910" y="365">CRP_04</tspan>
             </text>
             <text id="CRP_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="960" y="344">CRP_06</tspan>
+                <tspan x="970" y="365">CRP_06</tspan>
             </text>
             <text id="CRP_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="1070" y="365">CRP_08</tspan>
             </text>
             <text id="CRP_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1170" y="365">CRP_10</tspan>
+                <tspan x="1190" y="365">CRP_10</tspan>
             </text>
 
             <!-- Platform ANTIMANO -->
@@ -14119,7 +14137,7 @@ let mimicscreendata = [
                     <use fill="black" fill-opacity="1" filter="url(#filter-q4a68nfso5-32)" xlink:href="#path-q4a68nfso5-31"></use>
                     <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-q4a68nfso5-31"></use>
                 </g>
-                <text id="AYA" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
+                <text id="ANT" font-family="CourierNewPS-BoldMT, Courier New" font-size="20" font-weight="bold" fill="#FFFF06">
                     <tspan x="11.9970703" y="21">ANT</tspan>
                 </text>
             </g>
@@ -14279,7 +14297,7 @@ let mimicscreendata = [
                 <tspan x="145" y="190">YAG_01</tspan>
             </text>
             <text id="YAG_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="258" y="214">YAG_03</tspan>
+                <tspan x="258" y="190">YAG_03</tspan>
             </text>
             <text id="YAG_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="360" y="190">YAG_05</tspan>
@@ -14294,22 +14312,22 @@ let mimicscreendata = [
                 <tspan x="590" y="190">PAZ_05</tspan>
             </text>
             <text id="PAZ_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="685" y="214">PAZ_07</tspan>
+                <tspan x="685" y="190">PAZ_07</tspan>
             </text>
             <text id="PAZ_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="805" y="187">PAZ_09</tspan>
+                <tspan x="790" y="190">PAZ_09</tspan>
             </text>
             <text id="PAZ_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="845" y="187">PAZ_11</tspan>
+                <tspan x="865" y="190">PAZ_11</tspan>
             </text>
             <text id="PAZ_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="930" y="217">PAZ_13</tspan>
+                <tspan x="945" y="217">PAZ_13</tspan>
             </text>
             <text id="PAZ_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1057" y="214">PAZ_15</tspan>
+                <tspan x="1045" y="190">PAZ_15</tspan>
             </text>
             <text id="PAZ_17" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1160" y="217">PAZ_17</tspan>
+                <tspan x="1150" y="217">PAZ_17</tspan>
             </text>
             <text id="PAZ_19" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="1215" y="214">PAZ_19</tspan>
@@ -14547,10 +14565,10 @@ let mimicscreendata = [
                 <tspan x="145" y="365">YAG_02</tspan>
             </text>
             <text id="YAG_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="230" y="345">YAG_04</tspan>
+                <tspan x="230" y="365">YAG_04</tspan>
             </text>
             <text id="YAG_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="275" y="345">YAG_06</tspan>
+                <tspan x="285" y="365">YAG_06</tspan>
             </text>
             <text id="YAG_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="360" y="365">YAG_08</tspan>
@@ -14565,25 +14583,25 @@ let mimicscreendata = [
                 <tspan x="590" y="365">PAZ_06</tspan>
             </text>
             <text id="PAZ_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="660" y="345">PAZ_08</tspan>
+                <tspan x="655" y="365">PAZ_08</tspan>
             </text>
             <text id="PAZ_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="700" y="345">PAZ_10</tspan>
+                <tspan x="710" y="365">PAZ_10</tspan>
             </text>
             <text id="PAZ_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="805" y="370">PAZ_12</tspan>
+                <tspan x="790" y="365">PAZ_12</tspan>
             </text>
             <text id="PAZ_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="845" y="370">PAZ_14</tspan>
+                <tspan x="865" y="365">PAZ_14</tspan>
             </text>
             <text id="PAZ_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
                 <tspan x="985" y="365">PAZ_16</tspan>
             </text>
             <text id="PAZ_18" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1145" y="365">PAZ_18</tspan>
+                <tspan x="1155" y="365">PAZ_18</tspan>
             </text>
             <text id="PAZ_20" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#377E22">
-                <tspan x="1070" y="154">PAZ_20</tspan>
+                <tspan x="1050" y="154">PAZ_20</tspan>
             </text>
             
             <!-- TRACK CIRCUITS V1 -->
@@ -14596,7 +14614,7 @@ let mimicscreendata = [
             <line x1="576" y1="200" x2="638" y2="200" class="TrackCircuit_PAZ_05" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="640" y1="200" x2="760" y2="200" class="TrackCircuit_PAZ_07" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1001" y1="200" x2="1121" y2="200" class="TrackCircuit_PAZ_15" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1205" y1="200" x2="1260" y2="200" class="TrackCircuit_PAZ_19" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1204" y1="200" x2="1260" y2="200" class="TrackCircuit_PAZ_19" stroke="#FFFF06" stroke-width="10"></line>
             
             <!-- TRACK CIRCUITS V2 -->
             <line x1="5" y1="350" x2="107" y2="350" class="TrackCircuit_CRP_10" stroke="#FFFF06" stroke-width="10"></line>
@@ -20614,7 +20632,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_SIL_15" transform="translate(1190, 110)" opacity="0">
+            <g class="TrainDescriber_SIL_15" transform="translate(1170, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="blue">
                     <tspan x="6" y="13">-</tspan>
@@ -21468,7 +21486,53 @@ let mimicscreendata = [
                 </text>
             </g>
             
-            <g id="CycleButtons_ANT_1" transform="translate(11, 725)">
+            <g id="CycleButtons_SIL_1" transform="translate(11, 725)">
+                <g id="OffButton" transform="translate(36, 0)">
+                    <g id="borders" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-l6_a5lxqar-84)" xlink:href="#path-l6_a5lxqar-83"></use>
+                    </g>
+                    <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
+                    <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                        <tspan x="0.397949219" y="13.5">OFF</tspan>
+                    </text>
+                </g>
+                <g id="OnButton" transform="translate(4, 0)">
+                    <g id="active">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-l6_a5lxqar-86)" xlink:href="#path-l6_a5lxqar-85"></use>
+                        </g>
+                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                            <tspan x="4.59863281" y="13.5">ON</tspan>
+                        </text>
+                    </g>
+                    <g id="inactive">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-l6_a5lxqar-88)" xlink:href="#path-l6_a5lxqar-87"></use>
+                        </g>
+                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                            <tspan x="4.59863281" y="13.5">ON</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-90)" xlink:href="#path-l6_a5lxqar-89"></use>
+                    <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-89"></use>
+                </g>
+                <g id="Group" transform="translate(4, 33.5)">
+                    <line x1="1" y1="5" x2="58" y2="5" id="Path-20" stroke="#000000"></line>
+                    <line x1="1" y1="32" x2="58" y2="32" id="Path-20" stroke="#000000"></line>
+                    <line x1="13.6564879" y1="4.3535581" x2="28.3984113" y2="32.6497715" id="Path-2" stroke="#000000" transform="translate(20.9933, 18.8369) rotate(-4.6769) translate(-20.9933, -18.8369)"></line>
+                    <polyline id="Path-3" stroke="#000000" stroke-width="4" transform="translate(23.75, 18.5) scale(1, -1) translate(-23.75, -18.5)" points="8 32 46.5 32 29.5 32 12.5 5 1 5"></polyline>
+                    <line x1="14.2809393" y1="4.37851433" x2="29.3310458" y2="32.8885368" id="Path-2" stroke="#000000" transform="translate(21.331, 18.3885) scale(-1, 1) rotate(-4.6769) translate(-21.331, -18.3885)"></line>
+                    <polygon id="Triangle" fill="#000000" transform="translate(4, 5) scale(-1, 1) rotate(90) translate(-4, -5)" points="4 1 9 9 -1 9"></polygon>
+                    <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="10" fill="#000000">
+                         <tspan x="35" y="21">SIL</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="CycleButtons_SIL_2" transform="translate(82, 725)">
                 <g id="OffButton" transform="translate(36, 0)">
                     <g id="borders" fill="black" fill-opacity="1">
                         <use filter="url(#filter-l6_a5lxqar-76)" xlink:href="#path-l6_a5lxqar-75"></use>
@@ -21509,9 +21573,12 @@ let mimicscreendata = [
                     <polyline id="Path-3" stroke="#000000" stroke-width="4" points="1 32 42 32 29.5 32 12.5 5 8 5"></polyline>
                     <line x1="14.2809393" y1="4.37851433" x2="29.3310458" y2="32.8885368" id="Path-2" stroke="#000000" transform="translate(21.331, 18.3885) scale(-1, 1) rotate(-4.6769) translate(-21.331, -18.3885)"></line>
                     <polygon id="Triangle" fill="#000000" transform="translate(4, 5) scale(-1, 1) rotate(90) translate(-4, -5)" points="4 1 9 9 -1 9"></polygon>
+                    <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="10" fill="#000000">
+                         <tspan x="35" y="21">SIL</tspan>
+                    </text>
                 </g>
             </g>
-            <g id="CycleButtons_SIL_3" transform="translate(82, 725)">
+            <g id="CycleButtons_SIL_3" transform="translate(153, 725)">
                 <g id="OffButton" transform="translate(36, 0)">
                     <g id="borders" fill="black" fill-opacity="1">
                         <use filter="url(#filter-l6_a5lxqar-84)" xlink:href="#path-l6_a5lxqar-83"></use>
@@ -21554,10 +21621,10 @@ let mimicscreendata = [
                     <polygon id="Triangle" fill="#000000" transform="translate(4, 5) scale(-1, 1) rotate(90) translate(-4, -5)" points="4 1 9 9 -1 9"></polygon>
                 </g>
             </g>
-            <g id="CycleButtons_ANT_3" transform="translate(153, 725)">
+            <g id="CycleButtons_SIL_4" transform="translate(224, 725)">
                 <g id="OffButton" transform="translate(36, 0)">
                     <g id="borders" fill="black" fill-opacity="1">
-                        <use filter="url(#filter-l6_a5lxqar-92)" xlink:href="#path-l6_a5lxqar-91"></use>
+                        <use filter="url(#filter-l6_a5lxqar-76)" xlink:href="#path-l6_a5lxqar-75"></use>
                     </g>
                     <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
                     <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
@@ -21567,7 +21634,7 @@ let mimicscreendata = [
                 <g id="OnButton" transform="translate(4, 0)">
                     <g id="active">
                         <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-l6_a5lxqar-94)" xlink:href="#path-l6_a5lxqar-93"></use>
+                            <use filter="url(#filter-l6_a5lxqar-78)" xlink:href="#path-l6_a5lxqar-77"></use>
                         </g>
                         <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
                         <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
@@ -21576,7 +21643,7 @@ let mimicscreendata = [
                     </g>
                     <g id="inactive">
                         <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-l6_a5lxqar-96)" xlink:href="#path-l6_a5lxqar-95"></use>
+                            <use filter="url(#filter-l6_a5lxqar-80)" xlink:href="#path-l6_a5lxqar-79"></use>
                         </g>
                         <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
                         <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
@@ -21585,59 +21652,16 @@ let mimicscreendata = [
                     </g>
                 </g>
                 <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-98)" xlink:href="#path-l6_a5lxqar-97"></use>
-                    <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-97"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-82)" xlink:href="#path-l6_a5lxqar-81"></use>
+                    <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-81"></use>
                 </g>
-                <g id="Group" transform="translate(5, 37.2845)">
-                    <line x1="0" y1="1.71547226" x2="57" y2="1.71547226" id="Path-20" stroke="#000000"></line>
-                    <line x1="9.49240686e-15" y1="28.7154723" x2="57" y2="28.7154723" id="Path-20" stroke="#000000"></line>
-                    <line x1="12.6564879" y1="1.06903036" x2="27.3984113" y2="29.3652438" id="Path-2" stroke="#000000" transform="translate(19.9933, 15.5524) rotate(-4.6769) translate(-19.9933, -15.5524)"></line>
-                    <line x1="13.2809393" y1="1.09398659" x2="28.3310458" y2="29.6040091" id="Path-2" stroke="#000000" transform="translate(20.331, 15.104) scale(-1, 1) rotate(-4.6769) translate(-20.331, -15.104)"></line>
-                    <polygon id="Triangle" fill="#000000" transform="translate(54, 28.7155) rotate(90) translate(-54, -28.7155)" points="54 24.7154723 59 32.7154723 49 32.7154723"></polygon>
-                    <polyline id="Path-4" stroke="#000000" stroke-width="4" points="57 1.71547226 28.5 1.71547226 11.5 28.7154723 -7.55500668e-16 28.7154723 50 28.7154723"></polyline>
-                </g>
-            </g>
-            <g id="CycleButtons_ANT_4" transform="translate(224, 725)">
-                <g id="OffButton" transform="translate(36, 0)">
-                    <g id="borders" fill="black" fill-opacity="1">
-                        <use filter="url(#filter-l6_a5lxqar-100)" xlink:href="#path-l6_a5lxqar-99"></use>
-                    </g>
-                    <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                    <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                        <tspan x="0.397949219" y="13.5">OFF</tspan>
-                    </text>
-                </g>
-                <g id="OnButton" transform="translate(4, 0)">
-                    <g id="active">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-l6_a5lxqar-102)" xlink:href="#path-l6_a5lxqar-101"></use>
-                        </g>
-                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                    <g id="inactive">
-                        <g id="borders" fill="black" fill-opacity="1">
-                            <use filter="url(#filter-l6_a5lxqar-104)" xlink:href="#path-l6_a5lxqar-103"></use>
-                        </g>
-                        <rect id="background" fill="#494949" x="0" y="0" width="26" height="19"></rect>
-                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
-                            <tspan x="4.59863281" y="13.5">ON</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-106)" xlink:href="#path-l6_a5lxqar-105"></use>
-                    <use fill="#9496A2" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-105"></use>
-                </g>
-                <g id="Group" transform="translate(5, 37.2845)">
-                    <line x1="0" y1="1.71547226" x2="57" y2="1.71547226" id="Path-20" stroke="#000000"></line>
-                    <line x1="9.49240686e-15" y1="28.7154723" x2="57" y2="28.7154723" id="Path-20" stroke="#000000"></line>
-                    <line x1="12.6564879" y1="1.06903036" x2="27.3984113" y2="29.3652438" id="Path-2" stroke="#000000" transform="translate(19.9933, 15.5524) rotate(-4.6769) translate(-19.9933, -15.5524)"></line>
-                    <line x1="13.2809393" y1="1.09398659" x2="28.3310458" y2="29.6040091" id="Path-2" stroke="#000000" transform="translate(20.331, 15.104) scale(-1, 1) rotate(-4.6769) translate(-20.331, -15.104)"></line>
-                    <polygon id="Triangle" fill="#000000" transform="translate(54, 28.7155) rotate(90) translate(-54, -28.7155)" points="54 24.7154723 59 32.7154723 49 32.7154723"></polygon>
-                    <polyline id="Path-5" stroke="#000000" stroke-width="4" points="57 1.71547226 1.58206781e-15 1.71547226 11.5 1.71547226 28.5 28.7154723 50 28.7154723"></polyline>
+                <g id="Group" transform="translate(3, 33.5)">
+                    <line x1="1" y1="5" x2="58" y2="5" id="Path-20" stroke="#000000"></line>
+                    <line x1="1" y1="32" x2="58" y2="32" id="Path-20" stroke="#000000"></line>
+                    <line x1="13.6564879" y1="4.3535581" x2="28.3984113" y2="32.6497715" id="Path-2" stroke="#000000" transform="translate(20.9933, 18.8369) rotate(-4.6769) translate(-20.9933, -18.8369)"></line>
+                    <polyline id="Path-3" stroke="#000000" stroke-width="4" points="1 32 42 32 29.5 32 12.5 5 8 5"></polyline>
+                    <line x1="14.2809393" y1="4.37851433" x2="29.3310458" y2="32.8885368" id="Path-2" stroke="#000000" transform="translate(21.331, 18.3885) scale(-1, 1) rotate(-4.6769) translate(-21.331, -18.3885)"></line>
+                    <polygon id="Triangle" fill="#000000" transform="translate(4, 5) scale(-1, 1) rotate(90) translate(-4, -5)" points="4 1 9 9 -1 9"></polygon>
                 </g>
             </g>
             

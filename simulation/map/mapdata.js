@@ -521,7 +521,7 @@ let mapData = {
             name: "Y_11",
             southbound: "CRC_07",
             northbound: "Y_13",
-            length: 8
+            length: 12
         },
         {
             name: "Y_13",
@@ -591,7 +591,7 @@ let mapData = {
             name: "Y_12",
             southbound: "CRC_08",
             northbound: "Y_14",
-            length: 8
+            length: 12
         },
         {
             name: "Y_14",

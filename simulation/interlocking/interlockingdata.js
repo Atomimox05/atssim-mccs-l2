@@ -71,11 +71,11 @@ var interlockingData = {
             name: "Y_2",
             routes: {
                 "entry": {
-                    start: "Y02",
+                    start: "Y04",
                     end: "MAM02"
                 },
                 "exit": {
-                    start: "Y04",
+                    start: "Y02",
                     end: "MAM02"
                 }
             }
