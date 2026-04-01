@@ -712,7 +712,7 @@ let mapData = {
             name: "MAM_11",
             southbound: "MAM_09",
             northbound: "ANT_01",
-            length: 8
+            length: 10
         },
         //VIA 2
         {
@@ -763,7 +763,7 @@ let mapData = {
             name: "MAM_12",
             southbound: "MAM_10",
             northbound: "ANT_02",
-            length: 8
+            length: 10
         },
         //VIA Z
         {
