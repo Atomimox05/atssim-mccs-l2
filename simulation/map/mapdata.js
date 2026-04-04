@@ -521,7 +521,7 @@ let mapData = {
             name: "Y_11",
             southbound: "CRC_07",
             northbound: "Y_13",
-            length: 8
+            length: 12
         },
         {
             name: "Y_13",
@@ -591,7 +591,7 @@ let mapData = {
             name: "Y_12",
             southbound: "CRC_08",
             northbound: "Y_14",
-            length: 8
+            length: 12
         },
         {
             name: "Y_14",
@@ -712,7 +712,7 @@ let mapData = {
             name: "MAM_11",
             southbound: "MAM_09",
             northbound: "ANT_01",
-            length: 8
+            length: 10
         },
         //VIA 2
         {
@@ -763,7 +763,7 @@ let mapData = {
             name: "MAM_12",
             southbound: "MAM_10",
             northbound: "ANT_02",
-            length: 8
+            length: 10
         },
         //VIA Z
         {
@@ -1154,7 +1154,7 @@ let mapData = {
         {
             name: "PAZ_15",
             southbound: "PAZ_13",
-            northbound: "endOfTrack",
+            northbound: "PAZ_17",
             signals: {
                 southbound: "PAZ07", //J
                 northbound: "PAZ09" //H
@@ -1175,7 +1175,7 @@ let mapData = {
         {
             name: "PAZ_19",
             southbound: "PAZ_17",
-            northbound: "endOfTrack",
+            northbound: "ART_01",
             length: 3
         },
         //VIA 2
@@ -1243,7 +1243,7 @@ let mapData = {
         {
             name: "PAZ_16",
             southbound: "PAZ_14",
-            northbound: "endOfTrack",
+            northbound: "PAZ_18",
             signals: {
                 southbound: "PAZ08", //D
                 northbound: "PAZ10" //E
@@ -1253,7 +1253,7 @@ let mapData = {
         {
             name: "PAZ_18",
             southbound: "PAZ_16",
-            northbound: "endOfTrack",
+            northbound: "ART_02",
             length: 5
         },
         {
@@ -1277,6 +1277,477 @@ let mapData = {
             },
             length: 8
         },
+        //ARTIGAS
+        //VIA 1
+        {
+            name: "ART_01",
+            southbound: "PAZ_19",
+            northbound: "ART_03",
+            length: 6
+        },
+        {
+            name: "ART_03",
+            southbound: "ART_01",
+            northbound: "ART_05",
+            length: 6
+        },
+        {
+            name: "ART_05",
+            southbound: "ART_03",
+            northbound: "ART_07",
+            signals: {
+                southbound: "ART01", //G
+            },
+            length: 8
+        },
+        {
+            name: "ART_07",
+            southbound: "ART_05",
+            northbound: "ART_09",
+            length: 7
+        },
+        {
+            name: "ART_09",
+            southbound: "ART_07",
+            northbound: "MAT_01",
+            length: 7
+        },
+        //VIA 2
+        {
+            name: "ART_02",
+            southbound: "PAZ_18",
+            northbound: "ART_04",
+            length: 8
+        },
+        {
+            name: "ART_04",
+            southbound: "ART_02",
+            northbound: "ART_06",
+            signals: {
+                southbound: "ART02", //F
+            },
+            length: 4
+        },
+        {
+            name: "ART_06",
+            southbound: "ART_04",
+            northbound: "ART_08",
+            signals: {
+                northbound: "ART04", //S2
+            },
+            length: 4
+        },
+        {
+            name: "ART_08",
+            southbound: "ART_06",
+            northbound: "ART_10",
+            length: 7
+        },
+        {
+            name: "ART_10",
+            southbound: "ART_08",
+            northbound: "MAT_02",
+            length: 7
+        },
+        //MATERNIDAD
+        //VIA 1
+        {
+            name: "MAT_01",
+            southbound: "ART_09",
+            northbound: "MAT_03",
+            length: 6
+        },
+        {
+            name: "MAT_03",
+            southbound: "MAT_01",
+            northbound: "MAT_05",
+            signals: {
+                southbound: "MAT01", //S1
+            },
+            length: 4
+        },
+        {
+            name: "MAT_05",
+            southbound: "MAT_03",
+            northbound: "MAT_07",
+            signals: {
+                northbound: "MAT03", //M
+            },
+            length: 4
+        },
+        {
+            name: "MAT_07",
+            southbound: "MAT_05",
+            northbound: "MAT_09",
+            length: 7
+        },
+        {
+            name: "MAT_09",
+            southbound: "MAT_07",
+            northbound: "CPU_01",
+            length: 4
+        },
+        //VIA 2
+        {
+            name: "MAT_02",
+            southbound: "ART_10",
+            northbound: "MAT_04",
+            length: 7
+        },
+        {
+            name: "MAT_04",
+            southbound: "MAT_02",
+            northbound: "MAT_06",
+            length: 4
+        },
+        {
+            name: "MAT_06",
+            southbound: "MAT_04",
+            northbound: "MAT_08",
+            signals: {
+                northbound: "MAT04", //A
+            },
+            length: 4
+        },
+        {
+            name: "MAT_08",
+            southbound: "MAT_06",
+            northbound: "MAT_10",
+            length: 7
+        },
+        {
+            name: "MAT_10",
+            southbound: "MAT_08",
+            northbound: "CPU_02",
+            length: 4
+        },
+        //CAPUCHINOS
+        //VIA 1
+        {
+            name: "CPU_01",
+            southbound: "MAT_09",
+            northbound: "CPU_03",
+            signals: {
+                southbound: "CPU01", //L
+                northbound: "CPU03" //K
+            },
+            length: 8
+        },
+        {
+            name: "CPU_03",
+            southbound: "CPU_01",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CPU_A1",
+                normal: "CPU_05",
+                reverse: "CPU_CV"
+            },
+            length: 1
+        },
+        {
+            name: "CPU_05",
+            northbound: "CPU_07",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CPU_A3",
+                normal: "CPU_03",
+                reverse: "CPU_CV"
+            },
+            length: 1
+        },
+        {
+            name: "CPU_07",
+            southbound: "CPU_05",
+            northbound: "CPU_09",
+            signals: {
+                southbound: "CPU05", //J
+            },
+            length: 3
+        },
+        {
+            name: "CPU_09",
+            southbound: "CPU_07",
+            northbound: "CPU_11",
+            length: 2
+        },
+        {
+            name: "CPU_11",
+            southbound: "CPU_09",
+            northbound: "CPU_13",
+            signals: {
+                northbound: "CPU07", //H
+            },
+            length: 3
+        },
+        {
+            name: "CPU_13",
+            southbound: "CPU_11",
+            northbound: "CPU_15",
+            length: 6
+        },
+        {
+            name: "CPU_15",
+            southbound: "CPU_13",
+            northbound: "SIL_01",
+            length: 6
+        },
+        //VIA 2
+        {
+            name: "CPU_02",
+            southbound: "MAT_10",
+            northbound: "CPU_04",
+            signals: {
+                southbound: "CPU02", //B
+                northbound: "CPU04" //C
+            },
+            length: 8
+        },
+        {
+            name: "CPU_04",
+            southbound: "CPU_02",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CPU_A2",
+                normal: "CPU_06",
+                reverse: "CPU_CV"
+            },
+            length: 1
+        },
+        {
+            name: "CPU_06",
+            northbound: "CPU_08",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CPU_A4",
+                normal: "CPU_04",
+                reverse: "CPU_CV"
+            },
+            length: 1
+        },
+        {
+            name: "CPU_08",
+            southbound: "CPU_06",
+            northbound: "CPU_10",
+            signals: {
+                southbound: "CPU06", //D
+            },
+            length: 4
+        },
+        {
+            name: "CPU_10",
+            southbound: "CPU_08",
+            northbound: "CPU_12",
+            signals: {
+                northbound: "CPU08", //E
+            },
+            length: 4
+        },
+        {
+            name: "CPU_12",
+            southbound: "CPU_10",
+            northbound: "CPU_14",
+            length: 6
+        },
+        {
+            name: "CPU_14",
+            southbound: "CPU_12",
+            northbound: "SIL_02",
+            length: 6
+        },
+        {
+            name: "CPU_CV",
+            crossTrackCircuit: true,
+            southboundLineSouthboundDirection: "CPU_04",
+            southboundLineNorthboundDirection: "CPU_06",
+            northboundLineSouthboundDirection: "CPU_03",
+            northboundLineNorthboundDirection: "CPU_05",
+            length: 1
+        },
+        //EL SILENCIO
+        //VIA 1
+        {
+            name: "SIL_01",
+            southbound: "CPU_15",
+            northbound: "SIL_03",
+            signals: {
+                southbound: "SIL01", //G
+                northbound: "SIL03" //K
+            },
+            length: 12
+        },
+        {
+            name: "SIL_03",
+            southbound: "SIL_01",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A1",
+                normal: "SIL_05",
+                reverse: "SIL_CV"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_05",
+            northbound: "SIL_07",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A3",
+                normal: "SIL_03",
+                reverse: "SIL_CV"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_07",
+            southbound: "SIL_05",
+            northbound: "SIL_09",
+            signals: {
+                southbound: "SIL05", //S1
+            },
+            length: 4
+        },
+        {
+            name: "SIL_09",
+            southbound: "SIL_07",
+            northbound: "SIL_11",
+            signals: {
+                northbound: "SIL07", //M
+            },
+            length: 4
+        },
+        {
+            name: "SIL_11",
+            southbound: "SIL_09",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A5",
+                normal: "SIL_13",
+                reverse: "SIL_CV2"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_13",
+            northbound: "SIL_15",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A7",
+                normal: "SIL_11",
+                reverse: "SIL_CV2"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_15",
+            southbound: "SIL_13",
+            northbound: "endOfTrack",
+            signals: {
+                southbound: "SIL09", //G
+                northbound: "SIL11" //SP07
+            },
+            length: 8
+        },
+        //VIA 2
+        {
+            name: "SIL_02",
+            southbound: "CPU_14",
+            northbound: "SIL_04",
+            signals: {
+                southbound: "SIL02", //F
+                northbound: "SIL04" //C
+            },
+            length: 12
+        },
+        {
+            name: "SIL_04",
+            southbound: "SIL_02",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A2",
+                normal: "SIL_06",
+                reverse: "SIL_CV"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_06",
+            northbound: "SIL_08",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A4",
+                normal: "SIL_04",
+                reverse: "SIL_CV"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_08",
+            southbound: "SIL_06",
+            northbound: "SIL_10",
+            signals: {
+                southbound: "SIL06", //D
+            },
+            length: 4
+        },
+        {
+            name: "SIL_10",
+            southbound: "SIL_08",
+            northbound: "SIL_12",
+            signals: {
+                northbound: "SIL08", //E
+            },
+            length: 4
+        },
+        {
+            name: "SIL_12",
+            southbound: "SIL_10",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A6",
+                normal: "SIL_14",
+                reverse: "SIL_CV2"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_14",
+            northbound: "SIL_16",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "SIL_A8",
+                normal: "SIL_12",
+                reverse: "SIL_CV2"
+            },
+            length: 1
+        },
+        {
+            name: "SIL_16",
+            southbound: "SIL_14",
+            northbound: "endOfTrack",
+            signals: {
+                southbound: "SIL10", //F
+                northbound: "SIL12" //SP8
+            },
+            length: 10
+        },
+        {
+            name: "SIL_CV",
+            crossTrackCircuit: true,
+            southboundLineSouthboundDirection: "SIL_04",
+            southboundLineNorthboundDirection: "SIL_06",
+            northboundLineSouthboundDirection: "SIL_03",
+            northboundLineNorthboundDirection: "SIL_05",
+            length: 1
+        },
+        {
+            name: "SIL_CV2",
+            crossTrackCircuit: true,
+            southboundLineSouthboundDirection: "SIL_12",
+            southboundLineNorthboundDirection: "SIL_14",
+            northboundLineSouthboundDirection: "SIL_11",
+            northboundLineNorthboundDirection: "SIL_13",
+            length: 1
+        }
     ],
     points: [
         {
@@ -1406,6 +1877,54 @@ let mapData = {
         {
             name: "PAZ_A4",
             trackCircuit: "PAZ_14",
+        },
+        {
+            name: "CPU_A1",
+            trackCircuit: "CPU_03",
+        },
+        {
+            name: "CPU_A3",
+            trackCircuit: "CPU_05",
+        },
+        {
+            name: "CPU_A2",
+            trackCircuit: "CPU_04",
+        },
+        {
+            name: "CPU_A4",
+            trackCircuit: "CPU_06",
+        },
+        {
+            name: "SIL_A1",
+            trackCircuit: "SIL_03",
+        },
+        {
+            name: "SIL_A3",
+            trackCircuit: "SIL_05",
+        },
+        {
+            name: "SIL_A2",
+            trackCircuit: "SIL_04",
+        },
+        {
+            name: "SIL_A4",
+            trackCircuit: "SIL_06",
+        },
+        {
+            name: "SIL_A5",
+            trackCircuit: "SIL_11",
+        },
+        {
+            name: "SIL_A7",
+            trackCircuit: "SIL_13",
+        },
+        {
+            name: "SIL_A6",
+            trackCircuit: "SIL_12",
+        },
+        {
+            name: "SIL_A8",
+            trackCircuit: "SIL_14",
         }
     ],
     signals: [
@@ -1677,6 +2196,110 @@ let mapData = {
             name: "PAZ11",
             direction: "northbound"
         },
+        {
+            name: "ART01",
+            direction: "southbound"
+        },
+        {
+            name: "ART02",
+            direction: "southbound"
+        },
+        {
+            name: "ART04",
+            direction: "northbound"
+        },
+        {
+            name: "MAT01",
+            direction: "southbound"
+        },
+        {
+            name: "MAT03",
+            direction: "northbound"
+        },
+        {
+            name: "MAT04",
+            direction: "northbound"
+        },
+        {
+            name: "CPU01",
+            direction: "southbound"
+        },
+        {
+            name: "CPU03",
+            direction: "northbound"
+        },
+        {
+            name: "CPU05",
+            direction: "southbound"
+        },
+        {
+            name: "CPU07",
+            direction: "northbound"
+        },
+        {
+            name: "CPU02",
+            direction: "southbound"
+        },
+        {
+            name: "CPU04",
+            direction: "northbound"
+        },
+        {
+            name: "CPU06",
+            direction: "southbound"
+        },
+        {
+            name: "CPU08",
+            direction: "northbound"
+        },
+        {
+            name: "SIL01",
+            direction: "southbound"
+        },
+        {
+            name: "SIL03",
+            direction: "northbound"
+        },
+        {
+            name: "SIL05",
+            direction: "southbound"
+        },
+        {
+            name: "SIL07",
+            direction: "northbound"
+        },
+        {
+            name: "SIL09",
+            direction: "southbound"
+        },
+        {
+            name: "SIL11",
+            direction: "northbound"
+        },
+        {
+            name: "SIL02",
+            direction: "southbound"
+        },
+        {
+            name: "SIL04",
+            direction: "northbound"
+        },
+        {
+            name: "SIL06",
+            direction: "southbound"
+        },
+        {
+            name: "SIL08",
+            direction: "northbound"
+        },
+        {
+            name: "SIL10",
+            direction: "southbound"
+        },
+        {
+            name: "SIL12",
+            direction: "northbound"
+        }
     ],
     shuntingPanels: [
         {
@@ -1919,6 +2542,102 @@ let mapData = {
                 trackCircuit: "PAZ_08",
                 position: 3
             },
-        }
+        },
+        {
+            name: "ARTIGAS_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "ART_05",
+                position: 6
+            },
+            southbound: {
+                trackCircuit: "ART_05",
+                position: 3
+            },
+        },
+        {
+            name: "ARTIGAS_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "ART_06",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "ART_04",
+                position: 3
+            },
+        },
+        {
+            name: "MATERNIDAD_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "MAT_05",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "MAT_03",
+                position: 2
+            },
+        },
+        {
+            name: "MATERNIDAD_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "MAT_06",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "MAT_04",
+                position: 3
+            },
+        },
+        {
+            name: "CAPUCHINOS_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "CPU_11",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "CPU_07",
+                position: 2
+            },
+        },
+        {
+            name: "CAPUCHINOS_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "CPU_10",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "CPU_08",
+                position: 3
+            },
+        },
+        {
+            name: "SILENCIO_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "SIL_09",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "SIL_07",
+                position: 2
+            },
+        },
+        {
+            name: "SILENCIO_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "SIL_10",
+                position: 2
+            },
+            southbound: {
+                trackCircuit: "SIL_08",
+                position: 3
+            },
+        },
     ],
 }
