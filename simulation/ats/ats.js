@@ -18,6 +18,7 @@ class ATS {
     screens
     trainManager
     regulation
+    regulationWindow
 
     constructor(map, interlocking, windowManager) {
         this.map = map
@@ -32,6 +33,7 @@ class ATS {
         this.mimicScreen = null
         this.supervisionWindow = null
         this.trainManager = new ATSTrainManager(interlocking.trackCircuits)
+        this.regulationWindow = null
         this.startATS()
         this.languageStylesheet = document.createElement("link")
         this.languageStylesheet.setAttribute("rel", "stylesheet")
@@ -55,13 +57,14 @@ class ATS {
         this.startAlarmScreen()
         this.startAccessScreen()
         this.startSupervisionWindow()
+        this.startRegulationWindow()
         this.startNavigationBar()
     }
 
     startRegulation() {
         this.regulation = new ATSRegulation()
         this.map.platforms.forEach(platform => {
-            var atsPlatform = new ATSPlatform(platform.name)
+            var atsPlatform = new ATSPlatform(platform.name, platform.terminus === true)
             this.regulation.platforms.push(atsPlatform)
             platform.atsPlatform = atsPlatform
         })
@@ -151,6 +154,10 @@ class ATS {
         this.supervisionWindow = new ATSSystemSupervisionWindow()
     }
 
+    startRegulationWindow() {
+        this.regulationWindow = new ATSRegulationWindow(this)
+    }
+
     addScreen(screen) {
         this.mainWindow.appendChild(screen.HTMLElement)
     }
@@ -193,6 +200,7 @@ class ATS {
 
         var regulationButton = document.createElement("button")
         regulationButton.style.backgroundImage = "url(./ats/resources/regulation.svg)"
+        regulationButton.addEventListener("click", () => { this.windowManager.addWindow("", this.regulationWindow.HTMLElement, 264, 385, 420, 520) })
         navigationBar.appendChild(regulationButton)
 
         var supervisionButton = document.createElement("button")

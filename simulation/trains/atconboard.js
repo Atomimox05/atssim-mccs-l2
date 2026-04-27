@@ -90,7 +90,7 @@ class ATCOnboard {
                     }
                 }
             } else {
-                if (this.currentlyStoppedPlatform.terminus && !this.alreadyChangedEnds) {
+                if (this.currentlyStoppedPlatform.atsPlatform.terminus && !this.alreadyChangedEnds) {
                     this.alreadyChangedEnds = true
                     this.train.driver.changeEnds()
                 }
@@ -117,7 +117,7 @@ class ATCOnboard {
                     }
                 }
             } else {
-                if (this.currentlyStoppedPlatform.terminus && !this.alreadyChangedEnds) {
+                if (this.currentlyStoppedPlatform.atsPlatform.terminus && !this.alreadyChangedEnds) {
                     this.alreadyChangedEnds = true
                     this.train.driver.changeEnds()
                 }
