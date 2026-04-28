@@ -4921,6 +4921,12 @@ let mimicscreendata = [
                 <text id="ZOO07" font-family="Consolas" font-size="11" font-weight="bold" fill="#000000">
                     <tspan x="580" y="170">G</tspan>
                 </text>
+                <g id="Fleeting_ZOO07" transform="translate(595, 210)">
+                    <rect id="rectangle" stroke="#000000" fill="#9496A2" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
+                        <tspan x="4.89916992" y="15">A</tspan>
+                    </text>
+                </g>
             <text id="ZR4" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#000000">
                 <tspan x="680" y="237.5">ZR4</tspan>
             </text>

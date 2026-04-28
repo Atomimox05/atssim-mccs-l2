@@ -28,19 +28,19 @@ var interlockingData = {
                 }
             }
         },
-        // {
-        //     name: "ZOO_1",
-        //     routes: {
-        //         "entry": {
-        //             start: "ZOO03",
-        //             end: "SP3"
-        //         },
-        //         "exit": {
-        //             start: "ZOO01",
-        //             end: "ZOO06"
-        //         }
-        //     }
-        // },
+        {
+            name: "ZOO_1",
+            routes: {
+                "entry": {
+                    start: "ZOO03",
+                    end: "SP3"
+                },
+                "exit": {
+                    start: "ZOO01",
+                    end: "ZOO06"
+                }
+            }
+        },
         {
             name: "ZOO_2",
             routes: {

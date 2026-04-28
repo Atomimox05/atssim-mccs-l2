@@ -14,10 +14,12 @@ class ATS {
     interlockingAnswerSecondLine
     languageStylesheet
     currentScreenTitle
-    supervisionWindow
+supervisionWindow
     screens
     trainManager
     regulation
+    regulationWindow
+    regulationWindowOpen
 
     constructor(map, interlocking, windowManager) {
         this.map = map
@@ -29,9 +31,10 @@ class ATS {
         this.screens = []
         this.currentScreen = null
         this.alarmScreen = null
-        this.mimicScreen = null
         this.supervisionWindow = null
         this.trainManager = new ATSTrainManager(interlocking.trackCircuits)
+        this.regulationWindow = null
+        this.regulationWindowOpen = false
         this.startATS()
         this.languageStylesheet = document.createElement("link")
         this.languageStylesheet.setAttribute("rel", "stylesheet")
@@ -55,13 +58,14 @@ class ATS {
         this.startAlarmScreen()
         this.startAccessScreen()
         this.startSupervisionWindow()
+        this.startRegulationWindow()
         this.startNavigationBar()
     }
 
     startRegulation() {
         this.regulation = new ATSRegulation()
         this.map.platforms.forEach(platform => {
-            var atsPlatform = new ATSPlatform(platform.name)
+            var atsPlatform = new ATSPlatform(platform.name, platform.terminus === true)
             this.regulation.platforms.push(atsPlatform)
             platform.atsPlatform = atsPlatform
         })
@@ -151,6 +155,10 @@ class ATS {
         this.supervisionWindow = new ATSSystemSupervisionWindow()
     }
 
+    startRegulationWindow() {
+        this.regulationWindow = new ATSRegulationWindow(this)
+    }
+
     addScreen(screen) {
         this.mainWindow.appendChild(screen.HTMLElement)
     }
@@ -193,6 +201,22 @@ class ATS {
 
         var regulationButton = document.createElement("button")
         regulationButton.style.backgroundImage = "url(./ats/resources/regulation.svg)"
+        regulationButton.addEventListener("click", () => {
+            if (!this.regulationWindowOpen) {
+                var content = this.regulationWindow.createContent()
+                var win = this.windowManager.addWindow("", content, 264, 385, 420, 520)
+                this.regulationWindowOpen = true
+                win.DOMElement.querySelector('.leftbutton').addEventListener('click', () => {
+                    this.regulationWindowOpen = false
+                })
+            } else {
+                var existingWindow = this.windowManager.windows.find(w => w.content.parentElement && w.content.parentElement.contains(this.regulationWindow.HTMLElement) === false && w.content.querySelector('h2') && w.content.querySelector('h2').innerText === "Platform Terminus Configuration")
+                if (existingWindow) {
+                    existingWindow.closeWindow()
+                    this.regulationWindowOpen = false
+                }
+            }
+        })
         navigationBar.appendChild(regulationButton)
 
         var supervisionButton = document.createElement("button")
