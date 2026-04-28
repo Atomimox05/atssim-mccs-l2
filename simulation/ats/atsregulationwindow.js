@@ -6,10 +6,13 @@ class ATSRegulationWindow {
 
     constructor(ats) {
         this.ats = ats
+    }
+
+    createContent() {
         this.HTMLElement = document.createElement("div")
         this.HTMLElement.style.width = "400px"
         this.HTMLElement.style.height = "500px"
-        this.HTMLElement.style.backgroundColor = "#1a1a2e"
+        this.HTMLElement.style.backgroundColor = ""
         this.HTMLElement.style.color = "white"
         this.HTMLElement.style.padding = "10px"
         this.HTMLElement.style.overflow = "auto"
@@ -24,7 +27,7 @@ class ATSRegulationWindow {
         var instruction = document.createElement("p")
         instruction.innerText = "Select platforms that are terminal stations:"
         instruction.style.fontSize = "12px"
-        instruction.style.color = "#aaa"
+        instruction.style.color = "#000"
         this.HTMLElement.appendChild(instruction)
 
         var platformsContainer = document.createElement("div")
@@ -36,27 +39,29 @@ class ATSRegulationWindow {
             platformRow.style.alignItems = "center"
             platformRow.style.marginBottom = "8px"
             platformRow.style.padding = "8px"
-            platformRow.style.backgroundColor = "#2a2a4a"
+            platformRow.style.backgroundColor = ""
             platformRow.style.borderRadius = "4px"
 
             var checkbox = document.createElement("input")
             checkbox.type = "checkbox"
-            checkbox.id = `terminus_${platform.name}`
+            checkbox.id = `terminus_${platform.name}_${Date.now()}`
             checkbox.checked = platform.terminus === true
             checkbox.style.marginRight = "10px"
             checkbox.style.width = "18px"
             checkbox.style.height = "18px"
             checkbox.style.cursor = "pointer"
+            checkbox.style.accentColor = "#000"
 
             checkbox.addEventListener("change", () => {
                 this.ats.regulation.setTerminus(platform.name, checkbox.checked)
             })
 
             var label = document.createElement("label")
-            label.htmlFor = `terminus_${platform.name}`
+            label.htmlFor = `terminus_${platform.name}_${Date.now()}`
             label.innerText = platform.name.replace(/_/g, " ")
             label.style.cursor = "pointer"
             label.style.fontSize = "14px"
+            label.style.color = "#000"
 
             platformRow.appendChild(checkbox)
             platformRow.appendChild(label)
@@ -64,5 +69,6 @@ class ATSRegulationWindow {
         })
 
         this.HTMLElement.appendChild(platformsContainer)
+        return this.HTMLElement
     }
 }
