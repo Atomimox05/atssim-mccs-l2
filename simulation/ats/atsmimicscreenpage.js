@@ -14,7 +14,7 @@ class ATSMimicScreenPage {
     constructor(name, svg, interlocking, ats) {
         this.name = name
         this.HTMLElement = document.createElement("svg")
-        var newElement = new DOMParser().parseFromString(svg, "text/html").body.firstChild
+        var newElement = new DOMParser().parseFromString(svg, "image/svg+xml").documentElement
         this.HTMLElement.append(newElement)
         this.interlocking = interlocking
         this.ats = ats
@@ -180,7 +180,7 @@ class ATSMimicScreenPage {
             if (interlockingTrackCircuit.occupied) {
                 color = "red"
             } else if (interlockingTrackCircuit.reservedForRoute || interlockingTrackCircuit.approachLocked || interlockingTrackCircuit.reservedForShuntingRoute) {
-                color = "white"
+                color = "#00CC00"
             } else {
                 color = "#FFFF06"
             }
@@ -194,13 +194,13 @@ class ATSMimicScreenPage {
     updateDirectionArrow(interlockingTrackCircuit, directionArrowInScreen) {
         if ((interlockingTrackCircuit.reservedForRoute || interlockingTrackCircuit.occupied || interlockingTrackCircuit.reservedForShuntingRoute) && interlockingTrackCircuit.direction == "northbound") {
             directionArrowInScreen.querySelector("#northbound").setAttribute("fill", "white")
-            directionArrowInScreen.querySelector("#southbound").setAttribute("fill", "#9496A2")
+            directionArrowInScreen.querySelector("#southbound").setAttribute("fill", "#2b2d31")
         } else if ((interlockingTrackCircuit.reservedForRoute || interlockingTrackCircuit.occupied || interlockingTrackCircuit.reservedForShuntingRoute) && interlockingTrackCircuit.direction == "southbound") {
-            directionArrowInScreen.querySelector("#northbound").setAttribute("fill", "#9496A2")
+            directionArrowInScreen.querySelector("#northbound").setAttribute("fill", "#2b2d31")
             directionArrowInScreen.querySelector("#southbound").setAttribute("fill", "white")
         } else {
-            directionArrowInScreen.querySelector("#northbound").setAttribute("fill", "#9496A2")
-            directionArrowInScreen.querySelector("#southbound").setAttribute("fill", "#9496A2")
+            directionArrowInScreen.querySelector("#northbound").setAttribute("fill", "#2b2d31")
+            directionArrowInScreen.querySelector("#southbound").setAttribute("fill", "#2b2d31")
         }
         setTimeout(() => { this.updateDirectionArrow(interlockingTrackCircuit, directionArrowInScreen) }, 200)
     }
@@ -212,7 +212,7 @@ class ATSMimicScreenPage {
             if (interlockingTrackCircuit.occupied) {
                 trackCircuitColor = "red"
             } else if (interlockingTrackCircuit.reservedForRoute || interlockingTrackCircuit.approachLocked || interlockingTrackCircuit.reservedForShuntingRoute) {
-                trackCircuitColor = "white"
+                trackCircuitColor = "#00CC00"
             } else {
                 trackCircuitColor = "#FFFF06"
             }
