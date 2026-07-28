@@ -16,4 +16,4 @@ Open `index.html` or `simulation/index.html` directly in a browser. No server re
 - Edit JS/HTML/CSS files directly; browser reflects changes on refresh
 
 ## Language
-Write the code in English but always respond to the conversation in English.
+Write the code in English but always respond to the conversation in Spanish.

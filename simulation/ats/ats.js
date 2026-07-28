@@ -20,6 +20,8 @@ supervisionWindow
     regulation
     regulationWindow
     regulationWindowOpen
+    operationModeWindow
+    operationModeWindowOpen
 
     constructor(map, interlocking, windowManager) {
         this.map = map
@@ -35,6 +37,8 @@ supervisionWindow
         this.trainManager = new ATSTrainManager(interlocking.trackCircuits)
         this.regulationWindow = null
         this.regulationWindowOpen = false
+        this.operationModeWindow = null
+        this.operationModeWindowOpen = false
         this.startATS()
         this.languageStylesheet = document.createElement("link")
         this.languageStylesheet.setAttribute("rel", "stylesheet")
@@ -59,6 +63,7 @@ supervisionWindow
         this.startAccessScreen()
         this.startSupervisionWindow()
         this.startRegulationWindow()
+        this.startOperationModeWindow()
         this.startNavigationBar()
     }
 
@@ -159,6 +164,10 @@ supervisionWindow
         this.regulationWindow = new ATSRegulationWindow(this)
     }
 
+    startOperationModeWindow() {
+        this.operationModeWindow = new ATSOperationModeWindow(this)
+    }
+
     addScreen(screen) {
         this.mainWindow.appendChild(screen.HTMLElement)
     }
@@ -177,13 +186,13 @@ supervisionWindow
         navigationBar.classList = "navigationbar"
 
         var accessButton = document.createElement("button")
-        accessButton.style.backgroundImage = "url(./ats/resources/access.svg)"
+        accessButton.style.backgroundImage = "url(./ats/resources/access.svg?v=2)"
         accessButton.classList = "buttonwithmargin"
         accessButton.addEventListener("click", () => { this.switchToScreen(this.accessScreen) })
         navigationBar.appendChild(accessButton)
 
         var homeButton = document.createElement("button")
-        homeButton.style.backgroundImage = "url(./ats/resources/home.svg)"
+        homeButton.style.backgroundImage = "url(./ats/resources/home.svg?v=2)"
         homeButton.addEventListener("click", () => { this.switchToScreen(this.mimicScreen) })
         navigationBar.appendChild(homeButton)
 
@@ -191,16 +200,32 @@ supervisionWindow
         navigationBar.appendChild(emptyButton)
 
         var onlineTimetableButton = document.createElement("button")
-        onlineTimetableButton.style.backgroundImage = "url(./ats/resources/onlinetimetable.svg)"
+        onlineTimetableButton.style.backgroundImage = "url(./ats/resources/onlinetimetable.svg?v=2)"
         navigationBar.appendChild(onlineTimetableButton)
 
         var operationModeButton = document.createElement("button")
-        operationModeButton.style.backgroundImage = "url(./ats/resources/operationmode.svg)"
+        operationModeButton.style.backgroundImage = "url(./ats/resources/operationmode.svg?v=2)"
         operationModeButton.classList = "buttonwithmargin"
+        operationModeButton.addEventListener("click", () => {
+            if (!this.operationModeWindowOpen) {
+                var content = this.operationModeWindow.createContent()
+                var win = this.windowManager.addWindow("", content, 264, 385, 420, 520)
+                this.operationModeWindowOpen = true
+                win.DOMElement.querySelector('.leftbutton').addEventListener('click', () => {
+                    this.operationModeWindowOpen = false
+                })
+            } else {
+                var existingWindow = this.windowManager.windows.find(w => w.content.parentElement && w.content.parentElement.contains(this.operationModeWindow.HTMLElement) === false && w.content.querySelector('h2') && w.content.querySelector('h2').innerText === "TrackCircuit Terminal Configuration")
+                if (existingWindow) {
+                    existingWindow.closeWindow()
+                    this.operationModeWindowOpen = false
+                }
+            }
+        })
         navigationBar.appendChild(operationModeButton)
 
         var regulationButton = document.createElement("button")
-        regulationButton.style.backgroundImage = "url(./ats/resources/regulation.svg)"
+        regulationButton.style.backgroundImage = "url(./ats/resources/regulation.svg?v=2)"
         regulationButton.addEventListener("click", () => {
             if (!this.regulationWindowOpen) {
                 var content = this.regulationWindow.createContent()
@@ -220,12 +245,12 @@ supervisionWindow
         navigationBar.appendChild(regulationButton)
 
         var supervisionButton = document.createElement("button")
-        supervisionButton.style.backgroundImage = "url(./ats/resources/supervision.svg)"
+        supervisionButton.style.backgroundImage = "url(./ats/resources/supervision.svg?v=2)"
         supervisionButton.addEventListener("click", () => { this.windowManager.addWindow("", this.supervisionWindow.HTMLElement, 264, 385, 752, 254) })
         navigationBar.appendChild(supervisionButton)
 
         var sessionButton = document.createElement("button")
-        sessionButton.style.backgroundImage = "url(./ats/resources/session.svg)"
+        sessionButton.style.backgroundImage = "url(./ats/resources/session.svg?v=2)"
         navigationBar.appendChild(sessionButton)
 
         var emptyButton2 = document.createElement("button")
@@ -233,16 +258,16 @@ supervisionWindow
         navigationBar.appendChild(emptyButton2)
 
         var ackAlarmButton = document.createElement("button")
-        ackAlarmButton.style.backgroundImage = "url(./ats/resources/ackalarm.svg)"
+        ackAlarmButton.style.backgroundImage = "url(./ats/resources/ackalarm.svg?v=2)"
         navigationBar.appendChild(ackAlarmButton)
 
         var alarmsButton = document.createElement("button")
-        alarmsButton.style.backgroundImage = "url(./ats/resources/alarms.svg)"
+        alarmsButton.style.backgroundImage = "url(./ats/resources/alarms.svg?v=2)"
         alarmsButton.addEventListener("click", () => { this.switchToScreen(this.alarmScreen) })
         navigationBar.appendChild(alarmsButton)
 
         var activeAlarmButton = document.createElement("button")
-        activeAlarmButton.style.backgroundImage = "url(./ats/resources/activealarm.svg)"
+        activeAlarmButton.style.backgroundImage = "url(./ats/resources/activealarm.svg?v=2)"
         navigationBar.appendChild(activeAlarmButton)
 
         this.interlockingAnswerFirstLine = document.createElement("p")
