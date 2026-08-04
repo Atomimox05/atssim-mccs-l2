@@ -2022,7 +2022,8 @@ let mimicscreendata = [
             <!-- Signals LAS ADJUNTAS VIA 1 -->
             <g id="Signal_SP1" transform="translate(40, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SP1" transform="translate(65, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2033,8 +2034,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_AJU01" transform="translate(175, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
-                <circle id="disc" fill="#fff" cx="-6" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_AJU01" transform="translate(140, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2049,7 +2050,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_AJU03" transform="translate(544, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_AJU03" transform="translate(570, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2073,7 +2075,8 @@ let mimicscreendata = [
             <!-- Signals LAS ADJUNTAS VIA 2 -->
             <g id="Signal_SP2" transform="translate(30, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SP2" transform="translate(64, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2084,7 +2087,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_AJU02" transform="translate(176, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_AJU02" transform="translate(140, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2099,7 +2103,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_AJU04" transform="translate(533, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_AJU04" transform="translate(569, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2130,7 +2135,8 @@ let mimicscreendata = [
             </g>
             <g id="Signal_RUI01" transform="translate(825, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI01" transform="translate(789, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2145,7 +2151,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_RUI03" transform="translate(1077, 206)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI03" transform="translate(1085, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2166,7 +2173,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_RUI05" transform="translate(1212, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI05" transform="translate(1205, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2192,7 +2200,8 @@ let mimicscreendata = [
             <!-- SIGNALS RUIZ PINEDA VIA 2 -->
             <g id="Signal_RUI02" transform="translate(824, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI02" transform="translate(789, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2213,7 +2222,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_RUI04" transform="translate(1085, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI04" transform="translate(1085, 371) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2228,7 +2238,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_RUI06" transform="translate(1212, 334) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI06" transform="translate(1205, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4852,7 +4863,8 @@ let mimicscreendata = [
             <!-- Signals ZOOLOGICO VIA 1 -->
             <g id="Signal_SP3" transform="translate(40, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SP3" transform="translate(65, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4863,7 +4875,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ZOO01" transform="translate(175, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO01" transform="translate(140, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4878,7 +4891,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ZOO03" transform="translate(307, 206)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO03" transform="translate(315, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4893,7 +4907,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ZOO05" transform="translate(443, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO05" transform="translate(433, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4909,7 +4924,8 @@ let mimicscreendata = [
             
             <g id="Signal_ZOO07" transform="translate(587, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO07" transform="translate(613, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4939,7 +4955,8 @@ let mimicscreendata = [
             <!-- Signals ZOOLOGICO VIA 2 -->
             <g id="Signal_SP4" transform="translate(30, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SP4" transform="translate(64, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4950,7 +4967,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ZOO02" transform="translate(176, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO02" transform="translate(140, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4965,7 +4983,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ZOO04" transform="translate(316, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO04" transform="translate(315, 371) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -4980,7 +4999,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ZOO06" transform="translate(442, 334) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO06" transform="translate(435, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -5001,7 +5021,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ZOO08" transform="translate(577, 355)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ZOO08" transform="translate(612, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -5018,7 +5039,8 @@ let mimicscreendata = [
             <!-- SIGNALS CARICUAO VIA 1 -->
             <g id="Signal_CRC01" transform="translate(805, 206)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CRC01" transform="translate(810, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -5050,7 +5072,8 @@ let mimicscreendata = [
             <!-- SIGNALS CARICUAO VIA 2 -->
             <g id="Signal_CRC02" transform="translate(937, 334) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CRC02" transform="translate(930, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7728,7 +7751,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_RUI07" transform="translate(69, 156) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI07" transform="translate(95, 152) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7749,7 +7773,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_Y01" transform="translate(252, 155.4) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y01" transform="translate(216, 142)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7774,7 +7799,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_RUI08" transform="translate(86, 230) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_RUI08" transform="translate(112, 229) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7789,7 +7815,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_Y02" transform="translate(208, 230) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y02" transform="translate(173, 219)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7820,7 +7847,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_Y03" transform="translate(172, 339) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y03" transform="translate(139, 332)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7845,7 +7873,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_Y04" transform="translate(207, 414) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y04" transform="translate(173, 407)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7868,7 +7897,8 @@ let mimicscreendata = [
             <!-- SIGNALS Y VIA 1 -->
             <g id="Signal_Y05" transform="translate(457, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y05" transform="translate(483, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7891,7 +7921,8 @@ let mimicscreendata = [
             <!-- SIGNALS Y VIA 2 -->
             <g id="Signal_Y06" transform="translate(450, 355)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y06" transform="translate(485, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7908,7 +7939,8 @@ let mimicscreendata = [
             <!-- SIGNALS VIA R -->
             <g id="Signal_Y07" transform="translate(455, 282)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_Y07" transform="translate(482, 256) scale(-1, 1) translate(-409, -258)translate(399, 248)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7923,7 +7955,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SP5" transform="translate(560, 291) scale(-1, 1) translate(-627, -292.75)translate(618, 282)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SP5" transform="translate(525, 246)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7936,7 +7969,8 @@ let mimicscreendata = [
             <!-- SIGNALS MAMERA VIA 1 -->
             <g id="Signal_MAM01" transform="translate(770, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM01" transform="translate(735, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7951,7 +7985,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_MAM03" transform="translate(867, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM03" transform="translate(894, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7972,7 +8007,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_MAM05" transform="translate(1010, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM05" transform="translate(975, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -7998,7 +8034,8 @@ let mimicscreendata = [
             <!-- SIGNALS MAMERA VIA 2 -->
             <g id="Signal_MAM02" transform="translate(706, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM02" transform="translate(670, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -8019,7 +8056,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_MAM04" transform="translate(860, 355)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM04" transform="translate(895, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -8034,7 +8072,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_MAM06" transform="translate(1010, 367.5) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM06" transform="translate(975, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -8065,7 +8104,8 @@ let mimicscreendata = [
             <!-- SIGNALS VIA Z -->
             <g id="Signal_SP6" transform="translate(656, 282)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SP6" transform="translate(690, 256) scale(-1, 1) translate(-409, -258)translate(399, 248)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -8076,7 +8116,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_MAM07" transform="translate(760, 291) scale(-1, 1) translate(-627, -292.75)translate(618, 282)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAM07" transform="translate(735, 246)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11250,7 +11291,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ANT01" transform="translate(95, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT01" transform="translate(120, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11271,7 +11313,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ANT03" transform="translate(230, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT03" transform="translate(195, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11286,7 +11329,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ANT05" transform="translate(422, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT05" transform="translate(435, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11307,7 +11351,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ANT07" transform="translate(570, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT07" transform="translate(555, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11322,7 +11367,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ANT09" transform="translate(722, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT09" transform="translate(748, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11361,7 +11407,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ANT02" transform="translate(85, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT02" transform="translate(119, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11376,7 +11423,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ANT04" transform="translate(228, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT04" transform="translate(193, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11397,7 +11445,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ANT06" transform="translate(431, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT06" transform="translate(436, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11412,7 +11461,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ANT08" transform="translate(570, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT08" transform="translate(555, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11433,7 +11483,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_ANT10" transform="translate(713, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ANT10" transform="translate(748, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11450,7 +11501,8 @@ let mimicscreendata = [
             <!-- SIGNALS CARAPITA -->
             <g id="Signal_CRP01" transform="translate(877, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CRP01" transform="translate(890, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -11471,7 +11523,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_CRP02" transform="translate(1027, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CRP02" transform="translate(1015, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14730,7 +14783,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_YAG01" transform="translate(197, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_YAG01" transform="translate(210, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14760,7 +14814,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_YAG02" transform="translate(342, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_YAG02" transform="translate(330, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14783,7 +14838,8 @@ let mimicscreendata = [
             <!-- SIGNALS LA PAZ V1 -->
             <g id="Signal_PAZ01" transform="translate(518, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ01" transform="translate(483, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14798,7 +14854,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_PAZ03" transform="translate(624, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ03" transform="translate(635, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14819,7 +14876,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_PAZ05" transform="translate(766, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ05" transform="translate(755, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14834,7 +14892,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_PAZ07" transform="translate(985, 206)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ07" transform="translate(1020, 220) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14855,7 +14914,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_PAZ09" transform="translate(1127, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ09" transform="translate(1092, 210)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14881,7 +14941,8 @@ let mimicscreendata = [
             <!-- SIGNALS LA PAZ V2 -->
             <g id="Signal_PAZ02" transform="translate(518, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ02" transform="translate(483, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14902,7 +14963,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_PAZ04" transform="translate(633, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ04" transform="translate(635, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14917,7 +14979,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_PAZ06" transform="translate(768, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ06" transform="translate(755, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14938,7 +15001,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_PAZ08" transform="translate(903, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ08" transform="translate(938, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14953,7 +15017,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_PAZ10" transform="translate(1085, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ10" transform="translate(1051, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -14985,7 +15050,8 @@ let mimicscreendata = [
             <!-- SIGNALS PAZ O -->
             <g id="Signal_PAZ11" transform="translate(999, 145) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_PAZ11" transform="translate(1025, 142) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -17944,7 +18010,8 @@ let mimicscreendata = [
 
             <g id="Signal_ART01" transform="translate(206, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ART01" transform="translate(230, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -17975,7 +18042,8 @@ let mimicscreendata = [
 
             <g id="Signal_ART02" transform="translate(196, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_ART02" transform="translate(230, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -17990,7 +18058,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_ART04" transform="translate(343, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <text id="ART04" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
                     <tspan x="339" y="390">S2</tspan>
@@ -18013,7 +18082,8 @@ let mimicscreendata = [
             <!-- SIGNALS MATERNIDAD -->
             <g id="Signal_MAT01" transform="translate(632, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAT01" transform="translate(657, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -18034,7 +18104,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_MAT03" transform="translate(769, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAT03" transform="translate(733, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -18050,7 +18121,8 @@ let mimicscreendata = [
             
             <g id="Signal_MAT04" transform="translate(770, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_MAT04" transform="translate(735, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -18073,7 +18145,8 @@ let mimicscreendata = [
             <!-- SIGNALS CAPUCHINOS -->
             <g id="Signal_CPU01" transform="translate(1095, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU01" transform="translate(1123, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -18104,7 +18177,8 @@ let mimicscreendata = [
 
             <g id="Signal_CPU02" transform="translate(1085, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU02" transform="translate(1120, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21053,7 +21127,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_CPU03" transform="translate(168, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU03" transform="translate(132, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21068,7 +21143,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_CPU05" transform="translate(306, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU05" transform="translate(318, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21089,7 +21165,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_CPU07" transform="translate(454, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU07" transform="translate(440, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21114,7 +21191,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_CPU04" transform="translate(169, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU04" transform="translate(133, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21135,7 +21213,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_CPU06" transform="translate(314, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU06" transform="translate(318, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21150,7 +21229,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_CPU08" transform="translate(453, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_CPU08" transform="translate(440, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21173,7 +21253,8 @@ let mimicscreendata = [
             <!-- SIGNALS EL SILENCIO VIA 1 -->
             <g id="Signal_SIL01" transform="translate(563, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL01" transform="translate(588, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21194,7 +21275,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_SIL03" transform="translate(678, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL03" transform="translate(644, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21209,7 +21291,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL05" transform="translate(821, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL05" transform="translate(835, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21230,7 +21313,8 @@ let mimicscreendata = [
                 </g>
             <g id="Signal_SIL07" transform="translate(970, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL07" transform="translate(957, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21245,7 +21329,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL09" transform="translate(1123, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL09" transform="translate(1148, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21260,7 +21345,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL11" transform="translate(1245, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL11" transform="translate(1210, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21273,7 +21359,8 @@ let mimicscreendata = [
             <!-- SIGNALS EL SILENCIO VIA 2 -->
             <g id="Signal_SIL02" transform="translate(555, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL02" transform="translate(589, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21288,7 +21375,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL04" transform="translate(679, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL04" transform="translate(645, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21309,7 +21397,8 @@ let mimicscreendata = [
                 </g>
              <g id="Signal_SIL06" transform="translate(828, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL06" transform="translate(834, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21324,7 +21413,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL08" transform="translate(971, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL08" transform="translate(959, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21339,7 +21429,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL10" transform="translate(1114, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL10" transform="translate(1148, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -21354,7 +21445,8 @@ let mimicscreendata = [
                 </text>
             <g id="Signal_SIL12" transform="translate(1245, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
-                <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
+                <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
                 <g id="Button_SIL12" transform="translate(1210, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>

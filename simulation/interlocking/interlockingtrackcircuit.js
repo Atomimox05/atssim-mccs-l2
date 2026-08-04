@@ -85,6 +85,14 @@ class InterlockingTrackCircuit {
                 } else if (this.reserveForRouteRequests > 0) {
                     this.reserveForRouteRequests-- 
                 }
+                
+                if (typeof interlocking !== "undefined") {
+                    interlocking.signals.forEach(signal => {
+                        if (signal.fleeting) {
+                            signal.notifyTrackCircuitFreed(this.name)
+                        }
+                    })
+                }
             }
         }
         this.occupied = occupation

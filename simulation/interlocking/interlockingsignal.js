@@ -1,5 +1,8 @@
 "use strict"
 
+const FLEETING_RED_WHITE_THRESHOLD = 2
+const FLEETING_GREEN_WHITE_THRESHOLD = 4
+
 class InterlockingSignal {
     name
     direction
@@ -9,12 +12,20 @@ class InterlockingSignal {
     interlocking
     fleeting
     fleetingRoute
+    fleetingAspect
+    associatedCycles
+    trackCircuitsSinceTrainPassed
+    trainHasPassedSignal
 
     constructor(interlocking, name) {
         this.name = name
         this.interlocking = interlocking
         this.fleeting = false
         this.fleetingRoute = null
+        this.fleetingAspect = "none"
+        this.associatedCycles = []
+        this.trackCircuitsSinceTrainPassed = 0
+        this.trainHasPassedSignal = false
         this.updateAspect()
     }
 
@@ -48,6 +59,10 @@ class InterlockingSignal {
                     this.fleetingRoute.path.forEach(trackCircuit => {
                         this.interlocking.getTrackCircuitFromName(trackCircuit).reserveForRouteRequests++
                     })
+                    if (this.aspect == "green" || this.aspect == "flashingGreen") {
+                        this.trainHasPassedSignal = true
+                        this.trackCircuitsSinceTrainPassed = 0
+                    }
                 }
             } else if (newAspect == "green") {
                 AlarmHandler.addEvent(this.name, "SİNYAL YEŞİL RENKTE", "SIGNAL ASPECT IS GREEN")
@@ -55,8 +70,52 @@ class InterlockingSignal {
                 AlarmHandler.addEvent(this.name, "SİNYAL YANIP SÖNEN YEŞİL RENKTE", "SIGNAL ASPECT IS FLASHING GREEN")
             }
         }
+        
+        var newFleetingAspect = "none"
+        if (this.fleeting) {
+            if (this.trainHasPassedSignal) {
+                var maxTCs = this.fleetingRoute != null ? this.fleetingRoute.path.length : 1
+                var greenWhiteThreshold = Math.min(FLEETING_GREEN_WHITE_THRESHOLD, maxTCs)
+                var redWhiteThreshold = Math.min(FLEETING_RED_WHITE_THRESHOLD, greenWhiteThreshold - 1)
+                if (redWhiteThreshold < 1) redWhiteThreshold = 1
+
+                if (this.trackCircuitsSinceTrainPassed < redWhiteThreshold) {
+                    newAspect = "red"
+                    newFleetingAspect = "none"
+                } else if (this.trackCircuitsSinceTrainPassed < greenWhiteThreshold) {
+                    newAspect = "red"
+                    newFleetingAspect = "redWhite"
+                } else {
+                    newFleetingAspect = "greenWhite"
+                    this.trainHasPassedSignal = false
+                }
+            } else {
+                if (newAspect == "green" || newAspect == "flashingGreen") {
+                    newFleetingAspect = "greenWhite"
+                }
+            }
+        } else {
+            var cycleEnabled = false
+            for (let i = 0; i < this.associatedCycles.length; i++) {
+                if (this.associatedCycles[i].enabled) {
+                    cycleEnabled = true
+                    break
+                }
+            }
+            if (cycleEnabled && (newAspect == "green" || newAspect == "flashingGreen")) {
+                newFleetingAspect = "greenWhite"
+            }
+        }
+
         this.aspect = newAspect
+        this.fleetingAspect = newFleetingAspect
         setTimeout(this.updateAspect.bind(this), 200)
+    }
+
+    notifyTrackCircuitFreed(trackCircuitName) {
+        if (this.fleetingRoute != null && this.fleetingRoute.path.includes(trackCircuitName)) {
+            this.trackCircuitsSinceTrainPassed++
+        }
     }
 
     findFleetingTargetSignal() {
@@ -97,6 +156,8 @@ class InterlockingSignal {
             }
         })
         this.fleeting = false
+        this.trainHasPassedSignal = false
+        this.trackCircuitsSinceTrainPassed = 0
         AlarmHandler.addEvent(this.name, "FİLO MODU İPTAL EDİLDİ", "FLEETING CANCELLED")
         return new InterlockingAnswer(true)
     }
