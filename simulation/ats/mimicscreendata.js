@@ -1976,10 +1976,10 @@ let mimicscreendata = [
                 <line x1="40.4290698" y1="16.4121395" x2="66.4290698" y2="16.4121395" id="N" stroke="#FFFF06" stroke-width="10" transform="translate(53.4291, 16.4121) scale(1, -1) translate(-53.4291, -16.4121)"></line>
                 <line x1="36.9842752" y1="65.9797806" x2="91.0413066" y2="65.9940482" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(64.0128, 65.9869) rotate(65) translate(-64.0128, -65.9869)"></line>
                 <line x1="32.9677535" y1="28.9909818" x2="60.5578284" y2="28.982847" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(46.7628, 28.9869) scale(-1, -1) rotate(65) translate(-46.7628, -28.9869)"></line>
-                <line x1="11.5702584" y1="34.241902" x2="28.7023956" y2="-2.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
+                <line x1="11.5702584" y1="34.241902" x2="20.5" y2="15.45605697" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(20.5703, 15.9752) scale(-1, -1) rotate(65) translate(-20.5703, -15.9752)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" transform="translate(42.4291, 16.4861) scale(1, -1) translate(-42.4291, -16.4861)" cx="42.4290698" cy="16.4860835" r="8.5"></circle>
             </g>
-            <line x1="1074" y1="350" x2="1090" y2="350" class="TrackCircuit_RUI_06" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1054" y1="350" x2="1090" y2="350" class="TrackCircuit_RUI_06" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1092" y1="350" x2="1150" y2="350" class="TrackCircuit_RUI_08" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1152" y1="350" x2="1205" y2="350" class="TrackCircuit_RUI_10" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1207" y1="350" x2="1260" y2="350" class="TrackCircuit_RUI_12" stroke="#FFFF06" stroke-width="10"></line>
@@ -2034,6 +2034,7 @@ let mimicscreendata = [
             <g id="Signal_AJU01" transform="translate(175, 184) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="6.5" cy="15" r="6"></circle>
+                <circle id="disc" fill="#fff" cx="-6" cy="15" r="6"></circle>
             </g>
                 <g id="Button_AJU01" transform="translate(140, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
@@ -2557,7 +2558,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_RUI_06" transform="translate(1070, 422)" opacity="0">
+            <g class="TrainDescriber_RUI_06" transform="translate(1060, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>

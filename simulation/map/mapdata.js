@@ -279,7 +279,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "RUI_A2",
                 normal: "RUI_02",
-                reverse: "RUI_05"
+                reverse: "RUI_07"
             },
             length: 7
         },
