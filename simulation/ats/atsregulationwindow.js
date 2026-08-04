@@ -20,14 +20,14 @@ class ATSRegulationWindow {
         var title = document.createElement("h2")
         title.innerText = "Platform Terminus Configuration"
         title.style.marginTop = "0"
-        title.style.borderBottom = "1px solid #444"
+        title.style.borderBottom = "1px solid #888"
         title.style.paddingBottom = "10px"
         this.HTMLElement.appendChild(title)
 
         var instruction = document.createElement("p")
         instruction.innerText = "Select platforms that are terminal stations:"
         instruction.style.fontSize = "12px"
-        instruction.style.color = "#000"
+        instruction.style.color = "#fff"
         this.HTMLElement.appendChild(instruction)
 
         var platformsContainer = document.createElement("div")
@@ -50,7 +50,7 @@ class ATSRegulationWindow {
             checkbox.style.width = "18px"
             checkbox.style.height = "18px"
             checkbox.style.cursor = "pointer"
-            checkbox.style.accentColor = "#000"
+            checkbox.style.accentColor = "#4292c6"
 
             checkbox.addEventListener("change", () => {
                 this.ats.regulation.setTerminus(platform.name, checkbox.checked)
@@ -61,7 +61,7 @@ class ATSRegulationWindow {
             label.innerText = platform.name.replace(/_/g, " ")
             label.style.cursor = "pointer"
             label.style.fontSize = "14px"
-            label.style.color = "#000"
+            label.style.color = "#fff"
 
             platformRow.appendChild(checkbox)
             platformRow.appendChild(label)
