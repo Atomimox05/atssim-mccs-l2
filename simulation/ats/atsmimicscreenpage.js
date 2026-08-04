@@ -171,6 +171,17 @@ class ATSMimicScreenPage {
             aspect = "blue"
         }
         signalInScreen.querySelector("#disc").setAttribute("fill", aspect)
+        var whiteDisc = signalInScreen.querySelector("#whiteDisc")
+        if (whiteDisc) {
+            if (interlockingSignal.fleetingAspect === "redWhite" || interlockingSignal.fleetingAspect === "greenWhite") {
+                whiteDisc.setAttribute("display", "inline")
+                whiteDisc.setAttribute("cx", "6.5")
+                signalInScreen.querySelector("#disc").setAttribute("cx", "-6")
+            } else {
+                whiteDisc.setAttribute("display", "none")
+                signalInScreen.querySelector("#disc").setAttribute("cx", "6.5")
+            }
+        }
         setTimeout(() => { this.updateSignal(interlockingSignal, signalInScreen) }, 500)
     }
 

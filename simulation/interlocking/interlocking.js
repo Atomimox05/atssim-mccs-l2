@@ -76,12 +76,15 @@ class Interlocking {
             }
         })
         interlockingData.cycles.forEach(cycle => {
-            this.cycles.push(new Cycle(cycle.name,
+            var newCycle = new Cycle(cycle.name,
                 this, 
                 this.getSignalFromName(cycle.routes.entry.start), 
                 this.getSignalOrShuntingPanelFromName(cycle.routes.entry.end), 
                 this.getSignalFromName(cycle.routes.exit.start), 
-                this.getSignalFromName(cycle.routes.exit.end)))
+                this.getSignalFromName(cycle.routes.exit.end))
+            this.cycles.push(newCycle)
+            newCycle.entryRouteStartSignal.associatedCycles.push(newCycle)
+            newCycle.exitRouteStartSignal.associatedCycles.push(newCycle)
         })
         interlockingData.shuntingRoutes.forEach(shuntingRoute => {
             this.shuntingRoutes.push(new ShuntingRoute(
