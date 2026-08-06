@@ -3,7 +3,7 @@
 class ATSTrain {
     rollingStockNumber
     trainIndex
-    position
+    positions = []
     train
 
     constructor(rollingStockNumber, trainIndex, train, trainManager) {
@@ -13,9 +13,23 @@ class ATSTrain {
         this.trainManager = trainManager
     }
 
-    updatePosition(trackCircuit) {
-        this.trainManager.trainNumberMap[this.position] = null
-        this.position = trackCircuit.name
-        this.trainManager.trainNumberMap[this.position] = this
+    updatePosition(trackCircuits) {
+        if (this.positions) {
+            this.positions.forEach(pos => {
+                if (this.trainManager.trainNumberMap[pos] === this) {
+                    this.trainManager.trainNumberMap[pos] = null
+                }
+            })
+        }
+        
+        if (!Array.isArray(trackCircuits)) {
+            trackCircuits = [trackCircuits]
+        }
+        
+        this.positions = trackCircuits.map(tc => tc.name)
+        
+        this.positions.forEach(pos => {
+            this.trainManager.trainNumberMap[pos] = this
+        })
     }
 }

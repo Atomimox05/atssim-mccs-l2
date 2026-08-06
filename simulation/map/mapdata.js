@@ -235,7 +235,7 @@ let mapData = {
             name: "RUI_11",
             southbound: "RUI_09",
             northbound: "RUI_13",
-            signals:{
+            signals: {
                 southbound: "RUI03",//J
                 northbound: "RUI05"//H
             },
@@ -260,7 +260,7 @@ let mapData = {
             signals: {
                 southbound: "RUI07",//G
             },
-            length: 12
+            length: 14
         },
         //VIA 2
         {
@@ -293,7 +293,7 @@ let mapData = {
             name: "RUI_08",
             southbound: "RUI_06",
             northbound: "RUI_10",
-            signals:{
+            signals: {
                 southbound: "RUI04",//D
             },
             length: 4
@@ -302,7 +302,7 @@ let mapData = {
             name: "RUI_10",
             southbound: "RUI_08",
             northbound: "RUI_12",
-            signals:{
+            signals: {
                 northbound: "RUI06"//E
             },
             length: 4
@@ -326,7 +326,7 @@ let mapData = {
             signals: {
                 southbound: "RUI08",//F
             },
-            length: 8
+            length: 12
         },
         {
             name: "RUI_51",
@@ -355,7 +355,7 @@ let mapData = {
                 normal: "ZOO_05",
                 reverse: "ZOO_04"
             },
-            length: 5
+            length: 7
         },
         {
             name: "ZOO_05",
@@ -382,10 +382,10 @@ let mapData = {
             name: "ZOO_09",
             southbound: "ZOO_07",
             northbound: "CRC_01",
-            signals:{
+            signals: {
                 southbound: "ZOO07",    //G
             },
-            shuntingPanels:{
+            shuntingPanels: {
                 northbound: "ZR4"
             },
             length: 7
@@ -410,7 +410,7 @@ let mapData = {
                 normal: "ZOO_02",
                 reverse: "ZOO_03"
             },
-            length: 5
+            length: 7
         },
         {
             name: "ZOO_06",
@@ -454,7 +454,7 @@ let mapData = {
             name: "CRC_03",
             southbound: "CRC_01",
             northbound: "CRC_05",
-            signals:{
+            signals: {
                 southbound: "CRC01", //S1
             },
             length: 8
@@ -469,7 +469,7 @@ let mapData = {
             name: "CRC_07",
             southbound: "CRC_05",
             northbound: "Y_11",
-            length: 14
+            length: 16
         },
         //VIA 2
         {
@@ -482,7 +482,7 @@ let mapData = {
             name: "CRC_04",
             southbound: "CRC_02",
             northbound: "CRC_06",
-            signals:{
+            signals: {
                 northbound: "CRC02", //S2
             },
             length: 8
@@ -497,7 +497,7 @@ let mapData = {
             name: "CRC_08",
             southbound: "CRC_06",
             northbound: "Y_12",
-            length: 14
+            length: 16
         },
         //Y
         //VIA 1 - ADJUNTAS
@@ -508,13 +508,13 @@ let mapData = {
             signals: {
                 northbound: "Y01" //K
             },
-            length: 5
+            length: 10
         },
         {
             name: "Y_03",
             southbound: "Y_01",
             northbound: "Y_05",
-            length: 2
+            length: 3
         },
         //VIA 1 - ZOOLOGICO
         {
@@ -559,7 +559,7 @@ let mapData = {
                 normal: "Y_09",
                 reverse: "Y_17"
             },
-            length: 4
+            length: 7
         },
         {
             name: "Y_09",
@@ -578,13 +578,13 @@ let mapData = {
             signals: {
                 northbound: "Y02" //C
             },
-            length: 5
+            length: 10
         },
         {
             name: "Y_04",
             southbound: "Y_02",
             northbound: "Y_06",
-            length: 2
+            length: 3
         },
         //VIA 2 - ZOOLOGICO
         {
@@ -629,7 +629,7 @@ let mapData = {
                 normal: "Y_10",
                 reverse: "Y_17"
             },
-            length: 4
+            length: 7
         },
         {
             name: "Y_10",
@@ -712,7 +712,7 @@ let mapData = {
             name: "MAM_11",
             southbound: "MAM_09",
             northbound: "ANT_01",
-            length: 10
+            length: 8
         },
         //VIA 2
         {
@@ -763,7 +763,7 @@ let mapData = {
             name: "MAM_12",
             southbound: "MAM_10",
             northbound: "ANT_02",
-            length: 10
+            length: 8
         },
         //VIA Z
         {
@@ -793,7 +793,7 @@ let mapData = {
             name: "ANT_01",
             southbound: "MAM_11",
             northbound: "ANT_03",
-            length: 5
+            length: 12
         },
         {
             name: "ANT_03",
@@ -877,7 +877,7 @@ let mapData = {
             name: "ANT_02",
             southbound: "MAM_12",
             northbound: "ANT_04",
-            length: 5
+            length: 12
         },
         {
             name: "ANT_04",
@@ -1040,7 +1040,7 @@ let mapData = {
             name: "YAG_01",
             southbound: "CRP_09",
             northbound: "YAG_03",
-            length: 7
+            length: 10
         },
         {
             name: "YAG_03",
@@ -1055,14 +1055,14 @@ let mapData = {
             name: "YAG_05",
             southbound: "YAG_03",
             northbound: "PAZ_01",
-            length: 12
+            length: 16
         },
         //VÍA 2
         {
             name: "YAG_02",
             southbound: "CRP_10",
             northbound: "YAG_04",
-            length: 7
+            length: 10
         },
         {
             name: "YAG_04",
@@ -1083,7 +1083,7 @@ let mapData = {
             name: "YAG_08",
             southbound: "YAG_06",
             northbound: "PAZ_02",
-            length: 12
+            length: 16
         },
         //LA PAZ
         //VIA 1
@@ -1091,10 +1091,10 @@ let mapData = {
             name: "PAZ_01",
             southbound: "YAG_05",
             northbound: "PAZ_03",
-            signals:{
+            signals: {
                 northbound: "PAZ01" //M
             },
-            length: 7
+            length: 8
         },
         {
             name: "PAZ_03",
@@ -1176,17 +1176,17 @@ let mapData = {
             name: "PAZ_19",
             southbound: "PAZ_17",
             northbound: "ART_01",
-            length: 3
+            length: 7
         },
         //VIA 2
         {
             name: "PAZ_02",
             southbound: "YAG_08",
             northbound: "PAZ_04",
-            signals:{
+            signals: {
                 northbound: "PAZ02" //A
             },
-            length: 7
+            length: 8
         },
         {
             name: "PAZ_04",
@@ -1254,7 +1254,7 @@ let mapData = {
             name: "PAZ_18",
             southbound: "PAZ_16",
             northbound: "ART_02",
-            length: 5
+            length: 10
         },
         {
             name: "PAZ_CV",
@@ -1355,7 +1355,7 @@ let mapData = {
             name: "MAT_01",
             southbound: "ART_09",
             northbound: "MAT_03",
-            length: 6
+            length: 8
         },
         {
             name: "MAT_03",
@@ -1379,20 +1379,20 @@ let mapData = {
             name: "MAT_07",
             southbound: "MAT_05",
             northbound: "MAT_09",
-            length: 7
+            length: 8
         },
         {
             name: "MAT_09",
             southbound: "MAT_07",
             northbound: "CPU_01",
-            length: 4
+            length: 6
         },
         //VIA 2
         {
             name: "MAT_02",
             southbound: "ART_10",
             northbound: "MAT_04",
-            length: 7
+            length: 8
         },
         {
             name: "MAT_04",
@@ -1413,13 +1413,13 @@ let mapData = {
             name: "MAT_08",
             southbound: "MAT_06",
             northbound: "MAT_10",
-            length: 7
+            length: 8
         },
         {
             name: "MAT_10",
             southbound: "MAT_08",
             northbound: "CPU_02",
-            length: 4
+            length: 6
         },
         //CAPUCHINOS
         //VIA 1
@@ -1573,7 +1573,7 @@ let mapData = {
                 southbound: "SIL01", //G
                 northbound: "SIL03" //K
             },
-            length: 12
+            length: 16
         },
         {
             name: "SIL_03",
@@ -1656,7 +1656,7 @@ let mapData = {
                 southbound: "SIL02", //F
                 northbound: "SIL04" //C
             },
-            length: 12
+            length: 16
         },
         {
             name: "SIL_04",
