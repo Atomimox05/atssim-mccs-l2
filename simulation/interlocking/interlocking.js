@@ -313,7 +313,7 @@ class Interlocking {
             }
             if (!shuntingRoute) {
                 trackCircuit.reservedForRoute = true
-                AlarmHandler.addEvent(trackCircuit.name, "ALT GÜZERGAH KİLİTLİ", "SUBROUTE LOCKED")
+                AlarmHandler.addEvent(trackCircuit.name, "ALT GÜZERGAH KİLİTLİ", "SUBROUTE LOCKED", "SUBRUTA BLOQUEADA")
             } else {
                 trackCircuit.reservedForShuntingRoute = true
             }

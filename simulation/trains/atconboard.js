@@ -31,14 +31,11 @@ class ATCOnboard {
             if (this.atsTrain == null) {
                 this.atsTrain = this.ats.addTrain(this.train)
             }
-            var trackCircuits = []
-            this.train.carPositions.forEach(carPos => {
-                var tc = carPos.mapTrackCircuit.interlockingTrackCircuit
-                if (!trackCircuits.includes(tc)) {
-                    trackCircuits.push(tc)
-                }
-            })
-            this.atsTrain.updatePosition(trackCircuits)
+            if (this.train.direction == "northbound") {
+                this.atsTrain.updatePosition(this.train.carPositions[0].mapTrackCircuit.interlockingTrackCircuit)
+            } else {
+                this.atsTrain.updatePosition(this.train.carPositions[this.train.carPositions.length - 1].mapTrackCircuit.interlockingTrackCircuit)
+            }
         }
     }
 

@@ -54,7 +54,7 @@ class InterlockingSignal {
         }
         if (this.aspect != newAspect) {
             if (newAspect == "red") {
-                AlarmHandler.addEvent(this.name, "SİNYAL KIRMIZI RENKTE", "SIGNAL ASPECT IS RED")
+                AlarmHandler.addEvent(this.name, "SİNYAL KIRMIZI RENKTE", "SIGNAL ASPECT IS RED", "ASPECTO DE LA SEÑAL ES ROJO")
                 if (this.fleeting) {
                     this.fleetingRoute.path.forEach(trackCircuit => {
                         this.interlocking.getTrackCircuitFromName(trackCircuit).reserveForRouteRequests++
@@ -65,9 +65,9 @@ class InterlockingSignal {
                     }
                 }
             } else if (newAspect == "green") {
-                AlarmHandler.addEvent(this.name, "SİNYAL YEŞİL RENKTE", "SIGNAL ASPECT IS GREEN")
+                AlarmHandler.addEvent(this.name, "SİNYAL YEŞİL RENKTE", "SIGNAL ASPECT IS GREEN", "ASPECTO DE LA SEÑAL ES VERDE")
             } else if (newAspect == "flashingGreen") {
-                AlarmHandler.addEvent(this.name, "SİNYAL YANIP SÖNEN YEŞİL RENKTE", "SIGNAL ASPECT IS FLASHING GREEN")
+                AlarmHandler.addEvent(this.name, "SİNYAL YANIP SÖNEN YEŞİL RENKTE", "SIGNAL ASPECT IS FLASHING GREEN", "ASPECTO DE LA SEÑAL ES VERDE PARPADEANTE")
             }
         }
         
@@ -140,7 +140,7 @@ class InterlockingSignal {
         if (fleetingPossibility.status) {
             this.interlocking.activateRoute(this.fleetingRoute)
             this.fleeting = true
-            AlarmHandler.addEvent(this.name, "FİLO MODU DEVREDE", "FLEETING SET")
+            AlarmHandler.addEvent(this.name, "FİLO MODU DEVREDE", "FLEETING SET", "FLOTA ESTABLECIDA")
         }
         return fleetingPossibility
     }
@@ -158,7 +158,7 @@ class InterlockingSignal {
         this.fleeting = false
         this.trainHasPassedSignal = false
         this.trackCircuitsSinceTrainPassed = 0
-        AlarmHandler.addEvent(this.name, "FİLO MODU İPTAL EDİLDİ", "FLEETING CANCELLED")
+        AlarmHandler.addEvent(this.name, "FİLO MODU İPTAL EDİLDİ", "FLEETING CANCELLED", "FLOTA CANCELADA")
         return new InterlockingAnswer(true)
     }
 }

@@ -121,6 +121,16 @@
     margin-left: 10px;
 }
 
+.navigationbar .languagebutton {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+
+
 .navigationbar .interlockinganswer {
     margin: 0;
     position: absolute;

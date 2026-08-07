@@ -253,9 +253,19 @@ supervisionWindow
         sessionButton.style.backgroundImage = "url(./ats/resources/session.svg?v=2)"
         navigationBar.appendChild(sessionButton)
 
-        var emptyButton2 = document.createElement("button")
-        emptyButton2.classList = "buttonwithmargin"
-        navigationBar.appendChild(emptyButton2)
+        var langButton = document.createElement("button")
+        langButton.classList = "buttonwithmargin languagebutton"
+        langButton.title = "Change language / Cambiar idioma"
+        var languages = ["english", "spanish", "turkish"]
+        var langLabels = ["EN", "ES", "TR"]
+        var langIndex = 0
+        langButton.innerText = langLabels[0]
+        langButton.addEventListener("click", () => {
+            langIndex = (langIndex + 1) % languages.length
+            langButton.innerText = langLabels[langIndex]
+            this.setLanguage(languages[langIndex])
+        })
+        navigationBar.appendChild(langButton)
 
         var ackAlarmButton = document.createElement("button")
         ackAlarmButton.style.backgroundImage = "url(./ats/resources/ackalarm.svg?v=2)"
