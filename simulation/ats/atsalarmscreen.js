@@ -48,9 +48,13 @@ class ATSAlarmScreen {
             var englishLabel = document.createElement("span")
             englishLabel.classList = "english"
             englishLabel.innerText = alarm.englishLabel
+            var spanishLabel = document.createElement("span")
+            spanishLabel.classList = "spanish"
+            spanishLabel.innerText = alarm.spanishLabel
             eventRow.appendChild(firstColumn)
             eventRow.appendChild(turkishLabel)
             eventRow.appendChild(englishLabel)
+            eventRow.appendChild(spanishLabel)
             list.appendChild(eventRow)
         });
         this.alarmList.innerHTML = ""
