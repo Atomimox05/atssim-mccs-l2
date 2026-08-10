@@ -58,7 +58,7 @@ interlocking.getCycleFromName("Y_2").enable()
 interlocking.getCycleFromName("SIL_3").enable()
 
 var trains = []
-trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("MAM_06"), "northbound", interlocking, ats))
+trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("MAM_04"), "northbound", interlocking, ats))
 trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("CRC_04"), "northbound", interlocking, ats))
 trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("AJU_15"), "southbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("MAM_03"), "southbound", interlocking, ats))

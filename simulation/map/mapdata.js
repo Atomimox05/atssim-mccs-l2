@@ -462,14 +462,20 @@ let mapData = {
         {
             name: "CRC_05",
             southbound: "CRC_03",
-            northbound: "CRC_05",
-            length: 8
+            northbound: "CRC_07",
+            length: 3
         },
         {
             name: "CRC_07",
             southbound: "CRC_05",
+            northbound: "CRC_09",
+            length: 18
+        },
+        {
+            name: "CRC_09",
+            southbound: "CRC_07",
             northbound: "Y_11",
-            length: 16
+            length: 12
         },
         //VIA 2
         {
@@ -491,11 +497,17 @@ let mapData = {
             name: "CRC_06",
             southbound: "CRC_04",
             northbound: "CRC_08",
-            length: 8
+            length: 3
         },
         {
             name: "CRC_08",
             southbound: "CRC_06",
+            northbound: "CRC_10",
+            length: 3
+        },
+        {
+            name: "CRC_10",
+            southbound: "CRC_08",
             northbound: "Y_12",
             length: 16
         },
@@ -519,24 +531,18 @@ let mapData = {
         //VIA 1 - ZOOLOGICO
         {
             name: "Y_11",
-            southbound: "CRC_07",
+            southbound: "CRC_09",
             northbound: "Y_13",
+            signals: {
+                northbound: "Y03" //Q
+            },
             length: 12
         },
         {
             name: "Y_13",
             southbound: "Y_11",
-            northbound: "Y_15",
-            signals: {
-                northbound: "Y03" //Q
-            },
-            length: 7
-        },
-        {
-            name: "Y_15",
-            southbound: "Y_13",
             northbound: "Y_05",
-            length: 2
+            length: 7
         },
         //VIA 1 - Y
         {
@@ -545,7 +551,7 @@ let mapData = {
             northbound: "Y_07",
             dependsOnPoint: {
                 point: "Y_A1",
-                normal: "Y_15",
+                normal: "Y_13",
                 reverse: "Y_03"
             },
             length: 4
@@ -557,7 +563,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "Y_A3",
                 normal: "Y_09",
-                reverse: "Y_17"
+                reverse: "Y_15"
             },
             length: 7
         },
@@ -589,9 +595,9 @@ let mapData = {
         //VIA 2 - ZOOLOGICO
         {
             name: "Y_12",
-            southbound: "CRC_08",
+            southbound: "CRC_10",
             northbound: "Y_14",
-            length: 12
+            length: 16
         },
         {
             name: "Y_14",
@@ -600,13 +606,13 @@ let mapData = {
             signals: {
                 northbound: "Y04" //P
             },
-            length: 7
+            length: 16
         },
         {
             name: "Y_16",
             southbound: "Y_14",
             northbound: "Y_06",
-            length: 2
+            length: 4
         },
         //VIA 2 - Y
         {
@@ -627,9 +633,9 @@ let mapData = {
             dependsOnPoint: {
                 point: "Y_A4",
                 normal: "Y_10",
-                reverse: "Y_17"
+                reverse: "Y_15"
             },
-            length: 7
+            length: 8
         },
         {
             name: "Y_10",
@@ -638,13 +644,13 @@ let mapData = {
             signals: {
                 southbound: "Y06" //D
             },
-            length: 16
+            length: 12
         },
         //VÍA R
         {
-            name: "Y_17",
+            name: "Y_15",
             southbound: "dependsOnPoint",
-            northbound: "Y_18",
+            northbound: "Y_17",
             dependsOnPoint: {
                 point: "Y_A5",
                 normal: "Y_07",
@@ -653,8 +659,8 @@ let mapData = {
             length: 1
         },
         {
-            name: "Y_18",
-            southbound: "Y_17",
+            name: "Y_17",
+            southbound: "Y_15",
             northbound: "endOfTrack",
             signals: {
                 southbound: "Y07", //R
@@ -668,7 +674,7 @@ let mapData = {
             name: "MAM_01",
             southbound: "Y_09",
             northbound: "MAM_03",
-            length: 4
+            length: 12
         },
         {
             name: "MAM_03",
@@ -677,7 +683,7 @@ let mapData = {
             signals: {
                 northbound: "MAM01" //H
             },
-            length: 10
+            length: 12
         },
         {
             name: "MAM_05",
@@ -686,7 +692,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "MAM_A1",
                 normal: "MAM_03",
-                reverse: "MAM_14"
+                reverse: "MAM_15"
             },
             length: 3
         },
@@ -719,49 +725,55 @@ let mapData = {
             name: "MAM_02",
             southbound: "Y_10",
             northbound: "MAM_04",
-            signals: {
-                northbound: "MAM02" //E
-            },
-            length: 10
+            length: 12
         },
         {
             name: "MAM_04",
             southbound: "MAM_02",
             northbound: "MAM_06",
-            length: 3
+            signals: {
+                northbound: "MAM02" //E
+            },
+            length: 8
         },
         {
             name: "MAM_06",
-            southbound: "dependsOnPoint",
+            southbound: "MAM_04",
             northbound: "MAM_08",
-            dependsOnPoint: {
-                point: "MAM_A2",
-                normal: "MAM_04",
-                reverse: "MAM_14"
-            },
-            length: 2
+            length: 4
         },
         {
             name: "MAM_08",
-            southbound: "MAM_06",
+            southbound: "dependsOnPoint",
             northbound: "MAM_10",
-            signals: {
-                southbound: "MAM04" //F
+            dependsOnPoint: {
+                point: "MAM_A2",
+                normal: "MAM_06",
+                reverse: "MAM_15"
             },
-            length: 4
+            length: 2
         },
         {
             name: "MAM_10",
             southbound: "MAM_08",
             northbound: "MAM_12",
             signals: {
-                northbound: "MAM06" //A
+                southbound: "MAM04" //F
             },
             length: 4
         },
         {
             name: "MAM_12",
             southbound: "MAM_10",
+            northbound: "MAM_14",
+            signals: {
+                northbound: "MAM06" //A
+            },
+            length: 4
+        },
+        {
+            name: "MAM_14",
+            southbound: "MAM_12",
             northbound: "ANT_02",
             length: 8
         },
@@ -769,7 +781,7 @@ let mapData = {
         {
             name: "MAM_13",
             southbound: "endOfTrack",
-            northbound: "MAM_14",
+            northbound: "MAM_15",
             signals: {
                 southbound: "SP6",
                 northbound: "MAM07" //Z
@@ -777,13 +789,13 @@ let mapData = {
             length: 8
         },
         {
-            name: "MAM_14",
+            name: "MAM_15",
             southbound: "MAM_13",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "MAM_A3",
                 normal: "MAM_05",
-                reverse: "MAM_06"
+                reverse: "MAM_08"
             },
             length: 1
         },
@@ -875,7 +887,7 @@ let mapData = {
         //VIA 2
         {
             name: "ANT_02",
-            southbound: "MAM_12",
+            southbound: "MAM_14",
             northbound: "ANT_04",
             length: 12
         },
@@ -1824,7 +1836,7 @@ let mapData = {
         },
         {
             name: "Y_A5",
-            trackCircuit: "Y_15",
+            trackCircuit: "Y_13",
         },
         {
             name: "MAM_A1",
@@ -2439,11 +2451,11 @@ let mapData = {
             name: "MAMERA_V2",
             direction: "northbound",
             northbound: {
-                trackCircuit: "MAM_10",
+                trackCircuit: "MAM_12",
                 position: 2
             },
             southbound: {
-                trackCircuit: "MAM_08",
+                trackCircuit: "MAM_10",
                 position: 3
             },
         },
