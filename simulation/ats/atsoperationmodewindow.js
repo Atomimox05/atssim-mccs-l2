@@ -8,6 +8,31 @@ class ATSOperationModeWindow {
         this.ats = ats
     }
 
+    isValidTerminalTrackCircuit(tc) {
+        if (!tc || !tc.mapTrackCircuit) return false
+        var mtc = tc.mapTrackCircuit
+
+        // 1. Debe estar asociado a una señal
+        var hasSignal = mtc.northboundSignal != null || mtc.southboundSignal != null
+        if (!hasSignal) return false
+
+        // 2. No debe estar enlazado con alguna plataforma/estación
+        var hasPlatform = mtc.northboundPlatform != null || mtc.southboundPlatform != null
+        if (hasPlatform) return false
+
+        // 3. No debe seguirle un endOfLine (endOfTrack) o shuntingPanel
+        var isEndOfTrack = mtc.northbound === "endOfTrack" ||
+                           mtc.southbound === "endOfTrack" ||
+                           mtc.normal === "endOfTrack" ||
+                           mtc.reverse === "endOfTrack"
+        if (isEndOfTrack) return false
+
+        var hasShuntingPanel = mtc.northboundShuntingPanel != null || mtc.southboundShuntingPanel != null
+        if (hasShuntingPanel) return false
+
+        return true
+    }
+
     createContent() {
         this.HTMLElement = document.createElement("div")
         this.HTMLElement.style.width = "400px"
@@ -36,6 +61,7 @@ class ATSOperationModeWindow {
         // Group track circuits by prefix (e.g. AJU_01 -> AJU)
         var groups = {}
         this.ats.interlocking.trackCircuits.forEach(tc => {
+            if (!this.isValidTerminalTrackCircuit(tc)) return
             var prefix = tc.name.split('_')[0]
             if (!groups[prefix]) {
                 groups[prefix] = []
