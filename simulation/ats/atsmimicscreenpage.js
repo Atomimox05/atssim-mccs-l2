@@ -29,8 +29,14 @@ class ATSMimicScreenPage {
         this.startCycles()
         this.startHolds()
         setTimeout(this.startPageButtons.bind(this), 200)
-        this.HTMLElement.querySelector("#screenbackground").addEventListener("click", () => {this.currentClickedButton = null})
-        this.controlBar = new ATSMimicScreenControlBar(this.HTMLElement.querySelector("#ControlBar"), this)
+        var screenBackground = this.HTMLElement.querySelector("#screenbackground")
+        if (screenBackground != null) {
+            screenBackground.addEventListener("click", () => { this.currentClickedButton = null })
+        }
+        var controlBarElement = this.HTMLElement.querySelector("#ControlBar")
+        if (controlBarElement != null) {
+            this.controlBar = new ATSMimicScreenControlBar(controlBarElement, this)
+        }
     }
 
     startSignals() {
@@ -127,23 +133,30 @@ class ATSMimicScreenPage {
 
     startHolds() {
         this.ats.regulation.platforms.forEach(platform => {
-            if (this.HTMLElement.querySelector(`#HoldButton_${platform.name}`) != null) {
-                var holdingOnButtonInScreen = this.HTMLElement.querySelector(`#HoldButton_${platform.name}`).querySelector(`#OnButton`)
-                var holdingOffButtonInScreen = this.HTMLElement.querySelector(`#HoldButton_${platform.name}`).querySelector(`#OffButton`)
+            var holdBtn = this.HTMLElement.querySelector(`#HoldButton_${platform.name}`)
+            if (holdBtn != null) {
+                var holdingOnButtonInScreen = holdBtn.querySelector(`#OnButton`)
+                var holdingOffButtonInScreen = holdBtn.querySelector(`#OffButton`)
                 if (holdingOnButtonInScreen != null && holdingOffButtonInScreen != null) {
                     this.signalButtons.push(new ATSHoldButton(platform, holdingOnButtonInScreen, holdingOffButtonInScreen))
                 }
             }
         })
-        var globalSouthboundHoldingOnButton = this.HTMLElement.querySelector(`#HoldButton_GlobalSouthbound`).querySelector(`#OnButton`)
-        var globalSouthboundHoldingOffButton = this.HTMLElement.querySelector(`#HoldButton_GlobalSouthbound`).querySelector(`#OffButton`)
-        if (globalSouthboundHoldingOnButton != null && globalSouthboundHoldingOffButton != null) {
-            this.signalButtons.push(new ATSGlobalHoldButton(this.ats, "southbound", globalSouthboundHoldingOnButton, globalSouthboundHoldingOffButton))
+        var globalSouthbound = this.HTMLElement.querySelector(`#HoldButton_GlobalSouthbound`)
+        if (globalSouthbound != null) {
+            var globalSouthboundHoldingOnButton = globalSouthbound.querySelector(`#OnButton`)
+            var globalSouthboundHoldingOffButton = globalSouthbound.querySelector(`#OffButton`)
+            if (globalSouthboundHoldingOnButton != null && globalSouthboundHoldingOffButton != null) {
+                this.signalButtons.push(new ATSGlobalHoldButton(this.ats, "southbound", globalSouthboundHoldingOnButton, globalSouthboundHoldingOffButton))
+            }
         }
-        var globalNorthboundHoldingOnButton = this.HTMLElement.querySelector(`#HoldButton_GlobalNorthbound`).querySelector(`#OnButton`)
-        var globalNorthboundHoldingOffButton = this.HTMLElement.querySelector(`#HoldButton_GlobalNorthbound`).querySelector(`#OffButton`)
-        if (globalNorthboundHoldingOnButton != null && globalNorthboundHoldingOffButton != null) {
-            this.signalButtons.push(new ATSGlobalHoldButton(this.ats, "northbound", globalNorthboundHoldingOnButton, globalNorthboundHoldingOffButton))
+        var globalNorthbound = this.HTMLElement.querySelector(`#HoldButton_GlobalNorthbound`)
+        if (globalNorthbound != null) {
+            var globalNorthboundHoldingOnButton = globalNorthbound.querySelector(`#OnButton`)
+            var globalNorthboundHoldingOffButton = globalNorthbound.querySelector(`#OffButton`)
+            if (globalNorthboundHoldingOnButton != null && globalNorthboundHoldingOffButton != null) {
+                this.signalButtons.push(new ATSGlobalHoldButton(this.ats, "northbound", globalNorthboundHoldingOnButton, globalNorthboundHoldingOffButton))
+            }
         }
     }
 
@@ -263,12 +276,14 @@ class ATSMimicScreenPage {
     }
 
     startPageButtons() {
-        this.ats.mimicScreen.pages.forEach(page => {
-            var pageButtonInScreen = this.HTMLElement.querySelector(`#PageButton_${page.name}`)
-            if (pageButtonInScreen != null) {
-                pageButtonInScreen.addEventListener("click", () => { this.ats.mimicScreen.setActivePage(page) })
-            }
-        })
+        if (this.ats && this.ats.mimicScreen && this.ats.mimicScreen.pages) {
+            this.ats.mimicScreen.pages.forEach(page => {
+                var pageButtonInScreen = this.HTMLElement.querySelector(`#PageButton_${page.name}`)
+                if (pageButtonInScreen != null) {
+                    pageButtonInScreen.addEventListener("click", () => { this.ats.mimicScreen.setActivePage(page) })
+                }
+            })
+        }
     }
 
     updateSecondsSinceButtonClick() {
