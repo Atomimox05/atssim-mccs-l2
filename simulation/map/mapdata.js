@@ -12,7 +12,7 @@ let mapData = {
                 northbound: "AJU01", //H
                 southbound: "SP1"
             },
-            length: 8
+            length: 7
         },
         {
             name: "AJU_03",
@@ -102,7 +102,7 @@ let mapData = {
                 northbound: "AJU02",//E
                 southbound: "SP2"
             },
-            length: 8
+            length: 7
         },
         {
             name: "AJU_04",
@@ -239,7 +239,7 @@ let mapData = {
                 southbound: "RUI03",//J
                 northbound: "RUI05"//H
             },
-            length: 8
+            length: 7
         },
         {
             name: "RUI_13",
@@ -296,7 +296,7 @@ let mapData = {
             signals: {
                 southbound: "RUI04",//D
             },
-            length: 4
+            length: 3
         },
         {
             name: "RUI_10",
@@ -344,7 +344,7 @@ let mapData = {
                 northbound: "ZOO01", //K
                 southbound: "SP3"
             },
-            length: 8
+            length: 7
         },
         {
             name: "ZOO_03",
@@ -365,7 +365,7 @@ let mapData = {
                 northbound: "ZOO05", //H
                 southbound: "ZOO03" //J
             },
-            length: 8
+            length: 7
         },
         {
             name: "ZOO_07",
@@ -399,7 +399,7 @@ let mapData = {
                 northbound: "ZOO02", //C
                 southbound: "SP4"
             },
-            length: 8
+            length: 7
         },
         {
             name: "ZOO_04",
@@ -420,7 +420,7 @@ let mapData = {
                 northbound: "ZOO06", //E
                 southbound: "ZOO04" //D
             },
-            length: 8
+            length: 7
         },
         {
             name: "ZOO_08",
@@ -457,19 +457,19 @@ let mapData = {
             signals: {
                 southbound: "CRC01", //S1
             },
-            length: 8
+            length: 7
         },
         {
             name: "CRC_05",
             southbound: "CRC_03",
             northbound: "CRC_07",
-            length: 3
+            length: 4
         },
         {
             name: "CRC_07",
             southbound: "CRC_05",
             northbound: "CRC_09",
-            length: 18
+            length: 15
         },
         {
             name: "CRC_09",
@@ -491,13 +491,13 @@ let mapData = {
             signals: {
                 northbound: "CRC02", //S2
             },
-            length: 8
+            length: 7
         },
         {
             name: "CRC_06",
             southbound: "CRC_04",
             northbound: "CRC_08",
-            length: 3
+            length: 4
         },
         {
             name: "CRC_08",
@@ -509,7 +509,7 @@ let mapData = {
             name: "CRC_10",
             southbound: "CRC_08",
             northbound: "Y_12",
-            length: 16
+            length: 12
         },
         //Y
         //VIA 1 - ADJUNTAS
@@ -597,7 +597,7 @@ let mapData = {
             name: "Y_12",
             southbound: "CRC_10",
             northbound: "Y_14",
-            length: 16
+            length: 12
         },
         {
             name: "Y_14",
@@ -606,13 +606,13 @@ let mapData = {
             signals: {
                 northbound: "Y04" //P
             },
-            length: 16
+            length: 18
         },
         {
             name: "Y_16",
             southbound: "Y_14",
             northbound: "Y_06",
-            length: 4
+            length: 7
         },
         //VIA 2 - Y
         {
@@ -703,7 +703,7 @@ let mapData = {
             signals: {
                 southbound: "MAM03" //G
             },
-            length: 4
+            length: 3
         },
         {
             name: "MAM_09",
@@ -760,7 +760,7 @@ let mapData = {
             signals: {
                 southbound: "MAM04" //F
             },
-            length: 4
+            length: 3
         },
         {
             name: "MAM_12",
@@ -786,7 +786,7 @@ let mapData = {
                 southbound: "SP6",
                 northbound: "MAM07" //Z
             },
-            length: 8
+            length: 7
         },
         {
             name: "MAM_15",
@@ -843,7 +843,7 @@ let mapData = {
             name: "ANT_09",
             southbound: "ANT_07",
             northbound: "ANT_11",
-            length: 1
+            length: 2
         },
         {
             name: "ANT_11",
@@ -861,7 +861,7 @@ let mapData = {
             signals: {
                 northbound: "ANT07" //H
             },
-            length: 4
+            length: 3
         },
         {
             name: "ANT_15",
@@ -927,7 +927,7 @@ let mapData = {
             name: "ANT_10",
             southbound: "ANT_08",
             northbound: "ANT_12",
-            length: 1
+            length: 2
         },
         {
             name: "ANT_12",
@@ -945,7 +945,7 @@ let mapData = {
             signals: {
                 northbound: "ANT08" //E
             },
-            length: 4
+            length: 3
         },
         {
             name: "ANT_16",
@@ -992,7 +992,7 @@ let mapData = {
             signals: {
                 southbound: "CRP01" //S1
             },
-            length: 4
+            length: 3
         },
         {
             name: "CRP_05",
@@ -1032,7 +1032,7 @@ let mapData = {
             signals: {
                 northbound: "CRP02" //S2
             },
-            length: 4
+            length: 3
         },
         {
             name: "CRP_08",
@@ -1061,7 +1061,7 @@ let mapData = {
             signals: {
                 southbound: "YAG01" //S1
             },
-            length: 8
+            length: 7
         },
         {
             name: "YAG_05",
@@ -1089,7 +1089,7 @@ let mapData = {
             signals: {
                 northbound: "YAG02" //S2
             },
-            length: 4
+            length: 3
         },
         {
             name: "YAG_08",
@@ -1128,7 +1128,7 @@ let mapData = {
                 southbound: "PAZ03", //L
                 northbound: "PAZ05" //K
             },
-            length: 8
+            length: 7
         },
         {
             name: "PAZ_09",
@@ -1171,7 +1171,7 @@ let mapData = {
                 southbound: "PAZ07", //J
                 northbound: "PAZ09" //H
             },
-            length: 8
+            length: 7
         },
         {
             name: "PAZ_17",
@@ -1228,7 +1228,7 @@ let mapData = {
             signals: {
                 northbound: "PAZ06" //C
             },
-            length: 4
+            length: 3
         },
         {
             name: "PAZ_12",
@@ -1260,7 +1260,7 @@ let mapData = {
                 southbound: "PAZ08", //D
                 northbound: "PAZ10" //E
             },
-            length: 8
+            length: 7
         },
         {
             name: "PAZ_18",
@@ -1287,7 +1287,7 @@ let mapData = {
             shuntingPanels: {
                 northbound: "ZR5"
             },
-            length: 8
+            length: 7
         },
         //ARTIGAS
         //VIA 1
@@ -1310,7 +1310,7 @@ let mapData = {
             signals: {
                 southbound: "ART01", //G
             },
-            length: 8
+            length: 7
         },
         {
             name: "ART_07",
@@ -1347,7 +1347,7 @@ let mapData = {
             signals: {
                 northbound: "ART04", //S2
             },
-            length: 4
+            length: 3
         },
         {
             name: "ART_08",
@@ -1376,7 +1376,7 @@ let mapData = {
             signals: {
                 southbound: "MAT01", //S1
             },
-            length: 4
+            length: 3
         },
         {
             name: "MAT_05",
@@ -1419,7 +1419,7 @@ let mapData = {
             signals: {
                 northbound: "MAT04", //A
             },
-            length: 4
+            length: 3
         },
         {
             name: "MAT_08",
@@ -1443,7 +1443,7 @@ let mapData = {
                 southbound: "CPU01", //L
                 northbound: "CPU03" //K
             },
-            length: 8
+            length: 7
         },
         {
             name: "CPU_03",
@@ -1480,7 +1480,7 @@ let mapData = {
             name: "CPU_09",
             southbound: "CPU_07",
             northbound: "CPU_11",
-            length: 2
+            length: 1
         },
         {
             name: "CPU_11",
@@ -1512,7 +1512,7 @@ let mapData = {
                 southbound: "CPU02", //B
                 northbound: "CPU04" //C
             },
-            length: 8
+            length: 7
         },
         {
             name: "CPU_04",
@@ -1543,7 +1543,7 @@ let mapData = {
             signals: {
                 southbound: "CPU06", //D
             },
-            length: 4
+            length: 3
         },
         {
             name: "CPU_10",
@@ -1614,7 +1614,7 @@ let mapData = {
             southbound: "SIL_05",
             northbound: "SIL_09",
             signals: {
-                southbound: "SIL05", //S1
+                southbound: "SIL05", //J
             },
             length: 4
         },
@@ -1623,9 +1623,9 @@ let mapData = {
             southbound: "SIL_07",
             northbound: "SIL_11",
             signals: {
-                northbound: "SIL07", //M
+                northbound: "SIL07", //H
             },
-            length: 4
+            length: 3
         },
         {
             name: "SIL_11",
@@ -1657,7 +1657,7 @@ let mapData = {
                 southbound: "SIL09", //G
                 northbound: "SIL11" //SP07
             },
-            length: 8
+            length: 7
         },
         //VIA 2
         {
@@ -1708,7 +1708,7 @@ let mapData = {
             signals: {
                 northbound: "SIL08", //E
             },
-            length: 4
+            length: 3
         },
         {
             name: "SIL_12",
@@ -1740,7 +1740,7 @@ let mapData = {
                 southbound: "SIL10", //F
                 northbound: "SIL12" //SP8
             },
-            length: 10
+            length: 7
         },
         {
             name: "SIL_CV",
@@ -2341,11 +2341,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "AJU_01",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "AJU_01",
-                position: 3
+                position: 1
             },
             terminus: true
         },
@@ -2354,11 +2354,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "AJU_02",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "AJU_02",
-                position: 3
+                position: 1
             },
             terminus: true
         },
@@ -2367,11 +2367,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "RUI_11",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "RUI_11",
-                position: 3
+                position: 1
             }
         },
         {
@@ -2379,11 +2379,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "RUI_10",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "RUI_08",
-                position: 3
+                position: 1
             }
         },
         {
@@ -2391,11 +2391,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "ZOO_05",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "ZOO_05",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2403,11 +2403,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "ZOO_06",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "ZOO_06",
-                position: 3
+                position: 1
             },
             terminus: true
         },
@@ -2416,11 +2416,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "CRC_03",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "CRC_03",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2428,11 +2428,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "CRC_04",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "CRC_04",
-                position: 3
+                position: 1
             }
         },
         {
@@ -2440,11 +2440,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "MAM_09",
-                position: 3
+                position: 4
             },
             southbound: {
                 trackCircuit: "MAM_07",
-                position: 2
+                position: 1
             },
         },
         {
@@ -2452,11 +2452,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "MAM_12",
-                position: 2
+                position: 4
             },
             southbound: {
                 trackCircuit: "MAM_10",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2468,7 +2468,7 @@ let mapData = {
             },
             southbound: {
                 trackCircuit: "ANT_11",
-                position: 2
+                position: 1
             },
         },
         {
@@ -2476,11 +2476,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "ANT_14",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "ANT_12",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2488,11 +2488,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "CRP_05",
-                position: 6
+                position: 4
             },
             southbound: {
                 trackCircuit: "CRP_03",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2500,11 +2500,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "CRP_06",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "CRP_04",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2512,11 +2512,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "YAG_03",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "YAG_03",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2524,11 +2524,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "YAG_06",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "YAG_04",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2536,11 +2536,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "PAZ_07",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "PAZ_07",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2548,11 +2548,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "PAZ_10",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "PAZ_08",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2560,11 +2560,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "ART_05",
-                position: 6
+                position: 7
             },
             southbound: {
                 trackCircuit: "ART_05",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2572,11 +2572,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "ART_06",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "ART_04",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2584,11 +2584,11 @@ let mapData = {
             direction: "southbound",
             northbound: {
                 trackCircuit: "MAT_05",
-                position: 3
+                position: 4
             },
             southbound: {
                 trackCircuit: "MAT_03",
-                position: 2
+                position: 1
             },
         },
         {
@@ -2596,11 +2596,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "MAT_06",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "MAT_04",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2612,7 +2612,7 @@ let mapData = {
             },
             southbound: {
                 trackCircuit: "CPU_07",
-                position: 2
+                position: 1
             },
         },
         {
@@ -2620,11 +2620,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "CPU_10",
-                position: 2
+                position: 4
             },
             southbound: {
                 trackCircuit: "CPU_08",
-                position: 3
+                position: 1
             },
         },
         {
@@ -2636,7 +2636,7 @@ let mapData = {
             },
             southbound: {
                 trackCircuit: "SIL_07",
-                position: 2
+                position: 1
             },
         },
         {
@@ -2644,11 +2644,11 @@ let mapData = {
             direction: "northbound",
             northbound: {
                 trackCircuit: "SIL_10",
-                position: 2
+                position: 3
             },
             southbound: {
                 trackCircuit: "SIL_08",
-                position: 3
+                position: 1
             },
         },
     ],
