@@ -10,6 +10,7 @@ class ATCOnboard {
     stopAtStationTimestamp
     departing
     currentlyStoppedPlatform
+    lastDepartedPlatform
     alreadyChangedEnds
 
     constructor(train, map, interlocking, ats) {
@@ -22,6 +23,7 @@ class ATCOnboard {
         this.stopAtStationTimestamp = null
         this.departing = false
         this.currentlyStoppedPlatform = null
+        this.lastDepartedPlatform = null
         this.alreadyChangedEnds = false
         this.lastReversedTrackCircuit = null
         setInterval(() => { this.sendPositionReport() }, 500)
@@ -89,7 +91,7 @@ class ATCOnboard {
         if (this.train.direction == "northbound") {
             if (!this.stoppedAtStation) {
                 if (this.train.carPositions[0].mapTrackCircuit.northboundPlatform != null) {
-                    if (this.train.carPositions[0].position == this.train.carPositions[0].mapTrackCircuit.northboundPlatform.northboundPosition && !this.departing) {
+                    if (this.train.carPositions[0].position == this.train.carPositions[0].mapTrackCircuit.northboundPlatform.northboundPosition && !this.departing && this.train.carPositions[0].mapTrackCircuit.northboundPlatform != this.lastDepartedPlatform) {
                         this.stoppedAtStation = true
                         this.currentlyStoppedPlatform = this.train.carPositions[0].mapTrackCircuit.northboundPlatform
                         this.stopAtStationTimestamp = Date.now()
@@ -116,6 +118,7 @@ class ATCOnboard {
                     || this.currentlyStoppedPlatform.direction == "southbound" && !this.ats.regulation.globalSouthboundHold
                 ) && this.isMALongEnoughToDepart()) {
                     this.departing = true
+                    this.lastDepartedPlatform = this.currentlyStoppedPlatform
                     this.stoppedAtStation = false
                     this.alreadyChangedEnds = false
                 } else {
@@ -125,7 +128,7 @@ class ATCOnboard {
         } else if (this.train.direction == "southbound") {
             if (!this.stoppedAtStation) {
                 if (this.train.carPositions[this.train.carPositions.length - 1].mapTrackCircuit.southboundPlatform != null) {
-                    if (this.train.carPositions[this.train.carPositions.length - 1].position == this.train.carPositions[this.train.carPositions.length - 1].mapTrackCircuit.southboundPlatform.southboundPosition && !this.departing) {
+                    if (this.train.carPositions[this.train.carPositions.length - 1].position == this.train.carPositions[this.train.carPositions.length - 1].mapTrackCircuit.southboundPlatform.southboundPosition && !this.departing && this.train.carPositions[this.train.carPositions.length - 1].mapTrackCircuit.southboundPlatform != this.lastDepartedPlatform) {
                         this.stoppedAtStation = true
                         this.currentlyStoppedPlatform = this.train.carPositions[this.train.carPositions.length - 1].mapTrackCircuit.southboundPlatform
                         this.stopAtStationTimestamp = Date.now()
@@ -152,6 +155,7 @@ class ATCOnboard {
                     || this.currentlyStoppedPlatform.direction == "southbound" && !this.ats.regulation.globalSouthboundHold
                 ) && this.isMALongEnoughToDepart()) {
                     this.departing = true
+                    this.lastDepartedPlatform = this.currentlyStoppedPlatform
                     this.stoppedAtStation = false
                     this.alreadyChangedEnds = false
                 } else {
