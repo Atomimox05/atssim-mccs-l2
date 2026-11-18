@@ -55,6 +55,8 @@ interlocking.getCycleFromName("AJU_1").enable();
 interlocking.getCycleFromName("ZOO_2").enable()
 interlocking.getCycleFromName("Y_1").enable();
 interlocking.getCycleFromName("Y_2").enable()
+//interlocking.getCycleFromName("MAT_1").enable();
+//interlocking.getCycleFromName("MAT_2").enable()
 interlocking.getCycleFromName("SIL_3").enable()
 
 var trains = []
@@ -63,8 +65,8 @@ trains.push(new Train("02", 6, map, track, map.getTrackCircuitFromName("MAM_03")
 trains.push(new Train("03", 6, map, track, map.getTrackCircuitFromName("ANT_17"), "southbound", interlocking, ats))
 trains.push(new Train("04", 6, map, track, map.getTrackCircuitFromName("PAZ_03"), "southbound", interlocking, ats))
 trains.push(new Train("05", 6, map, track, map.getTrackCircuitFromName("MAT_01"), "southbound", interlocking, ats))
-trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("SIL_07"), "southbound", interlocking, ats))
-trains.push(new Train("07", 6, map, track, map.getTrackCircuitFromName("CPU_12"), "northbound", interlocking, ats))
+trains.push(new Train("06", 6, map, track, map.getTrackCircuitFromName("CPU_19"), "southbound", interlocking, ats))
+trains.push(new Train("07", 6, map, track, map.getTrackCircuitFromName("CPU_14"), "northbound", interlocking, ats))
 trains.push(new Train("08", 6, map, track, map.getTrackCircuitFromName("ART_08"), "northbound", interlocking, ats))
 trains.push(new Train("09", 6, map, track, map.getTrackCircuitFromName("YAG_08"), "northbound", interlocking, ats))
 trains.push(new Train("10", 6, map, track, map.getTrackCircuitFromName("ANT_18"), "northbound", interlocking, ats))

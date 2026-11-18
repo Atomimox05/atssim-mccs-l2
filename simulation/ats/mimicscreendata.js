@@ -7939,12 +7939,12 @@ let mimicscreendata = [
                 <text id="Y05" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
                     <tspan x="452" y="168">J</tspan>
                 </text>
-                <!-- <g id="Fleeting_Y05" transform="translate(445, 211)">
+                <g id="Fleeting_Y05" transform="translate(445, 211)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
-                </g> -->
+                </g>
 
             <!-- SIGNALS Y VIA 2 -->
             <g id="Signal_Y06" transform="translate(450, 355)" stroke="#888888">
@@ -14384,7 +14384,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_PAZ_13" transform="translate(950, 90)" opacity="0">
+            <g class="TrainDescriber_PAZ_13" transform="translate(950, 240)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -14396,7 +14396,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_PAZ_17" transform="translate(1145, 80)" opacity="0">
+            <g class="TrainDescriber_PAZ_17" transform="translate(1145, 240)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -14450,7 +14450,7 @@ let mimicscreendata = [
                 <tspan x="945" y="217">PAZ_13</tspan>
             </text>
             <text id="PAZ_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="1045" y="190">PAZ_15</tspan>
+                <tspan x="1047" y="190">PAZ_15</tspan>
             </text>
             <text id="PAZ_17" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
                 <tspan x="1150" y="217">PAZ_17</tspan>
@@ -14517,7 +14517,7 @@ let mimicscreendata = [
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
 
-            <g class="DirectionArrow_PAZ_20" transform="translate(1015, 40)">
+            <g class="DirectionArrow_PAZ_21" transform="translate(1010, 40)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
@@ -14676,7 +14676,19 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_PAZ_20" transform="translate(1050, 90)" opacity="0">
+            <g class="TrainDescriber_PAZ_20" transform="translate(985, 70)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_PAZ_21" transform="translate(1045, 70)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_PAZ_22" transform="translate(1120, 70)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -14727,7 +14739,13 @@ let mimicscreendata = [
                 <tspan x="1155" y="365">PAZ_18</tspan>
             </text>
             <text id="PAZ_20" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="1050" y="154">PAZ_20</tspan>
+                <tspan x="985" y="108">PAZ_20</tspan>
+            </text>
+            <text id="PAZ_21" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="1045" y="108">PAZ_21</tspan>
+            </text>
+            <text id="PAZ_22" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="1125" y="108">PAZ_22</tspan>
             </text>
             
             <!-- TRACK CIRCUITS V1 -->
@@ -14756,10 +14774,11 @@ let mimicscreendata = [
             <line x1="921" y1="350" x2="1080" y2="350" class="TrackCircuit_PAZ_16" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1082" y1="350" x2="1260" y2="350" class="TrackCircuit_PAZ_18" stroke="#FFFF06" stroke-width="10"></line>
 
-            <!-- TRACK CIRCUITS O -->
-            <line x1="977" y1="162" x2="1005" y2="162" class="TrackCircuit_PAZ_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1007" y1="162" x2="1125" y2="162" class="TrackCircuit_PAZ_20" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1127" y1="162" x2="1145" y2="162" class="TrackCircuit_PAZ_17" stroke="#FFFF06" stroke-width="10"></line>
+            <!-- TRACK CIRCUITS Q -->
+            <line x1="981" y1="157" x2="1002" y2="116" class="TrackCircuit_PAZ_20" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="999" y1="119" x2="1018" y2="119" class="TrackCircuit_PAZ_20" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1020" y1="119" x2="1092" y2="119" class="TrackCircuit_PAZ_21" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1165" y1="109" x2="1165" y2="129" id="endOfLine" stroke="#888888" stroke-width="5"></line>
 
             <!-- CV PAZ -->
             <path d="M823,239 L858.00236,311 M860.6,238.62 L819.4,311" class="TrackCircuit_PAZ_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
@@ -14810,6 +14829,14 @@ let mimicscreendata = [
                 <line x1="12.4765662" y1="55.8743158" x2="30.263221" y2="17.7307115" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9446) scale(-1, 1) rotate(65) translate(-21.4766, -36.9446)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
                 <line x1="79.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+            </g>
+            <g id="Point_PAZ_A7" transform="translate(1118.5, 129.2) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+                <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="66.3531195" y1="36.7844779" x2="81.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
+                <line x1="34.4786138" y1="24.2171927" x2="62.0686887" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.2737, 24.2131) scale(-1, 1) rotate(65) translate(-48.2737, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8766683" x2="24.2601194" y2="30.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
 
             <!-- SIGNALS LA YAGUARA -->
@@ -15087,27 +15114,27 @@ let mimicscreendata = [
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
 
-            <!-- SIGNALS PAZ O -->
-            <g id="Signal_PAZ11" transform="translate(999, 145) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
+            <!-- SIGNALS PAZ Q -->
+            <g id="Signal_PAZ11" transform="translate(1002, 124)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_PAZ11" transform="translate(1025, 142) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                <g id="Button_PAZ11" transform="translate(1038, 138) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_PAZ11" transform="translate(1012, 98)">
+                <g id="Cancel_PAZ11" transform="translate(1025, 152)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-                <text id="PAZ11" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="993" y="129">O</tspan>
+                <text id="PAZ07" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
+                    <tspan x="1005" y="157">Q</tspan>
                 </text>
             <text id="ZR5" font-family="CourierNewPS-BoldMT, Courier New" font-size="11" font-weight="bold" fill="#E0E0E0">
-                <tspan x="1122" y="130">ZR5</tspan>
+                <tspan x="1092" y="87">ZR5</tspan>
             </text>
-            <g id="ShuntingPanel_ZR5" transform="translate(1130, 146.3) scale(1, -1) translate(-555.5, -336.5)translate(548, 326)" stroke="#888888">
+            <g id="ShuntingPanel_ZR5" transform="translate(1099, 103) scale(1, -1) translate(-555.5, -336.5)translate(548, 326)" stroke="#888888">
                 <rect id="Rectangle" fill="#111214" x="4.5" y="10.5" width="11" height="11"></rect>
                 <polyline id="foot" transform="translate(2.5, 8) scale(-1, 1) translate(-2.5, -8)" points="5 0 5 16 7.57727214e-14 16"></polyline>
             </g>
@@ -17735,7 +17762,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_MAT_07" transform="translate(825, 110)" opacity="0">
+            <g class="TrainDescriber_MAT_07" transform="translate(795, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -17783,13 +17810,16 @@ let mimicscreendata = [
                 <tspan x="700" y="190">MAT_05</tspan>
             </text>
             <text id="MAT_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="825" y="190">MAT_07</tspan>
+                <tspan x="795" y="190">MAT_07</tspan>
             </text>
             <text id="MAT_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="995" y="190">MAT_09</tspan>
+                <tspan x="935" y="190">MAT_09</tspan>
             </text>
             <text id="CPU_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="1170" y="190">CPU_01</tspan>
+                <tspan x="1030" y="190">CPU_01</tspan>
+            </text>
+            <text id="CPU_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="1170" y="190">CPU_03</tspan>
             </text>
 
             <!-- DIRECTION ARROWS VIA 1 -->
@@ -17821,7 +17851,7 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_CPU_01" transform="translate(1135, 72)">
+            <g class="DirectionArrow_CPU_03" transform="translate(1135, 228)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
@@ -17865,7 +17895,7 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_CPU_02" transform="translate(1130, 457)">
+            <g class="DirectionArrow_CPU_04" transform="translate(1133, 300)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -17935,7 +17965,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_MAT_08" transform="translate(825, 422)" opacity="0">
+            <g class="TrainDescriber_MAT_08" transform="translate(795, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -17947,7 +17977,7 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_02" transform="translate(1170, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_04" transform="translate(1170, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -17983,13 +18013,16 @@ let mimicscreendata = [
                 <tspan x="700" y="365">MAT_06</tspan>
             </text>
             <text id="MAT_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="825" y="365">MAT_08</tspan>
+                <tspan x="795" y="365">MAT_08</tspan>
             </text>
             <text id="MAT_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="995" y="365">MAT_10</tspan>
+                <tspan x="935" y="365">MAT_10</tspan>
             </text>
             <text id="CPU_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="1170" y="365">CPU_02</tspan>
+                <tspan x="1030" y="365">CPU_02</tspan>
+            </text>
+            <text id="CPU_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="1170" y="365">CPU_04</tspan>
             </text>
             
             <!-- TRACK CIRCUITS V1 -->
@@ -18002,9 +18035,9 @@ let mimicscreendata = [
             <line x1="576" y1="200" x2="638" y2="200" class="TrackCircuit_MAT_01" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="640" y1="200" x2="699" y2="200" class="TrackCircuit_MAT_03" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="701" y1="200" x2="760" y2="200" class="TrackCircuit_MAT_05" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="762" y1="200" x2="920" y2="200" class="TrackCircuit_MAT_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="922" y1="200" x2="1100" y2="200" class="TrackCircuit_MAT_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1102" y1="200" x2="1260" y2="200" class="TrackCircuit_CPU_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="762" y1="200" x2="860" y2="200" class="TrackCircuit_MAT_07" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="992" y1="200" x2="1100" y2="200" class="TrackCircuit_CPU_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1102" y1="200" x2="1260" y2="200" class="TrackCircuit_CPU_03" stroke="#FFFF06" stroke-width="10"></line>
             
             <!-- TRACK CIRCUITS V2 -->
             <line x1="5" y1="350" x2="107" y2="350" class="TrackCircuit_PAZ_18" stroke="#FFFF06" stroke-width="10"></line>
@@ -18016,18 +18049,26 @@ let mimicscreendata = [
             <line x1="512" y1="350" x2="638" y2="350" class="TrackCircuit_MAT_02" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="640" y1="350" x2="699" y2="350" class="TrackCircuit_MAT_04" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="701" y1="350" x2="760" y2="350" class="TrackCircuit_MAT_06" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="762" y1="350" x2="920" y2="350" class="TrackCircuit_MAT_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="922" y1="350" x2="1100" y2="350" class="TrackCircuit_MAT_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="1102" y1="350" x2="1260" y2="350" class="TrackCircuit_CPU_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="762" y1="350" x2="860" y2="350" class="TrackCircuit_MAT_08" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="992" y1="350" x2="1100" y2="350" class="TrackCircuit_CPU_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1102" y1="350" x2="1260" y2="350" class="TrackCircuit_CPU_04" stroke="#FFFF06" stroke-width="10"></line>
 
-            <!-- <g id="Point_PAZ_A5" transform="translate(922, 163.2)">
+            <g id="Point_MAT_A1" transform="translate(862, 163.2)">
                 <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
-                <line x1="62.9521506" y1="36.7879002" x2="77" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="62.9521506" y1="36.7879002" x2="127" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="41.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
                 <line x1="30.9040235" y1="24.2171927" x2="58.4940984" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(44.6991, 24.2131) scale(-1, 1) rotate(65) translate(-44.6991, -24.2131)"></line>
                 <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
-            </g> -->
+            </g>
+            <g id="Point_MAT_A2" transform="translate(901, 360) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+                <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="66.3531195" y1="36.7844779" x2="126.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
+                <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
+                <line x1="34.4786138" y1="24.2171927" x2="62.0686887" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.2737, 24.2131) scale(-1, 1) rotate(65) translate(-48.2737, -24.2131)"></line>
+                <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
+                <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
+            </g>
 
             <!-- SIGNALS ARTIGAS -->
                 <g id="Button_PAZ11" transform="translate(25, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
@@ -20566,7 +20607,7 @@ let mimicscreendata = [
             </text>
 
             <!-- DIRECTION ARROWS VIA 1 -->
-            <g class="DirectionArrow_CPU_01" transform="translate(30, 72)">
+            <g class="DirectionArrow_CPU_03" transform="translate(20, 72)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
@@ -20580,7 +20621,7 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_CPU_09" transform="translate(330, 72)">
+            <g class="DirectionArrow_CPU_11" transform="translate(305, 72)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
@@ -20594,7 +20635,7 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_SIL_01" transform="translate(570, 72)">
+            <g class="DirectionArrow_CPU_21" transform="translate(550, 72)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
@@ -20622,8 +20663,22 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
+            <g class="DirectionArrow_SIL_13" transform="translate(1135, 72)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-70)" xlink:href="#path-eh8zdmkqnr-69"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-69"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-72)" xlink:href="#path-eh8zdmkqnr-71"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-71"></use>
+                </g>
+                <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
             <!-- DIRECTION ARROWS VIA 2 -->
-            <g class="DirectionArrow_CPU_04" transform="translate(30, 457)">
+            <g class="DirectionArrow_CPU_04" transform="translate(20, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -20637,7 +20692,7 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_CPU_10" transform="translate(330, 457)">
+            <g class="DirectionArrow_CPU_12" transform="translate(300, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -20651,7 +20706,7 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
-            <g class="DirectionArrow_SIL_02" transform="translate(570, 457)">
+            <g class="DirectionArrow_SIL_02" transform="translate(550, 457)">
                 <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
                 <g id="southboundlight">
                     <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
@@ -20679,63 +20734,89 @@ let mimicscreendata = [
                 <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
                 <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
             </g>
+            <g class="DirectionArrow_SIL_14" transform="translate(1130, 457)">
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" points="2.15027223e-18 13.3553813 18.5193121 26 18.5193121 19.6776906 50.8889937 19.6776906 50.8889937 7.32230936 18.5193121 7.32230936 18.5193121 1"></polygon>
+                <g id="southboundlight">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-34)" xlink:href="#path-eh8zdmkqnr-33"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-33"></use>
+                </g>
+                <polygon id="southbounddark" fill-opacity="0.5" fill="#E0E0E0" transform="translate(79.4445, 13.5) scale(-1, 1) translate(-79.4445, -13.5)" points="54 13.3553813 72.5193121 26 72.5193121 19.6776906 104.888994 19.6776906 104.888994 7.32230936 72.5193121 7.32230936 72.5193121 1"></polygon>
+                <g id="southboundlight" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-eh8zdmkqnr-36)" xlink:href="#path-eh8zdmkqnr-35"></use>
+                    <use fill-opacity="0.5" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-eh8zdmkqnr-35"></use>
+                </g>
+                <polygon id="southbound" fill="#2b2d31" points="5.68455691e-14 12.3553813 18.5193121 25 18.5193121 18.6776906 50.8889937 18.6776906 50.8889937 6.32230936 18.5193121 6.32230936 18.5193121 3.12250226e-15"></polygon>
+                <polygon id="northbound" fill="#2b2d31" transform="translate(79.4445, 12.5) scale(-1, 1) translate(-79.4445, -12.5)" points="54 12.3553813 72.5193121 25 72.5193121 18.6776906 104.888994 18.6776906 104.888994 6.32230936 72.5193121 6.32230936 72.5193121 3.12250226e-15"></polygon>
+            </g>
 
             <!-- TRAIN DESCRIBER VIA 1 -->
-            <g class="TrainDescriber_CPU_01" transform="translate(70, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_03" transform="translate(57, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_03" transform="translate(190, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_05" transform="translate(165, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_05" transform="translate(260, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_07" transform="translate(230, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_07" transform="translate(330, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_09" transform="translate(310, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_09" transform="translate(370, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_11" transform="translate(310, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_11" transform="translate(410 110)" opacity="0">
+            <g class="TrainDescriber_CPU_13" transform="translate(370 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_13" transform="translate(465, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_15" transform="translate(370, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_15" transform="translate(525, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_17" transform="translate(435, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_CV" transform="translate(170, 265)" opacity="0">
+            <g class="TrainDescriber_CPU_19" transform="translate(495, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_SIL_01" transform="translate(605, 110)" opacity="0">
+            <g class="TrainDescriber_CPU_21" transform="translate(555, 110)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_CV" transform="translate(140, 265)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_SIL_01" transform="translate(610, 110)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -20785,49 +20866,49 @@ let mimicscreendata = [
             </g>
 
             <!-- TRAIN DESCRIBER VIA 2-->
-            <g class="TrainDescriber_CPU_02" transform="translate(70, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_04" transform="translate(57, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_04" transform="translate(190, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_06" transform="translate(165, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_06" transform="translate(260, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_08" transform="translate(230, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_08" transform="translate(340, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_10" transform="translate(310, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_10" transform="translate(400, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_12" transform="translate(370, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_12" transform="translate(465, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_14" transform="translate(435, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_14" transform="translate(525, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_16" transform="translate(495, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_SIL_02" transform="translate(605, 422)" opacity="0">
+            <g class="TrainDescriber_SIL_02" transform="translate(587, 422)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -20889,32 +20970,38 @@ let mimicscreendata = [
             </g>
 
             <!-- CIRCUITOS DE VIA - VIA 1 -->
-            <text id="CPU_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="70" y="190">CPU_01</tspan>
-            </text>
             <text id="CPU_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="190" y="190">CPU_03</tspan>
+                <tspan x="55" y="190">CPU_03</tspan>
             </text>
             <text id="CPU_05" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="260" y="190">CPU_05</tspan>
+                <tspan x="160" y="190">CPU_05</tspan>
             </text>
             <text id="CPU_07" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="330" y="190">CPU_07</tspan>
+                <tspan x="230" y="190">CPU_07</tspan>
             </text>
             <text id="CPU_09" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="370" y="190">CPU_09</tspan>
+                <tspan x="305" y="190">09</tspan>
             </text>
             <text id="CPU_11" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="410" y="190">CPU_11</tspan>
+                <tspan x="335" y="190">11</tspan>
             </text>
             <text id="CPU_13" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="465" y="190">CPU_13</tspan>
+                <tspan x="365" y="190">13</tspan>
             </text>
             <text id="CPU_15" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="525" y="190">CPU_15</tspan>
+                <tspan x="395" y="190">15</tspan>
+            </text>
+            <text id="CPU_17" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="432" y="190">CPU_17</tspan>
+            </text>
+            <text id="CPU_19" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="482" y="190">CPU_19</tspan>
+            </text>
+            <text id="CPU_21" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="560" y="190">CPU_21</tspan>
             </text>
             <text id="SIL_01" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="605" y="190">SIL_01</tspan>
+                <tspan x="610" y="190">SIL_01</tspan>
             </text>
             <text id="SIL_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
                 <tspan x="700" y="190">SIL_03</tspan>
@@ -20939,29 +21026,29 @@ let mimicscreendata = [
             </text>
 
             <!-- CIRCUITOS DE VIA - VIA 2 -->
-            <text id="CPU_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="70" y="365">CPU_02</tspan>
-            </text>
             <text id="CPU_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="190" y="365">CPU_04</tspan>
+                <tspan x="55" y="365">CPU_04</tspan>
             </text>
             <text id="CPU_06" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="260" y="365">CPU_06</tspan>
+                <tspan x="160" y="365">CPU_06</tspan>
             </text>
             <text id="CPU_08" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="340" y="365">CPU_08</tspan>
+                <tspan x="230" y="365">CPU_08</tspan>
             </text>
             <text id="CPU_10" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="400" y="365">CPU_10</tspan>
+                <tspan x="310" y="365">CPU_10</tspan>
             </text>
             <text id="CPU_12" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="465" y="365">CPU_12</tspan>
+                <tspan x="370" y="365">CPU_12</tspan>
             </text>
             <text id="CPU_14" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="525" y="365">CPU_14</tspan>
+                <tspan x="432" y="365">CPU_14</tspan>
+            </text>
+            <text id="CPU_16" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="487" y="365">CPU_16</tspan>
             </text>
             <text id="SIL_02" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
-                <tspan x="605" y="365">SIL_02</tspan>
+                <tspan x="587" y="365">SIL_02</tspan>
             </text>
             <text id="SIL_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
                 <tspan x="700" y="365">SIL_04</tspan>
@@ -20986,7 +21073,7 @@ let mimicscreendata = [
             </text>
 
             <!-- Platform CAPUCHINOS -->
-            <g id="Silencio" transform="translate(289, 222)">
+            <g id="Silencio" transform="translate(260, 222)">
                 <rect id="Rectangle" stroke="#000000" fill="#E0E0E0" x="45.5" y="-60" width="49" height="19"></rect>
                 <rect id="Rectangle" stroke="#000000" fill="#E0E0E0" x="95.5" y="-60" width="49" height="19"></rect>
                 <rect id="Rectangle" stroke="#000000" fill="#E0E0E0" x="45.5" y="150" width="49" height="19"></rect>
@@ -21024,8 +21111,8 @@ let mimicscreendata = [
             </g>
 
             <!-- CAPUCHINOS - Vía 1 -->
-            <line x1="5" y1="200" x2="160" y2="200" class="TrackCircuit_CPU_01" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
-            <g id="Point_CPU_A1" transform="translate(200, 210) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+            <line x1="5" y1="200" x2="130" y2="200" class="TrackCircuit_CPU_03" stroke="#FFFF06" stroke-width="10"></line>  <!-- length: 8 → 80px -->
+            <g id="Point_CPU_A1" transform="translate(170, 210) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
                 <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="66.3531195" y1="36.7844779" x2="81.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
@@ -21033,7 +21120,7 @@ let mimicscreendata = [
                 <line x1="12.4765662" y1="55.8766683" x2="30.2601194" y2="17.7316177" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(21.4766, 36.9429) scale(-1, 1) rotate(65) translate(-21.4766, -36.9429)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
-            <g id="Point_CPU_A3" transform="translate(283.5, 210) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
+            <g id="Point_CPU_A3" transform="translate(253.5, 210) scale(-1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
                 <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="66.3531195" y1="36.7844779" x2="76.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4453482" y1="5.96406803" x2="63.1361539" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7908, 5.9622) scale(-1, 1) rotate(65) translate(-56.7908, -5.9622)"></line>
@@ -21042,15 +21129,17 @@ let mimicscreendata = [
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9399302" cy="36.7139562" r="8.5"></circle>
             </g>
             
-            <line x1="323" y1="200" x2="362" y2="200" class="TrackCircuit_CPU_07" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="364" y1="200" x2="405" y2="200" class="TrackCircuit_CPU_09" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="407" y1="200" x2="447" y2="200" class="TrackCircuit_CPU_11" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="449" y1="200" x2="510" y2="200" class="TrackCircuit_CPU_13" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="512" y1="200" x2="570" y2="200" class="TrackCircuit_CPU_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="293" y1="200" x2="324" y2="200" class="TrackCircuit_CPU_09" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="325" y1="200" x2="356" y2="200" class="TrackCircuit_CPU_11" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="357" y1="200" x2="388" y2="200" class="TrackCircuit_CPU_13" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="389" y1="200" x2="417" y2="200" class="TrackCircuit_CPU_15" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="419" y1="200" x2="474" y2="200" class="TrackCircuit_CPU_17" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="476" y1="200" x2="530" y2="200" class="TrackCircuit_CPU_19" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="532" y1="200" x2="600" y2="200" class="TrackCircuit_CPU_21" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- VIA 2 -->
-            <line x1="5" y1="350" x2="160" y2="350" class="TrackCircuit_CPU_02" stroke="#FFFF06" stroke-width="10"></line>
-            <g id="Point_CPU_A2" transform="translate(162, 313.3)">
+            <line x1="5" y1="350" x2="130" y2="350" class="TrackCircuit_CPU_04" stroke="#FFFF06" stroke-width="10"></line>
+            <g id="Point_CPU_A2" transform="translate(132, 313.3)">
                 <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="62.9521506" y1="36.7879002" x2="77" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="46.870758" y1="5.96406803" x2="59.5615636" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(53.2162, 5.9622) scale(-1, 1) rotate(65) translate(-53.2162, -5.9622)"></line>
@@ -21058,7 +21147,7 @@ let mimicscreendata = [
                 <line x1="10.9526415" y1="54.5702502" x2="26.9754477" y2="20.2092315" id="A" stroke="#FFFF06" stroke-width="10" transform="translate(19.4526, 37.1143) scale(-1, 1) rotate(65) translate(-19.4526, -37.1143)"></line>
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="40.3653399" cy="36.7139562" r="8.5"></circle>
             </g>
-            <g id="Point_CPU_A4" transform="translate(282, 339.9) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
+            <g id="Point_CPU_A4" transform="translate(252, 339.9) scale(-1, 1) translate(-1081.8997, -341.8833)translate(1043.45, 315.2121)">
                 <line x1="41.9362375" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="50.4416556" y1="5.96406803" x2="63.1324612" y2="5.96032618" id="C" stroke="#FFFF06" stroke-width="10" transform="translate(56.7871, 5.9622) scale(-1, 1) rotate(65) translate(-56.7871, -5.9622)"></line>
                 <line x1="34.4749212" y1="24.2171927" x2="62.064996" y2="24.2090579" id="R" stroke="#FFFF06" stroke-width="10" transform="translate(48.27, 24.2131) scale(-1, 1) rotate(65) translate(-48.27, -24.2131)"></line>
@@ -21066,16 +21155,18 @@ let mimicscreendata = [
                 <circle id="L" stroke="#000000" fill="#FFFF06" cx="43.9362375" cy="36.7139562" r="8.5"></circle>
                 <line x1="79.3494268" y1="36.7879002" x2="66.3494268" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
             </g>
-            <line x1="322" y1="350" x2="383" y2="350" class="TrackCircuit_CPU_08" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="385" y1="350" x2="447" y2="350" class="TrackCircuit_CPU_10" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="449" y1="350" x2="510" y2="350" class="TrackCircuit_CPU_12" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="512" y1="350" x2="570" y2="350" class="TrackCircuit_CPU_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="292" y1="350" x2="354" y2="350" class="TrackCircuit_CPU_10" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="356" y1="350" x2="417" y2="350" class="TrackCircuit_CPU_12" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="419" y1="350" x2="474" y2="350" class="TrackCircuit_CPU_14" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="476" y1="350" x2="530" y2="350" class="TrackCircuit_CPU_16" stroke="#FFFF06" stroke-width="10"></line>
 
             <!-- CV CAPUCHINOS -->
-            <path d="M222.7,239 L259.2,311 M260.4,239 L219.8,311" class="TrackCircuit_CPU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
+            <path d="M192.5,239 L230,311 
+            M230.9,239 L189.3,311" 
+            class="TrackCircuit_CPU_CV" stroke="#FFFF06" stroke-width="10" fill="#D8D8D8"></path>
             
             <!-- EL SILENCIO VIA 1 -->
-            <line x1="572" y1="200" x2="672" y2="200" class="TrackCircuit_SIL_01" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="602" y1="200" x2="672" y2="200" class="TrackCircuit_SIL_01" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_SIL_A1" transform="translate(712, 210) scale(1, -1) translate(-1082.1766, -212.1141)translate(1044, 185.4437)">
                 <line x1="41.9399302" y1="36.7879002" x2="66.3531195" y2="36.7844779" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="66.3531195" y1="36.7844779" x2="81.3531195" y2="36.7844779" id="B" stroke="#FFFF06" stroke-width="10"></line>
@@ -21114,7 +21205,7 @@ let mimicscreendata = [
             <line x1="1243" y1="190" x2="1243" y2="210" id="endOfLine" stroke="#888888" stroke-width="5"></line>
 
             <!-- EL SILENCIO VIA 2 -->
-            <line x1="572" y1="350" x2="672" y2="350" class="TrackCircuit_SIL_02" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="532" y1="350" x2="672" y2="350" class="TrackCircuit_SIL_02" stroke="#FFFF06" stroke-width="10"></line>
             <g id="Point_SIL_A2" transform="translate(674, 313.3)">
                 <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
                 <line x1="62.9521506" y1="36.7879002" x2="77" y2="36.7879002" id="B" stroke="#FFFF06" stroke-width="10"></line>
@@ -21165,59 +21256,59 @@ let mimicscreendata = [
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-            <g id="Signal_CPU03" transform="translate(168, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
+            <g id="Signal_CPU03" transform="translate(138, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_CPU03" transform="translate(132, 170)">
+                <g id="Button_CPU03" transform="translate(102, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_CPU03" transform="translate(130, 135)">
+                <g id="Cancel_CPU03" transform="translate(100, 135)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="CPU03" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="168" y="169">K</tspan>
+                    <tspan x="138" y="169">K</tspan>
                 </text>
-            <g id="Signal_CPU05" transform="translate(306, 205)" stroke="#888888">
+            <g id="Signal_CPU05" transform="translate(276, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_CPU05" transform="translate(318, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                <g id="Button_CPU05" transform="translate(290, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_CPU05" transform="translate(305, 135)">
+                <g id="Cancel_CPU05" transform="translate(277, 135)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="CPU05" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="308" y="240">J</tspan>
+                    <tspan x="278" y="240">J</tspan>
                 </text>
-                <g id="Fleeting_CPU05" transform="translate(329, 211)">
+                <g id="Fleeting_CPU05" transform="translate(299, 211)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_CPU07" transform="translate(454, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
+            <g id="Signal_CPU07" transform="translate(425, 216) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_CPU07" transform="translate(440, 170)">
+                <g id="Button_CPU07" transform="translate(410, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_CPU07" transform="translate(438, 135)">
+                <g id="Cancel_CPU07" transform="translate(407, 135)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="CPU07" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="453" y="240">H</tspan>
+                    <tspan x="423" y="240">H</tspan>
                 </text>
 
             <!-- Signals CAPUCHINOS VIA 2 -->
@@ -21229,61 +21320,61 @@ let mimicscreendata = [
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
-            <g id="Signal_CPU04" transform="translate(169, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
+            <g id="Signal_CPU04" transform="translate(138, 366) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_CPU04" transform="translate(133, 361)">
+                <g id="Button_CPU04" transform="translate(103, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_CPU04" transform="translate(130, 386)">
+                <g id="Cancel_CPU04" transform="translate(100, 386)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="CPU04" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="168" y="390">C</tspan>
+                    <tspan x="138" y="390">C</tspan>
                 </text>
-                <g id="Fleeting_CPU04" transform="translate(160, 323)">
+                <g id="Fleeting_CPU04" transform="translate(121, 323)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_CPU06" transform="translate(314, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
+            <g id="Signal_CPU06" transform="translate(284, 334) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_CPU06" transform="translate(318, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                <g id="Button_CPU06" transform="translate(290, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_CPU06" transform="translate(305, 386)">
+                <g id="Cancel_CPU06" transform="translate(277, 386)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="CPU06" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="308" y="319">D</tspan>
+                    <tspan x="278" y="319">D</tspan>
                 </text>
-            <g id="Signal_CPU08" transform="translate(453, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
+            <g id="Signal_CPU08" transform="translate(424, 333) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_CPU08" transform="translate(440, 361)">
+                <g id="Button_CPU08" transform="translate(410, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_CPU08" transform="translate(437, 386)">
+                <g id="Cancel_CPU08" transform="translate(407, 386)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="CPU08" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="453" y="319">E</tspan>
+                    <tspan x="423" y="319">E</tspan>
                 </text>
-                <g id="Fleeting_CPU08" transform="translate(419, 323)">
+                <g id="Fleeting_CPU08" transform="translate(389, 323)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
@@ -21291,43 +21382,43 @@ let mimicscreendata = [
                 </g>
             
             <!-- SIGNALS EL SILENCIO VIA 1 -->
-            <g id="Signal_SIL01" transform="translate(563, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
+            <g id="Signal_SIL01" transform="translate(523, 184.5) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_SIL01" transform="translate(588, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
+                <g id="Button_SIL01" transform="translate(548, 180) scale(-1, 1) translate(-190, -183)translate(180, 173)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_SIL01" transform="translate(575, 135)">
+                <g id="Cancel_SIL01" transform="translate(535, 135)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="SIL01" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="557" y="170">G</tspan>
+                    <tspan x="517" y="170">G</tspan>
                 </text>
-                <g id="Fleeting_SIL01" transform="translate(550, 211)">
+                <g id="Fleeting_SIL01" transform="translate(510, 211)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <text id="F" font-family="CourierNewPS-BoldMT, Courier New" font-size="17" font-weight="bold" fill="#FFFF06">
                         <tspan x="4.89916992" y="15">A</tspan>
                     </text>
                 </g>
-            <g id="Signal_SIL03" transform="translate(678, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
+            <g id="Signal_SIL03" transform="translate(679, 183) scale(-1, -1) translate(-293, -186.25)translate(284, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_SIL03" transform="translate(644, 170)">
+                <g id="Button_SIL03" transform="translate(645, 170)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_SIL03" transform="translate(642, 135)">
+                <g id="Cancel_SIL03" transform="translate(643, 135)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="SIL03" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="678" y="169">K</tspan>
+                    <tspan x="679" y="169">K</tspan>
                 </text>
             <g id="Signal_SIL05" transform="translate(821, 205)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
@@ -21397,21 +21488,21 @@ let mimicscreendata = [
                 </text>
 
             <!-- SIGNALS EL SILENCIO VIA 2 -->
-            <g id="Signal_SIL02" transform="translate(555, 356)" stroke="#888888">
+            <g id="Signal_SIL02" transform="translate(515, 356)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
                 <circle id="whiteDisc" fill="#fff" cx="6.5" cy="15" r="6" display="none"></circle>
             </g>
-                <g id="Button_SIL02" transform="translate(589, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
+                <g id="Button_SIL02" transform="translate(549, 370) scale(-1, 1) translate(-190, -371)translate(180, 361)">
                     <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
                     <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
                 </g>
-                <g id="Cancel_SIL02" transform="translate(577, 385)">
+                <g id="Cancel_SIL02" transform="translate(536, 385)">
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
                 <text id="SIL02" font-family="Consolas" font-size="11" font-weight="bold" fill="#E0E0E0">
-                    <tspan x="557" y="390">F</tspan>
+                    <tspan x="517" y="390">F</tspan>
                 </text>
             <g id="Signal_SIL04" transform="translate(679, 367) scale(-1, 1) translate(-291, -367.75)translate(282, 357)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>

@@ -1112,13 +1112,13 @@ let mapData = {
             name: "PAZ_03",
             southbound: "PAZ_01",
             northbound: "PAZ_05",
-            length: 3
+            length: 4
         },
         {
             name: "PAZ_05",
             southbound: "PAZ_03",
             northbound: "PAZ_07",
-            length: 3
+            length: 4
         },
         {
             name: "PAZ_07",
@@ -1139,7 +1139,7 @@ let mapData = {
                 normal: "PAZ_11",
                 reverse: "PAZ_CV"
             },
-            length: 2
+            length: 3
         },
         {
             name: "PAZ_11",
@@ -1150,7 +1150,7 @@ let mapData = {
                 normal: "PAZ_09",
                 reverse: "PAZ_CV"
             },
-            length: 1
+            length: 2
         },
         {
             name: "PAZ_13",
@@ -1180,7 +1180,7 @@ let mapData = {
             dependsOnPoint: {
                 point: "PAZ_A6",
                 normal: "PAZ_15",
-                reverse: "PAZ_20"
+                reverse: "PAZ_22"
             },
             length: 1
         },
@@ -1204,13 +1204,13 @@ let mapData = {
             name: "PAZ_04",
             southbound: "PAZ_02",
             northbound: "PAZ_06",
-            length: 3
+            length: 4
         },
         {
             name: "PAZ_06",
             southbound: "PAZ_04",
             northbound: "PAZ_08",
-            length: 3
+            length: 4
         },
         {
             name: "PAZ_08",
@@ -1239,7 +1239,7 @@ let mapData = {
                 normal: "PAZ_14",
                 reverse: "PAZ_CV"
             },
-            length: 2
+            length: 3
         },
         {
             name: "PAZ_14",
@@ -1280,14 +1280,31 @@ let mapData = {
         {
             name: "PAZ_20",
             southbound: "PAZ_13",
-            northbound: "PAZ_17",
+            northbound: "PAZ_21",
+            length: 1
+        },
+        {
+            name: "PAZ_21",
+            southbound: "PAZ_20",
+            northbound: "PAZ_22",
             signals: {
-                southbound: "PAZ11", //O
+                southbound: "PAZ11", //Q
             },
             shuntingPanels: {
                 northbound: "ZR5"
             },
             length: 7
+        },
+        {
+            name: "PAZ_22",
+            southbound: "PAZ_21",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PAZ_A7",
+                normal: "endOfTrack",
+                reverse: "PAZ_17"
+            },
+            length: 2
         },
         //ARTIGAS
         //VIA 1
@@ -1396,8 +1413,13 @@ let mapData = {
         {
             name: "MAT_09",
             southbound: "MAT_07",
-            northbound: "CPU_01",
-            length: 6
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "MAT_A1",
+                normal: "CPU_01",
+                reverse: "CPU_23"
+            },
+            length: 4
         },
         //VIA 2
         {
@@ -1430,8 +1452,13 @@ let mapData = {
         {
             name: "MAT_10",
             southbound: "MAT_08",
-            northbound: "CPU_02",
-            length: 6
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "MAT_A2",
+                normal: "CPU_02",
+                reverse: "CPU_18"
+            },
+            length: 4
         },
         //CAPUCHINOS
         //VIA 1
@@ -1439,6 +1466,12 @@ let mapData = {
             name: "CPU_01",
             southbound: "MAT_09",
             northbound: "CPU_03",
+            length: 4
+        },
+        {
+            name: "CPU_03",
+            southbound: "CPU_01",
+            northbound: "CPU_05",
             signals: {
                 southbound: "CPU01", //L
                 northbound: "CPU03" //K
@@ -1446,68 +1479,89 @@ let mapData = {
             length: 7
         },
         {
-            name: "CPU_03",
-            southbound: "CPU_01",
+            name: "CPU_05",
+            southbound: "CPU_03",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "CPU_A1",
-                normal: "CPU_05",
+                normal: "CPU_07",
                 reverse: "CPU_CV"
             },
-            length: 1
-        },
-        {
-            name: "CPU_05",
-            northbound: "CPU_07",
-            southbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "CPU_A3",
-                normal: "CPU_03",
-                reverse: "CPU_CV"
-            },
-            length: 1
+            length: 2
         },
         {
             name: "CPU_07",
-            southbound: "CPU_05",
             northbound: "CPU_09",
-            signals: {
-                southbound: "CPU05", //J
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CPU_A3",
+                normal: "CPU_05",
+                reverse: "CPU_CV"
             },
-            length: 3
+            length: 2
         },
         {
             name: "CPU_09",
             southbound: "CPU_07",
             northbound: "CPU_11",
-            length: 1
+            signals: {
+                southbound: "CPU05", //J
+            },
+            length: 2
         },
         {
             name: "CPU_11",
             southbound: "CPU_09",
             northbound: "CPU_13",
-            signals: {
-                northbound: "CPU07", //H
-            },
-            length: 3
+            length: 1
         },
         {
             name: "CPU_13",
             southbound: "CPU_11",
             northbound: "CPU_15",
-            length: 6
+            length: 2
         },
         {
             name: "CPU_15",
             southbound: "CPU_13",
+            northbound: "CPU_17",
+            signals: {
+                northbound: "CPU07", //H
+            },
+            length: 2
+        },
+        {
+            name: "CPU_17",
+            southbound: "CPU_15",
+            northbound: "CPU_19",
+            length: 7
+        },
+        {
+            name: "CPU_19",
+            southbound: "CPU_17",
+            northbound: "CPU_21",
+            length: 7
+        },
+        {
+            name: "CPU_21",
+            southbound: "CPU_19",
             northbound: "SIL_01",
-            length: 6
+            signals: {
+                southbound: "SIL01", //G
+            },
+            length: 7
         },
         //VIA 2
         {
             name: "CPU_02",
             southbound: "MAT_10",
             northbound: "CPU_04",
+            length: 4
+        },
+        {
+            name: "CPU_04",
+            southbound: "CPU_02",
+            northbound: "CPU_06",
             signals: {
                 southbound: "CPU02", //B
                 northbound: "CPU04" //C
@@ -1515,42 +1569,33 @@ let mapData = {
             length: 7
         },
         {
-            name: "CPU_04",
-            southbound: "CPU_02",
+            name: "CPU_06",
+            southbound: "CPU_04",
             northbound: "dependsOnPoint",
             dependsOnPoint: {
                 point: "CPU_A2",
-                normal: "CPU_06",
+                normal: "CPU_08",
                 reverse: "CPU_CV"
             },
-            length: 1
-        },
-        {
-            name: "CPU_06",
-            northbound: "CPU_08",
-            southbound: "dependsOnPoint",
-            dependsOnPoint: {
-                point: "CPU_A4",
-                normal: "CPU_04",
-                reverse: "CPU_CV"
-            },
-            length: 1
+            length: 2
         },
         {
             name: "CPU_08",
-            southbound: "CPU_06",
             northbound: "CPU_10",
-            signals: {
-                southbound: "CPU06", //D
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CPU_A4",
+                normal: "CPU_06",
+                reverse: "CPU_CV"
             },
-            length: 3
+            length: 2
         },
         {
             name: "CPU_10",
             southbound: "CPU_08",
             northbound: "CPU_12",
             signals: {
-                northbound: "CPU08", //E
+                southbound: "CPU06", //D
             },
             length: 4
         },
@@ -1558,34 +1603,125 @@ let mapData = {
             name: "CPU_12",
             southbound: "CPU_10",
             northbound: "CPU_14",
-            length: 6
+            signals: {
+                northbound: "CPU08", //E
+            },
+            length: 3
         },
         {
             name: "CPU_14",
             southbound: "CPU_12",
+            northbound: "CPU_16",
+            length: 7
+        },
+        {
+            name: "CPU_16",
+            southbound: "CPU_14",
             northbound: "SIL_02",
-            length: 6
+            length: 7
         },
         {
             name: "CPU_CV",
             crossTrackCircuit: true,
-            southboundLineSouthboundDirection: "CPU_04",
-            southboundLineNorthboundDirection: "CPU_06",
-            northboundLineSouthboundDirection: "CPU_03",
-            northboundLineNorthboundDirection: "CPU_05",
+            southboundLineSouthboundDirection: "CPU_06",
+            southboundLineNorthboundDirection: "CPU_08",
+            northboundLineSouthboundDirection: "CPU_05",
+            northboundLineNorthboundDirection: "CPU_07",
             length: 1
+        },
+        //V1 L4
+        {
+            name: "CPU_23",
+            southbound: "MAT_09",
+            northbound: "CPU_25",
+            length: 7
+        },
+        {
+            name: "CPU_25",
+            southbound: "CPU_23",
+            northbound: "CPU_27",
+            length: 7
+        },
+        {
+            name: "CPU_27",
+            southbound: "CPU_25",
+            northbound: "CPU_29",
+            signals: {
+                southbound: "CPU09", //P
+            },
+            length: 4
+        },
+        {
+            name: "CPU_29",
+            southbound: "CPU_27",
+            northbound: "CPU_31",
+            length: 3
+        },
+        {
+            name: "CPU_31",
+            southbound: "CPU_29",
+            northbound: "endOfTrack",
+            length: 18
+        },
+        //v2 L4
+        {
+            name: "CPU_18",
+            southbound: "MAT_10",
+            northbound: "CPU_20",
+            length: 7
+        },
+        {
+            name: "CPU_20",
+            southbound: "CPU_18",
+            northbound: "CPU_22",
+            length: 7
+        },
+        {
+            name: "CPU_22",
+            southbound: "CPU_20",
+            northbound: "CPU_24",
+            signals: {
+                southbound: "CPU10", //N
+            },
+            length: 4
+        },
+        {
+            name: "CPU_24",
+            southbound: "CPU_22",
+            northbound: "CPU_26",
+            signals: {
+                northbound: "CPU12", //S2
+            },
+            length: 3
+        },
+        {
+            name: "CPU_26",
+            southbound: "CPU_24",
+            northbound: "CPU_28",
+            length: 6
+        },
+        {
+            name: "CPU_28",
+            southbound: "CPU_26",
+            northbound: "CPU_30",
+            length: 6
+        },
+        {
+            name: "CPU_30",
+            southbound: "CPU_28",
+            northbound: "endOfTrack",
+            length: 6
         },
         //EL SILENCIO
         //VIA 1
         {
             name: "SIL_01",
-            southbound: "CPU_15",
+            southbound: "CPU_21",
             northbound: "SIL_03",
             signals: {
-                southbound: "SIL01", //G
                 northbound: "SIL03" //K
             },
-            length: 16
+            length: 7
         },
         {
             name: "SIL_03",
@@ -1596,7 +1732,7 @@ let mapData = {
                 normal: "SIL_05",
                 reverse: "SIL_CV"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_05",
@@ -1607,7 +1743,7 @@ let mapData = {
                 normal: "SIL_03",
                 reverse: "SIL_CV"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_07",
@@ -1668,7 +1804,7 @@ let mapData = {
                 southbound: "SIL02", //F
                 northbound: "SIL04" //C
             },
-            length: 16
+            length: 14
         },
         {
             name: "SIL_04",
@@ -1679,7 +1815,7 @@ let mapData = {
                 normal: "SIL_06",
                 reverse: "SIL_CV"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_06",
@@ -1690,7 +1826,7 @@ let mapData = {
                 normal: "SIL_04",
                 reverse: "SIL_CV"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_08",
@@ -1883,6 +2019,10 @@ let mapData = {
             trackCircuit: "PAZ_17",
         },
         {
+            name: "PAZ_A7",
+            trackCircuit: "PAZ_22",
+        },
+        {
             name: "PAZ_A2",
             trackCircuit: "PAZ_12",
         },
@@ -1891,20 +2031,28 @@ let mapData = {
             trackCircuit: "PAZ_14",
         },
         {
-            name: "CPU_A1",
-            trackCircuit: "CPU_03",
+            name: "MAT_A1",
+            trackCircuit: "MAT_09",
         },
         {
-            name: "CPU_A3",
+            name: "MAT_A2",
+            trackCircuit: "MAT_10",
+        },
+        {
+            name: "CPU_A1",
             trackCircuit: "CPU_05",
         },
         {
+            name: "CPU_A3",
+            trackCircuit: "CPU_07",
+        },
+        {
             name: "CPU_A2",
-            trackCircuit: "CPU_04",
+            trackCircuit: "CPU_06",
         },
         {
             name: "CPU_A4",
-            trackCircuit: "CPU_06",
+            trackCircuit: "CPU_08",
         },
         {
             name: "SIL_A1",
@@ -2249,6 +2397,10 @@ let mapData = {
             direction: "northbound"
         },
         {
+            name: "CPU09",
+            direction: "southbound"
+        },
+        {
             name: "CPU02",
             direction: "southbound"
         },
@@ -2262,6 +2414,14 @@ let mapData = {
         },
         {
             name: "CPU08",
+            direction: "northbound"
+        },
+        {
+            name: "CPU10",
+            direction: "southbound"
+        },
+        {
+            name: "CPU12",
             direction: "northbound"
         },
         {
@@ -2607,11 +2767,11 @@ let mapData = {
             name: "CAPUCHINOS_V1",
             direction: "southbound",
             northbound: {
-                trackCircuit: "CPU_11",
-                position: 3
+                trackCircuit: "CPU_15",
+                position: 2
             },
             southbound: {
-                trackCircuit: "CPU_07",
+                trackCircuit: "CPU_09",
                 position: 1
             },
         },
@@ -2619,11 +2779,11 @@ let mapData = {
             name: "CAPUCHINOS_V2",
             direction: "northbound",
             northbound: {
-                trackCircuit: "CPU_10",
-                position: 4
+                trackCircuit: "CPU_12",
+                position: 3
             },
             southbound: {
-                trackCircuit: "CPU_08",
+                trackCircuit: "CPU_10",
                 position: 1
             },
         },

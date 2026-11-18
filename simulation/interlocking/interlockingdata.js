@@ -198,6 +198,32 @@ var interlockingData = {
             }
         },
         {
+            name: "MAT_1",
+            routes: {
+                "entry": {
+                    start: "CPU01",
+                    end: "MAT01"
+                },
+                "exit": {
+                    start: "CPU09",
+                    end: "MAT01"
+                }
+            }
+        },
+        {
+            name: "MAT_2",
+            routes: {
+                "entry": {
+                    start: "MAT04",
+                    end: "CPU04"
+                },
+                "exit": {
+                    start: "MAT04",
+                    end: "CPU12"
+                }
+            }
+        },
+        {
             name: "CPU_1",
             routes: {
                 "entry": {
