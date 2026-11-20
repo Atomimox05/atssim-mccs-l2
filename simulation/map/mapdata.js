@@ -1895,7 +1895,451 @@ let mapData = {
             northboundLineSouthboundDirection: "SIL_11",
             northboundLineNorthboundDirection: "SIL_13",
             length: 1
-        }
+        },
+        //TEATROS
+        //VIA 1
+        {
+            name: "TEA_01",
+            southbound: "CPU_31",
+            northbound: "TEA_03",
+            length: 7
+        },
+        {
+            name: "TEA_03",
+            southbound: "TEA_01",
+            northbound: "TEA_05",
+            signals: {
+                southbound: "TEA01", //S1
+            },
+            length: 7
+        },
+        {
+            name: "TEA_05",
+            southbound: "TEA_03",
+            northbound: "CIR_01",
+            signals: {
+                northbound: "TEA03", //K
+            },
+            length: 12
+        },
+        //VIA 2
+        {
+            name: "TEA_02",
+            southbound: "CPU_30",
+            northbound: "TEA_04",
+            length: 7
+        },
+        {
+            name: "TEA_04",
+            southbound: "TEA_02",
+            northbound: "TEA_06",
+            signals: {
+                northbound: "TEA02", //S2
+            },
+            length: 7
+        },
+        {
+            name: "TEA_06",
+            southbound: "TEA_04",
+            northbound: "CIR_02",
+            signals: {
+                northbound: "TEA04", //C
+            },
+            length: 12
+        },
+        //NUEVO CIRCO
+        //VIA 1
+        {
+            name: "CIR_01",
+            southbound: "TEA_05",
+            northbound: "CIR_03",
+            length: 7
+        },
+        {
+            name: "CIR_03",
+            southbound: "CIR_01",
+            northbound: "CIR_05",
+            length: 7
+        },
+        {
+            name: "CIR_05",
+            southbound: "CIR_03",
+            northbound: "CIR_07",
+            signals: {
+                southbound: "CIR01", //J
+                northbound: "CIR03", //H
+            },
+            length: 7
+        },
+        {
+            name: "CIR_07",
+            southbound: "CIR_05",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CIR_A1",
+                normal: "CIR_09",
+                reverse: "CIR_CV"
+            },
+            length: 3
+        },
+        {
+            name: "CIR_09",
+            northbound: "CIR_11",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CIR_A3",
+                normal: "CIR_07",
+                reverse: "CIR_CV"
+            },
+            length: 4
+        },
+        {
+            name: "CIR_11",
+            southbound: "CIR_09",
+            northbound: "PQC_01",
+            signals: {
+                southbound: "CIR05", //G
+                northbound: "CIR07", //M
+            },
+            length: 7
+        },
+        //VIA 2
+        {
+            name: "CIR_02",
+            southbound: "TEA_06",
+            northbound: "CIR_04",
+            length: 7
+        },
+        {
+            name: "CIR_04",
+            southbound: "CIR_02",
+            northbound: "CIR_06",
+            length: 7
+        },
+        {
+            name: "CIR_06",
+            southbound: "CIR_04",
+            northbound: "CIR_08",
+            signals: {
+                southbound: "CIR02", //D
+                northbound: "CIR04", //E
+            },
+            length: 7
+        },
+        {
+            name: "CIR_08",
+            southbound: "CIR_06",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CIR_A2",
+                normal: "CIR_10",
+                reverse: "CIR_CV"
+            },
+            length: 3
+        },
+        {
+            name: "CIR_10",
+            northbound: "CIR_12",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "CIR_A4",
+                normal: "CIR_08",
+                reverse: "CIR_CV"
+            },
+            length: 4
+        },
+        {
+            name: "CIR_12",
+            southbound: "CIR_10",
+            northbound: "PQC_02",
+            signals: {
+                southbound: "CIR06", //F
+                northbound: "CIR08", //A
+            },
+            length: 7
+        },
+        {
+            name: "CIR_CV",
+            crossTrackCircuit: true,
+            southboundLineSouthboundDirection: "CIR_08",
+            southboundLineNorthboundDirection: "CIR_10",
+            northboundLineSouthboundDirection: "CIR_07",
+            northboundLineNorthboundDirection: "CIR_09",
+            length: 1
+        },
+        //PARQUE CENTRAL
+        //VIA 1
+         {
+            name: "PQC_01",
+            southbound: "CIR_11",
+            northbound: "PQC_03",
+            length: 7
+        },
+        {
+            name: "PQC_03",
+            southbound: "PQC_01",
+            northbound: "PQC_05",
+            length: 7
+        },
+        {
+            name: "PQC_05",
+            southbound: "PQC_03",
+            northbound: "PQC_07",
+            signals: {
+                southbound: "PQC01", //L
+                northbound: "PQC03", //P
+            },
+            length: 7
+        },
+        {
+            name: "PQC_07",
+            southbound: "PQC_05",
+            northbound: "PQC_09",
+            length: 14
+        },
+        {
+            name: "PQC_09",
+            southbound: "PQC_07",
+            northbound: "PQC_11",
+            signals: {
+                southbound: "PQC05", //I1
+            },
+            length: 12
+        },
+        {
+            name: "PQC_11",
+            southbound: "PQC_09",
+            northbound: "PQC_13",
+            signals: {
+                southbound: "PQC07", //N
+                northbound: "PQC09", //M
+            },
+            length: 7
+        },
+        {
+            name: "PQC_13",
+            northbound: "PQC_15",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PQC_A1",
+                normal: "PQC_11",
+                reverse: "PQC_16"
+            },
+            length: 3
+        },
+        {
+            name: "PQC_15",
+            southbound: "PQC_13",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PQC_A3",
+                normal: "ZOR_01",
+                reverse: "PQC_17"
+            },
+            length: 4
+        },
+        //VIA 2
+         //VIA 1
+         {
+            name: "PQC_02",
+            southbound: "CIR_12",
+            northbound: "PQC_04",
+            length: 7
+        },
+        {
+            name: "PQC_04",
+            southbound: "PQC_02",
+            northbound: "PQC_06",
+            length: 7
+        },
+        {
+            name: "PQC_06",
+            southbound: "PQC_04",
+            northbound: "PQC_08",
+            signals: {
+                southbound: "PQC02", //B
+                northbound: "PQC04", //S2
+            },
+            length: 7
+        },
+        {
+            name: "PQC_08",
+            southbound: "PQC_06",
+            northbound: "PQC_10",
+            length: 7
+        },
+        {
+            name: "PQC_10",
+            southbound: "PQC_08",
+            northbound: "PQC_12",
+            signals: {
+                southbound: "PQC06", //I2
+            },
+            length: 7
+        },
+        {
+            name: "PQC_12",
+            southbound: "PQC_10",
+            northbound: "PQC_14",
+            signals: {
+                northbound: "PQC08", //A
+            },
+            length: 12
+        },
+        {
+            name: "PQC_14",
+            southbound: "PQC_12",
+            northbound: "PQC_16",
+            length: 7
+        },
+        {
+            name: "PQC_16",
+            southbound: "PQC_14",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "PQC_A2",
+                normal: "ZOR_02",
+                reverse: "PQC_15"
+            },
+            length: 4
+        },
+        //ZT
+        {
+            name: "PQC_17",
+            southbound: "PQC_16",
+            northbound: "PQC_18",
+            length: 1
+        },
+        {
+            name: "PQC_18",
+            southbound: "PQC_17",
+            northbound: "endOfTrack",
+            signals: {
+                southbound: "PQC10", //Q
+                northbound: "PQC11", //SP11
+            },
+            length: 7
+        },
+        //ZONA RENTAL
+        //VIA 1
+        {
+            name: "ZOR_01",
+            southbound: "PQC_15",
+            northbound: "ZOR_03",
+            length: 9
+        },
+        {
+            name: "ZOR_03",
+            southbound: "ZOR_01",
+            northbound: "ZOR_05",
+            signals: {
+                southbound: "ZOR01", //L
+                northbound: "ZOR03", //K
+            },
+            length: 7
+        },
+        {
+            name: "ZOR_05",
+            southbound: "ZOR_03",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "ZOR_A1",
+                normal: "ZOR_07",
+                reverse: "ZOR_CV"
+            },
+            length: 2
+        },
+        {
+            name: "ZOR_07",
+            northbound: "ZOR_09",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "ZOR_A3",
+                normal: "ZOR_05",
+                reverse: "ZOR_CV"
+            },
+            length: 2
+        },
+        {
+            name: "ZOR_09",
+            southbound: "ZOR_07",
+            northbound: "ZOR_11",
+            signals: {
+                southbound: "ZOR05", //J
+                northbound: "ZOR07", //SP09
+            },
+            length: 7
+        },
+        {
+            name: "ZOR_11",
+            southbound: "ZOR_09",
+            northbound: "endOfTrack",
+            length: 4
+        },
+        //VIA 2
+        {
+            name: "ZOR_02",
+            southbound: "PQC_16",
+            northbound: "ZOR_04",
+            length: 7
+        },
+        {
+            name: "ZOR_04",
+            southbound: "ZOR_02",
+            northbound: "ZOR_06",
+            signals: {
+                southbound: "ZOR02", //B
+                northbound: "ZOR04", //C
+            },
+            length: 7
+        },
+        {
+            name: "ZOR_06",
+            southbound: "ZOR_04",
+            northbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "ZOR_A2",
+                normal: "ZOR_08",
+                reverse: "ZOR_CV"
+            },
+            length: 4
+        },
+        {
+            name: "ZOR_08",
+            northbound: "ZOR_10",
+            southbound: "dependsOnPoint",
+            dependsOnPoint: {
+                point: "ZOR_A4",
+                normal: "ZOR_06",
+                reverse: "ZOR_CV"
+            },
+            length: 2
+        },
+        {
+            name: "ZOR_10",
+            southbound: "ZOR_08",
+            northbound: "ZOR_12",
+            signals: {
+                southbound: "ZOR06", //D
+                northbound: "ZOR08", //SP10
+            },
+            length: 7
+        },
+        {
+            name: "ZOR_12",
+            southbound: "ZOR_10",
+            northbound: "endOfTrack",
+            length: 4
+        },
+        {
+            name: "ZOR_CV",
+            crossTrackCircuit: true,
+            southboundLineSouthboundDirection: "ZOR_06",
+            southboundLineNorthboundDirection: "ZOR_08",
+            northboundLineSouthboundDirection: "ZOR_05",
+            northboundLineNorthboundDirection: "ZOR_07",
+            length: 1
+        },
     ],
     points: [
         {
@@ -2085,7 +2529,50 @@ let mapData = {
         {
             name: "SIL_A8",
             trackCircuit: "SIL_14",
-        }
+        },
+        {
+            name: "CIR_A1",
+            trackCircuit: "CIR_07",
+        },
+        {
+            name: "CIR_A3",
+            trackCircuit: "CIR_09",
+        },
+        {
+            name: "CIR_A2",
+            trackCircuit: "CIR_08",
+        },
+        {
+            name: "CIR_A4",
+            trackCircuit: "CIR_10",
+        },
+        {
+            name: "PQC_A1",
+            trackCircuit: "PQC_13",
+        },
+        {
+            name: "PQC_A3",
+            trackCircuit: "PQC_15",
+        },
+        {
+            name: "PQC_A2",
+            trackCircuit: "PQC_16",
+        },
+        {
+            name: "ZOR_A1",
+            trackCircuit: "ZOR_05",
+        },
+        {
+            name: "ZOR_A3",
+            trackCircuit: "ZOR_07",
+        },{
+            name: "ZOR_A2",
+            trackCircuit: "ZOR_06",
+        },
+        {
+            name: "ZOR_A4",
+            trackCircuit: "ZOR_08",
+        },
     ],
     signals: [
         {
@@ -2471,7 +2958,131 @@ let mapData = {
         {
             name: "SIL12",
             direction: "northbound"
-        }
+        },
+        {
+            name: "TEA01",
+            direction: "southbound"
+        },
+        {
+            name: "TEA03",
+            direction: "northbound"
+        },
+        {
+            name: "TEA02",
+            direction: "northbound"
+        },
+        {
+            name: "TEA04",
+            direction: "northbound"
+        },
+        {
+            name: "CIR01",
+            direction: "southbound"
+        },
+        {
+            name: "CIR03",
+            direction: "northbound"
+        },
+        {
+            name: "CIR05",
+            direction: "southbound"
+        },
+        {
+            name: "CIR07",
+            direction: "northbound"
+        },
+        {
+            name: "CIR02",
+            direction: "southbound"
+        },
+        {
+            name: "CIR04",
+            direction: "northbound"
+        },
+        {
+            name: "CIR06",
+            direction: "southbound"
+        },
+        {
+            name: "CIR08",
+            direction: "northbound"
+        },
+        {
+            name: "PQC01",
+            direction: "southbound"
+        },
+        {
+            name: "PQC03",
+            direction: "northbound"
+        },
+        {
+            name: "PQC05",
+            direction: "southbound"
+        },
+        {
+            name: "PQC07",
+            direction: "southbound"
+        },
+        {
+            name: "PQC09",
+            direction: "northbound"
+        },
+        {
+            name: "PQC02",
+            direction: "southbound"
+        },
+        {
+            name: "PQC04",
+            direction: "northbound"
+        },
+        {
+            name: "PQC06",
+            direction: "northbound"
+        },
+        {
+            name: "PQC08",
+            direction: "northbound"
+        },
+        {
+            name: "PQC10",
+            direction: "southbound"
+        },
+        {
+            name: "PQC11",
+            direction: "northbound"
+        },
+        {
+            name: "ZOR01",
+            direction: "southbound"
+        },
+        {
+            name: "ZOR03",
+            direction: "northbound"
+        },
+        {
+            name: "ZOR05",
+            direction: "southbound"
+        },
+        {
+            name: "ZOR07",
+            direction: "northbound"
+        },
+        {
+            name: "ZOR02",
+            direction: "southbound"
+        },
+        {
+            name: "ZOR04",
+            direction: "northbound"
+        },
+        {
+            name: "ZOR06",
+            direction: "southbound"
+        },
+        {
+            name: "ZOR08",
+            direction: "northbound"
+        },
     ],
     shuntingPanels: [
         {
