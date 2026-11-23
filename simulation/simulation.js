@@ -20,10 +20,18 @@ interlocking.getSignalFromName("PAZ03").requestFleeting()
 interlocking.getSignalFromName("PAZ07").requestFleeting()
 interlocking.getSignalFromName("ART01").requestFleeting()
 interlocking.getSignalFromName("MAT01").requestFleeting()
-interlocking.getSignalFromName("CPU01").requestFleeting()
+//interlocking.getSignalFromName("CPU01").requestFleeting()
 interlocking.getSignalFromName("CPU05").requestFleeting()
 interlocking.getSignalFromName("SIL01").requestFleeting()
 interlocking.getSignalFromName("SIL05").requestFleeting()
+interlocking.getSignalFromName("CPU09").requestFleeting()
+interlocking.getSignalFromName("TEA01").requestFleeting()
+interlocking.getSignalFromName("CIR01").requestFleeting()
+interlocking.getSignalFromName("CIR05").requestFleeting()
+interlocking.getSignalFromName("PQC01").requestFleeting()
+interlocking.getSignalFromName("PQC05").requestFleeting()
+interlocking.getSignalFromName("PQC07").requestFleeting()
+interlocking.getSignalFromName("ZOR01").requestFleeting()
 
 //VIA 2
 interlocking.getSignalFromName("RUI02").requestFleeting()
@@ -39,10 +47,18 @@ interlocking.getSignalFromName("PAZ02").requestFleeting()
 interlocking.getSignalFromName("PAZ06").requestFleeting()
 interlocking.getSignalFromName("PAZ10").requestFleeting()
 interlocking.getSignalFromName("ART04").requestFleeting()
-interlocking.getSignalFromName("MAT04").requestFleeting()
+//interlocking.getSignalFromName("MAT04").requestFleeting()
 interlocking.getSignalFromName("CPU04").requestFleeting()
 interlocking.getSignalFromName("CPU08").requestFleeting()
 interlocking.getSignalFromName("SIL04").requestFleeting()
+interlocking.getSignalFromName("CPU12").requestFleeting()
+interlocking.getSignalFromName("TEA02").requestFleeting()
+interlocking.getSignalFromName("TEA04").requestFleeting()
+interlocking.getSignalFromName("CIR04").requestFleeting()
+interlocking.getSignalFromName("CIR08").requestFleeting()
+interlocking.getSignalFromName("PQC04").requestFleeting()
+interlocking.getSignalFromName("PQC06").requestFleeting()
+interlocking.getSignalFromName("PQC08").requestFleeting()
 
 // Pre-reservar rutas críticas  
 requestReserveForRouteMultipleTrackCircuits("AJU_15", "AJU_13", "southbound")
@@ -55,9 +71,10 @@ interlocking.getCycleFromName("AJU_1").enable();
 interlocking.getCycleFromName("ZOO_2").enable()
 interlocking.getCycleFromName("Y_1").enable();
 interlocking.getCycleFromName("Y_2").enable()
-//interlocking.getCycleFromName("MAT_1").enable();
-//interlocking.getCycleFromName("MAT_2").enable()
+interlocking.getCycleFromName("MAT_1").enable();
+interlocking.getCycleFromName("MAT_2").enable()
 interlocking.getCycleFromName("SIL_3").enable()
+interlocking.getCycleFromName("ZOR_1").enable()
 
 var trains = []
 trains.push(new Train("01", 6, map, track, map.getTrackCircuitFromName("AJU_15"), "southbound", interlocking, ats))

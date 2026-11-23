@@ -1,7 +1,7 @@
 "use strict";
 
 let mimicscreendata = [
-  {
+  /*{
     name: "ADJUNTAS",
     svg: `
 <svg width="1266px" height="815px" viewBox="0 0 1266 815" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -15643,7 +15643,7 @@ let mimicscreendata = [
             <circle id="Oval" stroke="#000000" fill="#008000" cx="1109.5" cy="765.5" r="10"></circle>
         </g>
 </svg>`,
-  },
+  },*/
   {
     name: "MATERNIDAD",
     svg: `
@@ -17768,13 +17768,31 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_MAT_09" transform="translate(995, 100)" opacity="0">
+            <g class="TrainDescriber_MAT_09" transform="translate(910, 258)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_01" transform="translate(1170, 100)" opacity="0">
+            <g class="TrainDescriber_CPU_01" transform="translate(1030, 258)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_03" transform="translate(1170, 258)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_23" transform="translate(995, 70)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_25" transform="translate(1165, 70)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -17820,6 +17838,12 @@ let mimicscreendata = [
             </text>
             <text id="CPU_03" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
                 <tspan x="1170" y="190">CPU_03</tspan>
+            </text>
+            <text id="CPU_23" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="995" y="108">CPU_23</tspan>
+            </text>
+            <text id="CPU_25" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="1165" y="108">CPU_25</tspan>
             </text>
 
             <!-- DIRECTION ARROWS VIA 1 -->
@@ -17971,13 +17995,31 @@ let mimicscreendata = [
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_MAT_10" transform="translate(995, 422)" opacity="0">
+            <g class="TrainDescriber_MAT_10" transform="translate(910, 282)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
                 </text>
             </g>
-            <g class="TrainDescriber_CPU_04" transform="translate(1170, 422)" opacity="0">
+            <g class="TrainDescriber_CPU_02" transform="translate(1030, 282)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_04" transform="translate(1170, 282)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_18" transform="translate(995, 462)" opacity="0">
+                <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
+                <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
+                    <tspan x="6" y="13">-</tspan>
+                </text>
+            </g>
+            <g class="TrainDescriber_CPU_20" transform="translate(1165, 462)" opacity="0">
                 <rect id="Rectangle" x="0" y="0" width="30" border="1" height="20" stroke="#000000" stroke-width="1"></rect>
                 <text id="0000" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E65100">
                     <tspan x="6" y="13">-</tspan>
@@ -18024,6 +18066,12 @@ let mimicscreendata = [
             <text id="CPU_04" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
                 <tspan x="1170" y="365">CPU_04</tspan>
             </text>
+            <text id="CPU_18" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="995" y="446">CPU_18</tspan>
+            </text>
+            <text id="CPU_20" font-family="CourierNewPS-BoldMT, Courier New" font-size="9" font-weight="bold" fill="#808080">
+                <tspan x="1165" y="446">CPU_20</tspan>
+            </text>
             
             <!-- TRACK CIRCUITS V1 -->
             <line x1="5" y1="200" x2="90" y2="200" class="TrackCircuit_PAZ_19" stroke="#FFFF06" stroke-width="10"></line>
@@ -18038,6 +18086,11 @@ let mimicscreendata = [
             <line x1="762" y1="200" x2="860" y2="200" class="TrackCircuit_MAT_07" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="992" y1="200" x2="1100" y2="200" class="TrackCircuit_CPU_01" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1102" y1="200" x2="1260" y2="200" class="TrackCircuit_CPU_03" stroke="#FFFF06" stroke-width="10"></line>
+
+            <!-- TRACK CIRCUITS V1 TO L4 -->
+            <line x1="921" y1="157" x2="942" y2="116" class="TrackCircuit_CPU_23" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="939" y1="119" x2="1090" y2="119" class="TrackCircuit_CPU_23" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="119" x2="1260" y2="119" class="TrackCircuit_CPU_25" stroke="#FFFF06" stroke-width="10"></line>
             
             <!-- TRACK CIRCUITS V2 -->
             <line x1="5" y1="350" x2="107" y2="350" class="TrackCircuit_PAZ_18" stroke="#FFFF06" stroke-width="10"></line>
@@ -18052,6 +18105,11 @@ let mimicscreendata = [
             <line x1="762" y1="350" x2="860" y2="350" class="TrackCircuit_MAT_08" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="992" y1="350" x2="1100" y2="350" class="TrackCircuit_CPU_02" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1102" y1="350" x2="1260" y2="350" class="TrackCircuit_CPU_04" stroke="#FFFF06" stroke-width="10"></line>
+
+            <!-- TRACK CIRCUITS V2 TO L4 -->
+            <line x1="923" y1="389" x2="942" y2="434" class="TrackCircuit_CPU_18" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="939" y1="431" x2="1090" y2="431" class="TrackCircuit_CPU_18" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="1092" y1="431" x2="1260" y2="431" class="TrackCircuit_CPU_20" stroke="#FFFF06" stroke-width="10"></line>
 
             <g id="Point_MAT_A1" transform="translate(862, 163.2)">
                 <line x1="38.3653399" y1="36.7879002" x2="62.9521506" y2="36.7879002" id="N" stroke="#FFFF06" stroke-width="10"></line>
@@ -18224,6 +18282,24 @@ let mimicscreendata = [
                 </g>
             
             <!-- SIGNALS CAPUCHINOS -->
+                <g id="Button_TEA03" transform="translate(1236, 90)">
+                    <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_TEA03" transform="translate(1233, 58)">
+                    <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+
+                <g id="Button_CPU09" transform="translate(1206, 90)">
+                    <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_CPU09" transform="translate(1203, 58)">
+                    <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+
             <g id="Signal_CPU01" transform="translate(1095, 184) scale(1, -1) translate(-167, -186.25)translate(158, 175.5)" stroke="#888888">
                 <polyline id="foot" stroke="#888888" points="18 0 18 15 12 15"></polyline>
                 <circle id="disc" fill="#1253C9" cx="-6" cy="15" r="6"></circle>
@@ -18281,6 +18357,100 @@ let mimicscreendata = [
                     <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
                     <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
                 </g>
+            
+                <g id="Button_CPU12" transform="translate(1236, 442)">
+                    <rect id="rectangle" stroke="#000000" fill="#2b2d31" x="0.5" y="0.5" width="19" height="19"></rect>
+                    <path d="M11.2540062,3.5 L16.732,8.785 L16.7439237,8.78585315 L18,10 L16.7439237,11.2141469 L16.732,11.214 L11.2540062,16.5 L10.3641547,15.6414685 L14.953,11.214 L2,11.2141469 L2,8.78585315 L14.952,8.785 L10.3641547,4.35853147 L11.2540062,3.5 Z" id="arrow" fill="#FFFF06" fill-rule="nonzero"></path>
+                </g>
+                <g id="Cancel_CPU12" transform="translate(1232.5, 468)">
+                    <circle id="circle" stroke="#000000" fill="#2b2d31" cx="13" cy="13" r="12.5"></circle>
+                    <path d="M4.51471863,21.4852814 L21.4852814,4.51471863 M4.51471863,4.51471863 L21.4852814,21.4852814" id="cross" stroke="#FFFF06"></path>
+                </g>
+
+            <g id="CycleButtons_MAT_1" transform="translate(82, 725)">
+                <g id="OffButton" transform="translate(36, 0)">
+                    <g id="borders" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-l6_a5lxqar-92)" xlink:href="#path-l6_a5lxqar-91"></use>
+                    </g>
+                    <rect id="background" fill="#2b2d31" x="0" y="0" width="26" height="19"></rect>
+                    <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                        <tspan x="0.397949219" y="13.5">OFF</tspan>
+                    </text>
+                </g>
+                <g id="OnButton" transform="translate(4, 0)">
+                    <g id="active">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-l6_a5lxqar-94)" xlink:href="#path-l6_a5lxqar-93"></use>
+                        </g>
+                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                            <tspan x="4.59863281" y="13.5">ON</tspan>
+                        </text>
+                    </g>
+                    <g id="inactive">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-l6_a5lxqar-96)" xlink:href="#path-l6_a5lxqar-95"></use>
+                        </g>
+                        <rect id="background" fill="#2b2d31" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                            <tspan x="4.59863281" y="13.5">ON</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-98)" xlink:href="#path-l6_a5lxqar-97"></use>
+                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-97"></use>
+                </g>
+                <g id="Group" transform="translate(5, 37.2845)">
+                    <line x1="9.49240686e-15" y1="28.7154723" x2="57" y2="28.7154723" id="Path-20" stroke="#000000"></line>
+                    <line x1="13.2809393" y1="1.09398659" x2="28.3310458" y2="29.6040091" id="Path-2" stroke="#000000" transform="translate(20.331, 15.104) scale(-1, 1) rotate(-4.6769) translate(-20.331, -15.104)"></line>
+                    <polygon id="Triangle" fill="#E0E0E0" transform="translate(4, 28.7155) rotate(-90) translate(-54, -28.7155)" points="54 24.7154723 59 32.7154723 49 32.7154723"></polygon>
+                    <polyline id="Path-4" stroke="#000000" stroke-width="4" points="57 1.71547226 28.5 1.71547226 11.5 28.7154723 8.5 28.7154723 57 28.7154723"></polyline>
+                </g>
+            </g>
+            <g id="CycleButtons_MAT_2" transform="translate(153, 725)">
+                <g id="OffButton" transform="translate(36, 0)">
+                    <g id="borders" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-l6_a5lxqar-100)" xlink:href="#path-l6_a5lxqar-99"></use>
+                    </g>
+                    <rect id="background" fill="#2b2d31" x="0" y="0" width="26" height="19"></rect>
+                    <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                        <tspan x="0.397949219" y="13.5">OFF</tspan>
+                    </text>
+                </g>
+                <g id="OnButton" transform="translate(4, 0)">
+                    <g id="active">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-l6_a5lxqar-102)" xlink:href="#path-l6_a5lxqar-101"></use>
+                        </g>
+                        <rect id="background" fill="#FFFFFF" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#000000">
+                            <tspan x="4.59863281" y="13.5">ON</tspan>
+                        </text>
+                    </g>
+                    <g id="inactive">
+                        <g id="borders" fill="black" fill-opacity="1">
+                            <use filter="url(#filter-l6_a5lxqar-104)" xlink:href="#path-l6_a5lxqar-103"></use>
+                        </g>
+                        <rect id="background" fill="#2b2d31" x="0" y="0" width="26" height="19"></rect>
+                        <text id="text" font-family="CourierNewPS-BoldMT, Courier New" font-size="14" font-weight="bold" fill="#FFFF06">
+                            <tspan x="4.59863281" y="13.5">ON</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-l6_a5lxqar-106)" xlink:href="#path-l6_a5lxqar-105"></use>
+                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-l6_a5lxqar-105"></use>
+                </g>
+                <g id="Group" transform="translate(5, 37.2845)">
+                    <line x1="0" y1="1.71547226" x2="54" y2="1.71547226" id="Path-20" stroke="#000000"></line>
+                    <line x1="26" y1="28.7154723" x2="54" y2="28.7154723" id="Path-20" stroke="#000000"></line>
+                    <line x1="12.6564879" y1="1.06903036" x2="27.3984113" y2="29.3652438" id="Path-2" stroke="#000000" transform="translate(19.9933, 15.5524) rotate(-4.6769) translate(-19.9933, -15.5524)"></line>
+                    <polygon id="Triangle" fill="#E0E0E0" transform="translate(54, 2) rotate(90) translate(-54, -28.7155)" points="54 24.7154723 59 32.7154723 49 32.7154723"></polygon>
+                    <polygon id="Triangle" fill="#E0E0E0" transform="translate(54, 28.7155) rotate(90) translate(-54, -28.7155)" points="54 24.7154723 59 32.7154723 49 32.7154723"></polygon>
+                    <polyline id="Path-5" stroke="#000000" stroke-width="4" points="50 1.71547226 1.58206781e-15 1.71547226 11.5 1.71547226 28.5 28.7154723 50 28.7154723"></polyline>
+                </g>
+            </g>
 
             <g id="HoldButton_ARTIGAS_V1" transform="translate(611, 752)">
                 <g id="OffButton" transform="translate(32, 0)">

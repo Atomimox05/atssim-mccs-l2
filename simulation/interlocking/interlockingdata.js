@@ -327,6 +327,84 @@ var interlockingData = {
                 }
             }
         },
+        {
+            name: "CIR_1",
+            routes: {
+                "entry": {
+                    start: "CIR04",
+                    end: "CIR07"
+                },
+                "exit": {
+                    start: "CIR05",
+                    end: "CIR01"
+                }
+            }
+        },
+        {
+            name: "CIR_2",
+            routes: {
+                "entry": {
+                    start: "CIR04",
+                    end: "CIR08"
+                },
+                "exit": {
+                    start: "CIR06",
+                    end: "CIR01"
+                }
+            }
+        },
+        {
+            name: "CIR_3",
+            routes: {
+                "entry": {
+                    start: "CIR05",
+                    end: "CIR02"
+                },
+                "exit": {
+                    start: "CIR04",
+                    end: "CIR08"
+                }
+            }
+        },
+        {
+            name: "CIR_4",
+            routes: {
+                "entry": {
+                    start: "CIR05",
+                    end: "CIR01"
+                },
+                "exit": {
+                    start: "CIR03",
+                    end: "CIR08"
+                }
+            }
+        },
+        {
+            name: "ZOR_1",
+            routes: {
+                "entry": {
+                    start: "ZOR04",
+                    end: "ZOR07"
+                },
+                "exit": {
+                    start: "ZOR05",
+                    end: "ZOR01"
+                }
+            }
+        },
+        {
+            name: "ZOR_2",
+            routes: {
+                "entry": {
+                    start: "ZOR04",
+                    end: "ZOR08"
+                },
+                "exit": {
+                    start: "ZOR06",
+                    end: "ZOR01"
+                }
+            }
+        },
     ],
     shuntingRoutes: [
         {

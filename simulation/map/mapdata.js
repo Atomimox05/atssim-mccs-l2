@@ -1660,10 +1660,10 @@ let mapData = {
         {
             name: "CPU_31",
             southbound: "CPU_29",
-            northbound: "endOfTrack",
+            northbound: "TEA_02",
             length: 18
         },
-        //v2 L4
+        //V2 L4
         {
             name: "CPU_18",
             southbound: "MAT_10",
@@ -1709,7 +1709,7 @@ let mapData = {
         {
             name: "CPU_30",
             southbound: "CPU_28",
-            northbound: "endOfTrack",
+            northbound: "TEA_01",
             length: 6
         },
         //EL SILENCIO
@@ -3399,6 +3399,30 @@ let mapData = {
             },
         },
         {
+            name: "CAPUCHINOS_V3",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "CPU_29",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "CPU_27",
+                position: 1
+            },
+        },
+        {
+            name: "CAPUCHINOS_V4",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "CPU_24",
+                position: 3
+            },
+            southbound: {
+                trackCircuit: "CPU_22",
+                position: 1
+            },
+        },
+        {
             name: "SILENCIO_V1",
             direction: "southbound",
             northbound: {
@@ -3421,6 +3445,104 @@ let mapData = {
                 trackCircuit: "SIL_08",
                 position: 1
             },
+        },
+        {
+            name: "TEATROS_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "TEA_03",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "TEA_03",
+                position: 1
+            },
+        },
+        {
+            name: "TEATROS_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "TEA_04",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "TEA_04",
+                position: 1
+            }
+        },
+        {
+            name: "NUEVOCIRCO_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "CIR_05",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "CIR_05",
+                position: 1
+            },
+        },
+        {
+            name: "NUEVOCIRCO_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "CIR_06",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "CIR_06",
+                position: 1
+            }
+        },
+        {
+            name: "PARQUECENTRAL_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "PQC_05",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "PQC_05",
+                position: 1
+            },
+        },
+        {
+            name: "PARQUECENTRAL_V2",
+            direction: "northbound",
+            northbound: {
+                trackCircuit: "PQC_06",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "PQC_06",
+                position: 1
+            }
+        },
+        {
+            name: "ZONARENTAL_V1",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "ZOR_09",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "ZOR_09",
+                position: 1
+            },
+            terminus: true
+        },
+        {
+            name: "ZONARENTAL_V2",
+            direction: "southbound",
+            northbound: {
+                trackCircuit: "ZOR_10",
+                position: 7
+            },
+            southbound: {
+                trackCircuit: "ZOR_10",
+                position: 1
+            },
+            terminus: true
         },
     ],
 }
