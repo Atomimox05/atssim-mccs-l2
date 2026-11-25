@@ -43,9 +43,9 @@ class Cycle {
         setTimeout(this.update.bind(this), 1000)
     }
 
-    enable() {
+    enable(initialPhase = "entry") {
         if (!this.enabled) {
-            this.currentPhase = "entry"
+            this.currentPhase = initialPhase
             this.enabled = true
             AlarmHandler.addEvent(this.name, "SAYKIL AYARLI", "CYCLE SET", "CICLO ESTABLECIDO")
         }

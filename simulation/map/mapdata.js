@@ -1660,7 +1660,7 @@ let mapData = {
         {
             name: "CPU_31",
             southbound: "CPU_29",
-            northbound: "TEA_02",
+            northbound: "TEA_01",
             length: 18
         },
         //V2 L4
@@ -1709,7 +1709,7 @@ let mapData = {
         {
             name: "CPU_30",
             southbound: "CPU_28",
-            northbound: "TEA_01",
+            northbound: "TEA_02",
             length: 6
         },
         //EL SILENCIO
@@ -1772,7 +1772,7 @@ let mapData = {
                 normal: "SIL_13",
                 reverse: "SIL_CV2"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_13",
@@ -1783,7 +1783,7 @@ let mapData = {
                 normal: "SIL_11",
                 reverse: "SIL_CV2"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_15",
@@ -1855,7 +1855,7 @@ let mapData = {
                 normal: "SIL_14",
                 reverse: "SIL_CV2"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_14",
@@ -1866,7 +1866,7 @@ let mapData = {
                 normal: "SIL_12",
                 reverse: "SIL_CV2"
             },
-            length: 1
+            length: 2
         },
         {
             name: "SIL_16",
