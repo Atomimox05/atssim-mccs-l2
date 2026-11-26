@@ -2104,7 +2104,7 @@ let mapData = {
             signals: {
                 southbound: "PQC05", //I1
             },
-            length: 12
+            length: 14
         },
         {
             name: "PQC_11",
@@ -2139,8 +2139,7 @@ let mapData = {
             length: 4
         },
         //VIA 2
-         //VIA 1
-         {
+        {
             name: "PQC_02",
             southbound: "CIR_12",
             northbound: "PQC_04",
@@ -2173,7 +2172,7 @@ let mapData = {
             southbound: "PQC_08",
             northbound: "PQC_12",
             signals: {
-                southbound: "PQC06", //I2
+                northbound: "PQC06", //I2
             },
             length: 7
         },
@@ -2184,7 +2183,7 @@ let mapData = {
             signals: {
                 northbound: "PQC08", //A
             },
-            length: 12
+            length: 14
         },
         {
             name: "PQC_14",
@@ -2199,14 +2198,14 @@ let mapData = {
             dependsOnPoint: {
                 point: "PQC_A2",
                 normal: "ZOR_02",
-                reverse: "PQC_15"
+                reverse: "PQC_13"
             },
             length: 4
         },
         //ZT
         {
             name: "PQC_17",
-            southbound: "PQC_16",
+            southbound: "PQC_15",
             northbound: "PQC_18",
             length: 1
         },
@@ -2226,7 +2225,7 @@ let mapData = {
             name: "ZOR_01",
             southbound: "PQC_15",
             northbound: "ZOR_03",
-            length: 9
+            length: 12
         },
         {
             name: "ZOR_03",
@@ -2263,7 +2262,7 @@ let mapData = {
         {
             name: "ZOR_09",
             southbound: "ZOR_07",
-            northbound: "ZOR_11",
+            northbound: "endOfTrack",
             signals: {
                 southbound: "ZOR05", //J
                 northbound: "ZOR07", //SP09
@@ -2281,7 +2280,7 @@ let mapData = {
             name: "ZOR_02",
             southbound: "PQC_16",
             northbound: "ZOR_04",
-            length: 7
+            length: 14
         },
         {
             name: "ZOR_04",
@@ -2318,7 +2317,7 @@ let mapData = {
         {
             name: "ZOR_10",
             southbound: "ZOR_08",
-            northbound: "ZOR_12",
+            northbound: "endOfTrack",
             signals: {
                 southbound: "ZOR06", //D
                 northbound: "ZOR08", //SP10
