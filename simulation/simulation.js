@@ -95,8 +95,8 @@ trains.push(new Train("10", 6, map, track, map.getTrackCircuitFromName("PAZ_18")
 trains.push(new Train("12", 6, map, track, map.getTrackCircuitFromName("ANT_18"), "northbound", interlocking, ats))
 trains.push(new Train("14", 6, map, track, map.getTrackCircuitFromName("CRC_06"), "northbound", interlocking, ats))
 //FUERA DE SERVICIO
-trains.push(new Train("17", 6, map, track, map.getTrackCircuitFromName("AJU_01"), "northbound", interlocking, ats))
 trains.push(new Train("16", 6, map, track, map.getTrackCircuitFromName("ZOO_05"), "southbound", interlocking, ats))
+trains.push(new Train("17", 6, map, track, map.getTrackCircuitFromName("AJU_01"), "northbound", interlocking, ats))
 trains.push(new Train("18", 6, map, track, map.getTrackCircuitFromName("SIL_16"), "northbound", interlocking, ats))
 trains.push(new Train("19", 6, map, track, map.getTrackCircuitFromName("ZOR_10"), "northbound", interlocking, ats))
 
