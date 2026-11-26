@@ -10764,12 +10764,10 @@ let mimicscreendata = [
         <g id="Artboard">
             <rect id="screenbackground" fill="#111214" x="0" y="0" width="1266" height="815"></rect>
             <g id="Power" transform="translate(4, 518)">
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 27 240 27 240 17 0 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="243 27 616 27 616 17 243 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="243 119 616 119 616 109 243 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="619 119 1258 119 1258 109 619 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="619 27 1258 27 1258 17 619 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 119 240 119 240 109 0 109"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 27 564 27 564 17 0 17"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="566 119 1258 119 1258 109 566 109"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="566 27 1258 27 1258 17 566 17"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 119 564 119 564 109 0 109"></polygon>
                 <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E0E0E0">
                     <tspan x="4.49780273" y="12">V2</tspan>
                 </text>
@@ -14075,12 +14073,10 @@ let mimicscreendata = [
         <g id="Artboard">
             <rect id="screenbackground" fill="#111214" x="0" y="0" width="1266" height="815"></rect>
             <g id="Power" transform="translate(4, 518)">
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 27 240 27 240 17 0 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="243 27 616 27 616 17 243 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="243 119 616 119 616 109 243 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="619 119 1258 119 1258 109 619 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="619 27 1258 27 1258 17 619 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 119 240 119 240 109 0 109"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 27 1078 27 1078 17 0 17"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="1080 119 1258 119 1258 109 1080 109"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="1080 27 1258 27 1258 17 1080 17"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 119 1078 119 1078 109 0 109"></polygon>
                 <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E0E0E0">
                     <tspan x="4.49780273" y="12">V1</tspan>
                 </text>
@@ -14754,7 +14750,7 @@ let mimicscreendata = [
             <line x1="213" y1="200" x2="335" y2="200" class="TrackCircuit_YAG_03" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="337" y1="200" x2="409" y2="200" class="TrackCircuit_YAG_05" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="411" y1="200" x2="510" y2="200" class="TrackCircuit_PAZ_01" stroke="#FFFF06" stroke-width="10"></line>
-            <line x1="512" y1="200" x2=70" y2="200" class="TrackCircuit_PAZ_03" stroke="#FFFF06" stroke-width="10"></line>
+            <line x1="512" y1="200" x2="574" y2="200" class="TrackCircuit_PAZ_03" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="576" y1="200" x2="638" y2="200" class="TrackCircuit_PAZ_05" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="640" y1="200" x2="760" y2="200" class="TrackCircuit_PAZ_07" stroke="#FFFF06" stroke-width="10"></line>
             <line x1="1001" y1="200" x2="1121" y2="200" class="TrackCircuit_PAZ_15" stroke="#FFFF06" stroke-width="10"></line>
@@ -17459,12 +17455,8 @@ let mimicscreendata = [
         <g id="Artboard">
             <rect id="screenbackground" fill="#111214" x="0" y="0" width="1266" height="815"></rect>
             <g id="Power" transform="translate(4, 518)">
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 27 240 27 240 17 0 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="243 27 616 27 616 17 243 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="243 119 616 119 616 109 243 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="619 119 1258 119 1258 109 619 109"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="619 27 1258 27 1258 17 619 17"></polygon>
-                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 119 240 119 240 109 0 109"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 27 1258 27 1258 17 0 17"></polygon>
+                <polygon id="PowerSection" stroke="#000000" stroke-width="0.5" fill="#EA3323" fill-rule="nonzero" points="0 119 1258 119 1258 109 0 109"></polygon>
                 <text id="MT2" font-family="CourierNewPS-BoldMT, Courier New" font-size="15" font-weight="bold" fill="#E0E0E0">
                     <tspan x="4.49780273" y="12">V1</tspan>
                 </text>

@@ -471,11 +471,9 @@ const atsuielements = {
                     <tspan x="15.9863281" y="38">SIGNALLING</tspan>
                 </text>
             </g>
-            <g id="Access_ADJUNTAS" transform="translate(39, 120)">
+            <g id="Access_ADJUNTAS" transform="translate(39, 140)">
                 <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
                 </g>
                 <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
@@ -493,11 +491,9 @@ const atsuielements = {
                 <line x1="131" y1="113" x2="181" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
                 <line x1="301" y1="113" x2="351" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
             </g>
-            <g id="Access_ZOOLOGICO" transform="translate(39, 380)">
+            <g id="Access_ZOOLOGICO" transform="translate(39, 350)">
                 <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-20"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-21)" xlink:href="#path-hd7e1nc55q-20"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
                 </g>
                 <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
@@ -507,18 +503,16 @@ const atsuielements = {
                         <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-27)" xlink:href="#path-hd7e1nc55q-25"></use>
                         <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
                     </g>
-                    <text id="AYACUCHO" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
+                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
                         <tspan x="20" y="21">ZOOLOGICO</tspan>
                     </text>
                 </g>
                 <line x1="46.5" y1="113" x2="96.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
                 <line x1="132.5" y1="113" x2="182.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(157.5, 138) scale(-1, 1) translate(-157.5, -138)"></line>
             </g>
-            <g id="Access_Y" transform="translate(439, 255)">
+            <g id="Access_Y" transform="translate(39, 560)">
                 <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
                 </g>
                 <line x1="7.5" y1="105" x2="80" y2="105" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="175" x2="80" y2="175" id="Path-30" stroke="#888888" stroke-width="8"></line>
@@ -541,11 +535,9 @@ const atsuielements = {
                     </text>
                 </g>
             </g>
-            <g id="Access_ANTIMANO" transform="translate(839, 255)">
+            <g id="Access_ANTIMANO" transform="translate(439, 140)">
                 <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
                 </g>
                 <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
@@ -562,11 +554,9 @@ const atsuielements = {
                 <line x1="101" y1="113" x2="151" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
                 <line x1="131" y1="113" x2="181" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
             </g>
-            <g id="Access_PAZ" transform="translate(439, 530)">
+            <g id="Access_PAZ" transform="translate(439, 350)">
                 <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
                 </g>
                 <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
@@ -583,14 +573,74 @@ const atsuielements = {
                 <line x1="211" y1="113" x2="261" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
                 <line x1="18.5" y1="113" x2="68.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
             </g>
-            <g id="Access_SILENCIO" transform="translate(839, 530)">
+            <g id="Access_MATERNIDAD" transform="translate(439, 560)">
                 <g id="Rectangle">
-                    <use fill="#2b2d31" fill-rule="evenodd" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-5)" xlink:href="#path-hd7e1nc55q-4"></use>
-                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="249"></rect>
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
+                </g>
+                <line x1="300" y1="100" x2="382.5" y2="100" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <line x1="300" y1="175" x2="382.5" y2="175" id="Path-30" stroke="#888888" stroke-width="8"></line>
+
+                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <g id="StationName" transform="translate(160, 66)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
+                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
+                    </g>
+                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
+                        <tspan x="15" y="21">MATERNIDAD</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Access_NUEVOCIRCO" transform="translate(839, 140)">
+                <g id="Rectangle">
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
                 </g>
                 <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <g id="StationName" transform="translate(90, 66)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
+                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
+                    </g>
+                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
+                        <tspan x="10" y="21">NUEVO CIRCO</tspan>
+                    </text>
+                </g>
+                <line x1="211" y1="113" x2="261" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
+                <line x1="18.5" y1="113" x2="68.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
+            </g>
+            <g id="Access_ZONARENTAL" transform="translate(839, 350)">
+                <g id="Rectangle">
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
+                </g>
+                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <g id="StationName" transform="translate(250, 66)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-11)" xlink:href="#path-hd7e1nc55q-9"></use>
+                        <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="124" height="29"></rect>
+                    </g>
+                    <text id="STATION" font-family="CourierNewPS-BoldMT, Courier New" font-size="16" font-weight="bold" fill="#E0E0E0">
+                        <tspan x="10" y="21">ZONA RENTAL</tspan>
+                    </text>
+                </g>
+                <line x1="80.5" y1="113" x2="135.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
+                <line x1="271" y1="113" x2="331" y2="163" id="Path-2" stroke="#888888" stroke-width="8"></line>
+                <line x1="-50.5" y1="113" x2="5.5" y2="163" id="Path-2" stroke="#888888" stroke-width="8" transform="translate(140, 138) scale(-1, 1) translate(-140, -138)"></line>
+            </g>
+            <g id="Access_SILENCIO" transform="translate(839, 560)">
+                <g id="Rectangle">
+                    <rect stroke="#C3C6D2" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="389" height="190"></rect>
+                </g>
+                <line x1="7.5" y1="113" x2="382.5" y2="113" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <line x1="7.5" y1="163" x2="382.5" y2="163" id="Path-30" stroke="#888888" stroke-width="8"></line>
+
+                <line x1="7.5" y1="100" x2="100" y2="100" id="Path-30" stroke="#888888" stroke-width="8"></line>
+                <line x1="7.5" y1="175" x2="100" y2="175" id="Path-30" stroke="#888888" stroke-width="8"></line>
                 <g id="StationName" transform="translate(200, 66)">
                     <g id="Rectangle">
                         <use fill="black" fill-opacity="1" filter="url(#filter-hd7e1nc55q-10)" xlink:href="#path-hd7e1nc55q-9"></use>
